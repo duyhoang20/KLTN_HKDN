@@ -1,0 +1,148 @@
+/* =====================================================================
+   giao_dien.css — phần DÙNG CHUNG cho trang công dân và trang cán bộ (14/10/2026, bản 2)
+
+   Hướng thiết kế: “bản công bố thủ tục”. Trang đọc như một ấn phẩm hành chính
+   được dàn trang cẩn thận: đầu trang xanh than, một đường kẻ đỏ son mảnh, nền
+   trắng, tiêu đề chữ có chân, nội dung chữ không chân dễ đọc. Không dùng thẻ bo
+   tròn đổ bóng, biểu tượng trang trí, chữ viết hoa làm nhãn hay chuyển màu.
+
+   Thứ tự nạp:  fonts/fonts.css  →  giao_dien.css  →  cong_dan.css | can_bo.css
+   Mỗi tệp trang chỉ BỔ SUNG, không viết đè quy tắc của tệp này.
+   ===================================================================== */
+:root{
+  --nen:#F3F4F6;      /* dải nền xám lạnh */
+  --giay:#FFFFFF;     /* tờ giấy */
+  --than:#14253D;     /* xanh than: đầu trang, tiêu đề */
+  --chu:#1F2937;      /* chữ thân */
+  --chu2:#465265;     /* chữ phụ */
+  --chu3:#5B6676;     /* chữ mờ, vẫn đạt tương phản 4.5:1 trên --nen */
+  --ke:#D5DAE1;       /* đường kẻ */
+  --ke2:#E8EBEF;      /* đường kẻ nhạt */
+  --lk:#1B4C8C;       /* liên kết, nút chính */
+  --lk-dam:#123766;
+  --lk-nhat:#EAF0F8;
+  --son:#A3201C;      /* đỏ son: chỉ dùng cho đường nhấn mảnh và số mục */
+  --la:#2C6A4C; --la-nhat:#EEF5F0;   /* trạng thái đã đánh dấu, đang công khai */
+  --cam:#855311; --cam-nhat:#FBF3E4; /* lưu ý, bản nháp */
+  --vang:#FFEFA8;     /* tô sáng từ khóa */
+  --red:var(--son);   /* tên cũ còn dùng trong mã JS */
+  --sans:"Be Vietnam Pro",system-ui,"Segoe UI",Arial,sans-serif;
+  --serif:"Source Serif 4",Cambria,Georgia,"Times New Roman",serif;
+  --mono:Consolas,"Liberation Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);font-size:16px;line-height:1.6;color:var(--chu);background:var(--giay);
+  min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+a{color:var(--lk);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;text-decoration-color:rgba(27,76,140,.35)}
+a:hover{color:var(--lk-dam);text-decoration-color:currentColor}
+button{font:inherit;color:inherit;cursor:pointer}
+input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--lk);outline-offset:2px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px;width:100%}
+.hidden{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.soft,.muted{color:var(--chu3)}
+.ghi{font-size:15px;color:var(--chu2);line-height:1.55}
+.pre{white-space:pre-line}
+dd,td,.pre{overflow-wrap:anywhere}
+
+/* ---------- Lối tắt bàn phím ---------- */
+.skip-link{position:absolute;left:16px;top:-80px;z-index:100;background:var(--giay);color:var(--lk);
+  border:2px solid var(--lk);padding:8px 14px;border-radius:3px;font-weight:600}
+.skip-link:focus{top:8px}
+
+/* ---------- Dải thông báo trên cùng ---------- */
+.tien-ich{background:var(--nen);border-bottom:1px solid var(--ke2);font-size:13.5px;color:var(--chu2)}
+.tien-ich .wrap{padding-top:6px;padding-bottom:6px}
+.tien-ich b{font-weight:600;color:var(--than)}
+
+/* ---------- Đầu trang ---------- */
+.top{background:var(--than);color:#fff;border-bottom:3px solid var(--son)}
+.top-in{display:flex;align-items:stretch;gap:28px;min-height:76px}
+.brand{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none;padding:12px 0}
+.brand:hover{color:#fff}
+.brand svg{flex:none}
+.brand-ten{display:block;font-family:var(--serif);font-weight:600;font-size:23px;line-height:1.2;letter-spacing:.002em}
+.brand-phu{display:block;font-size:13.5px;color:#C5CFDC;margin-top:2px}
+nav.menu{display:flex;margin-left:auto;align-items:stretch;gap:4px}
+nav.menu a{display:flex;align-items:center;padding:0 14px;color:#DCE3EC;text-decoration:none;font-size:15.5px;font-weight:500;
+  border-bottom:3px solid transparent;margin-bottom:-3px;white-space:nowrap}
+nav.menu a:hover{color:#fff;background:rgba(255,255,255,.06)}
+nav.menu a.on{color:#fff;border-bottom-color:#fff;font-weight:600}
+nav.menu a.staff{margin-left:14px;position:relative;color:#C5CFDC;font-size:14.5px}
+nav.menu a.staff::before{content:"";position:absolute;left:-9px;top:50%;height:22px;margin-top:-11px;width:1px;background:rgba(255,255,255,.22)}
+
+/* ---------- Nút ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--lk);background:var(--lk);color:#fff;
+  border-radius:3px;padding:9px 18px;font-weight:600;font-size:15px;line-height:1.3;text-decoration:none;white-space:nowrap}
+.btn:hover{background:var(--lk-dam);border-color:var(--lk-dam);color:#fff}
+.btn.phu,.btn.ghost{background:var(--giay);color:var(--than);border-color:#AEB7C4}
+.btn.phu:hover,.btn.ghost:hover{border-color:var(--than);background:var(--giay);color:var(--than)}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.sm{padding:5px 11px;font-size:14px;font-weight:500}
+.btn.red{background:var(--giay);color:var(--son);border-color:#E0B9B6}
+.btn.red:hover{border-color:var(--son);background:var(--giay);color:var(--son)}
+.lnk{background:none;border:none;padding:0;color:var(--lk);font-size:15px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(27,76,140,.4)}
+.lnk:hover{color:var(--lk-dam);text-decoration-color:currentColor}
+
+/* ---------- Ô nhập ---------- */
+select,input[type=text],input[type=password],textarea{background:var(--giay);border:1px solid #9AA5B4;border-radius:3px;font-size:16px;padding:9px 11px}
+select:hover,input[type=text]:hover,input[type=password]:hover,textarea:hover{border-color:var(--chu2)}
+select{appearance:none;-webkit-appearance:none;padding-right:34px;line-height:1.3;
+  background:var(--giay) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23465265' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 12px center}
+
+/* ---------- Tiêu đề kiểu văn bản ---------- */
+.gach{display:block;width:56px;height:3px;background:var(--son);margin-top:14px}
+
+/* ---------- Bảng ---------- */
+.tw{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--ke2);vertical-align:top}
+th{font-size:14px;font-weight:600;color:var(--chu2);border-bottom:1.5px solid var(--than);line-height:1.4}
+tbody tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+
+/* ---------- Ghi chú ---------- */
+.note{border-left:3px solid var(--lk);background:var(--lk-nhat);padding:12px 16px;font-size:15px;line-height:1.55;margin-bottom:14px;color:#1D3253}
+.note.warn{border-left-color:var(--cam);background:var(--cam-nhat);color:#4A3008}
+.note b{font-weight:600}
+
+/* ---------- Nhãn nhỏ ---------- */
+.tag{display:inline-block;font-size:13.5px;line-height:1.6;padding:0 8px;border:1px solid var(--ke);border-radius:2px;color:var(--chu2);background:var(--giay);white-space:nowrap}
+.tag.cb{color:#4A3A78;border-color:#D7D0EA;background:#F6F4FB}
+.tag.ngung,.tag.draft{color:var(--cam);border-color:#E9D3AF;background:var(--cam-nhat)}
+.tag.tt,.tag.published{color:var(--la);border-color:#BFD6C7;background:var(--la-nhat)}
+.tag.archived{color:var(--chu3);background:var(--nen)}
+
+/* ---------- Chân trang ---------- */
+footer{background:var(--than);color:#C9D2DE;font-size:14.5px;line-height:1.6;margin-top:auto}
+footer .wrap{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px 64px;padding-top:30px;padding-bottom:34px}
+footer b{color:#fff;font-weight:600}
+footer p{max-width:76ch}
+footer a{color:#fff;text-decoration-color:rgba(255,255,255,.4)}
+footer a:hover{color:#fff;text-decoration-color:#fff}
+footer .lk{display:flex;flex-direction:column;gap:6px;text-align:right}
+
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--than);color:#fff;padding:10px 18px;border-radius:3px;
+  font-size:15px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+
+@media (max-width:860px){
+  .top-in{flex-wrap:wrap;gap:0;min-height:0}
+  .brand{width:100%;padding:12px 0 8px}
+  nav.menu{margin-left:0;width:100%;overflow-x:auto;scrollbar-width:none}
+  nav.menu a{padding:9px 12px 10px;font-size:15px}
+  nav.menu a:first-child{padding-left:0}
+}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  .brand-ten{font-size:20px}
+  .brand-phu,.tien-ich .dai{display:none}
+  .brand svg{width:26px;height:30px}
+  nav.menu a.staff{display:none}
+  footer .wrap{grid-template-columns:1fr}
+  footer .lk{text-align:left}
+}

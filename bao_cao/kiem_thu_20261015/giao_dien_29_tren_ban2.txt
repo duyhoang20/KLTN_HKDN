@@ -1,0 +1,31 @@
+ĐẠT   A1 trang đầu nạp danh sách cơ quan và câu số liệu
+ĐẠT   A2 phím Tab đầu tiên vào “Chuyển đến nội dung chính”
+ĐẠT   A3 gợi ý khi gõ, chọn được bằng phím mũi tên
+ĐẠT   A4 chuyển sang “Hỏi trợ lý” thì ẩn gợi ý và đổi nhãn ô nhập
+ĐẠT   A5 tra cứu không dấu có kết quả, có nhãn kiểu khớp
+ĐẠT   A6 mục điều hướng “Tra cứu” được đánh dấu ở trang kết quả
+ĐẠT   B1 các mục theo thứ tự Điều 8 NĐ 63/2010 (trình tự, cách thức, hồ sơ, …, điều kiện, phí)
+ĐẠT   B2 dấu tích còn sau khi tải lại trang
+ĐẠT   B3 bộ nhớ trình duyệt chỉ lưu mã băm ngắn, không lưu cả danh sách giấy tờ
+ĐẠT   B4 đánh dấu đủ một trường hợp: hiện dòng “đã đánh dấu”, không có con dấu giả
+ĐẠT   B5 “Bỏ mọi dấu tích” xóa hết dấu
+ĐẠT   B6 bản in ẩn phiếu và thanh điều hướng, hiện dòng nguồn
+ĐẠT   B7 chế độ “Nguyên bản API” có phần dữ liệu gốc JSON
+ĐẠT   B8 phông tự lưu được nạp (Be Vietnam Pro, Source Serif 4), không cần mạng
+TRƯỢT B9 trình duyệt nhận đủ mọi khai báo @font-face trong fonts.css (bổ sung 15/10)  ← [14, 15]
+ĐẠT   C1 câu trả lời có khung “thủ tục được dùng để trả lời” và dòng nguồn
+ĐẠT   C2 hỏi tiếp hiểu là hỏi về thủ tục ở câu trước
+ĐẠT   C3 câu ngoài phạm vi bị từ chối
+TRƯỢT C5 ba lượt hỏi đáp: ô nhập vẫn nằm trong màn hình, trang không cuộn dọc (bổ sung 15/10)  ← [842, 860, 1070]
+ĐẠT   C4 “Bắt đầu cuộc hỏi mới” xóa hội thoại
+ĐẠT   D1 đăng nhập, thấy danh sách hướng dẫn
+ĐẠT   D2 thẻ nhật ký: đổi trạng thái chọn của thẻ và hiện số liệu
+ĐẠT   E1 bề rộng 320 px: không trang nào tràn ngang
+ĐẠT   E3 cỡ chữ nhỏ nhất trên trang cuối cùng ≥ 12,5 px
+TRƯỢT E5 bề rộng 320 px, cao 900 và 640: ô nhập của trợ lý nằm trong màn hình, trang không cuộn dọc (bổ sung 15/10)  ← [(900, [905, 900, 1354], [930, 900, 1354]), (640, [905, 640, 1094], [425, 640, 1094])]
+ĐẠT   E2 bề rộng 390 px: không trang nào tràn ngang
+ĐẠT   E4 cỡ chữ nhỏ nhất trên trang cuối cùng ≥ 12,5 px
+TRƯỢT E6 bề rộng 390 px, cao 900 và 640: ô nhập của trợ lý nằm trong màn hình, trang không cuộn dọc (bổ sung 15/10)  ← [(900, [856, 900, 1308], [930, 900, 1308]), (640, [856, 640, 1048], [474, 640, 1048])]
+ĐẠT   Z1 không có lỗi JavaScript trong toàn bộ các bước trên
+
+KẾT QUẢ: 25/29 phép thử giao diện đạt

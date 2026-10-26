@@ -1,0 +1,390 @@
+[
+  {
+    "path": ".gitignore",
+    "matches": true
+  },
+  {
+    "path": "00_BAT_DAU_TU_DAY.md",
+    "matches": true
+  },
+  {
+    "path": "01_GIOI_THIEU_DE_TAI.md",
+    "matches": true
+  },
+  {
+    "path": "02_TOM_TAT_TIEN_DO.md",
+    "matches": true
+  },
+  {
+    "path": "03_THAY_DOI_20260928.md",
+    "matches": true
+  },
+  {
+    "path": "04_THAY_DOI_20260928_CAU_HOI_TU_NHIEN.md",
+    "matches": true
+  },
+  {
+    "path": "05_THAY_DOI_20260929.md",
+    "matches": true
+  },
+  {
+    "path": "06_THAY_DOI_20261008.md",
+    "matches": true
+  },
+  {
+    "path": "07_GOI_Y_BAO_CAO_VA_DEMO.md",
+    "matches": true
+  },
+  {
+    "path": "08_PHAN_HOI_DANH_GIA_20261009.md",
+    "matches": true
+  },
+  {
+    "path": "09_GIAO_DIEN_20261013.md",
+    "matches": true
+  },
+  {
+    "path": "DOC_TRUOC_KHI_CHAY.md",
+    "matches": true
+  },
+  {
+    "path": "PHIEN_BAN.txt",
+    "matches": true
+  },
+  {
+    "path": "backend/.env.example",
+    "matches": true
+  },
+  {
+    "path": "backend/app/__init__.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/database.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/hieu_truy_van.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/main.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/mo_hinh_ngon_ngu.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/models.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/quan_tri.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/schemas.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/search.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/tro_ly.py",
+    "matches": true
+  },
+  {
+    "path": "backend/app/xml_parser.py",
+    "matches": true
+  },
+  {
+    "path": "backend/bo_doc_csv.py",
+    "matches": true
+  },
+  {
+    "path": "backend/crawler.py",
+    "matches": true
+  },
+  {
+    "path": "backend/danh_gia.py",
+    "matches": true
+  },
+  {
+    "path": "backend/danh_gia_tro_ly.py",
+    "matches": true
+  },
+  {
+    "path": "backend/danh_gia_tu_nhien.py",
+    "matches": true
+  },
+  {
+    "path": "backend/doi_chieu_nguon.py",
+    "matches": true
+  },
+  {
+    "path": "backend/kiem_thu_api.py",
+    "matches": true
+  },
+  {
+    "path": "backend/kiem_tra_truong.py",
+    "matches": true
+  },
+  {
+    "path": "backend/requirements.txt",
+    "matches": true
+  },
+  {
+    "path": "backend/test_bo_de.py",
+    "matches": true
+  },
+  {
+    "path": "backend/test_search.py",
+    "matches": true
+  },
+  {
+    "path": "backend/xuat_du_lieu_danh_gia.py",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/BAO_CAO_20261008.md",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/BAO_CAO_CAI_TIEN_TRA_CUU.md",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/BAO_CAO_KIEM_THU_20260929.md",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/BAO_CAO_SUA_MAU_SO_CAU_HOI_TU_NHIEN.md",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_ABC_20261008.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_ABC_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_kiem_tra_20261008.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_kiem_tra_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_ngoai_pham_vi_20261008.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_ngoai_pham_vi_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_phat_trien_20261008.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_phat_trien_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_TN_phat_trien_TAT_lop_hieu_cau_hoi_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_abc_20260929.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_abc_sau_sua_mau_so.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_doi_chieu_nguon_21_thu_tuc_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_sau_cai_tien_offline.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tro_ly_20261008.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tro_ly_20261009.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_truoc_cai_tien.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tu_nhien_20260929.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tu_nhien_ban_mau_so_de_doi_chieu.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tu_nhien_sau.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/bao_cao_tu_nhien_truoc.txt",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/do_unicode_20260929.json",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/kiem_chung_tra_cuu.zip",
+    "matches": true
+  },
+  {
+    "path": "bao_cao/mau_21_thu_tuc_du_lieu_chi_tiet.json",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/HUONG_DAN_GAN_NHAN.md",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/bo_de_kiem_tra_doc_lap.csv",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/bo_de_ngoai_pham_vi_60.csv",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/bo_de_phat_trien_NHAN_DE_XUAT.csv",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/bo_de_tro_ly.csv",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/bo_de_tu_nhien.csv",
+    "matches": true
+  },
+  {
+    "path": "bo_de_tu_nhien/ung_vien_goi_y.txt",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/OFL_Barlow.txt",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/OFL_SourceSerif4.txt",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-500-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-ext-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-ext-500-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-latin-ext-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-latin-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-latin-700-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-latin-ext-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-latin-ext-700-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-vietnamese-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-semi-condensed-vietnamese-700-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-vietnamese-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-vietnamese-500-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/barlow-vietnamese-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/fonts.css",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-latin-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-latin-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-latin-ext-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-latin-ext-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-vietnamese-400-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/fonts/source-serif-4-vietnamese-600-normal.woff2",
+    "matches": true
+  },
+  {
+    "path": "frontend/index.html",
+    "matches": true
+  },
+  {
+    "path": "frontend/quan_tri.html",
+    "matches": true
+  }
+]

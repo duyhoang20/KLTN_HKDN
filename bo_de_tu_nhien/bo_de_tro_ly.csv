@@ -1,0 +1,61 @@
+﻿stt,cau_hoi,y_dinh_dung,ma_thu_tuc_dung,ghi_chu
+1,làm hộ chiếu cần những gì,ho_so,1.001471; 1.001456; 1.010381; 1.010383,"AI đề xuất 08/10, chưa duyệt"
+2,đăng ký khai sinh cho con ở đâu,noi_nop,1.001193; 2.001023; 2.000986; 3.000722; 2.002868,"AI đề xuất 08/10, chưa duyệt"
+3,thủ tục đăng ký kết hôn với người nước ngoài như thế nào,trinh_tu,2.000806; 1.000094; 2.000682,"AI đề xuất 08/10, chưa duyệt"
+4,xin phiếu lý lịch tư pháp ở đâu,noi_nop,3.000333; 3.000330,"AI đề xuất 08/10, chưa duyệt"
+5,đăng ký tạm trú mất bao lâu,thoi_han,1.004194,"AI đề xuất 08/10, chưa duyệt"
+6,bị mất căn cước công dân phải làm gì,trinh_tu,1.014064; 2.000377; 1.000757; 2.001194; 1.116410; 1.116407; 1.116405,"AI đề xuất 08/10, chưa duyệt"
+7,đổi giấy phép lái xe lệ phí bao nhiêu,le_phi,3.000347; 1.115978; 3.000348,"AI đề xuất 08/10, chưa duyệt"
+8,giải thể doanh nghiệp thì cần làm gì,trinh_tu,2.002023,"AI đề xuất 08/10, chưa duyệt"
+9,quyết toán thuế thu nhập cá nhân cần giấy tờ gì,ho_so,1.008309; 2.002258; 1.014976,"AI đề xuất 08/10, chưa duyệt"
+10,muốn xin giấy phép xây dựng nhà ở thì làm sao,trinh_tu,1.013225,"AI đề xuất 08/10, chưa duyệt"
+11,xin cấp sổ đỏ lần đầu hết bao nhiêu tiền,le_phi,1.012814; 1.013978; 1.012754; 1.012753,"AI đề xuất 08/10, chưa duyệt"
+12,mở phòng khám tư nhân cần điều kiện gì,dieu_kien,1.003876; 1.003803; 1.001793; 1.003515; 1.003535,"AI đề xuất 08/10, chưa duyệt"
+13,hưởng trợ cấp thất nghiệp cần hồ sơ gì,ho_so,1.001978; 1.014320; 1.014748,"AI đề xuất 08/10, chưa duyệt"
+14,rút bảo hiểm xã hội một lần mất bao lâu,thoi_han,1.014173; 1.000840,"AI đề xuất 08/10, chưa duyệt"
+15,chứng thực bản sao giấy tờ lệ phí bao nhiêu,le_phi,2.000815; 1.001606,"AI đề xuất 08/10, chưa duyệt"
+16,xin visa cho người nước ngoài vào việt nam cần giấy tờ gì,ho_so,1.003342; 1.001194; 1.002756; 1.002757; 1.000612; 2.000329,"AI đề xuất 08/10, chưa duyệt"
+17,đăng ký nhãn hiệu cho sản phẩm mất bao nhiêu tiền,le_phi,1.015002,"AI đề xuất 08/10, chưa duyệt"
+18,dang ky thuong tru can giay to gi,ho_so,1.004222; 1.004370; 2.002180; 1.003424,"AI đề xuất 08/10, chưa duyệt"
+19,khai báo tạm vắng nộp ở đâu,noi_nop,1.003677,"AI đề xuất 08/10, chưa duyệt"
+20,cấp giấy phép lao động cho người nước ngoài trong bao lâu,thoi_han,2.000205; 2.000233; 1.013720; 1.014199; 2.000907,"AI đề xuất 08/10, chưa duyệt"
+21,xin cấp lại thẻ bảo hiểm y tế bị mất cần giấy tờ gì,ho_so,1.002522; 1.001294; 1.001327,"AI đề xuất 08/10, chưa duyệt"
+22,đăng ký giám hộ cho cháu ở đâu,noi_nop,1.004837; 1.001669,"AI đề xuất 08/10, chưa duyệt"
+23,xin giấy xác nhận cư trú mất bao lâu,thoi_han,1.010041,"AI đề xuất 08/10, chưa duyệt"
+24,đăng ký tàu cá cần những gì,ho_so,1.003650,"AI đề xuất 08/10, chưa duyệt"
+25,thành lập hợp tác xã cần làm gì,trinh_tu,1.005280,"AI đề xuất 08/10, chưa duyệt"
+26,xin cấp thẻ nhà báo cần điều kiện gì,dieu_kien,1.010691,"AI đề xuất 08/10, chưa duyệt"
+27,xin nhập quốc tịch việt nam lệ phí bao nhiêu,le_phi,2.002039; 2.002797,"AI đề xuất 08/10, chưa duyệt"
+28,khai thuế cho hộ kinh doanh như thế nào,trinh_tu,1.011022; 2.002259; 1.007673,"AI đề xuất 08/10, chưa duyệt"
+29,bị mất sổ bảo hiểm xã hội thì làm lại ở đâu,noi_nop,1.001187,"AI đề xuất 08/10, chưa duyệt"
+30,làm passport cho trẻ em cần giấy tờ gì,ho_so,1.001471; 1.001456; 1.010381; 1.010383,"AI đề xuất 08/10, chưa duyệt"
+31,cách nấu phở bò,,KHONG_CO,Ngoài phạm vi
+32,hôm nay trời có mưa không,,KHONG_CO,Ngoài phạm vi
+33,mua điện thoại iPhone ở đâu,,KHONG_CO,Ngoài phạm vi
+34,giá vàng hôm nay bao nhiêu,,KHONG_CO,Ngoài phạm vi
+35,kết quả xổ số miền nam hôm qua,,KHONG_CO,Ngoài phạm vi
+36,cách giảm cân nhanh trong một tuần,,KHONG_CO,Ngoài phạm vi
+37,phim hay chiếu rạp tuần này,,KHONG_CO,Ngoài phạm vi
+38,tỉ số trận bóng đá tối qua,,KHONG_CO,Ngoài phạm vi
+39,công thức làm bánh flan,,KHONG_CO,Ngoài phạm vi
+40,sửa máy giặt tại nhà giá rẻ,,KHONG_CO,Ngoài phạm vi
+41,học tiếng anh online miễn phí ở đâu,,KHONG_CO,Ngoài phạm vi
+42,quán cà phê yên tĩnh gần đây,,KHONG_CO,Ngoài phạm vi
+43,cách trồng cây hoa hồng,,KHONG_CO,Ngoài phạm vi
+44,bài hát đang thịnh hành nhất hiện nay,,KHONG_CO,Ngoài phạm vi
+45,cách buộc dây giày nhanh,,KHONG_CO,Ngoài phạm vi
+46,thời tiết đà lạt cuối tuần,,KHONG_CO,Ngoài phạm vi
+47,cách làm trà sữa trân châu,,KHONG_CO,Ngoài phạm vi
+48,đặt vé xem phim online,,KHONG_CO,Ngoài phạm vi
+49,lịch thi đấu ngoại hạng anh,,KHONG_CO,Ngoài phạm vi
+50,mẹo chụp ảnh đẹp bằng điện thoại,,KHONG_CO,Ngoài phạm vi
+51,giá xăng hôm nay,,KHONG_CO,Ngoài phạm vi
+52,review laptop cho sinh viên,,KHONG_CO,Ngoài phạm vi
+53,cách chữa đau lưng tại nhà,,KHONG_CO,Ngoài phạm vi
+54,tải nhạc mp3 miễn phí,,KHONG_CO,Ngoài phạm vi
+55,nên nuôi chó hay mèo,,KHONG_CO,Ngoài phạm vi
+56,đăng ký tài khoản facebook,,KHONG_CO,Ngoài phạm vi
+57,lấy lại mật khẩu gmail,,KHONG_CO,Ngoài phạm vi
+58,đăng ký gói cước 4g viettel,,KHONG_CO,Ngoài phạm vi
+59,xin việc làm thêm cho sinh viên,,KHONG_CO,Ngoài phạm vi
+60,đăng ký tàu vũ trụ,,KHONG_CO,Ngoài phạm vi

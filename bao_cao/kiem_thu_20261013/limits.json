@@ -1,0 +1,83 @@
+[
+  {
+    "kind": "intro",
+    "input": "Hồ sơ yêu cầu hộ chiếu.",
+    "check": {
+      "dat": true,
+      "ly_do": []
+    },
+    "unsupported_intro_accepted": true
+  },
+  {
+    "kind": "intro",
+    "input": "Nộp hồ sơ tại Đại sứ quán.",
+    "check": {
+      "dat": true,
+      "ly_do": []
+    },
+    "unsupported_intro_accepted": true
+  },
+  {
+    "kind": "intro",
+    "input": "Ho so khong can giay to.",
+    "check": {
+      "dat": true,
+      "ly_do": []
+    },
+    "unsupported_intro_accepted": true
+  },
+  {
+    "kind": "intro",
+    "input": "The processing time is three days.",
+    "check": {
+      "dat": true,
+      "ly_do": []
+    },
+    "unsupported_intro_accepted": true
+  },
+  {
+    "kind": "source_check",
+    "intent": "thoi_han",
+    "answer": [
+      "- Trực tiếp: 3 tháng"
+    ],
+    "check": {
+      "so_du_kien": 1,
+      "co_trong_tra_loi": 1,
+      "thieu": [],
+      "so_dong": 1,
+      "dong_khong_can_cu": []
+    },
+    "wrong_fact_not_detected": true
+  },
+  {
+    "kind": "source_check",
+    "intent": "le_phi",
+    "answer": [
+      "- Phí mẫu: 125.000 USD [Trực tiếp — 3 tháng]"
+    ],
+    "check": {
+      "so_du_kien": 1,
+      "co_trong_tra_loi": 1,
+      "thieu": [],
+      "so_dong": 1,
+      "dong_khong_can_cu": []
+    },
+    "wrong_fact_not_detected": true
+  },
+  {
+    "kind": "source_check",
+    "intent": "ho_so",
+    "answer": [
+      "- Tờ khai mẫu (99 bản chính; 88 bản sao)"
+    ],
+    "check": {
+      "so_du_kien": 1,
+      "co_trong_tra_loi": 1,
+      "thieu": [],
+      "so_dong": 1,
+      "dong_khong_can_cu": []
+    },
+    "wrong_fact_not_detected": true
+  }
+]

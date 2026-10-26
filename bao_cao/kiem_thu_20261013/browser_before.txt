@@ -1,0 +1,24 @@
+PASS home_real_corpus_loaded: "Kho hiện có 9.454 thủ tục của 17 cơ quan, thuộc 303 lĩnh vực, lấy từ Cổng Dịch vụ công Quốc gia, cùng 1 hướng dẫn do cán bộ biên soạn."
+FAIL old_suggestions_do_not_reappear_in_ask: true
+FAIL suggestions_aria_open: null
+FAIL suggestions_keyboard_active: null
+PASS no_page_errors_initial: []
+PASS local_fonts_loaded: [{"url":"fonts.css","status":200},{"url":"barlow-latin-400-normal.woff2","status":200},{"url":"barlow-semi-condensed-latin-600-normal.woff2","status":200},{"url":"barlow-latin-600-normal.woff2","status":200},{"url":"barlow-latin-500-normal.woff2","status":200}
+PASS detail_tabs_keyboard: "true"
+FAIL raw_tab_keyboard: "false"
+PASS raw_json_exact: "All stored keys and values compared"
+PASS real_source_all_fee_rows: {"rendered":240,"source":240}
+FAIL checklist_not_official_approval: "Trường hợp kiểm thử A\n2/2 đã có\nĐỦ HỒ SƠ\nĐã có\n\t\tGiấy tờ\tBản chính\tBản sao\n\n\t1\t\nGiấy tờ kiểm thử alpha\nbắt buộc\n\t1\t—\n\n\t2\t\nGiấy tờ kiểm thử beta\n\t—\t2"
+PASS checklist_persists: "2/2 đã có"
+FAIL quantity_change_resets_checklist: "2/2 đã có"
+FAIL cases_not_claimed_all_required: "Giấy tờ đã có\nTrường hợp kiểm thử A\n2 trên 2 giấy tờ\nđã đủ\nTrường hợp kiểm thử B\n0 trên 1 giấy tờ\n\nMỗi trường hợp cần một bộ hồ sơ riêng. Đánh dấu ở mục Thành phần hồ sơ. Dấu tích chỉ lưu trên trình duyệt này, không gửi đi đâu.\n\nBỏ mọi dấu tích"
+FAIL staff_print_correct_source: "In từ trang Tra cứu thủ tục hành chính ngày 13/10/2026. Nguồn dữ liệu: Cổng Dịch vụ công Quốc gia. Các ô đã đánh dấu là do người in tự đánh dấu."
+PASS print_hides_controls: "Header and action panel hidden"
+PASS unsafe_title_escaped: "<img src=x onerror=\"window.__audit_xss=1\"> mẫu thoát HTML"
+PASS no_injected_image: 0
+PASS ask_detail_pinned: "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Thành phần hồ sơ. Xem toàn bộ thủ tục"
+PASS followup_returns_fee: "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Phí, lệ phí. Xem toàn bộ thủ tục"
+FAIL send_disabled_while_waiting: null
+PASS reset_ignores_old_response: ""
+PASS width_320_home: {"viewport":320,"scroll":320}
+PASS width_320_search: {"viewport":320,"scroll":320}

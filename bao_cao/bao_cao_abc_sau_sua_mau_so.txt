@@ -1,0 +1,229 @@
+============================================================================
+ĐÁNH GIÁ CHẤT LƯỢNG TRA CỨU — A/B/C
+============================================================================
+Phiên bản bộ đo : ABC-20260924-1
+Kho dữ liệu     : 9.451 thủ tục
+Số mẫu yêu cầu  : 500 cho mỗi nhóm
+Seed gốc        : 20260915; thứ tự kho: ID tăng dần
+SHA256 bộ đo    : a96e9ef5fbba8e34e630e37e464112cb2532742335ea57851d1fe9cace7b904f
+SHA256 search.py: 1d82cbd76bdcc19c1f5d469b03e79d87ba021468c7e9b22b1f65d1b65bbedbb2
+SHA256 kho tra cứu: 2319b44b115bce195082764a04cdfa64ab6765bd6d559537b2583b951f8de685
+Dấu kiểm tra kho chỉ xét trường dùng cho xếp hạng và xác định đáp án.
+Đánh giá bằng ID thủ tục gốc; các truy vấn đều KHÔNG DẤU.
+Tên hoặc đoạn tên trùng có thể có nhiều kết quả hợp lý.
+'Không thấy' = không thấy ID gốc trong kết quả search() trả về,
+không đồng nghĩa với hệ thống không trả kết quả nào.
+Chỉ so sánh trước/sau khi bộ đo, kho và bộ đề từng nhóm giống nhau.
+
+----------------------------------------------------------------------------
+A. GÕ NGUYÊN TÊN THỦ TỤC (500 truy vấn)
+Giới hạn 25 âm tiết đầu; không bảo đảm đáp án duy nhất.
+SHA256 bộ đề A: f76b0c223320f6d04ab49b62f72c0f7529bb460d9718f5d020d14e14196d484a
+Top-1                           : 90.8% (454/500)
+Top-5                           : 99.8% (499/500)
+MRR (trung bình nghịch đảo hạng): 0.949750
+Không tìm thấy đáp án           : 0.0% (0/500)
+Số kết quả trung bình           : 4.73
+Ví dụ chưa đứng đầu ở nhóm A (tối đa 15):
+  Truy vấn : cap giay phep su dung tan so va thiet bi vo tuyen dien doi voi mang vien thong dung rieng su dung tan so thuoc
+  Đáp án   : ID=2518; mã=1.010293
+  Tên gốc  : Cấp giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với  mạng viễn thông dùng riêng sử dụng tần số thuộc nghiệp vụ di động mặt đất, mạng thông tin vô tuyến điện nội bộ của cơ quan đại diện nước ngoài, đoàn khách nước ngoài, Phóng viên nước ngoài đi theo phục vụ đoàn
+  Thứ hạng : 2; 33 kết quả
+  Đứng đầu : ID=2540; Cấp giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với mạng viễn thông dùng riêng sử dụng tần số thuộc nghiệp vụ di động mặt đất
+
+  Truy vấn : thu tuc cap giay chung nhan huan luyen ky thuat an toan tien chat thuoc no thuoc tham quyen giai quyet cua bo quoc phong
+  Đáp án   : ID=4571; mã=1.013533
+  Tên gốc  : Thủ tục cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ thuộc thẩm quyển giải quyết của Bộ Quốc phòng
+  Thứ hạng : 2; 15 kết quả
+  Đứng đầu : ID=4406; Thủ tục cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ thuộc thẩm quyền giải quyết của Bộ Quốc phòng
+
+  Truy vấn : thu tuc cap lai chung chi hanh nghe dich vu dai dien so huu cong nghiep
+  Đáp án   : ID=2435; mã=1.011923
+  Tên gốc  : Thủ tục cấp lại Chứng chỉ hành nghề dịch vụ đại diện sở hữu công nghiệp
+  Thứ hạng : 2; 6 kết quả
+  Đứng đầu : ID=2362; Thủ tục cấp lại Chứng chỉ hành nghề dịch vụ đại diện sở hữu công nghiệp.
+
+  Truy vấn : thu tuc cap giay phep thanh lap va cong nhan dieu le quy cap tinh
+  Đáp án   : ID=3425; mã=1.003822
+  Tên gốc  : Thủ tục cấp giấy phép thành lập và công nhận điều lệ quỹ (Cấp tỉnh)
+  Thứ hạng : 2; 18 kết quả
+  Đứng đầu : ID=2937; THỦ TỤC CẤP GIẤY PHÉP THÀNH LẬP VÀ CÔNG NHẬN ĐIỀU LỆ QUỸ (Cấp tỉnh)
+
+  Truy vấn : thu tuc xu ly don madrid co nguon goc viet nam
+  Đáp án   : ID=2460; mã=1.011900
+  Tên gốc  : Thủ tục xử lý đơn Madrid có nguồn gốc Việt Nam
+  Thứ hạng : 2; 4 kết quả
+  Đứng đầu : ID=2024; Thủ tục xử lý đơn Madrid có nguồn gốc Việt Nam
+
+  Truy vấn : cong nhan dieu le sua doi bo sung quy doi ten quy
+  Đáp án   : ID=3178; mã=1.013012
+  Tên gốc  : Công nhận điều lệ (sửa đổi, bổ sung) quỹ; đổi tên quỹ.
+  Thứ hạng : 3; 7 kết quả
+  Đứng đầu : ID=3145; Công nhận điều lệ (sửa đổi, bổ sung) quỹ; đổi tên quỹ
+
+  Truy vấn : cap giay phep hoat dong dich vu viec lam cua doanh nghiep hoat dong dich vu viec lam
+  Đáp án   : ID=3465; mã=1.001865
+  Tên gốc  : Cấp giấy phép hoạt động dịch vụ việc làm của doanh nghiệp hoạt động dịch vụ việc làm
+  Thứ hạng : 2; 8 kết quả
+  Đứng đầu : ID=2945; Cấp giấy phép hoạt động dịch vụ việc làm của doanh nghiệp hoạt động dịch vụ việc làm
+
+  Truy vấn : ky hop dong kham benh chua benh bao hiem y te
+  Đáp án   : ID=6466; mã=1.001798
+  Tên gốc  : Ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế
+  Thứ hạng : 4; 9 kết quả
+  Đứng đầu : ID=8177; Ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế
+
+  Truy vấn : dieu chinh quyet dinh giao dat cho thue dat cho phep chuyen muc dich su dung dat do thay doi can cu quyet dinh giao
+  Đáp án   : ID=3926; mã=1.012762
+  Tên gốc  : Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất mà người sử dụng đất là tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức nước ngoài có chức năng ngoại giao
+  Thứ hạng : 4; 7 kết quả
+  Đứng đầu : ID=3830; Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất; điều chỉnh thời hạn sử dụng đất của dự án đầu tư.
+
+  Truy vấn : cong nhan va giai quyet che do uu dai nguoi hoat dong cach mang
+  Đáp án   : ID=3316; mã=1.010788
+  Tên gốc  : Công nhận và giải quyết chế độ ưu đãi người hoạt động cách mạng
+  Thứ hạng : 2; 3 kết quả
+  Đứng đầu : ID=3291; Công nhận và giải quyết chế độ ưu đãi người hoạt động cách mạng.
+
+  Truy vấn : thu tuc phe duyet noi dung tac pham my thuat tac pham nhiep anh nhap khau nham muc dich kinh doanh
+  Đáp án   : ID=6931; mã=2.001509
+  Tên gốc  : Thủ tục phê duyệt nội dung tác phẩm mỹ thuật, tác phẩm nhiếp ảnh nhập khẩu nhằm mục đích kinh doanh
+  Thứ hạng : 2; 3 kết quả
+  Đứng đầu : ID=6930; Thủ tục phê duyệt nội dung tác phẩm mỹ thuật, tác phẩm nhiếp ảnh nhập khẩu nhằm mục đích kinh doanh
+
+  Truy vấn : cho phep thanh lap va phe duyet dieu le cua to chuc khoa hoc va cong nghe co von nuoc ngoai
+  Đáp án   : ID=2735; mã=1.002170
+  Tên gốc  : Cho phép thành lập và phê duyệt điều lệ của tổ chức khoa học và công nghệ có vốn nước ngoài
+  Thứ hạng : 2; 3 kết quả
+  Đứng đầu : ID=2353; Cho phép thành lập và phê duyệt điều lệ của tổ chức khoa học và công nghệ có vốn nước ngoài-
+
+  Truy vấn : chuyen doi cong nang nha o doi voi nha o cong vu khong xay dung theo du an hoac nha o cu thuoc tai san
+  Đáp án   : ID=7380; mã=6.003635
+  Tên gốc  : Chuyển đổi công năng nhà ở đối với nhà ở công vụ không xây dựng theo dự án hoặc nhà ở cũ thuộc tài sản công thuộc thẩm quyền chấp thuận của Uỷ ban nhân dân cấp tỉnh
+  Thứ hạng : 2; 2 kết quả
+  Đứng đầu : ID=7388; Chuyển đổi công năng nhà ở đối với nhà ở công vụ không xây dựng theo dự án hoặc nhà ở cũ thuộc tài sản công thuộc thẩm quyền chấp thuận của Bộ Xây dựng
+
+  Truy vấn : thu tuc cap lai dieu chinh gia han giay phep thu chi ngoai te va cac hoat dong ngoai hoi khac doi voi doanh nghiep
+  Đáp án   : ID=9079; mã=1.010740
+  Tên gốc  : Thủ tục cấp lại/điều chỉnh/gia hạn Giấy phép thu, chi ngoại tệ và các hoạt động ngoại hối khác (đối với doanh nghiệp kinh doanh trò chơi điện tử có thưởng)
+  Thứ hạng : 2; 4 kết quả
+  Đứng đầu : ID=9006; Thủ tục cấp lại, điều chỉnh, gia hạn Giấy phép thu, chi ngoại tệ và các hoạt động ngoại hối khác(đối với doanh nghiệp kinh doanh casino)
+
+  Truy vấn : thu tuc thong bao danh muc hoat dong ton giao bo sung doi voi to chuc co dia ban hoat dong ton giao o nhieu
+  Đáp án   : ID=9416; mã=1.012613
+  Tên gốc  : THỦ TỤC THÔNG BÁO DANH MỤC HOẠT ĐỘNG TÔN GIÁO BỔ SUNG ĐỐI VỚI TỔ CHỨC CÓ ĐỊA BÀN HOẠT ĐỘNG TÔN GIÁO Ở NHIỀU HUYỆN THUỘC MỘT TỈNH (CẤP TỈNH)
+  Thứ hạng : 3; 8 kết quả
+  Đứng đầu : ID=9375; Thủ tục thông báo danh mục hoạt động tôn giáo bổ sung đối với tổ chức có địa bàn hoạt động tôn giáo ở nhiều tỉnh (Cấp Trung ương)
+
+
+----------------------------------------------------------------------------
+B. GÕ MỘT ĐOẠN TRONG TÊN (500 truy vấn)
+Đoạn liên tiếp khoảng 60% tên; nhóm chính để so sánh.
+SHA256 bộ đề B: ae47dfdf8f02e2183ef92e7364486b43b29fc65fe88368a730b62f1b9920fa61
+Top-1                           : 72.0% (360/500)
+Top-5                           : 97.2% (486/500)
+MRR (trung bình nghịch đảo hạng): 0.826879
+Không tìm thấy đáp án           : 0.0% (0/500)
+Số kết quả trung bình           : 7.71
+Ví dụ chưa đứng đầu ở nhóm B (tối đa 15):
+  Truy vấn : cong cu ho tro tai cong an tinh thanh pho truc thuoc
+  Đáp án   : ID=704; mã=1.000197
+  Tên gốc  : Cấp đổi Giấy phép sử dụng công cụ hỗ trợ tại Công an tỉnh, thành phố trực thuộc trung ương
+  Thứ hạng : 4; 30 kết quả
+  Đứng đầu : ID=683; Cấp Giấy phép trang bị công cụ hỗ trợ tại Công an tỉnh, thành phố trực thuộc trung ương
+
+  Truy vấn : thu tuc dang ky cap giay chung nhan du dieu kien kinh
+  Đáp án   : ID=6267; mã=1.007451
+  Tên gốc  : Thủ tục Đăng ký cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán (Cấp lần đầu)
+  Thứ hạng : 4; 60 kết quả
+  Đứng đầu : ID=6095; Thủ tục Đăng ký cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kiểm toán (điều chỉnh)
+
+  Truy vấn : voi thuc pham dinh duong y hoc thuc pham dung cho che do an dac biet san pham dinh d ong dung
+  Đáp án   : ID=8265; mã=1.013858
+  Tên gốc  : Đăng ký bản công bố sản phẩm nhập khẩu đối với thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt, sản phẩm dinh dƣỡng dùng cho trẻ đến 36 tháng tuổi
+  Thứ hạng : 2; 6 kết quả
+  Đứng đầu : ID=8268; Đăng ký nội dung quảng cáo đối với thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt, sản phẩm dinh dƣỡng dùng cho trẻ đến 36 tháng tuổi
+
+  Truy vấn : chung chi hanh nghe duoc theo hinh thuc thi trong truong hop chung chi hanh nghe duoc bi ghi
+  Đáp án   : ID=8208; mã=1.014085
+  Tên gốc  : Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược
+  Thứ hạng : 2; 4 kết quả
+  Đứng đầu : ID=8484; Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi cơ quan cấp Chứng chỉ hành nghề dược
+
+  Truy vấn : giao quyen dang ky doi voi giong cay trong la ket qua cua nhiem vu
+  Đáp án   : ID=3983; mã=1.012058
+  Tên gốc  : Giao quyền đăng ký đối với giống cây trồng là kết quả của nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước
+  Thứ hạng : 2; 2 kết quả
+  Đứng đầu : ID=3954; Giao quyền đăng ký đối với giống cây trồng là kết quả của nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước.
+
+  Truy vấn : su hanh nghe cong
+  Đáp án   : ID=6831; mã=1.001071
+  Tên gốc  : Đăng ký tập sự hành nghề công chứng
+  Thứ hạng : 6; 15 kết quả
+  Đứng đầu : ID=6656; Đăng ký tập sự lại hành nghề công chứng sau khi chấm dứt tập sự hành nghề công chứng
+
+  Truy vấn : thu tuc cong nhan quy du dieu kien hoat dong va cong nhan
+  Đáp án   : ID=2986; mã=2.001590
+  Tên gốc  : Thủ tục công nhận quỹ đủ điều kiện hoạt động và công nhận thành viên hội đồng quản lý quỹ (Cấp tỉnh)
+  Thứ hạng : 2; 10 kết quả
+  Đứng đầu : ID=2988; Thủ tục công nhận quỹ đủ điều kiện hoạt động và công nhận thành viên hội đồng quản lý quỹ.
+
+  Truy vấn : tai lieu luu tru co gia
+  Đáp án   : ID=3113; mã=1.013937
+  Tên gốc  : Công nhận tài liệu lưu trữ có giá trị đặc biệt.
+  Thứ hạng : 2; 5 kết quả
+  Đứng đầu : ID=3109; Công nhận tài liệu lưu trữ có giá trị đặc biệt
+
+  Truy vấn : san xuat hoa chat han che san xuat kinh doanh trong
+  Đáp án   : ID=1239; mã=1.003891
+  Tên gốc  : Cấp lại Giấy phép sản xuất hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp
+  Thứ hạng : 2; 9 kết quả
+  Đứng đầu : ID=1231; Cấp Giấy phép sản xuất hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp
+
+  Truy vấn : dinh danh ca nhan thuc hien tai cap
+  Đáp án   : ID=406; mã=1.012565
+  Tên gốc  : Hủy, xác lập lại số định danh cá nhân (thực hiện tại cấp xã)
+  Thứ hạng : 2; 6 kết quả
+  Đứng đầu : ID=455; Thông báo số định danh cá nhân (thực hiện tại cấp xã)
+
+  Truy vấn : dich dong vat san pham dong vat thuy san tam nhap tai xuat chuyen cua khau
+  Đáp án   : ID=4252; mã=1.003500
+  Tên gốc  : Đăng ký kiểm dịch động vật, sản phẩm động vật thủy sản tạm nhập tái xuất, chuyển cửa khẩu, kho ngoại quan, quá cảnh lãnh thổ Việt Nam
+  Thứ hạng : 2; 4 kết quả
+  Đứng đầu : ID=4250; Cấp giấy chứng nhận kiểm dịch động vật, sản phẩm động vật thủy sản tạm nhập tái xuất, chuyển cửa khẩu, quá cảnh lãnh thổ Việt Nam
+
+  Truy vấn : cap lai giay dang ky hoat dong cua chi
+  Đáp án   : ID=6671; mã=1.013635
+  Tên gốc  : Cấp lại Giấy đăng ký hoạt động của chi nhánh doanh nghiệp đấu giá tài sản
+  Thứ hạng : 2; 9 kết quả
+  Đứng đầu : ID=6779; Cấp lại Giấy đăng ký hoạt động của chi nhánh, công ty luật nước ngoài
+
+  Truy vấn : dieu chinh giay chung nhan du dieu kien san
+  Đáp án   : ID=814; mã=2.001562
+  Tên gốc  : Cấp điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp
+  Thứ hạng : 8; 47 kết quả
+  Đứng đầu : ID=8626; Điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất mỹ phẩm
+
+  Truy vấn : cap giay chung nhan du dieu kien kinh doanh hoat dong the thao doi
+  Đáp án   : ID=7324; mã=1.000594
+  Tên gốc  : Thủ tục cấp Giấy chứng nhận đủ điều kiện kinh doanh hoạt động thể thao đối với môn Vũ đạo thể thao giải trí
+  Thứ hạng : 25; 33 kết quả
+  Đứng đầu : ID=7098; Thủ tục cấp giấy chứng nhận đủ điều kiện kinh doanh hoạt động thể thao đối với môn Wushu
+
+  Truy vấn : thu tuc xet tang giai thuong nha nuoc
+  Đáp án   : ID=2115; mã=2.002613
+  Tên gốc  : Thủ tục xét tặng Giải thưởng Nhà nước về khoa học và công nghệ
+  Thứ hạng : 2; 5 kết quả
+  Đứng đầu : ID=7336; Thủ tục xét tặng “Giải thưởng Nhà nước” về văn học, nghệ thuật
+
+
+----------------------------------------------------------------------------
+C. GÕ CỤM MỞ ĐẦU CHUNG CHUNG (500 truy vấn)
+3–5 âm tiết mở đầu; chỉ tham khảo, thường không có đáp án duy nhất.
+SHA256 bộ đề C: 3136bad52e1c8bd0b40f774afb3601924bfd162c7716bcca4bf4c960f1cb1721
+Top-1                           : 21.6% (108/500)
+Top-5                           : 49.2% (246/500)
+MRR (trung bình nghịch đảo hạng): 0.342031
+Không tìm thấy đáp án           : 20.2% (101/500)
+Số kết quả trung bình           : 32.72
+

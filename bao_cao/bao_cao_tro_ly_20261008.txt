@@ -1,0 +1,231 @@
+============================================================================
+ĐÁNH GIÁ TRỢ LÝ HỎI–ĐÁP
+============================================================================
+Phiên bản bộ đo : TL-20261008-1
+Kho dữ liệu     : 9.451 thủ tục
+SHA256 bộ đề    : 29ebb560b5f8c217a336bf4389e6646cdbab35199b0275bffe18209aadf072cc
+Ngưỡng trả lời  : 60%
+Mô hình ngôn ngữ: KHÔNG dùng (câu trả lời trích xuất)
+Bộ đề           : 60 câu = 30 trong phạm vi + 30 ngoài phạm vi
+
+----------------------------------------------------------------------------
+1. QUYẾT ĐỊNH
+----------------------------------------------------------------------------
+  Câu TRONG phạm vi (30):
+    trả lời thẳng              :  96.7% (29/30)
+    hỏi lại, đưa lựa chọn      :   3.3% (1/30)
+      trong đó có đáp án đúng trong các lựa chọn: 100.0% (1/1)
+    từ chối nhầm               :   0.0% (0/30)
+  Câu NGOÀI phạm vi (30):
+    từ chối đúng               :  83.3% (25/30)
+    hỏi lại (không khẳng định) :  13.3% (4/30)
+    TRẢ LỜI SAI (nguy hiểm)    :   3.3% (1/30)
+
+----------------------------------------------------------------------------
+2. ĐÚNG THỦ TỤC
+----------------------------------------------------------------------------
+  Độ chính xác của câu trả lời thẳng (câu trong phạm vi):  79.3% (23/29)
+  Độ chính xác trên MỌI câu trả lời thẳng (cả câu ngoài phạm vi):  76.7% (23/30)
+  Trả lời chưa đúng nhưng thủ tục đúng có trong “Thủ tục tương tự”:  33.3% (2/6)
+  Người dân tới được thủ tục đúng (trả lời đúng, hoặc thủ tục đúng nằm trong các lựa chọn):  86.7% (26/30)
+
+----------------------------------------------------------------------------
+3. ĐÚNG Ý ĐỊNH
+----------------------------------------------------------------------------
+  Nhận đúng ý định hỏi: 100.0% (30/30)
+
+----------------------------------------------------------------------------
+4–5. DỮ LIỆU VÀ TRUNG THỰC VỚI NGUỒN (trên các câu trả lời đúng thủ tục)
+----------------------------------------------------------------------------
+  Bản ghi chưa có dữ liệu chi tiết trong kho: 23/23
+  Mục được hỏi có nội dung trong dữ liệu nguồn: không có câu
+  Dòng trả lời trùng khớp với dữ liệu gốc     : không có câu
+
+----------------------------------------------------------------------------
+6. THỜI GIAN PHẢN HỒI (ms, không tính mạng)
+----------------------------------------------------------------------------
+  trung vị 33.5 · P95 127.4 · lớn nhất 152.7
+
+----------------------------------------------------------------------------
+CHI TIẾT TỪNG CÂU
+----------------------------------------------------------------------------
+Câu 1: làm hộ chiếu cần những gì
+  -> TRẢ LỜI [SAI] 2.002352 (100%) Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan trong nư
+     ý định nhận được: ho_so | mong muốn: ho_so | 21 ms
+Câu 2: đăng ký khai sinh cho con ở đâu
+  -> TRẢ LỜI [SAI] 1.000689 (96%) Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con
+     ý định nhận được: noi_nop | mong muốn: noi_nop | 53 ms
+Câu 3: thủ tục đăng ký kết hôn với người nước ngoài như thế nào
+  -> TRẢ LỜI [ĐÚNG] 2.000682 (86%) Thủ tục đăng ký kết hôn giữa công dân Việt Nam tạm trú ở nước ngoài vớ
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 123 ms
+Câu 4: xin phiếu lý lịch tư pháp ở đâu
+  -> TRẢ LỜI [ĐÚNG] 3.000333 (100%) Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước ngoài đang
+     ý định nhận được: noi_nop | mong muốn: noi_nop | 72 ms
+Câu 5: đăng ký tạm trú mất bao lâu
+  -> TRẢ LỜI [ĐÚNG] 1.004194 (100%) Đăng ký tạm trú
+     ý định nhận được: thoi_han | mong muốn: thoi_han | 64 ms
+Câu 6: bị mất căn cước công dân phải làm gì
+  -> TRẢ LỜI [ĐÚNG] 1.014064 (100%) Cấp lại thẻ căn cước
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 101 ms
+Câu 7: đổi giấy phép lái xe lệ phí bao nhiêu
+  -> TRẢ LỜI [ĐÚNG] 3.000347 (100%) Đổi giấy phép lái xe
+     ý định nhận được: le_phi | mong muốn: le_phi | 65 ms
+Câu 8: giải thể doanh nghiệp thì cần làm gì
+  -> TRẢ LỜI [ĐÚNG] 2.002023 (100%) Giải thể doanh nghiệp, giải thể trong trường hợp bị thu hồi Giấy chứng
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 38 ms
+Câu 9: quyết toán thuế thu nhập cá nhân cần giấy tờ gì
+  -> TRẢ LỜI [ĐÚNG] 1.008309 (100%) Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu
+     ý định nhận được: ho_so | mong muốn: ho_so | 100 ms
+Câu 10: muốn xin giấy phép xây dựng nhà ở thì làm sao
+  -> TRẢ LỜI [SAI] 1.115798 (100%) Cấp giấy phép xây dựng nhà máy điện hạt nhân
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 89 ms
+Câu 11: xin cấp sổ đỏ lần đầu hết bao nhiêu tiền
+  -> TRẢ LỜI [ĐÚNG] 1.012753 (100%) Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền s
+     ý định nhận được: le_phi | mong muốn: le_phi | 153 ms
+Câu 12: mở phòng khám tư nhân cần điều kiện gì
+  -> TRẢ LỜI [SAI] 1.004558 (100%) Thủ tục cấp giấy phép hoạt động đối với cơ sở khám bệnh, chữa bệnh khi
+     ý định nhận được: dieu_kien | mong muốn: dieu_kien | 98 ms
+Câu 13: hưởng trợ cấp thất nghiệp cần hồ sơ gì
+  -> TRẢ LỜI [ĐÚNG] 1.014748 (100%) Hưởng trợ cấp thất nghiệp (Cấp tỉnh)
+     ý định nhận được: ho_so | mong muốn: ho_so | 91 ms
+Câu 14: rút bảo hiểm xã hội một lần mất bao lâu
+  -> TRẢ LỜI [ĐÚNG] 1.014173 (100%) HƯỞNG BẢO HIỂM XÃ HỘI MỘT LẦN.
+     ý định nhận được: thoi_han | mong muốn: thoi_han | 49 ms
+Câu 15: chứng thực bản sao giấy tờ lệ phí bao nhiêu
+  -> TRẢ LỜI [ĐÚNG] 1.001606 (98%) Thủ tục Chứng thực bản sao từ bản chính các giấy tờ, văn bản do cơ qua
+     ý định nhận được: le_phi,ho_so | mong muốn: le_phi | 95 ms
+Câu 16: xin visa cho người nước ngoài vào việt nam cần giấy tờ gì
+  -> TRẢ LỜI [ĐÚNG] 1.000612 (91%) Thủ tục cấp thị thực cho người nước ngoài tại các cơ quan có thẩm quyề
+     ý định nhận được: ho_so | mong muốn: ho_so | 119 ms
+Câu 17: đăng ký nhãn hiệu cho sản phẩm mất bao nhiêu tiền
+  -> TRẢ LỜI [ĐÚNG] 1.015002 (72%) Thủ tục đăng ký nhãn hiệu
+     ý định nhận được: le_phi | mong muốn: le_phi | 97 ms
+Câu 18: dang ky thuong tru can giay to gi
+  -> TRẢ LỜI [ĐÚNG] 1.004222 (100%) Đăng ký thường trú
+     ý định nhận được: ho_so | mong muốn: ho_so | 44 ms
+Câu 19: khai báo tạm vắng nộp ở đâu
+  -> TRẢ LỜI [ĐÚNG] 1.003677 (100%) Khai báo tạm vắng
+     ý định nhận được: noi_nop | mong muốn: noi_nop | 41 ms
+Câu 20: cấp giấy phép lao động cho người nước ngoài trong bao lâu
+  -> TRẢ LỜI [ĐÚNG] 2.000205 (100%) Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt
+     ý định nhận được: thoi_han | mong muốn: thoi_han | 124 ms
+Câu 21: xin cấp lại thẻ bảo hiểm y tế bị mất cần giấy tờ gì
+  -> TRẢ LỜI [ĐÚNG] 1.002522 (100%) Cấp lại thẻ bảo hiểm y tế
+     ý định nhận được: ho_so | mong muốn: ho_so | 151 ms
+Câu 22: đăng ký giám hộ cho cháu ở đâu
+  -> HỎI LẠI, 2 lựa chọn, cao nhất 44%
+     ý định nhận được: noi_nop | mong muốn: noi_nop | 53 ms
+Câu 23: xin giấy xác nhận cư trú mất bao lâu
+  -> TRẢ LỜI [ĐÚNG] 1.010041 (100%) Xác nhận thông tin về cư trú
+     ý định nhận được: thoi_han | mong muốn: thoi_han | 70 ms
+Câu 24: đăng ký tàu cá cần những gì
+  -> TRẢ LỜI [SAI] 1.003681 (100%) Xóa đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+     ý định nhận được: ho_so | mong muốn: ho_so | 37 ms
+Câu 25: thành lập hợp tác xã cần làm gì
+  -> TRẢ LỜI [ĐÚNG] 1.005280 (100%) Đăng ký thành lập hợp tác xã, liên hiệp hợp tác xã; đăng ký chuyển đổi
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 49 ms
+Câu 26: xin cấp thẻ nhà báo cần điều kiện gì
+  -> TRẢ LỜI [ĐÚNG] 1.010691 (100%) Thủ tục cấp thẻ nhà báo
+     ý định nhận được: dieu_kien | mong muốn: dieu_kien | 75 ms
+Câu 27: xin nhập quốc tịch việt nam lệ phí bao nhiêu
+  -> TRẢ LỜI [ĐÚNG] 2.002039 (100%) Nhập quốc tịch Việt Nam ở trong nước
+     ý định nhận được: le_phi | mong muốn: le_phi | 67 ms
+Câu 28: khai thuế cho hộ kinh doanh như thế nào
+  -> TRẢ LỜI [ĐÚNG] 1.011022 (100%) Khai thuế/Thông báo doanh thu đối với hộ kinh doanh, cá nhân kinh doan
+     ý định nhận được: trinh_tu | mong muốn: trinh_tu | 51 ms
+Câu 29: bị mất sổ bảo hiểm xã hội thì làm lại ở đâu
+  -> TRẢ LỜI [ĐÚNG] 1.001187 (100%) Cấp lại sổ bảo hiểm xã hội
+     ý định nhận được: noi_nop | mong muốn: noi_nop | 127 ms
+Câu 30: làm passport cho trẻ em cần giấy tờ gì
+  -> TRẢ LỜI [SAI] 1.004944 (80%) Chấm dứt việc chăm sóc thay thế cho trẻ em
+     ý định nhận được: ho_so | mong muốn: ho_so | 43 ms
+Câu 31: cách nấu phở bò
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 22 ms
+Câu 32: hôm nay trời có mưa không
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 3 ms
+Câu 33: mua điện thoại iPhone ở đâu
+  -> HỎI LẠI, 1 lựa chọn, cao nhất 28%
+     ý định nhận được: noi_nop | mong muốn: - | 19 ms
+Câu 34: giá vàng hôm nay bao nhiêu
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 17 ms
+Câu 35: kết quả xổ số miền nam hôm qua
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 24 ms
+Câu 36: cách giảm cân nhanh trong một tuần
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 13 ms
+Câu 37: phim hay chiếu rạp tuần này
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 2 ms
+Câu 38: tỉ số trận bóng đá tối qua
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 19 ms
+Câu 39: công thức làm bánh flan
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 27 ms
+Câu 40: sửa máy giặt tại nhà giá rẻ
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 20 ms
+Câu 41: học tiếng anh online miễn phí ở đâu
+  -> TỪ CHỐI
+     ý định nhận được: noi_nop,le_phi | mong muốn: - | 27 ms
+Câu 42: quán cà phê yên tĩnh gần đây
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 26 ms
+Câu 43: cách trồng cây hoa hồng
+  -> HỎI LẠI, 5 lựa chọn, cao nhất 53%
+     ý định nhận được: - | mong muốn: - | 13 ms
+Câu 44: bài hát đang thịnh hành nhất hiện nay
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 26 ms
+Câu 45: cách buộc dây giày nhanh
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 48 ms
+Câu 46: thời tiết đà lạt cuối tuần
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 8 ms
+Câu 47: cách làm trà sữa trân châu
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 20 ms
+Câu 48: đặt vé xem phim online
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 6 ms
+Câu 49: lịch thi đấu ngoại hạng anh
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 28 ms
+Câu 50: mẹo chụp ảnh đẹp bằng điện thoại
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 12 ms
+Câu 51: giá xăng hôm nay
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 10 ms
+Câu 52: review laptop cho sinh viên
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 8 ms
+Câu 53: cách chữa đau lưng tại nhà
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 30 ms
+Câu 54: tải nhạc mp3 miễn phí
+  -> TỪ CHỐI
+     ý định nhận được: le_phi | mong muốn: - | 4 ms
+Câu 55: nên nuôi chó hay mèo
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 3 ms
+Câu 56: đăng ký tài khoản facebook
+  -> TRẢ LỜI [SAI] 1.000236 (75%) Đăng ký tài khoản điện tử
+     ý định nhận được: - | mong muốn: - | 18 ms
+Câu 57: lấy lại mật khẩu gmail
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 15 ms
+Câu 58: đăng ký gói cước 4g viettel
+  -> TỪ CHỐI
+     ý định nhận được: - | mong muốn: - | 20 ms
+Câu 59: xin việc làm thêm cho sinh viên
+  -> HỎI LẠI, 5 lựa chọn, cao nhất 42%
+     ý định nhận được: - | mong muốn: - | 29 ms
+Câu 60: đăng ký tàu vũ trụ
+  -> HỎI LẠI, 5 lựa chọn, cao nhất 45%
+     ý định nhận được: - | mong muốn: - | 27 ms

@@ -1,0 +1,15 @@
+# Không đưa vào ảnh Docker: bí mật, môi trường cục bộ, tài liệu và kết quả đo
+**/.env
+**/*.env
+**/venv
+**/__pycache__
+**/*.pyc
+**/*.db
+bao_cao
+bo_de_tu_nhien
+*.md
+*.txt
+!backend/requirements.txt
+backend/*.py
+
+azure_deploy.zip

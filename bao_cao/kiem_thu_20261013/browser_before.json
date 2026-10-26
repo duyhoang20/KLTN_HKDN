@@ -1,0 +1,1086 @@
+{
+  "version": "before",
+  "browser": "153.0.8010.0",
+  "python": "3.10",
+  "scope": "Isolated SQLite; real metadata and 21 supplied details plus labelled KT functional fixtures; no LLM service",
+  "passed": 49,
+  "total": 59,
+  "rows": [
+    {
+      "name": "home_real_corpus_loaded",
+      "pass": true,
+      "actual": "Kho hiện có 9.454 thủ tục của 17 cơ quan, thuộc 303 lĩnh vực, lấy từ Cổng Dịch vụ công Quốc gia, cùng 1 hướng dẫn do cán bộ biên soạn."
+    },
+    {
+      "name": "old_suggestions_do_not_reappear_in_ask",
+      "pass": false,
+      "actual": true
+    },
+    {
+      "name": "suggestions_aria_open",
+      "pass": false,
+      "actual": null
+    },
+    {
+      "name": "suggestions_keyboard_active",
+      "pass": false,
+      "actual": null
+    },
+    {
+      "name": "no_page_errors_initial",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "local_fonts_loaded",
+      "pass": true,
+      "actual": [
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "fonts.css",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-500-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-vietnamese-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-ext-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "barlow-semi-condensed-latin-700-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-400-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-vietnamese-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-ext-600-normal.woff2",
+          "status": 200
+        },
+        {
+          "url": "source-serif-4-latin-600-normal.woff2",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "detail_tabs_keyboard",
+      "pass": true,
+      "actual": "true"
+    },
+    {
+      "name": "raw_tab_keyboard",
+      "pass": false,
+      "actual": "false"
+    },
+    {
+      "name": "raw_json_exact",
+      "pass": true,
+      "actual": "All stored keys and values compared"
+    },
+    {
+      "name": "real_source_all_fee_rows",
+      "pass": true,
+      "actual": {
+        "rendered": 240,
+        "source": 240
+      }
+    },
+    {
+      "name": "checklist_not_official_approval",
+      "pass": false,
+      "actual": "Trường hợp kiểm thử A\n2/2 đã có\nĐỦ HỒ SƠ\nĐã có\n\t\tGiấy tờ\tBản chính\tBản sao\n\n\t1\t\nGiấy tờ kiểm thử alpha\nbắt buộc\n\t1\t—\n\n\t2\t\nGiấy tờ kiểm thử beta\n\t—\t2"
+    },
+    {
+      "name": "checklist_persists",
+      "pass": true,
+      "actual": "2/2 đã có"
+    },
+    {
+      "name": "quantity_change_resets_checklist",
+      "pass": false,
+      "actual": "2/2 đã có"
+    },
+    {
+      "name": "cases_not_claimed_all_required",
+      "pass": false,
+      "actual": "Giấy tờ đã có\nTrường hợp kiểm thử A\n2 trên 2 giấy tờ\nđã đủ\nTrường hợp kiểm thử B\n0 trên 1 giấy tờ\n\nMỗi trường hợp cần một bộ hồ sơ riêng. Đánh dấu ở mục Thành phần hồ sơ. Dấu tích chỉ lưu trên trình duyệt này, không gửi đi đâu.\n\nBỏ mọi dấu tích"
+    },
+    {
+      "name": "staff_print_correct_source",
+      "pass": false,
+      "actual": "In từ trang Tra cứu thủ tục hành chính ngày 13/10/2026. Nguồn dữ liệu: Cổng Dịch vụ công Quốc gia. Các ô đã đánh dấu là do người in tự đánh dấu."
+    },
+    {
+      "name": "print_hides_controls",
+      "pass": true,
+      "actual": "Header and action panel hidden"
+    },
+    {
+      "name": "unsafe_title_escaped",
+      "pass": true,
+      "actual": "<img src=x onerror=\"window.__audit_xss=1\"> mẫu thoát HTML"
+    },
+    {
+      "name": "no_injected_image",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "ask_detail_pinned",
+      "pass": true,
+      "actual": "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Thành phần hồ sơ. Xem toàn bộ thủ tục"
+    },
+    {
+      "name": "followup_returns_fee",
+      "pass": true,
+      "actual": "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Phí, lệ phí. Xem toàn bộ thủ tục"
+    },
+    {
+      "name": "send_disabled_while_waiting",
+      "pass": false,
+      "actual": null
+    },
+    {
+      "name": "reset_ignores_old_response",
+      "pass": true,
+      "actual": ""
+    },
+    {
+      "name": "width_320_home",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_search",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_390_home",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_search",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_768_home",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_search",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_1440_home",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_search",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "admin_login",
+      "pass": true,
+      "actual": "canbo_thu"
+    },
+    {
+      "name": "edit_published_warning",
+      "pass": true,
+      "actual": "Hướng dẫn này đang công khai. Khi lưu thay đổi, nó sẽ chuyển về bản nháp và tạm ẩn với người dân cho tới khi bạn công khai lại."
+    },
+    {
+      "name": "modal_closes_on_escape",
+      "pass": false,
+      "actual": "Escape"
+    },
+    {
+      "name": "published_edit_returns_draft",
+      "pass": true,
+      "actual": "public detail HTTP status"
+    },
+    {
+      "name": "admin_320_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_320_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_320_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_390_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_390_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_390_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_768_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_768_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_768_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_1440_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "admin_1440_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "admin_1440_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "no_javascript_errors",
+      "pass": true,
+      "actual": []
+    }
+  ],
+  "javascript_errors": []
+}

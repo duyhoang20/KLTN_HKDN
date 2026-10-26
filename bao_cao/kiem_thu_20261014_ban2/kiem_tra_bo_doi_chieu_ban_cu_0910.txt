@@ -1,0 +1,28 @@
+============================================================================
+KIỂM TRA BỘ ĐỐI CHIẾU NGUỒN BẰNG LỖI CỐ Ý
+============================================================================
+Bộ đối chiếu : DC-20261009-1 (bản cũ, có trong kit 14/10)
+Dữ liệu      : mau_21_thu_tuc_du_lieu_chi_tiet.json (21 thủ tục, câu trả lời gốc của trợ lý)
+Mỗi lần chỉ làm sai MỘT dòng của MỘT mục. “Phát hiện” = bộ đối chiếu báo thiếu
+dữ kiện, dòng không căn cứ, hoặc dòng có cặp số–đơn vị không có trong nguồn.
+
+Kiểu lỗi cố ý                                        Phát hiện     Tỉ lệ
+bỏ hẳn một dòng                                        532/532    100.0%
+đổi đơn vị thời gian (ngày làm việc → tháng)            17/248      6.9%
+đổi đơn vị tiền (đồng → USD)                            14/254      5.5%
+đổi số tiền                                             80/240     33.3%
+đổi số bản chính/bản sao                                  0/99      0.0%
+cắt mất nửa sau của dòng                               430/442     97.3%
+thêm câu “Miễn lệ phí.” (không có chữ số)                0/470      0.0%
+
+Ví dụ lỗi KHÔNG bị phát hiện (mỗi kiểu một ví dụ):
+  [đổi số bản chính/bản sao] 1.116484 [ho_so] - Bản sao văn bản chứng minh tư cách pháp nhân của tổ chức (3 bản sao)
+  [thêm câu “Miễn lệ phí.” (không có chữ số)] 1.116484 [ho_so] - Bản sao văn bản chứng minh tư cách pháp nhân của tổ chức (1 bản sao) Miễn lệ phí.
+  [đổi đơn vị thời gian (ngày làm việc → tháng)] 1.116484 [thoi_han] - Trực tiếp: 5 tháng
+  [đổi đơn vị tiền (đồng → USD)] 1.116182 [le_phi] - Phí thẩm định hồ sơ đăng ký biến động đất đai đối với tổ chức - Trực tuyến - Đối với tài
+  [cắt mất nửa sau của dòng] 1.116182 [le_phi] - Lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân - Trực tuyến: 0 đ
+  [đổi số tiền] 1.116182 [le_phi] - Phí thẩm định hồ sơ đăng ký biến động đất đai đối với tổ chức - Trực tiếp - Đối với đất:
+
+Cách đọc: kiểu lỗi có tỉ lệ thấp là việc bộ đối chiếu chưa làm được.
+Ví dụ câu “Miễn lệ phí.” không có chữ số nên chỉ được bắt khi nó làm mất dữ kiện;
+đây là lý do trợ lý không cho mô hình ngôn ngữ viết dữ kiện.

@@ -1,0 +1,3 @@
+# Azure App Service chỉ cài thư viện từ requirements.txt ở THƯ MỤC GỐC (bổ sung 22/10/2026).
+# Danh sách thật nằm ở backend/requirements.txt; tệp này chỉ trỏ tới đó.
+-r backend/requirements.txt

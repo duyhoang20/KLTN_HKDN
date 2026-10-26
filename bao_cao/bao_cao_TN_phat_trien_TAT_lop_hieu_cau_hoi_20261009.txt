@@ -1,0 +1,368 @@
+============================================================================
+ĐÁNH GIÁ TRA CỨU — CÂU HỎI TỰ NHIÊN CÓ GÁN NHÃN
+============================================================================
+Phiên bản bộ đo : TN-20261009-1
+Kho dữ liệu     : 9.451 thủ tục
+SHA256 bộ đo    : a80f56837a40640fe19c150c1156257bd4661a01380add64d4db7b36b388ac7b
+SHA256 search.py: fd78194b544438f242174f8b8321233f29b87c6b75327b52a99de0c15e3cf5e5
+SHA256 bộ đề    : 714b39374e370e78bdc4f8eb314d4da8dcc3beffd7e038288cc046faf9eeb52d  (nội dung, bỏ BOM, chuẩn hóa xuống dòng)
+SHA256 kho tra cứu: 2319b44b115bce195082764a04cdfa64ab6765bd6d559537b2583b951f8de685
+Chỉ so sánh trước/sau khi bộ đề và kho giống nhau (cùng SHA256).
+
+----------------------------------------------------------------------------
+TỔNG QUAN: 65 câu; có mã đúng 50; KHONG_CO 15; chưa gán 0
+Trả về rỗng trên toàn bộ (không cần nhãn):  32.3% (21/65)
+
+----------------------------------------------------------------------------
+A. TRONG PHẠM VI — câu có mã đúng (50 câu)
+  Top-1        :  46.0% (23/50)
+  Top-5        :  60.0% (30/50)
+  MRR          : 0.519892
+  Trả về rỗng  :  14.0% (7/50)
+  Lạc đề       :  22.0% (11/50)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 11.58
+
+   Theo loại: Dùng từ đồng nghĩa/thuật ngữ cũ (9 câu)
+  Top-1        :  11.1% (1/9)
+  Top-5        :  11.1% (1/9)
+  MRR          : 0.111111
+  Trả về rỗng  :  22.2% (2/9)
+  Lạc đề       :  66.7% (6/9)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 6.00
+
+   Theo loại: Gõ không dấu (4 câu)
+  Top-1        :  75.0% (3/4)
+  Top-5        :  75.0% (3/4)
+  MRR          : 0.759259
+  Trả về rỗng  :   0.0% (0/4)
+  Lạc đề       :   0.0% (0/4)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 25.50
+
+   Theo loại: Câu hỏi đời thường (37 câu)
+  Top-1        :  51.4% (19/37)
+  Top-5        :  70.3% (26/37)
+  MRR          : 0.593448
+  Trả về rỗng  :  13.5% (5/37)
+  Lạc đề       :  13.5% (5/37)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 11.43
+
+----------------------------------------------------------------------------
+B. NGOÀI PHẠM VI — câu KHONG_CO, kết quả mong muốn là rỗng (15 câu)
+  Từ chối đúng :  93.3% (14/15)
+  Trả lời sai  :   6.7% (1/15)
+  Phần trăm cao nhất hiển thị trên câu trả lời sai: 40%; trung vị 40%
+
+----------------------------------------------------------------------------
+CHI TIẾT TỪNG CÂU
+----------------------------------------------------------------------------
+Câu 1 [tu_nhien] làm hộ chiếu cần những gì
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 2 [tu_nhien] hộ chiếu hết hạn thì làm lại thế nào
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 3 [tu_nhien] tôi muốn đăng ký khai sinh cho con
+  8 kết quả; hạng đúng: 2
+     35%  1.000689 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con
+     32%  1.001193 | Thủ tục đăng ký khai sinh ✓
+     32%  1.004772 | Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân
+
+Câu 4 [tu_nhien] con tôi sinh ra ở nước ngoài thì đăng ký khai sinh ở đâu
+  1 kết quả; hạng đúng: 1
+     30%  1.001020 | Thủ tục đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam ✓
+
+Câu 5 [tu_nhien] thủ tục đăng ký kết hôn với người nước ngoài như thế nào
+  1 kết quả; hạng đúng: 1
+     43%  2.000682 | Thủ tục đăng ký kết hôn giữa công dân Việt Nam tạm trú ở nước ngoài với nhau hoặc giữa c ✓
+
+Câu 6 [tu_nhien] xin giấy xác nhận tình trạng hôn nhân để lấy chồng
+  2 kết quả; hạng đúng: 1
+     54%  1.004873 | Thủ tục cấp Giấy xác nhận tình trạng hôn nhân ✓
+     43%  2.000689 | Thủ tục cấp Giấy xác nhận tình trạng hôn nhân cho công dân Việt Nam trong thời gian cư t ✓
+
+Câu 7 [tu_nhien] đăng ký khai tử cho người thân mới mất
+  6 kết quả; hạng đúng: 1
+     44%  1.000656 | Thủ tục đăng ký khai tử ✓
+     43%  2.000527 | Thủ tục đăng ký khai tử cho công dân Việt Nam ở nước ngoài
+     43%  2.002869 | Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất ✓
+
+Câu 8 [tu_nhien] xin phiếu lý lịch tư pháp ở đâu
+  8 kết quả; hạng đúng: 1
+     49%  3.000333 | Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước ngoài đang cư trú tại Việt N ✓
+     48%  3.000335 | Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành tố tụng (đối tượng là công 
+     48%  3.000330 | Cấp Phiếu lý lịch tư pháp cho công dân Việt Nam mà không xác định được nơi thường trú ho ✓
+
+Câu 9 [dong_nghia] chuyển hộ khẩu về quê
+  8 kết quả; KHÔNG có mã đúng trong kết quả
+     36%  1.003216 | Cấp giấy chuyển hộ khẩu (thực hiện tại cấp huyện)
+     36%  1.003182 | Cấp giấy chuyển hộ khẩu (thực hiện tại cấp xã)
+     30%  5.003881 | Thủ tục Lấy ý kiến Bộ, cơ quan ngang Bộ về về lượng và thời điểm phân giao hạn ngạch
+
+Câu 10 [dong_nghia] nhập hộ khẩu cho vợ về nhà chồng
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 11 [tu_nhien] tôi muốn đăng ký tạm trú cho người thuê trọ
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 12 [tu_nhien] khai báo tạm vắng khi đi làm xa
+  1 kết quả; hạng đúng: 1
+     52%  1.003677 | Khai báo tạm vắng ✓
+
+Câu 13 [tu_nhien] bị mất căn cước công dân phải làm gì
+  8 kết quả; KHÔNG có mã đúng trong kết quả
+     28%  1.010096 | Khai thác thông tin trong Cơ sở dữ liệu Căn cước công dân (thực hiện tại cấp trung ương)
+     27%  2.001196 | Cấp thẻ Căn cước công dân khi chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (
+     27%  2.001174 | Cấp thẻ Căn cước công dân khi chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (
+
+Câu 14 [dong_nghia] làm lại chứng minh nhân dân bị hỏng
+  10 kết quả; KHÔNG có mã đúng trong kết quả
+     54%  1.004364 | Cấp lại Chứng minh nhân dân (9 số) thực hiện tại cấp huyện
+     54%  1.003404 | Cấp lại Chứng minh nhân dân (9 số) thực hiện tại cấp tỉnh
+     48%  1.003410 | Đổi Chứng minh nhân dân (9 số) thực hiện tại cấp tỉnh
+
+Câu 15 [tu_nhien] đổi giấy phép lái xe bị hết hạn
+  25 kết quả; hạng đúng: 3
+     75%  1.008285 | Thủ tục Cấp đổi Giấy phép lái xe đến hạn đổi, giấy phép lái xe quá hạn sử dụng dưới 3 th
+     75%  1.002500 | Thủ tục cấp đổi Giấy phép lái xe đến hạn đổi, giấy phép lái xe quá hạn sử dụng dưới 03 t
+     75%  3.000347 | Đổi giấy phép lái xe ✓
+
+Câu 16 [dong_nghia] đổi bằng lái xe quốc tế
+  18 kết quả; hạng đúng: 1
+    100%  3.000351 | Đổi giấy phép lái xe hoặc bằng lái xe của người nước ngoài ✓
+     93%  3.000353 | Cấp giấy phép lái xe quốc tế ✓
+     83%  1.008285 | Thủ tục Cấp đổi Giấy phép lái xe đến hạn đổi, giấy phép lái xe quá hạn sử dụng dưới 3 th
+
+Câu 17 [tu_nhien] đăng ký biển số cho xe máy mới mua
+  2 kết quả; KHÔNG có mã đúng trong kết quả
+     41%  1.010917 | Cấp lại giấy chứng nhận đăng ký, biển số xe mô tô, xe gắn máy (kể cả xe máy điện) tại Cô
+     40%  1.004173 | Đổi chứng nhận đăng ký, biển số xe tại Công an cấp huyện
+
+Câu 18 [tu_nhien] sang tên xe ô tô cũ mua lại
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 19 [dong_nghia] cho tôi hỏi cách đăng ký kinh doanh hộ cá thể
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 20 [tu_nhien] tạm ngừng kinh doanh hộ gia đình
+  10 kết quả; hạng đúng: 2
+     90%  2.002243 | Đăng ký thuế trong trường hợp tạm ngừng kinh doanh.
+     87%  1.001570 | Tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã đăng ký của hộ kinh doanh ✓
+     71%  2.002029 | Thông báo tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã thông báo đối với 
+
+Câu 21 [tu_nhien] thành lập công ty trách nhiệm hữu hạn một thành viên
+  21 kết quả; KHÔNG có mã đúng trong kết quả
+    100%  1.010027 | Chuyển đổi công ty trách nhiệm hữu hạn hai thành viên trở lên thành công ty trách nhiệm 
+    100%  2.002033 | Chuyển đổi công ty trách nhiệm hữu hạn một thành viên thành công ty trách nhiệm hữu hạn 
+    100%  1.005114 | Đăng ký thay đổi chủ sở hữu công ty trách nhiệm hữu hạn một thành viên
+
+Câu 22 [tu_nhien] giải thể doanh nghiệp thì cần làm gì
+  8 kết quả; hạng đúng: 1
+     33%  2.002023 | Giải thể doanh nghiệp, giải thể trong trường hợp bị thu hồi Giấy chứng nhận đăng ký doan ✓
+     31%  1.010023 | Thông báo hủy bỏ nghị quyết, quyết định giải thể doanh nghiệp
+     29%  1.008477 | Giải thể doanh nghiệp bảo hiểm, doanh nghiệp môi giới bảo hiểm, chấm dứt hoạt động của c
+
+Câu 23 [tu_nhien] đăng ký mã số thuế cá nhân lần đầu
+  15 kết quả; hạng đúng: 2
+     60%  1.007566 | Đăng ký thuế lần đầu đối với người nộp thuế là hộ kinh doanh, cá nhân kinh doanh đăng ký
+     52%  1.008498 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân, người phụ thuộc ✓
+     51%  1.008497 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá n ✓
+
+Câu 24 [tu_nhien] quyết toán thuế thu nhập cá nhân
+  10 kết quả; hạng đúng: 1
+    100%  1.008309 | Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lươn ✓
+    100%  2.002258 | Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lươn ✓
+    100%  1.014976 | Quyết toán thuế/Hoàn thuế thu nhập cá nhân nộp thừa đối với hộ kinh doanh, cá nhân kinh  ✓
+
+Câu 25 [tu_nhien] hoàn thuế giá trị gia tăng cho doanh nghiệp
+  17 kết quả; hạng đúng: 1
+    100%  1.007037 | Hoàn thuế giá trị gia tăng của doanh nghiệp, tổ chức ✓
+    100%  1.011018 | Hoàn thuế giá trị gia tăng đối với ngân hàng thương mại là đại lý hoàn thuế giá trị gia 
+    100%  1.008566 | Thủ tục lựa chọn doanh nghiệp bán hàng hoàn thuế giá trị gia tăng
+
+Câu 26 [tu_nhien] muốn xin giấy phép xây dựng nhà ở thì làm sao
+  0 kết quả; KHÔNG có mã đúng trong kết quả
+
+Câu 27 [dong_nghia] xin cấp sổ đỏ lần đầu
+  8 kết quả; KHÔNG có mã đúng trong kết quả
+     31%  1.002694 | Khám giám định lần đầu do bệnh nghề nghiệp
+     30%  1.007590 | Đăng ký niêm yết cổ phiếu lần đầu
+     29%  1.002706 | Khám giám định thương tật lần đầu do tai nạn lao động
+
+Câu 28 [dong_nghia] sang tên sổ đỏ khi mua bán đất
+  1 kết quả; KHÔNG có mã đúng trong kết quả
+     25%  1.011445 | Chuyển tiếp đăng ký thế chấp quyền tài sản phát sinh từ hợp đồng mua bán nhà ở hoặc từ h
+
+Câu 29 [tu_nhien] xin giấy phép kinh doanh karaoke
+  2 kết quả; KHÔNG có mã đúng trong kết quả
+     41%  1.000312 | Cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh  hàng không chung
+     41%  1.000423 | Cấp lại Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh  hàng không chu
+
+Câu 30 [tu_nhien] mở phòng khám tư nhân cần giấy phép gì
+  2 kết quả; KHÔNG có mã đúng trong kết quả
+     37%  1.001769 | Cấp giấy phép hoạt động đối với phòng khám bác sỹ gia đình thuộc phòng khám đa khoa tư n
+     25%  1.001957 | Cho phép thành lập ngân hàng mô trực thuộc Sở Y tế, và thuộc bệnh viện trực thuộc Sở Y t
+
+Câu 31 [tu_nhien] xin chứng chỉ hành nghề dược
+  23 kết quả; hạng đúng: 5
+    100%  1.004523 | Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dượ
+    100%  1.014085 | Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dượ
+    100%  1.014099 | Cấp Chứng chỉ hành nghề dược theo hình thức xét hồ sơ trong trường hợp Chứng chỉ hành ng
+
+Câu 32 [tu_nhien] giấy chứng nhận an toàn thực phẩm cho quán ăn
+  42 kết quả; hạng đúng: 11
+     66%  2.000117 | Cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm
+     65%  2.000115 | Cấp lại Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩ
+     64%  1.013829 | Cấp giấy chứng nhận đối với thực phẩm xuất khẩu.
+
+Câu 33 [tu_nhien] hưởng trợ cấp thất nghiệp
+  17 kết quả; hạng đúng: 1
+    100%  1.014748 | Hưởng trợ cấp thất nghiệp (Cấp tỉnh) ✓
+    100%  2.001953 | Chấm dứt hưởng trợ cấp thất nghiệp
+    100%  1.001973 | Tạm dừng hưởng trợ cấp thất nghiệp
+
+Câu 34 [tu_nhien] rút bảo hiểm xã hội một lần
+  23 kết quả; hạng đúng: 1
+    100%  1.014173 | HƯỞNG BẢO HIỂM XÃ HỘI MỘT LẦN. ✓
+    100%  1.000840 | Hưởng bảo hiểm xã hội một lần ✓
+     96%  1.002168 | Khám giám định để hưởng bảo hiểm xã hội một lần
+
+Câu 35 [tu_nhien] xin trợ cấp cho người có công với cách mạng
+  7 kết quả; hạng đúng: 2
+    100%  1.010828 | Cấp trích lục hoặc sao hồ sơ người có công với cách mạng
+    100%  1.013745 | Xác nhận và giải quyết chế độ ưu đãi người có công với cách mạng và thân nhân ✓
+     89%  1.010820 | Giải quyết chế độ người có công giúp đỡ cách mạng.
+
+Câu 36 [tu_nhien] xác nhận liệt sĩ cho người thân
+  17 kết quả; hạng đúng: 1
+     58%  2.001273 | Thủ tục xác nhận liệt sĩ đối với những trường hợp hy sinh từ 31/12/1994 trở về trước ✓
+     56%  1.010831 | Cấp giấy xác nhận thông tin về nơi liệt sĩ hy sinh.
+     56%  1.010794 | Cấp giấy xác nhận thông tin về nơi liệt sĩ hy sinh
+
+Câu 37 [dong_nghia] cấp lại bằng tốt nghiệp bị mất
+  8 kết quả; KHÔNG có mã đúng trong kết quả
+     39%  1.012819 | Cấp lại Giấy chứng nhận do bị mất.
+     39%  1.012786 | Cấp lại Giấy chứng nhận do bị mất
+     39%  1.004889 | Công nhận bằng tốt nghiệp trung học cơ sở, bằng tốt nghiệp trung học phổ thông, giấy chứ
+
+Câu 38 [tu_nhien] xin học bổng đi du học
+  3 kết quả; hạng đúng: 3
+     35%  1.002499 | Tiếp nhận du học sinh học bổng ngân sách nhà nước tốt nghiệp về nước
+     27%  1.002407 | Xét, cấp học bổng chính sách
+     27%  1.005086 | Tuyển sinh công dân Việt Nam ra nước ngoài học tập bằng học bổng ngân sách nhà nước ✓
+
+Câu 39 [tu_nhien] chuyển trường cho học sinh trung học
+  12 kết quả; hạng đúng: 1
+    100%  2.002481 | Chuyển trường đối với học sinh trung học cơ sở. ✓
+    100%  1.004831 | Chuyển trường đối với học sinh trung học cơ sở ✓
+    100%  2.002478 | Chuyển trường đối với học sinh trung học phổ thông. ✓
+
+Câu 40 [tu_nhien] thành lập trường mầm non tư thục
+  18 kết quả; hạng đúng: 1
+    100%  1.004494 | Thành lập trường mẫu giáo, trường mầm non, nhà trẻ công lập hoặc cho phép thành lập trườ ✓
+    100%  1.014996 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do nhà đầu tư trong nước và 
+    100%  1.008722 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do nhà đầu tư nước ngoài đầu
+
+Câu 41 [dong_nghia] xin visa cho người nước ngoài vào việt nam
+  1 kết quả; KHÔNG có mã đúng trong kết quả
+     40%  3.000402 | Chấp thuận doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế của Việt Nam được tổ chức cho
+
+Câu 42 [tu_nhien] gia hạn tạm trú cho người nước ngoài
+  5 kết quả; hạng đúng: 1
+    100%  1.001146 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp tỉnh) ✓
+    100%  1.003326 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương) ✓
+     93%  1.000039 | Thủ tục gia hạn tạm trú, cấp thị thực mới cho người nước ngoài đang tạm trú ở Việt Nam t ✓
+
+Câu 43 [tu_nhien] cấp giấy phép lao động cho người nước ngoài
+  31 kết quả; hạng đúng: 1
+    100%  2.000205 | Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam ✓
+    100%  2.000233 | Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (cấp trung ươ ✓
+    100%  2.000192 | Cấp lại giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam
+
+Câu 44 [tu_nhien] đăng ký nhãn hiệu cho sản phẩm
+  33 kết quả; hạng đúng: 1
+     72%  1.015002 | Thủ tục đăng ký nhãn hiệu ✓
+     59%  1.015009 | Thủ tục gia hạn hiệu lực Bằng độc quyền kiểu dáng công nghiệp, Giấy chứng nhận đăng ký n
+     52%  1.013775 | Cho phép sản xuất sản phẩm thuốc lá mang nhãn hiệu nước ngoài tiêu thụ tại Việt Nam
+
+Câu 45 [tu_nhien] xin giấy phép nhập khẩu thuốc bảo vệ thực vật
+  24 kết quả; hạng đúng: 1
+    100%  1.003971 | Cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật ✓
+     83%  1.007929 | Cấp Giấy phép nhập khẩu phân bón
+     81%  2.001062 | Kiểm tra nhà nước về chất lượng thuốc bảo vệ thực vật nhập khẩu
+
+Câu 46 [tu_nhien] chứng thực bản sao giấy tờ
+  21 kết quả; hạng đúng: 1
+     98%  1.001606 | Thủ tục Chứng thực bản sao từ bản chính các giấy tờ, văn bản do cơ quan có thẩm quyền cấ ✓
+     93%  2.000635 | Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh
+     84%  2.000942 | Cấp bản sao có chứng thực từ bản chính giao dịch đã được chứng thực
+
+Câu 47 [khong_dau] khieu nai quyet dinh hanh chinh
+  17 kết quả; hạng đúng: 1
+     83%  1.003504 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với l ✓
+     83%  1.003387 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với l ✓
+     82%  1.000178 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với l ✓
+
+Câu 48 [khong_dau] cap lai giay khai sinh bi mat
+  60 kết quả; hạng đúng: 27
+     75%  1.012819 | Cấp lại Giấy chứng nhận do bị mất.
+     75%  1.012786 | Cấp lại Giấy chứng nhận do bị mất
+     70%  1.002150 | Cấp lại giấy chứng sinh đối với trường hợp bị mất hoặc hư hỏng
+
+Câu 49 [khong_dau] dang ky thuong tru
+  17 kết quả; hạng đúng: 1
+    100%  1.004222 | Đăng ký thường trú ✓
+    100%  1.003197 | Xóa đăng ký thường trú
+    100%  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi
+
+Câu 50 [khong_dau] xin giay phep ban le ruou
+  8 kết quả; hạng đúng: 1
+     71%  2.000620 | Cấp Giấy phép bán lẻ rượu ✓
+     68%  2.001240 | Cấp lại Cấp Giấy phép bán lẻ rượu
+     66%  2.000615 | Cấp sửa đổi, bổ sung Giấy phép bán lẻ rượu
+
+Câu 51 [ngoai_pham_vi] cách nấu phở bò
+  0 kết quả; từ chối đúng
+
+Câu 52 [ngoai_pham_vi] hôm nay trời có mưa không
+  0 kết quả; từ chối đúng
+
+Câu 53 [ngoai_pham_vi] mua điện thoại iPhone ở đâu
+  0 kết quả; từ chối đúng
+
+Câu 54 [ngoai_pham_vi] giá vàng hôm nay bao nhiêu
+  0 kết quả; từ chối đúng
+
+Câu 55 [ngoai_pham_vi] kết quả xổ số miền nam hôm qua
+  0 kết quả; từ chối đúng
+
+Câu 56 [ngoai_pham_vi] cách giảm cân nhanh trong một tuần
+  0 kết quả; từ chối đúng
+
+Câu 57 [ngoai_pham_vi] phim hay chiếu rạp tuần này
+  0 kết quả; từ chối đúng
+
+Câu 58 [ngoai_pham_vi] tỉ số trận bóng đá tối qua
+  0 kết quả; từ chối đúng
+
+Câu 59 [ngoai_pham_vi] công thức làm bánh flan
+  0 kết quả; từ chối đúng
+
+Câu 60 [ngoai_pham_vi] sửa máy giặt tại nhà giá rẻ
+  0 kết quả; từ chối đúng
+
+Câu 61 [ngoai_pham_vi] học tiếng anh online miễn phí ở đâu
+  0 kết quả; từ chối đúng
+
+Câu 62 [ngoai_pham_vi] quán cà phê yên tĩnh gần đây
+  0 kết quả; từ chối đúng
+
+Câu 63 [ngoai_pham_vi] cách trồng cây hoa hồng
+  1 kết quả; SAI — lẽ ra phải rỗng
+     40%  1.000076 | Công nhận đặc cách giống cây trồng biến đổi gen.
+
+Câu 64 [ngoai_pham_vi] bài hát đang thịnh hành nhất hiện nay
+  0 kết quả; từ chối đúng
+
+Câu 65 [ngoai_pham_vi] cách buộc dây giày nhanh
+  0 kết quả; từ chối đúng
+

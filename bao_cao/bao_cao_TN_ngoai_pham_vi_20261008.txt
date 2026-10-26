@@ -1,0 +1,238 @@
+============================================================================
+ĐÁNH GIÁ TRA CỨU — CÂU HỎI TỰ NHIÊN CÓ GÁN NHÃN
+============================================================================
+Phiên bản bộ đo : TN-20260929-1
+Kho dữ liệu     : 9.451 thủ tục
+SHA256 bộ đo    : 848885458dfa8f5002e91b6635f21f769a04d10a335c0946201a1c29563f3b88
+SHA256 search.py: fd78194b544438f242174f8b8321233f29b87c6b75327b52a99de0c15e3cf5e5
+SHA256 bộ đề    : 6cd94f7d158c67d6397afea2491650450b8c4a61dd974ab632d49224ab82dbc0  (nội dung, bỏ BOM, chuẩn hóa xuống dòng)
+SHA256 kho tra cứu: 2319b44b115bce195082764a04cdfa64ab6765bd6d559537b2583b951f8de685
+Chỉ so sánh trước/sau khi bộ đề và kho giống nhau (cùng SHA256).
+
+----------------------------------------------------------------------------
+TỔNG QUAN: 60 câu; có mã đúng 0; KHONG_CO 60; chưa gán 0
+Trả về rỗng trên toàn bộ (không cần nhãn):  80.0% (48/60)
+
+----------------------------------------------------------------------------
+A. TRONG PHẠM VI — câu có mã đúng (0 câu)
+  không có câu
+
+----------------------------------------------------------------------------
+B. NGOÀI PHẠM VI — câu KHONG_CO, kết quả mong muốn là rỗng (60 câu)
+  Từ chối đúng :  80.0% (48/60)
+  Trả lời sai  :  20.0% (12/60)
+  Phần trăm cao nhất hiển thị trên câu trả lời sai: 88%; trung vị 43%
+
+----------------------------------------------------------------------------
+CHI TIẾT TỪNG CÂU
+----------------------------------------------------------------------------
+Câu 1 [ngoai_pham_vi] cách nấu canh chua cá lóc
+  0 kết quả; từ chối đúng
+
+Câu 2 [ngoai_pham_vi] mua vé máy bay giá rẻ đi đà nẵng
+  0 kết quả; từ chối đúng
+
+Câu 3 [ngoai_pham_vi] điện thoại samsung mới nhất giá bao nhiêu
+  0 kết quả; từ chối đúng
+
+Câu 4 [ngoai_pham_vi] cách học giỏi toán lớp 9
+  0 kết quả; từ chối đúng
+
+Câu 5 [ngoai_pham_vi] lịch chiếu phim hôm nay
+  0 kết quả; từ chối đúng
+
+Câu 6 [ngoai_pham_vi] tỷ giá đô la hôm nay
+  0 kết quả; từ chối đúng
+
+Câu 7 [ngoai_pham_vi] cách làm bánh mì tại nhà
+  3 kết quả; SAI — lẽ ra phải rỗng
+     31%  1.013184 | Thủ tục thực hiện chế độ điều dưỡng, phục hồi sức khỏe tại nhà đối với người có công đan
+     31%  1.002216 | Cấp phát thuốc Methadone cho người bệnh đặc biệt điều trị tại nhà
+     25%  1.002111 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với cơ sở dịch vụ chăm sóc sức
+
+Câu 8 [ngoai_pham_vi] quán phở ngon ở hà nội
+  0 kết quả; từ chối đúng
+
+Câu 9 [ngoai_pham_vi] cách cài đặt windows 11
+  0 kết quả; từ chối đúng
+
+Câu 10 [ngoai_pham_vi] tải game liên quân
+  0 kết quả; từ chối đúng
+
+Câu 11 [ngoai_pham_vi] thuê phòng trọ giá rẻ quận 7
+  0 kết quả; từ chối đúng
+
+Câu 12 [ngoai_pham_vi] mua xe máy cũ ở đâu uy tín
+  1 kết quả; SAI — lẽ ra phải rỗng
+     43%  1.004989 | Cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe mô tô, xe gắn má
+
+Câu 13 [ngoai_pham_vi] cách trị mụn tại nhà
+  3 kết quả; SAI — lẽ ra phải rỗng
+     38%  1.002216 | Cấp phát thuốc Methadone cho người bệnh đặc biệt điều trị tại nhà
+     32%  1.013184 | Thủ tục thực hiện chế độ điều dưỡng, phục hồi sức khỏe tại nhà đối với người có công đan
+     25%  1.002111 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với cơ sở dịch vụ chăm sóc sức
+
+Câu 14 [ngoai_pham_vi] bài tập giảm mỡ bụng
+  0 kết quả; từ chối đúng
+
+Câu 15 [ngoai_pham_vi] dự báo thời tiết ngày mai
+  0 kết quả; từ chối đúng
+
+Câu 16 [ngoai_pham_vi] kết quả bóng đá hôm nay
+  0 kết quả; từ chối đúng
+
+Câu 17 [ngoai_pham_vi] cách nuôi cá cảnh
+  0 kết quả; từ chối đúng
+
+Câu 18 [ngoai_pham_vi] mua laptop cũ ở đâu
+  0 kết quả; từ chối đúng
+
+Câu 19 [ngoai_pham_vi] cách viết cv xin việc
+  0 kết quả; từ chối đúng
+
+Câu 20 [ngoai_pham_vi] học lập trình python ở đâu
+  0 kết quả; từ chối đúng
+
+Câu 21 [ngoai_pham_vi] giá iphone 15 pro max
+  0 kết quả; từ chối đúng
+
+Câu 22 [ngoai_pham_vi] cách pha cà phê ngon
+  0 kết quả; từ chối đúng
+
+Câu 23 [ngoai_pham_vi] khách sạn đẹp ở đà lạt
+  0 kết quả; từ chối đúng
+
+Câu 24 [ngoai_pham_vi] tour du lịch phú quốc giá rẻ
+  0 kết quả; từ chối đúng
+
+Câu 25 [ngoai_pham_vi] cách trồng rau sạch tại nhà
+  0 kết quả; từ chối đúng
+
+Câu 26 [ngoai_pham_vi] mẹo vặt nhà bếp
+  0 kết quả; từ chối đúng
+
+Câu 27 [ngoai_pham_vi] lời bài hát mới nhất
+  0 kết quả; từ chối đúng
+
+Câu 28 [ngoai_pham_vi] cách đặt đồ ăn online
+  0 kết quả; từ chối đúng
+
+Câu 29 [ngoai_pham_vi] shop quần áo đẹp
+  0 kết quả; từ chối đúng
+
+Câu 30 [ngoai_pham_vi] cách sửa điện thoại bị vô nước
+  0 kết quả; từ chối đúng
+
+Câu 31 [ngoai_pham_vi] hôm nay ăn gì
+  0 kết quả; từ chối đúng
+
+Câu 32 [ngoai_pham_vi] xem tử vi tuổi tuất
+  0 kết quả; từ chối đúng
+
+Câu 33 [ngoai_pham_vi] cách tán gái
+  0 kết quả; từ chối đúng
+
+Câu 34 [ngoai_pham_vi] cách chơi cờ vua
+  0 kết quả; từ chối đúng
+
+Câu 35 [ngoai_pham_vi] mua bảo hiểm xe máy online ở đâu
+  3 kết quả; SAI — lẽ ra phải rỗng
+     48%  1.004989 | Cấp Giấy chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe mô tô, xe gắn má
+     41%  1.013105 | Cấp mới Giấy chứng nhận đủ điều kiện hoạt động kiểm định khí thải xe mô tô, xe gắn máy
+     41%  1.013110 | Cấp lại Giấy chứng nhận đủ điều kiện hoạt động kiểm định khí thải xe mô tô, xe gắn máy
+
+Câu 36 [ngoai_pham_vi] vay tiền online nhanh
+  0 kết quả; từ chối đúng
+
+Câu 37 [ngoai_pham_vi] cách đầu tư chứng khoán cho người mới
+  60 kết quả; SAI — lẽ ra phải rỗng
+     88%  1.007561 | Chấm dứt đầu tư gián tiếp ra nước ngoài cho quỹ đầu tư chứng khoán, công ty đầu tư chứng
+     81%  3.000578 | Thu hồi Giấy chứng nhận đăng ký đầu tư gián tiếp ra nước ngoài, đăng ký hoạt động nhận ủ
+     80%  3.000577 | Cấp Giấy chứng nhận đăng ký đầu tư gián tiếp ra nước ngoài, đăng ký hoạt động nhận ủy th
+
+Câu 38 [ngoai_pham_vi] lãi suất ngân hàng nào cao nhất
+  5 kết quả; SAI — lẽ ra phải rỗng
+     28%  3.000046 | Thủ tục hướng dẫn về hỗ trợ lãi suất vay vốn và cấp bù chênh lệch lãi suất cho các ngân 
+     28%  1.007241 | Thủ tục hướng dẫn hỗ trợ lãi suất vay vốn và cấp bù chênh lệch lãi suất do thực hiện chí
+     26%  3.000044 | Thủ tục cấp bù lãi suất do thực hiện chính sách cho vay ưu đãi lãi suất theo chương trìn
+
+Câu 39 [ngoai_pham_vi] cách kiếm tiền online
+  0 kết quả; từ chối đúng
+
+Câu 40 [ngoai_pham_vi] giá đất quận 9 hiện nay
+  0 kết quả; từ chối đúng
+
+Câu 41 [ngoai_pham_vi] cách chăm sóc trẻ sơ sinh
+  4 kết quả; SAI — lẽ ra phải rỗng
+     50%  2.001942 | Chuyển trẻ em đang được chăm sóc thay thế tại cơ sở trợ giúp xã hội đến cá nhân, gia đìn
+     50%  1.004944 | Chấm dứt việc chăm sóc thay thế cho trẻ em
+     48%  2.001944 | Thông báo nhận chăm sóc thay thế cho trẻ em đối với cá nhân, người đại diện gia đình nhậ
+
+Câu 42 [ngoai_pham_vi] bé bị sốt phải làm sao
+  0 kết quả; từ chối đúng
+
+Câu 43 [ngoai_pham_vi] uống thuốc gì khi bị cảm
+  0 kết quả; từ chối đúng
+
+Câu 44 [ngoai_pham_vi] bệnh viện nào khám tim tốt
+  0 kết quả; từ chối đúng
+
+Câu 45 [ngoai_pham_vi] trường đại học nào tốt ở tphcm
+  0 kết quả; từ chối đúng
+
+Câu 46 [ngoai_pham_vi] điểm chuẩn đại học kinh tế
+  0 kết quả; từ chối đúng
+
+Câu 47 [ngoai_pham_vi] cách xin nghỉ việc lịch sự
+  5 kết quả; SAI — lẽ ra phải rỗng
+     48%  2.000731 | Cấp giấy phép làm việc trong kỳ nghỉ cho công dân Niu-Di-Lân
+     47%  2.000725 | Cấp lại Giấy phép làm việc trong kỳ nghỉ cho công dân Niu-Di-Lân
+     45%  1.007647 | Thủ tục cấp chứng chỉ nghiệp vụ khai hải quan đối với công chức hải quan đã chuyển công 
+
+Câu 48 [ngoai_pham_vi] mẫu đơn xin nghỉ phép
+  0 kết quả; từ chối đúng
+
+Câu 49 [ngoai_pham_vi] cách viết thư tình
+  0 kết quả; từ chối đúng
+
+Câu 50 [ngoai_pham_vi] cho tôi hỏi mấy giờ rồi
+  0 kết quả; từ chối đúng
+
+Câu 51 [ngoai_pham_vi] bạn tên là gì
+  1 kết quả; SAI — lẽ ra phải rỗng
+     28%  1.001707 | Thủ tục chấp thuận thay đổi tên của tổ chức tín dụng là hợp tác xã
+
+Câu 52 [ngoai_pham_vi] kể chuyện cười đi
+  0 kết quả; từ chối đúng
+
+Câu 53 [ngoai_pham_vi] dịch câu này sang tiếng anh
+  1 kết quả; SAI — lẽ ra phải rỗng
+     25%  2.000757 | Thủ tục Chứng thực chữ ký người dịch trong các văn bản dịch từ tiếng nước ngoài sang tiế
+
+Câu 54 [ngoai_pham_vi] 1 cộng 1 bằng mấy
+  0 kết quả; từ chối đúng
+
+Câu 55 [ngoai_pham_vi] thủ đô của pháp là gì
+  40 kết quả; SAI — lẽ ra phải rỗng
+     56%  1.002941 | Cấp mới số lưu hành đối với trang thiết bị y tế là phương tiện đo nhưng không phải phê d
+     55%  1.002949 | Cấp mới số lưu hành đối với trang thiết bị y tế loại C, D là phương tiện đo phải phê duy
+     53%  1.011015 | Hoàn thuế giá trị gia tăng theo quyết định của cơ quan có thẩm quyền theo quy định của p
+
+Câu 56 [ngoai_pham_vi] ai là tổng thống mỹ
+  0 kết quả; từ chối đúng
+
+Câu 57 [ngoai_pham_vi] cách đăng ký tài khoản tiktok
+  38 kết quả; SAI — lẽ ra phải rỗng
+     75%  1.000236 | Đăng ký tài khoản điện tử
+     65%  3.000110 | Thủ tục đăng ký tài khoản người sử dụng Cổng thông tin một cửa quốc gia
+     65%  1.006478 | Thủ tục đăng ký tài khoản người sử dụng Cổng thông tin một cửa quốc gia.
+
+Câu 58 [ngoai_pham_vi] cách đăng ký gói cước mạng
+  0 kết quả; từ chối đúng
+
+Câu 59 [ngoai_pham_vi] đăng ký học lái máy bay trực thăng ở mỹ
+  0 kết quả; từ chối đúng
+
+Câu 60 [ngoai_pham_vi] làm sao để ngủ ngon
+  0 kết quả; từ chối đúng
+

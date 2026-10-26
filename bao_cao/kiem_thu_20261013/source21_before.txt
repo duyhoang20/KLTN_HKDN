@@ -1,0 +1,25 @@
+============================================================================
+ĐÁNH GIÁ TRỢ LÝ HỎI–ĐÁP — ĐỐI CHIẾU NGUỒN TOÀN KHO
+============================================================================
+Phiên bản bộ đo : TL-20261009-1
+Kho đang đo     : 9.451 bản ghi công khai
+Nguồn bản ghi   : file mau_21_thu_tuc_du_lieu_chi_tiet.json (không đọc database)
+Thủ tục có dữ liệu chi tiết: 21
+Mỗi thủ tục × 9 mục (hồ sơ, trình tự, nơi nộp, thời hạn, lệ phí, điều kiện, kết quả,
+căn cứ pháp lý, đối tượng). Nguồn đối chiếu đọc thẳng JSON gốc, không qua hàm trích của trợ lý.
+
+Mục               Dữ kiện có trong trả lời   Thủ tục thiếu dữ kiện     Dòng không căn cứ
+ho_so                     99 / 99                                0             0 / 107
+trinh_tu                  24 / 24                                0             0 / 24
+noi_nop                   82 / 82                                0             0 / 42
+thoi_han                  71 / 71                                0             0 / 71
+le_phi                   240 / 240                               0             0 / 240
+dieu_kien                  0 / 0                                 0             0 / 0
+ket_qua                   22 / 22                                0             0 / 22
+can_cu                    12 / 12                                0             0 / 12
+doi_tuong                 26 / 26                                0             0 / 26
+
+TỔNG: độ bao phủ 100.0% (576/576); dòng không có căn cứ 0/544
+
+Giới hạn: so khớp theo chuỗi; bắt được bỏ sót, cắt bớt, tách phí khỏi thời hạn;
+không đánh giá văn phong và không thay việc người đọc kiểm tra ngữ nghĩa.

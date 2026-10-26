@@ -1,0 +1,102 @@
+/* =====================================================================
+   can_bo.css — khu vực cán bộ (quan_tri.html), nạp sau giao_dien.css (14/10/2026, bản 2)
+   ===================================================================== */
+main{flex:1;padding:8px 0 64px}
+.top .r{margin-left:auto;display:flex;align-items:center;gap:18px;font-size:15px;color:#DCE3EC}
+.top .r a{color:#fff;text-decoration-color:rgba(255,255,255,.4)}
+.top .r #who{font-weight:600;color:#fff}
+.top .r button{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45);border-radius:3px;padding:6px 14px;font-size:14.5px}
+.top .r button:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+
+.card{background:var(--giay);border:1px solid var(--ke)}
+.login{max-width:440px;margin:56px auto;padding:30px 32px 32px;border-top:3px solid var(--than)}
+.login h1{font-family:var(--serif);font-weight:600;font-size:28px;line-height:1.2;color:var(--than)}
+.login p{color:var(--chu2);font-size:15px;margin:8px 0 14px}
+label.f{display:block;font-size:15px;font-weight:600;color:var(--chu);margin:14px 0 5px}
+input[type=text],input[type=password],select,textarea{width:100%}
+textarea{min-height:240px;resize:vertical;line-height:1.6}
+.err{color:var(--son);font-size:14.5px;margin-top:10px;min-height:22px}
+
+.admin-help{font-family:var(--serif);font-weight:600;font-size:28px;line-height:1.25;color:var(--than);margin-top:32px}
+.tabs{display:flex;gap:28px;margin:18px 0 22px;border-bottom:1px solid var(--ke)}
+.tabs button{border:none;background:none;padding:8px 0 10px;font-size:16px;font-weight:500;color:var(--chu2);border-bottom:3px solid transparent;margin-bottom:-1px;white-space:nowrap}
+.tabs button:hover{color:var(--than)}
+.tabs button.on{color:var(--than);font-weight:600;border-bottom-color:var(--son)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:14px}
+.bar input{max-width:340px}
+.bar select{width:auto}
+.bar .sp{margin-left:auto}
+.bar label{display:flex;align-items:center;gap:8px;font-weight:600}
+.bar .muted{font-size:14px}
+
+table.ds td b{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;font-weight:600;color:var(--than)}
+.tw.card{border-top:1.5px solid var(--than)}
+.tw.card table th{border-bottom:1px solid var(--ke)}
+th,td{padding:11px 14px}
+tbody tr:hover td{background:#FAFBFC}
+.acts{display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 14px;border-top:1px solid var(--ke2);font-size:14.5px;color:var(--chu2)}
+.pager:empty{display:none}
+#lrecent td:nth-child(1),#lrecent td:nth-child(2),#lrecent td:nth-child(5){white-space:nowrap}
+#lrecent td:nth-child(1){font-size:14px}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin-bottom:18px;background:var(--giay);border:1px solid var(--ke);border-top:1.5px solid var(--than)}
+.kpi{padding:16px 20px;border-left:1px solid var(--ke2)}
+.kpi:first-child{border-left:none}
+.kpi span{display:block;font-size:14.5px;color:var(--chu2)}
+.kpi b{display:block;font-family:var(--serif);font-weight:600;font-size:28px;line-height:1.25;color:var(--than);font-variant-numeric:tabular-nums}
+.kpi small{font-size:13.5px;color:var(--chu3)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.box{padding:18px 22px}
+.box h3{font-family:var(--serif);font-weight:600;font-size:19px;color:var(--than)}
+.box p.d{font-size:14px;color:var(--chu3);margin:4px 0 10px}
+.rows div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--ke2);font-size:15px}
+.rows div:last-child{border-bottom:none}
+.rows b{font-weight:600;font-variant-numeric:tabular-nums;color:var(--than)}
+.hb{display:grid;grid-template-columns:230px 1fr 60px;gap:12px;align-items:center;font-size:14.5px;padding:4px 0}
+.hb i{display:block;height:8px;background:var(--ke2);overflow:hidden}
+.hb u{display:block;height:100%;background:var(--than)}
+.hb span:last-child{text-align:right;color:var(--chu2);font-variant-numeric:tabular-nums}
+.days{display:flex;align-items:flex-end;gap:4px;height:120px;padding-top:8px;border-bottom:1.5px solid var(--than)}
+.days div{flex:1;max-width:34px;min-height:2px;background:var(--lk);position:relative}
+.days div:hover{background:var(--than)}
+.days div:hover::after{content:attr(data-t);position:absolute;bottom:100%;left:50%;transform:translateX(-50%);margin-bottom:4px;
+  background:var(--than);color:#fff;font-size:13px;padding:2px 8px;border-radius:2px;white-space:nowrap}
+
+.modal{position:fixed;inset:0;z-index:50;background:rgba(20,37,61,.5);display:grid;place-items:start center;padding:40px 16px;overflow:auto}
+.modal .card{width:100%;max-width:780px;padding:26px 30px;border-top:3px solid var(--than);box-shadow:0 18px 40px rgba(20,37,61,.25)}
+.modal h2{font-family:var(--serif);font-weight:600;font-size:25px;color:var(--than);margin-bottom:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+@media (max-width:860px){
+  .two,.three,.grid2{grid-template-columns:1fr}
+  .hb{grid-template-columns:130px 1fr 44px}
+  .top .r{width:100%;padding:0 0 12px;font-size:14.5px}
+}
+@media (max-width:640px){
+  .admin-help{font-size:23px;margin-top:22px}
+  .tabs{overflow-x:auto;gap:20px}
+  .bar input{max-width:none}
+  .bar .sp{margin-left:0}
+  table.ds thead{display:none}
+  table.ds tr{display:block;padding:10px 12px;border-bottom:1px solid var(--ke2)}
+  table.ds td{display:inline-block;border:none;padding:3px 6px 3px 0}
+  table.ds td:first-child,table.ds td:last-child{display:block}
+  .acts{justify-content:flex-start}
+  td,th{padding:8px}
+  .kpi{border-left:none;border-top:1px solid var(--ke2)}
+  .kpi:first-child{border-top:none}
+  .login{margin:28px auto;padding:24px 20px}
+}
+
+/* Bổ sung 21/10/2026: xem trước như người dân; nút soạn từ câu không có kết quả */
+.xem-truoc{margin-top:16px;border:1px solid var(--ke);background:var(--nen);padding:14px 16px 16px}
+.xt-nhan{font-size:13.5px;color:var(--chu3);margin-bottom:8px}
+.xt-the{background:var(--giay);border:1px solid var(--ke);padding:16px 18px}
+.xt-the h3{font-family:var(--serif);font-weight:600;font-size:21px;line-height:1.3;color:var(--than);margin:8px 0 4px}
+.xt-the h4{font-size:15px;font-weight:600;color:var(--chu);margin:14px 0 6px}
+.xt-nd{white-space:pre-line;line-height:1.65;overflow-wrap:anywhere;max-height:320px;overflow:auto}
+#l2 div{align-items:center}
+#l2 div span{flex:1}
+#l2 .soan-tu-cau{flex:none;padding:3px 10px;font-size:13.5px}

@@ -1,0 +1,57 @@
+PASS home_real_corpus_loaded: "Kho hiện có 9.454 thủ tục của 17 cơ quan, thuộc 303 lĩnh vực, lấy từ Cổng Dịch vụ công Quốc gia, cùng 1 hướng dẫn do cán bộ biên soạn."
+PASS old_suggestions_do_not_reappear_in_ask: false
+PASS suggestions_aria_open: "true"
+PASS suggestions_keyboard_active: "sug-4-0"
+PASS no_page_errors_initial: []
+PASS local_fonts_loaded: [{"url":"fonts.css","status":200},{"url":"barlow-latin-400-normal.woff2","status":200},{"url":"barlow-latin-600-normal.woff2","status":200},{"url":"barlow-latin-ext-600-normal.woff2","status":200},{"url":"barlow-latin-500-normal.woff2","status":200},{"url":"ba
+PASS detail_tabs_keyboard: "true"
+PASS raw_tab_keyboard: "true"
+PASS raw_json_exact: "All stored keys and values compared"
+PASS real_source_all_fee_rows: {"rendered":240,"source":240}
+PASS checklist_not_official_approval: "Trường hợp kiểm thử A\n2/2 đã có\nĐã đánh dấu các giấy tờ trong danh sách này\nĐã có\n\t\tGiấy tờ\tBản chính\tBản sao\n\n\t1\t\nGiấy tờ kiểm thử alpha\nbắt buộc\n\t1\t—\n\n\t2\t\nGiấy tờ kiểm thử beta\n\t—\t2"
+PASS checklist_persists: "2/2 đã có"
+PASS quantity_change_resets_checklist: "0/2 đã có"
+PASS cases_not_claimed_all_required: "Giấy tờ tự đánh dấu\nTrường hợp kiểm thử A\n0 trên 2 giấy tờ\nTrường hợp kiểm thử B\n0 trên 1 giấy tờ\n\nChọn trường hợp phù hợp với bạn rồi đánh dấu ở mục Thành phần hồ sơ. Dấu tích chỉ lưu trên trình duyệt này. Việc đánh dấu không xác nhận hồ sơ hợp lệ hoặc
+PASS staff_print_correct_source: "In từ trang Tra cứu thủ tục hành chính ngày 13/10/2026. Nguồn: Hướng dẫn do cán bộ biên soạn. Các ô đánh dấu do người dùng tự kiểm tra, không phải xác nhận của cơ quan tiếp nhận."
+PASS print_hides_controls: "Header and action panel hidden"
+PASS unsafe_title_escaped: "<img src=x onerror=\"window.__audit_xss=1\"> mẫu thoát HTML"
+PASS no_injected_image: 0
+PASS ask_detail_pinned: "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Thành phần hồ sơ. Xem toàn bộ thủ tục"
+PASS followup_returns_fee: "Nguồn: Cổng Dịch vụ công Quốc gia, thủ tục “Thủ tục kiểm thử danh sách giấy tờ”, mã KT.000001; mục Phí, lệ phí. Xem toàn bộ thủ tục"
+PASS send_disabled_while_waiting: "true"
+PASS reset_ignores_old_response: ""
+PASS width_320_home: {"viewport":320,"scroll":320}
+PASS width_320_search: {"viewport":320,"scroll":320}
+PASS width_320_detail: {"viewport":320,"scroll":320}
+PASS width_320_raw: {"viewport":320,"scroll":320}
+PASS width_320_chat: {"viewport":320,"scroll":320}
+PASS width_390_home: {"viewport":390,"scroll":390}
+PASS width_390_search: {"viewport":390,"scroll":390}
+PASS width_390_detail: {"viewport":390,"scroll":390}
+PASS width_390_raw: {"viewport":390,"scroll":390}
+PASS width_390_chat: {"viewport":390,"scroll":390}
+PASS width_768_home: {"viewport":768,"scroll":768}
+PASS width_768_search: {"viewport":768,"scroll":768}
+PASS width_768_detail: {"viewport":768,"scroll":768}
+PASS width_768_raw: {"viewport":768,"scroll":768}
+PASS width_768_chat: {"viewport":768,"scroll":768}
+PASS width_1440_home: {"viewport":1440,"scroll":1440}
+PASS width_1440_search: {"viewport":1440,"scroll":1440}
+PASS width_1440_detail: {"viewport":1440,"scroll":1440}
+PASS width_1440_raw: {"viewport":1440,"scroll":1440}
+PASS width_1440_chat: {"viewport":1440,"scroll":1440}
+PASS admin_login: "canbo_thu"
+PASS edit_published_warning: "Hướng dẫn này đang công khai. Khi lưu thay đổi, nó sẽ chuyển về bản nháp và tạm ẩn với người dân cho tới khi bạn công khai lại."
+PASS modal_closes_on_escape: "Escape"
+PASS published_edit_returns_draft: "public detail HTTP status"
+PASS admin_320_docs: {"viewport":320,"scroll":320}
+PASS admin_320_logs: {"viewport":320,"scroll":320}
+PASS admin_320_kho: {"viewport":320,"scroll":320}
+PASS admin_390_docs: {"viewport":390,"scroll":390}
+PASS admin_390_logs: {"viewport":390,"scroll":390}
+PASS admin_390_kho: {"viewport":390,"scroll":390}
+PASS admin_768_docs: {"viewport":768,"scroll":768}
+PASS admin_768_logs: {"viewport":768,"scroll":768}
+PASS admin_768_kho: {"viewport":768,"scroll":768}
+PASS admin_1440_docs: {"viewport":1440,"scroll":1440}
+PASS admin_1440_logs: {"viewport":1440,"scroll":1440}

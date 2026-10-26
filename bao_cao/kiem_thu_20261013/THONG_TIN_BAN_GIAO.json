@@ -1,0 +1,38 @@
+{
+  "input_zip_sha256": "45fb1deb31463b832a9ec7604d38e61ca664a94a882bbcba9812e003af72d5b9",
+  "backend_files_unchanged": [
+    "backend/bo_doc_csv.py",
+    "backend/doi_chieu_nguon.py",
+    "backend/.env.example",
+    "backend/requirements.txt",
+    "backend/kiem_thu_api.py",
+    "backend/danh_gia.py",
+    "backend/kiem_tra_truong.py",
+    "backend/xuat_du_lieu_danh_gia.py",
+    "backend/danh_gia_tro_ly.py",
+    "backend/test_search.py",
+    "backend/danh_gia_tu_nhien.py",
+    "backend/crawler.py",
+    "backend/test_bo_de.py",
+    "backend/app/mo_hinh_ngon_ngu.py",
+    "backend/app/main.py",
+    "backend/app/__init__.py",
+    "backend/app/database.py",
+    "backend/app/models.py",
+    "backend/app/hieu_truy_van.py",
+    "backend/app/xml_parser.py",
+    "backend/app/search.py",
+    "backend/app/tro_ly.py",
+    "backend/app/schemas.py",
+    "backend/app/quan_tri.py"
+  ],
+  "browser_original": {
+    "passed": 49,
+    "total": 59
+  },
+  "browser_final": {
+    "passed": 59,
+    "total": 59
+  },
+  "scope": "Linux Python3.10.22 SQLite isolated, Chromium153; metadata benchmark real9451, source21 attached; no Windows/PostgreSQL or realLLM"
+}

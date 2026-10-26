@@ -1,0 +1,19 @@
+MÔ PHỎNG AZURE APP SERVICE (Linux, Python 3.12) — 22/10/2026
+Cách làm: giải nén azure_deploy.zip vào thư mục trống, tạo môi trường ảo, pip install -r requirements.txt ở thư mục gốc
+(như Oryx của Azure), chạy đúng Startup Command trong tài liệu 19, database PostgreSQL 16 với ?sslmode=prefer.
+Chưa phải chạy trên Azure thật.
+
+[đóng gói] Đã tạo azure_deploy.zip: 41 tệp, 0.3 MB
+[đóng gói] SHA-256: 48b7180cfc69de44a94ec1207c19de3bb9d37eda9fea0ea5e03867ba92868f56
+[đóng gói] Đã kiểm: không có .env, không có venv, có đủ backend/app và frontend.
+
+Startup Command: cd backend && python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+GET /health   -> {"status":"ok","message":"Kết nối DB thành công","mo_hinh_ngon_ngu":null}
+GET /san-sang -> {"san_sang":true,"so_thu_tuc_cong_khai":9460}
+GET /            -> HTTP 200
+GET /quan_tri.html -> HTTP 200
+GET /api/tra-cuu?q=lam+so+do -> 10 kết quả; đầu: Điều chỉnh thời hạn sử dụng đất trên Giấy chứng nhận quyền sử dụng đất, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất  đã cấp tại thành phố Đà Nẵng
+Đăng nhập cán bộ (X-Forwarded-For dạng IP:cổng như Azure) -> có mã phiên: có
+GET /api/quan-tri/kiem-tra-ip -> {"ip_dung_cho_gioi_han":"203.0.113.5","dia_chi_ket_noi":"203.0.113.5:61234","x_forwarded_for":["203.0.113.5"],"so_muc":1,"so_proxy_tin_cay":1,"khop_cau_hinh":true,"goi_y":"Nếu bạn mở trang này bằng trình duyệt bình thường (không tự thêm header), đặt SO_PROXY_TIN_CAY=1."}
+Bộ nhớ tiến trình uvicorn sau khi nạp kho: khoảng 205 MB (gói B1 có 1,75 GB)

@@ -1,0 +1,11 @@
+Kiểm thử chuyen_du_lieu.py trên PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) — kit 21/10 bản 2
+Nguồn 'nguon' (9.461 thủ tục + 2 dòng lịch sử cán bộ). Đích 'dich3' trống. Bí danh: cùng 'nguon' viết bằng 127.0.0.1 + postgres:// + ?sslmode=disable.
+
+nguồn: (9461, 99010) | lịch sử cán bộ ở nguồn: 2
+1 bí danh cùng database: dừng — Nguồn và đích là CÙNG một database PostgreSQL (chuỗi kết nối viết khác nhau nhưng trỏ cùng chỗ). Dừng, không xóa và không chép gì.
+   nguồn sau: (9461, 99010) giữ nguyên
+2 chép vào database trống, mã thoát: 0 | ['guidance_documents: nguồn 9461, đích 9461; nội dung SHA-256 TRÙNG (4991e98a4837…); thời điểm TRÙNG', 'thao_tac_can_bo: nguồn 2, đích 2; nội dung SHA-256 TRÙNG (9a91147bea9c…); thời điểm TRÙNG']
+   id tiếp theo: 99011 | max id: 99010 | lịch sử cán bộ ở đích: 2
+3 chạy lại khi đã giống hệt: dừng — Mọi bảng ở đích đã giống hệt nguồn. Không cần chép lại; không xóa gì.
+4 lỗi ở bảng thứ hai (sau khi đã chép xong bảng thủ tục): đích ((9456, 99010), (1, 3)) giữ nguyên | bộ đếm id 500000 → 500000 giữ nguyên
+5 thay dữ liệu đích, mã thoát: 0 | bộ đếm id sau khi lưu: 99010 | max id: 99010 | lịch sử: 2

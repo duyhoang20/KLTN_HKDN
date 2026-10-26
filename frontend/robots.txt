@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /quan_tri.html
+Disallow: /quan-tri
+Disallow: /api/

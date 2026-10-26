@@ -1,0 +1,66 @@
+﻿stt,cau_hoi,loai,ma_thu_tuc_dung,ghi_chu
+1,làm hộ chiếu cần những gì,tu_nhien,1.001471; 1.001456; 1.010381; 1.010383,"AI đề xuất 30/09, chưa duyệt. Cấp hộ chiếu phổ thông ở trong nước (có và không gắn chíp; cấp tỉnh và trung ương)"
+2,hộ chiếu hết hạn thì làm lại thế nào,tu_nhien,1.001471; 1.001456; 1.010381; 1.010383; 1.001198; 1.004182,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: hộ chiếu hết hạn làm theo thủ tục cấp mới hay cấp lại — mình tính cả hai"
+3,tôi muốn đăng ký khai sinh cho con,tu_nhien,1.001193; 2.001023; 2.000986; 3.000722; 2.002868,"AI đề xuất 30/09, chưa duyệt. Đăng ký khai sinh và các thủ tục liên thông khai sinh cho trẻ dưới 6 tuổi"
+4,con tôi sinh ra ở nước ngoài thì đăng ký khai sinh ở đâu,tu_nhien,1.001020; 2.000528; 2.000712,"AI đề xuất 30/09, chưa duyệt. Khai sinh tại cơ quan đại diện; khai sinh có yếu tố nước ngoài; ghi chú khai sinh đã đăng ký ở nước ngoài"
+5,thủ tục đăng ký kết hôn với người nước ngoài như thế nào,tu_nhien,2.000806; 1.000094; 2.000682,"AI đề xuất 30/09, chưa duyệt. Đăng ký kết hôn có yếu tố nước ngoài (kể cả khu vực biên giới và tại cơ quan đại diện)"
+6,xin giấy xác nhận tình trạng hôn nhân để lấy chồng,tu_nhien,1.004873; 2.000689,"AI đề xuất 30/09, chưa duyệt. Xác nhận tình trạng hôn nhân (trong nước; khi cư trú ở nước ngoài)"
+7,đăng ký khai tử cho người thân mới mất,tu_nhien,1.000656; 2.002869; 2.002913,"AI đề xuất 30/09, chưa duyệt. Đăng ký khai tử và liên thông khai tử"
+8,xin phiếu lý lịch tư pháp ở đâu,tu_nhien,3.000333; 3.000330,"AI đề xuất 30/09, chưa duyệt. Phiếu LLTP cho cá nhân tự yêu cầu; các thủ tục theo yêu cầu cơ quan nhà nước/tố tụng không tính"
+9,chuyển hộ khẩu về quê,dong_nghia,1.004222; 1.004370,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: theo Luật Cư trú 2020 'chuyển hộ khẩu' nay là đăng ký thường trú nơi mới; thủ tục cũ 'Cấp giấy chuyển hộ khẩu' không tính"
+10,nhập hộ khẩu cho vợ về nhà chồng,dong_nghia,1.004222; 1.004370,"AI đề xuất 30/09, chưa duyệt. Nhập hộ khẩu = đăng ký thường trú"
+11,tôi muốn đăng ký tạm trú cho người thuê trọ,tu_nhien,1.004194,"AI đề xuất 30/09, chưa duyệt. Đăng ký tạm trú"
+12,khai báo tạm vắng khi đi làm xa,tu_nhien,1.003677,"AI đề xuất 30/09, chưa duyệt. Khai báo tạm vắng"
+13,bị mất căn cước công dân phải làm gì,tu_nhien,1.014064; 2.000377; 1.000757; 2.001194; 1.116410; 1.116407; 1.116405,"AI đề xuất 30/09, chưa duyệt. Cấp lại thẻ căn cước (mất thẻ); cấp đổi không tính"
+14,làm lại chứng minh nhân dân bị hỏng,dong_nghia,1.014063; 2.000408; 1.000889; 2.001195; 1.116410; 1.116407; 1.116405,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: CMND không còn cấp; thẻ hỏng làm cấp đổi thẻ căn cước. Thủ tục 'Đổi CMND 9 số' cũ không tính"
+15,đổi giấy phép lái xe bị hết hạn,tu_nhien,3.000347; 1.115978; 3.000348,"AI đề xuất 30/09, chưa duyệt. Đổi GPLX dân sự (Bộ Công an); cấp lại khi quá hạn lâu. Thủ tục của Bộ Quốc phòng dành cho GPLX quân sự không tính"
+16,đổi bằng lái xe quốc tế,dong_nghia,3.000353; 3.000351,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: câu mơ hồ — cấp GPLX quốc tế hoặc đổi bằng lái nước ngoài"
+17,đăng ký biển số cho xe máy mới mua,tu_nhien,1.010910; 1.000781; 1.000377; 1.013067; 1.012575; 1.013066; 1.115970,"AI đề xuất 30/09, chưa duyệt. Đăng ký, cấp biển số xe lần đầu"
+18,sang tên xe ô tô cũ mua lại,tu_nhien,1.013076; 1.000540; 2.000404; 2.000076; 1.004000; 2.000396,"AI đề xuất 30/09, chưa duyệt. Đăng ký sang tên xe (ô tô); thủ tục riêng cho mô tô không tính"
+19,cho tôi hỏi cách đăng ký kinh doanh hộ cá thể,dong_nghia,1.001612,"AI đề xuất 30/09, chưa duyệt. Đăng ký thành lập hộ kinh doanh"
+20,tạm ngừng kinh doanh hộ gia đình,tu_nhien,1.001570,"AI đề xuất 30/09, chưa duyệt. Tạm ngừng kinh doanh của hộ kinh doanh"
+21,thành lập công ty trách nhiệm hữu hạn một thành viên,tu_nhien,2.001583,"AI đề xuất 30/09, chưa duyệt. Đăng ký thành lập công ty TNHH một thành viên — tên dùng 'TNHH' viết tắt nên không có trong danh sách ứng viên"
+22,giải thể doanh nghiệp thì cần làm gì,tu_nhien,2.002023,"AI đề xuất 30/09, chưa duyệt. Giải thể doanh nghiệp (thông thường)"
+23,đăng ký mã số thuế cá nhân lần đầu,tu_nhien,1.008498; 1.007568; 1.007567; 1.010245; 1.008497; 1.010241; 1.010695,"AI đề xuất 30/09, chưa duyệt. Đăng ký thuế lần đầu cho cá nhân không kinh doanh"
+24,quyết toán thuế thu nhập cá nhân,tu_nhien,1.008309; 2.002258; 1.014976,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: kho không có thủ tục quyết toán dành riêng cho cá nhân làm công; tính cả thủ tục của tổ chức trả thu nhập và hộ kinh doanh"
+25,hoàn thuế giá trị gia tăng cho doanh nghiệp,tu_nhien,1.007037; 1.007039,"AI đề xuất 30/09, chưa duyệt. Hoàn thuế GTGT của doanh nghiệp; hoàn thuế GTGT hàng xuất khẩu"
+26,muốn xin giấy phép xây dựng nhà ở thì làm sao,tu_nhien,1.013225,"AI đề xuất 30/09, chưa duyệt. Giấy phép xây dựng mới công trình cấp III, IV và nhà ở riêng lẻ của hộ gia đình, cá nhân"
+27,xin cấp sổ đỏ lần đầu,dong_nghia,1.012814; 1.013978; 1.012754; 1.012753,"AI đề xuất 30/09, chưa duyệt. Đăng ký đất đai, cấp GCN quyền sử dụng đất lần đầu"
+28,sang tên sổ đỏ khi mua bán đất,dong_nghia,1.012765; 1.013831; 1.012787,"AI đề xuất 30/09, chưa duyệt. Đăng ký biến động do chuyển nhượng; cấp GCN cho người nhận chuyển nhượng"
+29,xin giấy phép kinh doanh karaoke,tu_nhien,1.001029; 1.000903; 1.014475,"AI đề xuất 30/09, chưa duyệt. Cấp giấy phép đủ điều kiện kinh doanh karaoke (không tính điều chỉnh)"
+30,mở phòng khám tư nhân cần giấy phép gì,tu_nhien,1.003876; 1.003803; 1.001793; 1.003515; 1.003535,"AI đề xuất 30/09, chưa duyệt. Cấp giấy phép hoạt động phòng khám đa khoa, chuyên khoa, bác sĩ gia đình"
+31,xin chứng chỉ hành nghề dược,tu_nhien,1.004616; 1.014084; 1.014092; 1.004534,"AI đề xuất 30/09, chưa duyệt. Cấp Chứng chỉ hành nghề dược lần đầu"
+32,giấy chứng nhận an toàn thực phẩm cho quán ăn,tu_nhien,1.013855; 1.002425,"AI đề xuất 30/09, chưa duyệt. GCN đủ điều kiện ATTP cho cơ sở kinh doanh dịch vụ ăn uống (Bộ Y tế)"
+33,hưởng trợ cấp thất nghiệp,tu_nhien,1.001978; 1.014320; 1.014748,"AI đề xuất 30/09, chưa duyệt. Giải quyết hưởng trợ cấp thất nghiệp"
+34,rút bảo hiểm xã hội một lần,tu_nhien,1.014173; 1.000840,"AI đề xuất 30/09, chưa duyệt. Hưởng BHXH một lần; thủ tục riêng cho quân nhân không tính"
+35,xin trợ cấp cho người có công với cách mạng,tu_nhien,1.013745,"AI đề xuất 30/09, chưa duyệt. Xác nhận và giải quyết chế độ ưu đãi người có công với cách mạng"
+36,xác nhận liệt sĩ cho người thân,tu_nhien,2.001273; 2.001943; 1.008241; 2.001176; 1.013174; 1.013181,"AI đề xuất 30/09, chưa duyệt. Các thủ tục xác nhận, công nhận liệt sĩ"
+37,cấp lại bằng tốt nghiệp bị mất,dong_nghia,2.002850; 3.000465; 1.005092; 1.010025; 3.000467,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: cấp lại văn bằng; cấp bản sao văn bằng từ sổ gốc (cách phổ biến khi mất bằng)"
+38,xin học bổng đi du học,tu_nhien,1.005086,"AI đề xuất 30/09, chưa duyệt. Tuyển sinh đi học nước ngoài bằng học bổng ngân sách nhà nước"
+39,chuyển trường cho học sinh trung học,tu_nhien,1.004831; 2.002481; 1.000270; 2.002478; 2.002854,"AI đề xuất 30/09, chưa duyệt. Chuyển trường THCS, THPT"
+40,thành lập trường mầm non tư thục,tu_nhien,2.002891; 1.012961; 1.004494,"AI đề xuất 30/09, chưa duyệt. Thành lập hoặc cho phép thành lập trường mầm non"
+41,xin visa cho người nước ngoài vào việt nam,dong_nghia,1.003342; 1.001194; 1.002756; 1.002757; 1.000612; 2.000329,"AI đề xuất 30/09, chưa duyệt. Visa = thị thực; cấp thị thực trong nước, điện tử, tại cơ quan đại diện, tại cửa khẩu"
+42,gia hạn tạm trú cho người nước ngoài,tu_nhien,1.003326; 1.001146; 1.002755; 1.000771; 1.002411; 1.000039,"AI đề xuất 30/09, chưa duyệt. Gia hạn tạm trú cho người nước ngoài"
+43,cấp giấy phép lao động cho người nước ngoài,tu_nhien,2.000205; 2.000233; 1.013720; 1.014199; 2.000907,"AI đề xuất 30/09, chưa duyệt. Cấp giấy phép lao động cho người nước ngoài (kể cả chuyên gia KH&CN)"
+44,đăng ký nhãn hiệu cho sản phẩm,tu_nhien,1.015002,"AI đề xuất 30/09, chưa duyệt. Thủ tục đăng ký nhãn hiệu"
+45,xin giấy phép nhập khẩu thuốc bảo vệ thực vật,tu_nhien,1.003971,"AI đề xuất 30/09, chưa duyệt. Cấp giấy phép nhập khẩu thuốc bảo vệ thực vật"
+46,chứng thực bản sao giấy tờ,tu_nhien,2.000815; 1.001606,"AI đề xuất 30/09, chưa duyệt. Chứng thực bản sao từ bản chính"
+47,khieu nai quyet dinh hanh chinh,khong_dau,1.000178; 1.003387; 1.003504; 1.004335,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: kho chỉ có thủ tục khiếu nại quyết định hành chính trong lực lượng Công an; không thấy thủ tục khiếu nại chung"
+48,cap lai giay khai sinh bi mat,khong_dau,2.000635; 1.004884,"AI đề xuất 30/09, chưa duyệt. CẦN DUYỆT: mất giấy khai sinh thì xin bản sao trích lục; đăng ký lại khai sinh nếu sổ gốc cũng mất"
+49,dang ky thuong tru,khong_dau,1.004222; 1.004370; 2.002180; 1.003424,"AI đề xuất 30/09, chưa duyệt. Đăng ký thường trú"
+50,xin giay phep ban le ruou,khong_dau,2.000620,"AI đề xuất 30/09, chưa duyệt. Cấp giấy phép bán lẻ rượu"
+51,cách nấu phở bò,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+52,hôm nay trời có mưa không,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+53,mua điện thoại iPhone ở đâu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+54,giá vàng hôm nay bao nhiêu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+55,kết quả xổ số miền nam hôm qua,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+56,cách giảm cân nhanh trong một tuần,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+57,phim hay chiếu rạp tuần này,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+58,tỉ số trận bóng đá tối qua,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+59,công thức làm bánh flan,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+60,sửa máy giặt tại nhà giá rẻ,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+61,học tiếng anh online miễn phí ở đâu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+62,quán cà phê yên tĩnh gần đây,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+63,cách trồng cây hoa hồng,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+64,bài hát đang thịnh hành nhất hiện nay,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+65,cách buộc dây giày nhanh,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn

@@ -1,0 +1,52 @@
+==============================================================================
+HỎI LẠI KHI CÁC THỦ TỤC GẦN GIỐNG NHAU — TÁC DỤNG TRÊN CÁC BỘ CÂU HỎI
+==============================================================================
+Kho: 9451 thủ tục công khai. Tham số: NGUONG_GAN_NHAU=0.9, SO_TU_KHAC_BIET=3, ngưỡng trả lời 60%.
+Nhãn: AI đề xuất, CHƯA được người duyệt.
+
+Phát triển (dùng để chọn tham số) — bo_de_phat_trien_NHAN_DE_XUAT.csv (SHA 0edbc34a0bd8): 50 câu trong phạm vi, 15 câu ngoài phạm vi
+                                                 TẮT quy tắc   BẬT quy tắc
+  Trả lời đúng thủ tục                                    28            21
+  Trả lời SAI thủ tục (khẳng định nhầm)                   12             4
+  Hỏi lại (câu trong phạm vi)                             10            25
+    trong đó lựa chọn có thủ tục đúng                     10            24
+  Từ chối nhầm câu trong phạm vi                           0             0
+  Câu ngoài phạm vi vẫn bị trả lời                         0             0
+  Tỉ lệ đúng trong các câu trả lời thẳng               70.0%         84.0%
+  Có đáp án đúng sau tối đa một lần chọn                  38            45
+
+Kiểm tra độc lập — bo_de_kiem_tra_doc_lap.csv (SHA a9707572bc2a): 32 câu trong phạm vi, 15 câu ngoài phạm vi
+                                                 TẮT quy tắc   BẬT quy tắc
+  Trả lời đúng thủ tục                                    20            19
+  Trả lời SAI thủ tục (khẳng định nhầm)                    5             2
+  Hỏi lại (câu trong phạm vi)                              7            11
+    trong đó lựa chọn có thủ tục đúng                      5             7
+  Từ chối nhầm câu trong phạm vi                           0             0
+  Câu ngoài phạm vi vẫn bị trả lời                         1             1
+  Tỉ lệ đúng trong các câu trả lời thẳng               80.0%         90.5%
+  Có đáp án đúng sau tối đa một lần chọn                  25            26
+
+Trợ lý (60 câu) — bo_de_tro_ly.csv (SHA 29ebb560b5f8): 30 câu trong phạm vi, 30 câu ngoài phạm vi
+                                                 TẮT quy tắc   BẬT quy tắc
+  Trả lời đúng thủ tục                                    23            20
+  Trả lời SAI thủ tục (khẳng định nhầm)                    6             3
+  Hỏi lại (câu trong phạm vi)                              1             7
+    trong đó lựa chọn có thủ tục đúng                      1             6
+  Từ chối nhầm câu trong phạm vi                           0             0
+  Câu ngoài phạm vi vẫn bị trả lời                         1             1
+  Tỉ lệ đúng trong các câu trả lời thẳng               79.3%         87.0%
+  Có đáp án đúng sau tối đa một lần chọn                  24            26
+
+Ngoài phạm vi (60 câu) — bo_de_ngoai_pham_vi_60.csv (SHA 72e3e4aff70c): 0 câu trong phạm vi, 60 câu ngoài phạm vi
+                                                 TẮT quy tắc   BẬT quy tắc
+  Trả lời đúng thủ tục                                     0             0
+  Trả lời SAI thủ tục (khẳng định nhầm)                    0             0
+  Hỏi lại (câu trong phạm vi)                              0             0
+    trong đó lựa chọn có thủ tục đúng                      0             0
+  Từ chối nhầm câu trong phạm vi                           0             0
+  Câu ngoài phạm vi vẫn bị trả lời                         2             1
+  Tỉ lệ đúng trong các câu trả lời thẳng                   —             —
+  Có đáp án đúng sau tối đa một lần chọn                   0             0
+
+Cách đọc: quy tắc đổi một phần câu trả lời thẳng thành câu hỏi lại. Lợi: ít khẳng định nhầm hơn.
+Giá: người dùng phải bấm chọn thêm một lần ở các câu đó; một số câu vốn trả lời đúng cũng bị hỏi lại.

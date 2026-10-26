@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tra cứu thủ tục hành chính</title>
+<meta name="description" content="Tra cứu thủ tục hành chính từ dữ liệu Cổng Dịch vụ công Quốc gia, có trợ lý trả lời kèm nguồn." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 34'%3E%3Crect width='30' height='34' rx='3' fill='%2314253D'/%3E%3Cpath d='M7 5h11l5 5v19H7z' fill='none' stroke='%23fff' stroke-width='1.8'/%3E%3Cpath d='M11 15h8M11 19h8M11 23h5' stroke='%23fff' stroke-width='1.8'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="fonts/fonts.css" />
+<link rel="stylesheet" href="giao_dien.css" />
+<link rel="stylesheet" href="cong_dan.css" />
+</head>
+<body class="page-public">
+<a href="#noiDung" class="skip-link" id="skipLink">Chuyển đến nội dung chính</a>
+<div class="tien-ich"><div class="wrap"><b>Sản phẩm đồ án tốt nghiệp</b>, không phải cổng dịch vụ công chính thức<span class="dai">; trang chỉ tra cứu thông tin, không tiếp nhận hồ sơ</span>.</div></div>
+<header class="top"><div class="wrap top-in">
+  <a class="brand" href="#/" aria-label="Tra cứu thủ tục hành chính, về trang đầu">
+    <svg width="30" height="34" viewBox="0 0 30 34" aria-hidden="true"><path d="M5 2.5h14l6.5 6.5v22.5H5z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M19 2.5V9h6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.5 15h11M9.5 19.5h11M9.5 24h7" stroke="currentColor" stroke-width="1.6"/></svg>
+    <span><span class="brand-ten">Tra cứu thủ tục</span><span class="brand-phu">Hồ sơ, lệ phí, thời hạn và nơi nộp, theo dữ liệu có nguồn</span></span>
+  </a>
+  <nav class="menu" aria-label="Điều hướng chính">
+    <a href="#/" data-nav="home">Tra cứu</a>
+    <a href="#/duyet" data-nav="list">Danh mục</a>
+    <a href="#/tro-ly" data-nav="chat">Hỏi trợ lý</a>
+    <a href="quan_tri.html" class="staff">Khu vực cán bộ</a>
+  </nav>
+</div></header>
+
+<div class="hero" id="hero"><div class="wrap hero-in">
+  <div>
+    <h1>Tra cứu thủ tục hành chính</h1>
+    <span class="gach" aria-hidden="true"></span>
+    <p class="sub">Tìm thủ tục theo tên, xem giấy tờ cần chuẩn bị, lệ phí, thời hạn giải quyết và nơi nộp. Trợ lý trả lời theo từng mục và ghi rõ nguồn để đối chiếu.</p>
+    <div class="sbox">
+      <div class="seg" role="tablist" aria-label="Cách tra cứu">
+        <button id="mSearch" class="on" role="tab" aria-selected="true">Tìm thủ tục</button>
+        <button id="mAsk" role="tab" aria-selected="false">Hỏi trợ lý</button>
+      </div>
+      <label class="search-label" for="q" id="qLabel">Nhập tên thủ tục cần tra cứu</label>
+      <div class="sfield">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5" stroke-linecap="round"/></svg>
+        <input id="q" maxlength="500" type="text" autocomplete="off" role="combobox" aria-autocomplete="list" aria-controls="sug" aria-expanded="false" placeholder="Ví dụ: đăng ký khai sinh" />
+        <button id="go"><span id="goTxt">Tra cứu</span></button>
+      </div>
+      <div class="sug hidden" id="sug" role="listbox" aria-label="Gợi ý thủ tục"></div>
+    </div>
+    <div class="egs" id="egs"></div>
+    <p class="nums" id="nums"></p>
+    <p class="ghi hidden" id="hieuNote">Chế độ hiện tại tìm theo câu gốc; chuyển đổi cách gọi thông thường đang tắt.</p>
+  </div>
+  <aside class="cach-dung" aria-labelledby="cdT">
+    <h2 id="cdT">Cách tra cứu</h2>
+    <ol class="buoc">
+      <li><b>Nhập tên thủ tục</b> hoặc tên giấy tờ cần làm. Gõ có dấu hay không dấu đều được.</li>
+      <li><b>Chọn đúng thủ tục</b> theo cơ quan và cấp thực hiện, vì nhiều thủ tục có tên gần giống nhau.</li>
+      <li><b>Xem hồ sơ, lệ phí, thời hạn</b> và đánh dấu giấy tờ đã có trước khi đi nộp.</li>
+    </ol>
+    <div class="meo"><p>Một số cách gõ:</p><ul id="meo"></ul></div>
+  </aside>
+</div></div>
+
+<main id="noiDung" tabindex="-1"><div class="wrap">
+  <!-- TRANG ĐẦU -->
+  <div id="vHome">
+    <section class="khoi">
+      <div class="khoi-dau"><h2>Tra cứu theo nhu cầu</h2><p class="ghi">Các thủ tục được nhóm theo việc trong đời sống. Bấm vào tên để xem các thủ tục liên quan.</p></div>
+      <div class="nhom-viec" id="suKien"></div>
+    </section>
+    <section class="khoi">
+      <div class="khoi-dau"><h2>Tra cứu theo cơ quan <small id="agNote"></small></h2><p class="ghi">Số bên phải là số thủ tục đang công khai của cơ quan đó.</p></div>
+      <div class="mucluc" id="ags"></div>
+    </section>
+    <section class="luu-y" aria-labelledby="luuYT">
+      <h2 id="luuYT">Lưu ý khi sử dụng</h2>
+      <dl>
+        <dt>Nguồn dữ liệu</dt><dd>Thủ tục lấy từ Cổng Dịch vụ công Quốc gia và hiển thị đúng giá trị gốc. Hướng dẫn do cán bộ biên soạn có nhãn riêng. Mỗi thủ tục có chế độ “Nguyên bản API” để đối chiếu.</dd>
+        <dt>Trợ lý tra cứu</dt><dd>Trợ lý trích nguyên mục dữ liệu được hỏi và ghi tên, mã thủ tục đã dùng. Hãy kiểm tra đúng thủ tục, đối tượng và cấp thực hiện trước khi sử dụng câu trả lời.</dd>
+        <dt>Trước khi đi nộp</dt><dd>Thông tin có giá trị tham khảo. Quy định có thể thay đổi sau lần cập nhật dữ liệu; hãy đối chiếu với cơ quan tiếp nhận hồ sơ.</dd>
+      </dl>
+    </section>
+  </div>
+  <!-- DANH SÁCH -->
+  <div id="vList" class="hidden">
+    <div class="cols">
+      <aside class="side" id="side" aria-label="Bộ lọc">
+        <button class="ftog" id="ftog" type="button" aria-expanded="false"><span>Bộ lọc</span><span aria-hidden="true">+</span></button>
+        <div class="fbody">
+          <label class="fh" for="fAg">Cơ quan</label>
+          <select id="fAg"><option value="">Tất cả cơ quan</option></select>
+          <label class="fh" for="fCat">Lĩnh vực</label>
+          <select id="fCat"><option value="">Tất cả lĩnh vực</option></select>
+          <div id="capBox">
+            <label class="fh" for="fCap">Cấp thực hiện</label>
+            <select id="fCap"><option value="">Mọi cấp</option><option value="xa">Cấp xã</option><option value="tinh">Cấp tỉnh</option><option value="bo">Cấp bộ</option><option value="nganh_doc">Cơ quan ngành dọc</option><option value="khac">Cơ quan khác</option></select>
+          </div>
+          <fieldset id="kieuBox">
+            <legend class="fh">Mức độ khớp với tên thủ tục</legend>
+            <label class="r"><input type="radio" name="kieu" value="tat_ca" checked><span>Tất cả kết quả<small>xếp theo độ phù hợp</small></span></label>
+            <label class="r"><input type="radio" name="kieu" value="du_tu"><span>Có đủ các từ khóa<small>không cần đúng thứ tự</small></span></label>
+            <label class="r"><input type="radio" name="kieu" value="cum"><span>Khớp nguyên cụm<small>các từ liền nhau, đúng thứ tự</small></span></label>
+          </fieldset>
+          <button class="lnk hidden" id="clr">Bỏ tất cả bộ lọc</button>
+        </div>
+      </aside>
+      <div>
+        <div class="lhead"><h1 id="lTitle"></h1><span id="lMeta"></span></div>
+        <div id="lNotes"></div>
+        <div id="hits" class="ds"></div>
+        <div class="pager hidden" id="pager"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHI TIẾT -->
+  <div id="vDetail" class="hidden"></div>
+
+  <!-- TRỢ LÝ -->
+  <div id="vChat" class="hidden"><div class="chat">
+    <div class="chat-head">
+      <div><h1>Hỏi trợ lý tra cứu</h1><p id="chatSub">Hỏi về hồ sơ, lệ phí, thời hạn hoặc nơi nộp của một thủ tục. Câu trả lời được trích từ dữ liệu và ghi rõ nguồn.</p></div>
+      <button class="btn phu sm hidden" id="chatNew">Bắt đầu cuộc hỏi mới</button>
+    </div>
+    <div id="chatIntro">
+      <p class="ghi">Trợ lý tìm thủ tục phù hợp rồi trích đúng mục được hỏi: hồ sơ, lệ phí, thời hạn, nơi nộp hoặc trình tự. Mục nào dữ liệu gốc để trống, trợ lý nói là để trống, không tự điền.</p>
+      <h2>Câu hỏi mẫu</h2>
+      <div class="starters" id="starters"></div>
+    </div>
+    <div class="msgs" id="msgs" aria-live="polite"></div>
+    <form class="composer" id="composer">
+      <label class="sr" for="cq">Câu hỏi</label>
+      <input id="cq" maxlength="500" autocomplete="off" placeholder="Ví dụ: đăng ký tạm trú cần giấy tờ gì" />
+      <button class="btn" type="submit">Gửi câu hỏi</button>
+    </form>
+  </div></div>
+</div></main>
+
+<footer><div class="wrap">
+  <p><b>Nguồn dữ liệu:</b> Cổng Dịch vụ công Quốc gia; hướng dẫn do cán bộ biên soạn được ghi nhãn riêng. Nội dung được sắp xếp lại cho dễ đọc nhưng giữ nguyên giá trị. Thông tin mang tính tham khảo, không thay thế hướng dẫn của cơ quan có thẩm quyền.<br>
+     Đồ án học kỳ doanh nghiệp, Đại học UEH – Trường Công nghệ và Thiết kế, năm 2026.</p>
+  <div class="lk"><a href="quan_tri.html">Khu vực cán bộ</a><a href="docs" id="apiDocs">Tài liệu API cho lập trình viên</a></div>
+</div></footer>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+/* Khi mở qua máy chủ (http://127.0.0.1:8000/) thì gọi API cùng địa chỉ.
+   Khi mở trực tiếp file HTML thì gọi máy chủ mặc định ở cổng 8000. */
+const API = location.protocol==="file:" ? "http://127.0.0.1:8000" : "";
+const $=i=>document.getElementById(i);
+const PAGE=10;
+const TEN_TRANG="Tra cứu thủ tục hành chính";
+let F={agencies:[],categories_by_agency:{},all_categories:[]};
+let MODE_Q="search";                 // search | ask  (chế độ của ô nhập ở đầu trang)
+let CUR=null, MODE="doc";            // chi tiết: doc = hướng dẫn, raw = nguyên bản API
+let LIST_SEQ=0, DETAIL_SEQ=0, SUG_SEQ=0, CHAT_SEQ=0, sugIdx=-1, sugTimer=null;   // chỉ phản hồi mới nhất được vẽ lên màn hình
+let LAST={items:[],q:"",words:[]};   // kết quả tra cứu gần nhất (để phân trang tại chỗ)
+let CHAT_CTX=null;                   // id thủ tục vừa được trợ lý trả lời (hỏi tiếp)
+const IT_CHUYEN_DONG=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const esc=s=>(s==null?"":String(s)).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nfm=n=>Number(n||0).toLocaleString("vi-VN");
+const isObj=v=>v&&typeof v==="object"&&!Array.isArray(v);
+const arr=v=>v==null||v===""?[]:(Array.isArray(v)?v:[v]);
+const txt=v=>(v==null?"":String(v)).trim();
+const nfc=s=>(s==null?"":String(s)).normalize("NFC");
+const bare=c=>c.normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/đ/g,"d").replace(/Đ/g,"D").toLowerCase();
+const ICON={
+  back:'<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M9 2L4 7l5 5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>',
+  seal:'<svg width="20" height="22" viewBox="0 0 20 22" aria-hidden="true"><path d="M3 1.5h10l4 4v15H3z" fill="none" stroke="#14253D" stroke-width="1.5"/><path d="M6 9.5l2 2 4-4.5M6 15h8" fill="none" stroke="#14253D" stroke-width="1.5"/></svg>'};
+
+/* Tô sáng từ khóa trong tên thủ tục. Truy vấn có dấu thì so có dấu; truy vấn
+   không dấu thì so sau khi bỏ dấu. Chỉ là trình bày, không đổi nội dung. */
+function hl(title,words){
+  const t=nfc(title);
+  if(!words||!words.length)return esc(t);
+  const accent=words.some(w=>bare(w)!==w.toLowerCase());
+  const key=s=>accent?s.toLowerCase():[...s].map(bare).join("");
+  const hay=[...t].map(c=>accent?c.toLowerCase():bare(c));
+  if(hay.some(c=>c.length!==1))return esc(t);
+  const H=hay.join(""), on=new Array(t.length).fill(false);
+  for(const w of words){
+    const k=key(nfc(w)); if(k.length<2)continue;
+    let i=-1;
+    while((i=H.indexOf(k,i+1))>=0){
+      const before=i===0||!/[0-9a-zà-ỹđ]/i.test(H[i-1]), after=i+k.length>=H.length||!/[0-9a-zà-ỹđ]/i.test(H[i+k.length]);
+      if(before&&after)for(let j=i;j<i+k.length;j++)on[j]=true;
+    }
+  }
+  let out="",open=false; const ch=[...t];
+  if(ch.length!==t.length)return esc(t);
+  for(let i=0;i<ch.length;i++){
+    if(on[i]&&!open){out+="<mark>";open=true;} if(!on[i]&&open){out+="</mark>";open=false;}
+    out+=esc(ch[i]);
+  }
+  return out+(open?"</mark>":"");
+}
+/* Sửa 20/10 bản 3 (F20, F22): có hạn chờ; phân biệt quá lượt (429), lỗi máy chủ, hết giờ và mất mạng.
+   Chỉ nhắc địa chỉ 127.0.0.1:8000 khi đang chạy trên máy cá nhân. */
+const LOCAL=location.protocol==="file:"||/^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+const HAN_CHO_MS=75000;   // máy chủ miễn phí “ngủ” cần khoảng một phút để thức dậy
+async function getJSON(url,opt={}){
+  const ac=new AbortController(); let hetGio=false;
+  const hen=setTimeout(()=>{hetGio=true;ac.abort();},HAN_CHO_MS);
+  if(opt.signal){if(opt.signal.aborted)ac.abort();else opt.signal.addEventListener("abort",()=>ac.abort(),{once:true});}
+  /* Sửa 21/10 bản 2: hạn chờ bao cả lúc đọc nội dung phản hồi. */
+  try{
+    const r=await fetch(API+url,{...opt,signal:ac.signal});
+    if(!r.ok){const e=new Error(`HTTP ${r.status}`);e.status=r.status;throw e;}
+    return await r.json();
+  }catch(e){
+    if(e.status)throw e;
+    if(hetGio){const t=new Error("Hết thời gian chờ");t.status=0;t.hetGio=true;throw t;}
+    if(e.name==="AbortError")throw e;                 // người dùng tự hủy (bắt đầu cuộc hỏi mới)
+    const n=new Error("Mất kết nối");n.status=0;throw n;
+  }finally{clearTimeout(hen);}
+}
+function loiMang(e){
+  const st=e&&e.status;
+  if(st===429)return "Bạn gửi quá nhiều yêu cầu trong một phút. Vui lòng chờ khoảng một phút rồi thử lại.";
+  if(e&&e.hetGio)return "Máy chủ phản hồi quá lâu. Nếu trang vừa được mở sau một thời gian không ai dùng, máy chủ có thể đang khởi động; chờ khoảng một phút rồi thử lại.";
+  if(st>=500)return "Máy chủ đang gặp lỗi. Vui lòng thử lại sau ít phút.";
+  if(st)return `Không tải được dữ liệu (mã lỗi ${st}). Vui lòng thử lại.`;
+  return LOCAL?"Không kết nối được máy chủ dữ liệu. Kiểm tra máy chủ đang chạy ở <b>127.0.0.1:8000</b> rồi thử lại."
+              :"Không kết nối được máy chủ. Kiểm tra kết nối mạng rồi thử lại.";
+}
+function toast(s){const t=$("toast");t.textContent=s;t.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("on"),2200);}
+function hideSuggestions(){ $("sug").classList.add("hidden");$("q").setAttribute("aria-expanded","false");$("q").removeAttribute("aria-activedescendant"); }
+
+/* ===== Bảng tra mã -> tiếng Việt. Chỉ dịch mã đã biết chắc nghĩa; mã lạ giữ nguyên. ===== */
+const M_NOP={DIRECT:"Trực tiếp",ONLINE:"Trực tuyến",POSTAL:"Qua bưu điện",BKAV:"Dịch vụ bưu chính",EMAIL:"Qua email",FAX:"Qua fax"};
+const M_DVTG={WORKING_DAY:"ngày làm việc",DAY:"ngày",MONTH:"tháng",HOUR:"giờ",YEAR:"năm",MINUTE:"phút",WEEK:"tuần"};
+const M_TT={ACTIVE:"Đang áp dụng",INACTIVE:"Ngừng áp dụng"};
+const M_THU={AT_RESULT_COLLECTION:"Khi nhận kết quả",AT_SUBMISSION:"Khi nộp hồ sơ"};
+const M_TIEN={VND:"VNĐ",USD:"USD"};
+const dich=(map,v)=>map[txt(v)]||txt(v);
+function thoiHan(o){const n=txt(o.ThoiGianXuLy),dv=txt(o.DonViThoiGian);if(!n)return null;const d=M_DVTG[dv];return d?`${n} ${d}`:`${n} ${dv}`.trim();}
+function tien(o){
+  const raw=txt(o.SoTien); if(!raw)return null;            // thiếu số tiền không có nghĩa là miễn phí
+  const dv=M_TIEN[txt(o.MaTienTe)]||txt(o.MaTienTe)||"";
+  const amount=/^-?\d+$/.test(raw)?raw.replace(/\B(?=(\d{3})+(?!\d))/g,"."):raw;   // không làm tròn
+  return `${amount} ${dv}`.trim();
+}
+function ngay(s){const d=new Date(txt(s));return isNaN(d)?txt(s):d.toLocaleDateString("vi-VN",{day:"2-digit",month:"2-digit",year:"numeric"});}
+const isTrue=v=>txt(v).toLowerCase()==="true";
+function capApDung(d){
+  return [["ApDungCapXa","Cấp xã"],["ApDungCapTinh","Cấp tỉnh"],["ApDungCapBo","Cấp bộ"],
+          ["ApDungCoQuanKhac","Cơ quan khác"],["ApDungCoQuanNganhDoc","Cơ quan ngành dọc"]].filter(([k])=>isTrue(d[k])).map(([,t])=>t);
+}
+
+/* ===================== ĐIỀU HƯỚNG (hash) ===================== */
+function parseHash(){
+  const h=location.hash.replace(/^#\/?/,""); const [path,qs]=h.split("?");
+  return {seg:path.split("/").filter(Boolean),p:new URLSearchParams(qs||"")};
+}
+function go(path,params){
+  const p=new URLSearchParams(); for(const k in(params||{}))if(params[k]!==""&&params[k]!=null)p.set(k,params[k]);
+  const s=p.toString(); const next="#/"+path+(s?"?"+s:"");
+  if(location.hash===next)route(); else location.hash=next;
+}
+function show(view,navOn){
+  document.body.dataset.view=view;
+  for(const v of ["vHome","vList","vDetail","vChat"])$(v).classList.toggle("hidden",v!==view);
+  $("hero").classList.toggle("compact",view!=="vHome");
+  $("hero").classList.toggle("hidden",view==="vChat");
+  const nav=navOn||{vHome:"home",vList:"list",vDetail:"list",vChat:"chat"}[view];
+  document.querySelectorAll("nav.menu a[data-nav]").forEach(a=>{const on=a.dataset.nav===nav;a.classList.toggle("on",on);on?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current");});
+  hideSuggestions();
+  if(view!=="vDetail")document.title=view==="vChat"?`Hỏi trợ lý | ${TEN_TRANG}`:TEN_TRANG;
+}
+function route(){
+  const {seg,p}=parseHash();
+  if(seg[0]==="tim"&&p.get("q")){show("vList","home");runSearch(p);}
+  else if(seg[0]==="duyet"){show("vList");runBrowse(p);}
+  else if(seg[0]==="thu-tuc"&&/^\d+$/.test(seg[1]||"")){openDetail(seg[1]);}
+  else if(seg[0]==="tro-ly"){DETAIL_SEQ++;LIST_SEQ++;show("vChat");scrollTo(0,0);setTimeout(()=>$("cq").focus(),50);}
+  else{DETAIL_SEQ++;LIST_SEQ++;show("vHome");$("q").value="";}
+}
+addEventListener("hashchange",route);
+
+/* ===================== KHỞI ĐỘNG ===================== */
+/* Vẽ màn hình NGAY theo địa chỉ, song song với thống kê và bộ lọc. Không chờ hai
+   phần kia: nếu chờ, lệnh vẽ đến muộn có thể đóng trang chi tiết người dùng đang xem. */
+addEventListener("DOMContentLoaded",()=>{route();loadStats();loadFilters();loadOverview();drawExamples();});
+const EGS=[["đăng ký khai sinh","đăng ký khai sinh"],["đăng ký tạm trú","đăng ký tạm trú"],["cấp lại căn cước bị mất","cấp lại căn cước bị mất"],["kết hôn với người nước ngoài","đăng ký kết hôn với người nước ngoài"]];
+const MEO=[["Gõ không dấu:","dang ky tam tru"],
+           ["Gõ cách gọi quen thuộc, hệ thống tự đổi sang tên trong văn bản:","làm sổ đỏ lần đầu"],
+           ["Đặt trong ngoặc kép để chỉ tìm đúng cụm từ:",'"cấp hộ chiếu"']];
+/* Các thủ tục hay gặp, xếp theo việc trong đời sống. Bấm vào là tìm theo tên. */
+const SU_KIEN=[["Khi sinh con",["Đăng ký khai sinh"]],["Khi kết hôn",["Đăng ký kết hôn"]],
+  ["Khi chuyển chỗ ở",["Đăng ký thường trú","Đăng ký tạm trú"]],["Giấy tờ tùy thân",["Cấp lại thẻ căn cước","Cấp hộ chiếu phổ thông"]],
+  ["Lái xe",["Cấp giấy phép lái xe","Đổi giấy phép lái xe"]],["Khi mở cửa hàng",["Đăng ký thành lập hộ kinh doanh"]],
+  ["Khi xin việc",["Cấp phiếu lý lịch tư pháp"]],["Khi mất việc làm",["Hưởng trợ cấp thất nghiệp"]],
+  ["Khi người thân mất",["Đăng ký khai tử"]]];
+const STARTERS=[["Đăng ký kết hôn cần giấy tờ gì?","hỏi về hồ sơ"],["Khai báo tạm vắng nộp ở đâu?","hỏi nơi nộp"],
+  ["Đổi bằng lái xe mất bao lâu?","hỏi thời hạn, dùng từ đời thường"],["Cấp lại căn cước bị mất lệ phí bao nhiêu?","hỏi lệ phí"]];
+const linkTim=q=>"#/tim?"+new URLSearchParams({q});
+function drawExamples(){
+  $("egs").innerHTML=`<span class="t">Ví dụ:</span>`+EGS.map(([l,q])=>`<button type="button" data-q="${esc(q)}">${esc(l)}</button>`).join("");
+  $("egs").querySelectorAll("button").forEach(b=>b.onclick=()=>{$("q").value=b.dataset.q;submitQ();});
+  $("meo").innerHTML=MEO.map(([t,q])=>`<li>${esc(t)}<button type="button" data-q="${esc(q)}">${esc(q)}</button></li>`).join("");
+  $("meo").querySelectorAll("button").forEach(b=>b.onclick=()=>{setMode("search");go("tim",{q:b.dataset.q});});
+  $("suKien").innerHTML=SU_KIEN.map(([k,ds])=>`<div class="viec"><h3>${esc(k)}</h3>${ds.map(t=>`<a href="${linkTim(t)}">${esc(t)}</a>`).join("")}</div>`).join("");
+  $("starters").innerHTML=STARTERS.map(([q,s])=>`<button type="button" data-q="${esc(q)}"><span>${esc(q)}</span><small>${esc(s)}</small></button>`).join("");
+  $("starters").querySelectorAll("button").forEach(b=>b.onclick=()=>ask({cau_hoi:b.dataset.q}));
+}
+function setMode(m){
+  clearTimeout(sugTimer);SUG_SEQ++;hideSuggestions();
+  MODE_Q=m; $("mSearch").classList.toggle("on",m==="search"); $("mAsk").classList.toggle("on",m==="ask");
+  $("mSearch").setAttribute("aria-selected",m==="search"); $("mAsk").setAttribute("aria-selected",m==="ask");
+  $("q").placeholder=m==="search"?"Ví dụ: đăng ký khai sinh":"Ví dụ: đăng ký kết hôn cần giấy tờ gì?";
+  $("qLabel").textContent=m==="search"?"Nhập tên thủ tục cần tra cứu":"Nhập câu hỏi về một thủ tục";
+  initTabs(document.querySelector(".seg"));
+  $("goTxt").textContent=m==="search"?"Tra cứu":"Hỏi trợ lý"; hideSuggestions(); $("q").focus();
+}
+$("mSearch").onclick=()=>setMode("search"); $("mAsk").onclick=()=>setMode("ask");
+function submitQ(){
+  const q=$("q").value.trim(); if(!q){$("q").focus();return;} clearTimeout(sugTimer); SUG_SEQ++; hideSuggestions();
+  if(MODE_Q==="ask"){go("tro-ly");ask({cau_hoi:q});$("q").value="";}
+  else go("tim",{q});
+}
+$("go").onclick=submitQ;
+
+/* Gợi ý trong lúc gõ */
+$("q").addEventListener("input",()=>{
+  clearTimeout(sugTimer); const q=$("q").value.trim();
+  if(MODE_Q!=="search"||q.length<2||q.length>120){hideSuggestions();return;}
+  sugTimer=setTimeout(async()=>{const seq=++SUG_SEQ;
+    try{const d=await getJSON(`/api/goi-y?q=${encodeURIComponent(q)}`);
+      if(seq!==SUG_SEQ||MODE_Q!=="search"||$("q").value.trim()!==q||document.activeElement!==$("q"))return; sugIdx=-1;
+      if(!d.length){hideSuggestions();return;}
+      $("sug").innerHTML=d.map((x,i)=>`<div id="sug-${seq}-${i}" data-id="${x.id}" role="option" aria-selected="false">${esc(nfc(x.title))}<small>${esc(x.agency||"")}</small></div>`).join("");
+      $("sug").classList.remove("hidden");
+      $("q").setAttribute("aria-expanded","true");
+      $("sug").querySelectorAll("div").forEach(el=>el.onmousedown=e=>{e.preventDefault();go("thu-tuc/"+el.dataset.id);});
+    }catch{hideSuggestions();}},180);
+});
+$("q").addEventListener("keydown",e=>{
+  const items=[...$("sug").querySelectorAll("div")], open=!$("sug").classList.contains("hidden");
+  if(e.key==="Enter"){if(open&&sugIdx>=0){e.preventDefault();go("thu-tuc/"+items[sugIdx].dataset.id);}else submitQ();}
+  else if(e.key==="Escape")hideSuggestions();
+  else if(open&&(e.key==="ArrowDown"||e.key==="ArrowUp")){e.preventDefault();
+    sugIdx=sugIdx<0?(e.key==="ArrowDown"?0:items.length-1):(sugIdx+(e.key==="ArrowDown"?1:-1)+items.length)%items.length;
+    items.forEach((el,i)=>{el.classList.toggle("on",i===sugIdx);el.setAttribute("aria-selected",String(i===sugIdx));});
+    $("q").setAttribute("aria-activedescendant",items[sugIdx].id);}
+});
+$("q").addEventListener("blur",()=>setTimeout(()=>hideSuggestions(),120));
+
+async function loadStats(){try{const s=await getJSON("/api/stats");
+  /* Tách hai nguồn: thủ tục của Cổng DVC và hướng dẫn do cán bộ tự soạn */
+  $("hieuNote").classList.toggle("hidden",s.hieu_cau_hoi!==false);
+  if(s.hieu_cau_hoi===false){$("meo").querySelectorAll("li")[1]?.remove();}
+  const c=s.cong_dvc||{thu_tuc:s.total,co_quan:s.agencies,linh_vuc:s.categories}, cb=s.huong_dan_can_bo||0;
+  $("nums").innerHTML=`Hiện có <b>${nfm(c.thu_tuc)}</b> thủ tục của ${nfm(c.co_quan)} cơ quan, thuộc ${nfm(c.linh_vuc)} lĩnh vực, lấy từ Cổng Dịch vụ công Quốc gia`
+    +(cb?`; cùng ${nfm(cb)} hướng dẫn do cán bộ biên soạn, có nhãn riêng.`:".");}catch{}}
+async function loadFilters(){try{F=await getJSON("/api/filters");
+  $("fAg").innerHTML=`<option value="">Tất cả cơ quan</option>`+F.agencies.map(a=>`<option>${esc(a)}</option>`).join("");
+  const {p}=parseHash(); $("fAg").value=p.get("cq")||""; fillCats(p.get("cq")||"",p.get("lv")||"");
+  }catch{$("fAg").disabled=true;$("fCat").disabled=true;}}
+function fillCats(ag,cat){const c=ag?(F.categories_by_agency[ag]||[]):F.all_categories;
+  $("fCat").innerHTML=`<option value="">Tất cả lĩnh vực</option>`+c.map(x=>`<option>${esc(x)}</option>`).join("");$("fCat").value=cat||"";}
+async function loadOverview(){try{const o=await getJSON("/api/tong-quan");
+  $("agNote").textContent=`${o.co_quan.length} cơ quan`;
+  $("ags").innerHTML=o.co_quan.map(x=>`<a href="#/duyet?cq=${encodeURIComponent(x.ten)}"><span class="ten">${esc(x.ten)}</span><span class="cham" aria-hidden="true"></span><span class="so">${nfm(x.so_luong)}</span></a>`).join("");
+  if(o.mo_hinh_ngon_ngu)$("chatSub").textContent=`Hỏi về hồ sơ, lệ phí, thời hạn hoặc nơi nộp của một thủ tục. Câu dẫn đầu do mô hình ${o.mo_hinh_ngon_ngu} viết; mọi dữ kiện vẫn trích nguyên từ dữ liệu.`;
+  }catch(e){$("ags").innerHTML=`<p class="ghi" style="column-span:all">${loiMang(e)} Sau đó tải lại trang.</p>`;}}
+
+/* ===================== DANH SÁCH ===================== */
+function listParams(){const {seg,p}=parseHash();return {mode:seg[0]==="tim"?"tim":"duyet",q:p.get("q")||"",cq:p.get("cq")||"",lv:p.get("lv")||"",cap:p.get("cap")||"",kieu:p.get("kieu")||"tat_ca",p:Math.max(1,parseInt(p.get("p")||"1",10)||1)};}
+function setList(patch){const s={...listParams(),...patch};go(s.mode==="tim"?"tim":"duyet",{q:s.mode==="tim"?s.q:"",cq:s.cq,lv:s.lv,cap:s.mode==="tim"?s.cap:"",kieu:s.mode==="tim"&&s.kieu!=="tat_ca"?s.kieu:"",p:s.p>1?s.p:""});}
+$("fCap").onchange=e=>setList({cap:e.target.value,p:1});
+$("fAg").onchange=e=>setList({cq:e.target.value,lv:"",p:1});
+$("fCat").onchange=e=>setList({lv:e.target.value,p:1});
+document.querySelectorAll('input[name="kieu"]').forEach(r=>r.onchange=()=>setList({kieu:r.value,p:1}));
+$("clr").onclick=()=>setList({cq:"",lv:"",cap:"",kieu:"tat_ca",p:1});
+$("ftog").onclick=()=>{const o=$("side").classList.toggle("open");$("ftog").setAttribute("aria-expanded",o);$("ftog").lastElementChild.textContent=o?"−":"+";};
+function syncFilters(s){
+  $("fAg").value=s.cq; fillCats(s.cq,s.lv);
+  document.querySelectorAll('input[name="kieu"]').forEach(r=>r.checked=r.value===s.kieu);
+  $("kieuBox").classList.toggle("hidden",s.mode!=="tim");
+  $("fCap").value=s.cap; $("capBox").classList.toggle("hidden",s.mode!=="tim");
+  $("clr").classList.toggle("hidden",!(s.cq||s.lv||s.cap||s.kieu!=="tat_ca"));
+}
+const TEN_CAP={xa:"cấp xã",tinh:"cấp tỉnh",bo:"cấp bộ",nganh_doc:"cơ quan ngành dọc",khac:"cơ quan khác"};
+const scope=s=>{const a=[];if(s.cq)a.push(s.cq);if(s.lv)a.push(s.lv);if(s.cap&&TEN_CAP[s.cap])a.push(TEN_CAP[s.cap]);return a.length?" trong "+a.join(" › "):"";};
+const skeleton=()=>$("hits").innerHTML='<div class="skel"></div>'.repeat(4);
+function fail(retry,e){$("lMeta").textContent="";$("lNotes").innerHTML="";$("pager").classList.add("hidden");
+  const tieuDe=e&&e.status===429?"Tạm dừng nhận yêu cầu từ máy của bạn":e&&e.status?"Chưa tải được kết quả":"Không kết nối được máy chủ dữ liệu";
+  $("hits").innerHTML=`<div class="empty"><div class="big">${tieuDe}</div>
+    ${loiMang(e)}<br><button class="btn" id="retry">Thử lại</button></div>`;
+  $("retry").onclick=retry;}
+
+/* Nhãn kiểu khớp: cho người dùng biết VÌ SAO kết quả hiện ra (khớp tên ra sao),
+   thay vì một con số khó hiểu. */
+const KIEU={trung_khop:["ok","Trùng khớp tên thủ tục"],nguyen_cum:["ok","Khớp nguyên cụm"],du_tu:["du","Có đủ"],mot_phan:["mp","Có"]};
+function badge(it){
+  if(!it.kieu_khop)return "";
+  const [cls,label]=KIEU[it.kieu_khop]||["",it.kieu_khop];
+  let text=label;
+  if(it.kieu_khop==="du_tu")text=it.so_tu?`Có đủ ${it.so_tu_khop}/${it.so_tu} từ khóa`:"Có đủ các từ khóa";
+  if(it.kieu_khop==="mot_phan")text=it.so_tu?`Có ${it.so_tu_khop}/${it.so_tu} từ khóa (${it.ti_le_tu}%)`:"Khớp một phần";
+  return `<span class="khop k-${cls}" title="Số từ khóa của câu hỏi có trong tên thủ tục và lĩnh vực"><i aria-hidden="true"></i>${esc(text)}</span>`;
+}
+function renderHits(items,words){
+  $("hits").innerHTML=items.map(it=>{
+    const meta=[it.agency,it.category].filter(Boolean).map(x=>esc(x));
+    if(it.procedure_code)meta.push("mã "+esc(it.procedure_code));
+    const tags=[];
+    (it.cap_ap_dung||[]).forEach(c=>tags.push(`<span class="tag">${esc(c)}</span>`));
+    if(it.nguon==="can_bo")tags.push(`<span class="tag cb">Cán bộ biên soạn</span>`);
+    if(txt(it.trang_thai)==="INACTIVE")tags.push(`<span class="tag ngung">Ngừng áp dụng</span>`);
+    /* Điểm BM25 chỉ dùng để SẮP THỨ TỰ, không phải xác suất đúng: hiển thị nhỏ,
+       nhãn kiểu khớp mới là thông tin chính cho người dùng. */
+    const diem=it.relevance_percent!=null?`<span class="diem" title="Điểm quy đổi dùng để sắp xếp kết quả, không phải xác suất tìm đúng thủ tục.">điểm xếp hạng ${it.relevance_percent}/100</span>`:"";
+    return `<article class="hit">
+      ${meta.length?`<div class="hit-meta">${meta.join(", ")}</div>`:""}
+      <h3><a href="#/thu-tuc/${it.id}">${hl(it.title,words)}</a></h3>
+      <div class="hit-foot">${badge(it)}${tags.join("")}${diem}<button class="ask" type="button" data-id="${it.id}" data-t="${esc(nfc(it.title))}">Hỏi trợ lý về thủ tục này</button></div>
+    </article>`;}).join("");
+  $("hits").querySelectorAll(".ask").forEach(b=>b.onclick=()=>{go("tro-ly");ask({cau_hoi:"Cho tôi thông tin tổng quan về thủ tục này",id_thu_tuc:+b.dataset.id,hien:b.dataset.t});});
+}
+function pager(total,page,onGo){
+  const n=Math.ceil(total/PAGE); if(n<=1){$("pager").classList.add("hidden");return;}
+  $("pager").classList.remove("hidden");
+  $("pager").innerHTML=`<button class="btn phu" id="pv" ${page<=1?"disabled":""}>Trang trước</button><span>Trang ${page} trên ${nfm(n)}</span><button class="btn phu" id="nx" ${page>=n?"disabled":""}>Trang sau</button>`;
+  $("pv").onclick=()=>onGo(page-1); $("nx").onclick=()=>onGo(page+1);
+}
+async function runBrowse(){
+  DETAIL_SEQ++; const seq=++LIST_SEQ, s=listParams(); syncFilters(s); $("q").value="";
+  $("lTitle").textContent=s.lv||s.cq||"Danh mục thủ tục"; $("lMeta").textContent="Đang tải…"; $("lNotes").innerHTML=""; skeleton();
+  const p=new URLSearchParams({limit:PAGE,offset:(s.p-1)*PAGE}); if(s.cq)p.set("agency",s.cq); if(s.lv)p.set("category",s.lv);
+  try{const r=await getJSON(`/api/guidelines?${p}`); if(seq!==LIST_SEQ)return;
+    $("lMeta").textContent=r.total?`${nfm(r.total)} thủ tục${scope(s)}`:"";
+    if(!r.total){$("hits").innerHTML=`<div class="empty"><div class="big">Không có thủ tục nào${esc(scope(s))}</div>Hãy chọn cơ quan hoặc lĩnh vực khác ở bộ lọc.</div>`;$("pager").classList.add("hidden");return;}
+    renderHits(r.items,[]); pager(r.total,s.p,n=>{setList({p:n});scrollTo(0,0);});
+  }catch(e){if(seq===LIST_SEQ)fail(runBrowse,e);}
+}
+function notes(d){
+  const out=[], h=d.hieu||{};
+  const dn=(h.dong_nghia||[]).map(x=>`“${esc(x.tu)}” là “${esc((x.thanh||[]).join("” hoặc “"))}”`);
+  const parts=[];
+  if(dn.length)parts.push("đổi cách gọi thường ngày sang tên trong văn bản: "+dn.join("; "));
+  if((h.tu_dem||[]).length)parts.push("bỏ phần hỏi của câu: "+h.tu_dem.map(t=>`“${esc(t)}”`).join(", "));
+  if(parts.length)out.push(`<div class="note"><b>Hệ thống đã hiểu câu hỏi như sau:</b> ${parts.join("; ")}.
+    ${(h.y_dinh||[]).length?`Câu hỏi liên quan đến <b>${esc(h.y_dinh.map(y=>y.ten.toLowerCase()).join(", "))}</b>. <a href="#" id="toAsk">Hỏi trợ lý</a> để nhận câu trả lời thẳng vào mục này.`:""}</div>`);
+  if(d.do_tin_cay==="thap")out.push(`<div class="note warn"><b>Chưa tìm thấy thủ tục khớp rõ ràng.</b> Dưới đây là các thủ tục gần nhất, có thể không đúng thứ bạn cần. Hãy thử nêu tên thủ tục hoặc tên giấy tờ cụ thể hơn.</div>`);
+  return out.join("");
+}
+async function runSearch(){
+  DETAIL_SEQ++; const seq=++LIST_SEQ, s=listParams(); syncFilters(s); $("q").value=s.q;
+  $("lTitle").textContent=`Kết quả cho “${s.q}”`; $("lMeta").textContent="Đang tra cứu…"; $("lNotes").innerHTML=""; skeleton();
+  const p=new URLSearchParams({q:s.q,kieu:s.kieu}); if(s.cq)p.set("agency",s.cq); if(s.lv)p.set("category",s.lv); if(s.cap)p.set("cap",s.cap);
+  try{const d=await getJSON(`/api/tra-cuu?${p}`); if(seq!==LIST_SEQ)return;
+    if(!d||!Array.isArray(d.items))throw new Error("Phản hồi sai định dạng");
+    const h=d.hieu||{}, words=[...(h.chu_de||s.q).split(/\s+/),...(h.dong_nghia||[]).flatMap(x=>(x.thanh||[]).flatMap(t=>t.split(/\s+/)))].filter(w=>w.length>1);
+    LAST={items:d.items,q:s.q,words}; $("lNotes").innerHTML=notes(d);
+    const ta=$("toAsk"); if(ta)ta.onclick=e=>{e.preventDefault();go("tro-ly");ask({cau_hoi:s.q});};
+    if(!d.items.length){
+      $("lMeta").textContent=""; $("pager").classList.add("hidden");
+      const loc=s.cq||s.lv||s.cap||s.kieu!=="tat_ca";
+      $("hits").innerHTML=`<div class="empty"><div class="big">Không tìm thấy thủ tục phù hợp với “${esc(s.q)}”${esc(scope(s))}</div>
+        Kho dữ liệu chỉ gồm thủ tục hành chính. Hãy thử gõ tên thủ tục hoặc tên giấy tờ${loc?", hoặc bỏ bớt bộ lọc":""}.<br>
+        ${loc?`<button class="btn phu" id="noF">Tìm lại không dùng bộ lọc</button>`:""}</div>`;
+      const b=$("noF"); if(b)b.onclick=()=>setList({cq:"",lv:"",cap:"",kieu:"tat_ca",p:1}); return;}
+    $("lMeta").textContent=`${nfm(d.tong)} kết quả${scope(s)}, tìm trong ${d.thoi_gian_ms} ms`;
+    drawPage(s.p);
+  }catch(e){if(seq===LIST_SEQ)fail(runSearch,e);}
+}
+function drawPage(page){
+  const n=Math.max(1,Math.ceil(LAST.items.length/PAGE)); page=Math.min(Math.max(1,page),n);
+  renderHits(LAST.items.slice((page-1)*PAGE,page*PAGE),LAST.words);
+  pager(LAST.items.length,page,k=>{setList({p:k});scrollTo(0,0);});
+}
+
+/* ===================== CHI TIẾT ===================== */
+async function openDetail(id){
+  const seq=++DETAIL_SEQ; LIST_SEQ++;
+  show("vDetail"); $("vDetail").innerHTML='<div class="dgrid"><div class="dtabs"></div><div class="dhead cho" aria-busy="true"><div class="skel" style="border:none;padding:0;height:auto"></div></div></div>';
+  try{const item=await getJSON(`/api/guidelines/${id}`); if(seq!==DETAIL_SEQ)return;
+    CUR=item; MODE="doc"; drawDetail(); scrollTo(0,0);
+  }catch(e){if(seq!==DETAIL_SEQ)return;
+    $("vDetail").innerHTML=`<div class="ds"><div class="empty"><div class="big">${e.status===404?"Không tìm thấy thủ tục này":"Không tải được chi tiết thủ tục"}</div>
+      ${e.status===404?"Thủ tục có thể đã ngừng công khai.":loiMang(e)}<br><a class="btn" href="#/">Về trang tra cứu</a></div></div>`;}
+}
+const QUICK=[["Hồ sơ","Hồ sơ cần những giấy tờ gì?"],["Lệ phí","Lệ phí bao nhiêu?"],["Thời hạn","Giải quyết mất bao lâu?"],["Nơi nộp","Nộp hồ sơ ở đâu?"],["Trình tự","Trình tự thực hiện như thế nào?"],["Điều kiện","Cần điều kiện gì?"]];
+
+/* Phiếu chuẩn bị hồ sơ: người dùng tự đánh dấu giấy tờ đã có. Chỉ lưu trên trình
+   duyệt này (localStorage), không gửi về máy chủ. Trình duyệt chặn lưu trữ thì vẫn
+   chạy được, chỉ là không nhớ sau khi tải lại trang.
+   Kèm chữ ký của mã thủ tục và toàn bộ thành phần hồ sơ: nếu nguồn đổi danh sách
+   giấy tờ, dấu tích cũ bị bỏ thay vì gắn nhầm sang giấy tờ khác. */
+function kyHieu(d){
+  // Phiên bản 3 (14/10, bản 2): vẫn tính trên mã thủ tục + TOÀN BỘ thành phần hồ sơ (đổi số bản,
+  // trường hợp hay tên giấy tờ đều bỏ dấu cũ), nhưng chỉ lưu mã băm 53 bit thay vì cả
+  // chuỗi JSON. Bản 2 lưu nguyên JSON cho mỗi thủ tục, có thể làm đầy bộ nhớ trình duyệt
+  // (khoảng 5 MB) sau vài trăm thủ tục và khi đó dấu tích mất mà không báo.
+  const chuan=v=>Array.isArray(v)?v.map(chuan):isObj(v)?Object.fromEntries(Object.keys(v).sort().map(k=>[k,chuan(v[k])])):v;
+  const t=JSON.stringify(chuan({ma:txt(d.MaThuTucHanhChinh),ho_so:d.ThanhPhanHoSo||null}));
+  let h1=0xdeadbeef^t.length, h2=0x41c6ce57^t.length;            // cyrb53
+  for(let i=0;i<t.length;i++){const c=t.charCodeAt(i);h1=Math.imul(h1^c,2654435761);h2=Math.imul(h2^c,1597334677);}
+  h1=Math.imul(h1^(h1>>>16),2246822507)^Math.imul(h2^(h2>>>13),3266489909);
+  h2=Math.imul(h2^(h2>>>16),2246822507)^Math.imul(h1^(h1>>>13),3266489909);
+  return "v3:"+(4294967296*(2097151&h2)+(h1>>>0)).toString(36);
+}
+
+const PHIEU={mem:{},
+  key:id=>"phieu-ho-so:"+id,
+  get(id,kh){let o=null;try{const v=localStorage.getItem(this.key(id));if(v!=null)o=JSON.parse(v);}catch{}
+    if(!o)o=this.mem[id]||null;
+    return o&&o.v===kh&&Array.isArray(o.k)?new Set(o.k):new Set();},
+  set(id,kh,s){const o={v:kh,k:[...s]};this.mem[id]=o;try{o.k.length?localStorage.setItem(this.key(id),JSON.stringify(o)):localStorage.removeItem(this.key(id));}catch{}}};
+
+/* Các con số ở phiếu chỉ ĐẾM số mục có trong dữ liệu, không rút nhiều giá trị thành một. */
+function factsOf(d){
+  const g=[]; const cts=arr(d.CachThucThucHien).filter(isObj);
+  const nops=[...new Set(cts.map(c=>dich(M_NOP,c.HinhThucNop)).filter(Boolean))];
+  if(nops.length)g.push(["Cách nộp",nops.join(", ")]);
+  const hans=[...new Set(cts.map(thoiHan).filter(Boolean))];
+  if(hans.length)g.push(["Thời hạn",hans.length===1?hans[0]:`${hans.length} mức khác nhau, xem bảng cách thức nộp`]);
+  const cases=arr(d.ThanhPhanHoSo).filter(isObj);
+  const ngt=cases.reduce((n,h)=>n+arr(h.DanhSachGiayTo).filter(x=>isObj(x)&&txt(x.TenGiayTo)).length,0);
+  if(ngt)g.push(["Giấy tờ",`${ngt} loại`+(cases.length>1?`, chia ${cases.length} trường hợp`:"")]);
+  const nphi=arr(d.DanhSachPhi).filter(isObj).length+cts.reduce((n,c)=>n+arr(c.DanhSachPhi).filter(isObj).length,0);
+  if(nphi)g.push(["Phí, lệ phí",`${nphi} khoản được ghi`]);
+  return g;
+}
+function drawDetail(){
+  const it=CUR, d=it.data||{}, title=nfc(it.title);
+  document.title=`${title.length>90?title.slice(0,88).trimEnd()+"…":title} | ${TEN_TRANG}`;
+  const len=title.length, cls=len>240?"sm":(len>110?"lg":"");
+  const crumb=[`<a href="#/duyet">Danh mục</a>`];
+  if(it.agency)crumb.push(`<a href="#/duyet?${new URLSearchParams({cq:it.agency})}">${esc(it.agency)}</a>`);
+  if(it.category)crumb.push(`<a href="#/duyet?${new URLSearchParams(it.agency?{cq:it.agency,lv:it.category}:{lv:it.category})}">${esc(it.category)}</a>`);
+  const tags=[];
+  if(txt(d.MaThuTucHanhChinh))tags.push(`<span class="maso">Mã <b>${esc(d.MaThuTucHanhChinh)}</b></span>`);
+  capApDung(d).forEach(c=>tags.push(`<span class="tag">${esc(c)}</span>`));
+  if(isTrue(d.LaDichVuToanTrinh))tags.push(`<span class="tag tt">Trực tuyến toàn trình</span>`);
+  if(d.NguonDuLieu==="CAN_BO_BIEN_TAP")tags.push(`<span class="tag cb">Hướng dẫn do cán bộ biên soạn</span>`);
+  const body=MODE==="doc"?docView(d):rawView(d);
+  const g=factsOf(d);
+  const nguonIn=d.NguonDuLieu==="CAN_BO_BIEN_TAP"?"Hướng dẫn do cán bộ biên soạn":"Dữ liệu thủ tục từ Cổng Dịch vụ công Quốc gia";
+  const coPhieu=MODE==="doc"&&body.html.includes('class="case"');
+  const secHS=body.secs.find(s=>s.t==="Thành phần hồ sơ");
+  const homNay=new Date().toLocaleDateString("vi-VN",{day:"2-digit",month:"2-digit",year:"numeric"});
+  $("vDetail").innerHTML=`
+    <a href="#" id="bk" class="quaylai">${ICON.back}Quay lại</a>
+    <div class="dgrid">
+      <div class="dtabs" role="tablist" aria-label="Cách xem thủ tục">
+        <button id="mDoc" role="tab" aria-selected="${MODE==="doc"}" class="${MODE==="doc"?"on":""}">Hướng dẫn</button>
+        <button id="mRaw" role="tab" aria-selected="${MODE==="raw"}" class="${MODE==="raw"?"on":""}">Nguyên bản API</button>
+      </div>
+      <header class="dhead">
+        <div class="chi-in">In từ trang ${TEN_TRANG} ngày ${homNay}. Nguồn: ${esc(nguonIn)}. Các ô đánh dấu do người dùng tự kiểm tra, không phải xác nhận của cơ quan tiếp nhận.</div>
+        <nav class="vitri" aria-label="Vị trí">${crumb.join('<span aria-hidden="true">›</span>')}</nav>
+        <h1 class="${cls}">${esc(title)}</h1>
+        ${tags.length?`<div class="dtags">${tags.join("")}</div>`:""}
+        ${txt(d.TrangThai)==="INACTIVE"?`<div class="canh">Theo dữ liệu của Cổng Dịch vụ công Quốc gia, thủ tục này đang ở trạng thái ngừng áp dụng.</div>`:""}
+      </header>
+      <aside class="phieu" id="phieu" aria-label="Phiếu chuẩn bị hồ sơ">
+        <div><h2>${ICON.seal}Phiếu chuẩn bị hồ sơ</h2>
+          ${g.length?`<dl class="tom">${g.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl>`:`<p class="ghi" style="margin-top:8px">${d.NguonDuLieu==="CAN_BO_BIEN_TAP"?"Hướng dẫn này không tách riêng cách nộp, thời hạn hay giấy tờ. Xem phần nội dung hướng dẫn.":"Dữ liệu gốc không ghi cách nộp, thời hạn hay giấy tờ cho thủ tục này."}</p>`}</div>
+        ${coPhieu?`<div id="tienDo" aria-live="polite"></div>`:""}
+        <div class="nut"><button class="btn phu" id="pr" type="button">In hướng dẫn</button><button class="btn phu" id="cp" type="button">Sao chép liên kết</button></div>
+        <div><h3>Hỏi trợ lý về thủ tục này</h3><div class="hoi-ds">${QUICK.map(([t,q])=>`<button class="hoi" type="button" data-q="${esc(q)}">${esc(t)}</button>`).join("")}</div></div>
+        ${body.secs.length>1?`<div class="ml"><h3>Trong trang này</h3>${body.secs.map((s,i)=>`<a href="#${s.id}" data-sec="${s.id}">${i+1}. ${esc(s.t)}</a>`).join("")}</div>`:""}
+      </aside>
+      <div class="dbody">${body.html}</div>
+    </div>`;
+  $("bk").onclick=e=>{e.preventDefault();history.length>1?history.back():go("");};
+  $("mDoc").onclick=()=>{if(MODE!=="doc"){MODE="doc";drawDetail();}}; $("mRaw").onclick=()=>{if(MODE!=="raw"){MODE="raw";drawDetail();}};
+  initTabs(document.querySelector(".dtabs"));
+  $("pr").onclick=()=>print();
+  $("cp").onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast("Đã sao chép liên kết");}catch{toast(location.href);}};
+  $("vDetail").querySelectorAll(".hoi").forEach(b=>b.onclick=()=>{go("tro-ly");ask({cau_hoi:b.dataset.q,id_thu_tuc:it.id,hien:`${b.dataset.q} (${title})`});});
+  /* Mục lục cuộn tới mục, không đổi địa chỉ trang (địa chỉ đang dùng để điều hướng) */
+  $("vDetail").querySelectorAll(".ml a").forEach(a=>a.onclick=e=>{e.preventDefault();document.getElementById(a.dataset.sec).scrollIntoView({behavior:IT_CHUYEN_DONG?"auto":"smooth"});});
+  if(coPhieu){
+    $("vDetail").querySelectorAll("input.tick").forEach(b=>b.onchange=()=>{
+      const kh=kyHieu(d), s=PHIEU.get(it.id,kh), k=`${b.dataset.c}-${b.dataset.i}`; b.checked?s.add(k):s.delete(k); PHIEU.set(it.id,kh,s); capNhatPhieu(true,secHS&&secHS.id);});
+    capNhatPhieu(false,secHS&&secHS.id);
+  }
+}
+function capNhatPhieu(hoat,idHS){
+  const id=CUR&&CUR.id, kh=kyHieu((CUR&&CUR.data)||{}), s=PHIEU.get(id,kh), rows=[];
+  $("vDetail").querySelectorAll(".case[data-n]").forEach(el=>{
+    const c=el.dataset.c, n=+el.dataset.n; let k=0;
+    el.querySelectorAll("input.tick").forEach(b=>{b.checked=s.has(`${c}-${b.dataset.i}`); b.closest("tr").classList.toggle("co",b.checked); if(b.checked)k++;});
+    const du=n>0&&k===n, was=el.classList.contains("du");
+    if(du&&!was){el.classList.toggle("im",!hoat);el.classList.add("du");}
+    else if(!du&&was)el.classList.remove("du","im");
+    el.querySelector(".case-dem b").textContent=`${k}/${n}`;
+    rows.push({k,n,ten:el.dataset.ten||""});
+  });
+  const t=$("tienDo"); if(!t)return;
+  const mot=rows.length===1, coDau=rows.some(r=>r.k>0);
+  t.innerHTML=`<h3>Giấy tờ tự đánh dấu</h3>`+rows.map((r,i)=>`<div class="td-dong">
+      ${mot?"":`<div class="td-ten" title="${esc(r.ten)}">${esc(r.ten||`Trường hợp ${i+1}`)}</div>`}
+      <div class="td-so"><span><b>${r.k}</b> trên ${r.n} giấy tờ</span>${r.k===r.n?`<span class="xong">đã đánh dấu hết</span>`:""}</div>
+      <div class="thanh"><i style="width:${r.n?Math.round(100*r.k/r.n):0}%"></i></div></div>`).join("")
+    +`<p class="td-ghi">${mot?"Đánh dấu":"Chọn trường hợp phù hợp rồi đánh dấu"} ở mục <a href="#${idHS||""}" id="toHS">Thành phần hồ sơ</a>. Dấu tích chỉ lưu trên trình duyệt này. Việc đánh dấu không xác nhận hồ sơ hợp lệ hoặc đã được tiếp nhận.</p>`
+    +(coDau?`<button class="lnk" id="xoaDau" type="button" style="margin-top:8px;font-size:14px">Bỏ mọi dấu tích</button>`:"");
+  const th=$("toHS"); if(th&&idHS)th.onclick=e=>{e.preventDefault();$(idHS).scrollIntoView({behavior:IT_CHUYEN_DONG?"auto":"smooth"});};
+  const x=$("xoaDau"); if(x)x.onclick=()=>{PHIEU.set(id,kh,new Set());capNhatPhieu(false,idHS);toast("Đã bỏ mọi dấu tích");};
+}
+
+/* ---------- Các mục của chế độ HƯỚNG DẪN (dùng chung cho trang chi tiết và trợ lý) ---------- */
+function secDieuKien(d){
+  const yc=d.YeuCauDieuKien;
+  if(isObj(yc))return rObj(yc);
+  if(Array.isArray(yc))return yc.length?rList("YeuCauDieuKien",yc):"";
+  return txt(yc)?`<div class="pre">${esc(txt(yc))}</div>`:"";
+}
+function secCachThuc(d){
+  /* Liệt kê ĐẦY ĐỦ từng dòng, không rút gọn thành một mức */
+  const cts=arr(d.CachThucThucHien).filter(isObj); if(!cts.length)return "";
+  const coMo=cts.some(x=>txt(x.MoTa));
+  const rows=cts.map(c=>{const han=thoiHan(c),mo=txt(c.MoTa);
+    return `<tr><td>${esc(dich(M_NOP,c.HinhThucNop))||"—"}</td><td>${han?esc(han):`<span class="soft">Không ghi rõ</span>`}</td>${coMo?`<td class="pre">${mo?esc(mo):""}</td>`:""}</tr>`;}).join("");
+  return `<div class="tw"><table><thead><tr><th class="w1">Hình thức nộp</th><th class="w2">Thời hạn giải quyết</th>${coMo?"<th>Ghi chú</th>":""}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function secTrinhTu(d){
+  const bs=arr(d.CacBuocThucHien).filter(isObj).map(b=>{const t=txt(b.TenBuoc),m=txt(b.MoTa);
+    if(t&&m&&(t===m||m.includes(t)))return {t:"",m}; if(t&&m&&t.includes(m))return {t:"",m:t}; return {t,m};}).filter(x=>x.t||x.m);
+  return bs.length?`<ol class="steps">${bs.map(b=>`<li>${b.t?`<div class="sn">${esc(b.t)}</div>`:""}${b.m?`<div class="pre">${esc(b.m)}</div>`:""}</li>`).join("")}</ol>`:"";
+}
+function secHoSo(d,tick){
+  /* Giữ đúng từng trường hợp. tick=true: thêm ô đánh dấu (trang chi tiết). */
+  const cases=arr(d.ThanhPhanHoSo).filter(isObj);
+  const nCo=cases.filter(h=>arr(h.DanhSachGiayTo).some(g=>isObj(g)&&txt(g.TenGiayTo))).length;
+  return cases.map((h,c)=>{
+    const gts=arr(h.DanhSachGiayTo).filter(g=>isObj(g)&&txt(g.TenGiayTo)); if(!gts.length)return "";
+    const ten=txt(h.TenTruongHop);
+    const rows=gts.map((g,i)=>{const bc=txt(g.SoBanChinh),bo=txt(g.SoBanSao),ghi=[],id=`tk-${c}-${i}`;
+      if(isTrue(g.BatBuoc))ghi.push("bắt buộc"); if(isTrue(g.CoBanDienTu))ghi.push("có bản điện tử");
+      const name=tick?`<label class="nhan pre" for="${id}">${esc(txt(g.TenGiayTo))}</label>`:`<div class="pre">${esc(txt(g.TenGiayTo))}</div>`;
+      return `<tr>${tick?`<td class="tk"><input type="checkbox" class="tick" id="${id}" data-c="${c}" data-i="${i}"></td>`:""}<td class="idx">${i+1}</td><td>${name}${ghi.length?`<span class="ghi-nho">${ghi.join(", ")}</span>`:""}</td>
+        <td class="num">${bc&&bc!=="0"?esc(bc):"—"}</td><td class="num">${bo&&bo!=="0"?esc(bo):"—"}</td></tr>`;}).join("");
+    const head=tick
+      ?`<div class="case-head"><div class="case-name pre">${ten?esc(ten):(nCo>1?`Trường hợp ${c+1}`:"Giấy tờ cần chuẩn bị")}</div>
+         <div class="case-dem"><b>0/${gts.length}</b> đã có</div><div class="self-check-complete">Đã đánh dấu các giấy tờ trong danh sách này</div></div>`
+      :(ten?`<div class="case-name pre">${esc(ten)}</div>`:"");
+    return `<div class="case" ${tick?`data-c="${c}" data-n="${gts.length}" data-ten="${esc(ten||(nCo>1?`Trường hợp ${c+1}`:""))}"`:""}>${head}
+      <div class="tw"><table class="hoso"><thead><tr>${tick?`<th class="tk"><span class="sr">Đã có</span></th>`:""}<th class="idx"></th><th>Giấy tờ</th><th class="num">Bản chính</th><th class="num">Bản sao</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;}).join("");
+}
+function secPhi(d){
+  /* Giữ từng khoản và nguồn trong từng cách thức nộp */
+  const cts=arr(d.CachThucThucHien).filter(isObj), phis=[];
+  arr(d.DanhSachPhi).filter(isObj).forEach(p=>phis.push({p,nhom:"Thông tin phí ở cấp thủ tục"}));
+  cts.forEach((c,i)=>arr(c.DanhSachPhi).filter(isObj).forEach(p=>phis.push({p,nhom:`${dich(M_NOP,c.HinhThucNop)||"Không ghi hình thức nộp"}, ${thoiHan(c)||"không ghi thời hạn"} (dòng ${i+1} ở bảng cách thức nộp)`})));
+  if(!phis.length)return "";
+  const coThu=phis.some(({p})=>txt(p.ThoiDiemThu));
+  const rows=phis.map(({p,nhom},i)=>`<tr><td class="idx">${i+1}</td><td>${esc(txt(p.TenPhi))||`<span class="soft">Không ghi tên khoản thu</span>`}</td>
+    <td>${esc(nhom)}</td><td class="pre">${esc(txt(p.CachTinhPhi))||"Không ghi rõ"}</td>${coThu?`<td>${esc(dich(M_THU,p.ThoiDiemThu))}</td>`:""}
+    <td class="num">${esc(tien(p)||"Không ghi rõ")}</td></tr>`).join("");
+  return `<div class="tw"><table><thead><tr><th class="idx"></th><th>Khoản thu</th><th>Thuộc mục nguồn</th><th>Cách tính phí</th>${coThu?"<th>Thời điểm thu</th>":""}<th class="num">Mức thu</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+const listOf=(v,name,code)=>{const a=arr(v).filter(x=>isObj(x)&&txt(x[name]));
+  return a.length?`<ul class="plain">${a.map(x=>`<li>${esc(txt(x[name]))}${code&&txt(x[code])?`<div class="code">${esc(txt(x[code]))}</div>`:""}</li>`).join("")}</ul>`:"";};
+const secCanCu=d=>listOf(d.DanhSachCanCuPhapLy,"TenCanCu","MaCanCu");
+const secKetQua=d=>listOf(d.DanhSachKetQua,"TenKetQua");
+const secDoiTuong=d=>listOf(d.DoiTuongThucHien,"TenDoiTuong");
+
+function docView(d){
+  const secs=[]; const add=(t,html)=>{if(html)secs.push({id:"s"+(secs.length+1),t,html});};
+  if(d.NguonDuLieu==="CAN_BO_BIEN_TAP"){
+    add("Nội dung hướng dẫn",`<div class="pre">${esc(txt(d.NoiDungHuongDan))}</div>`);
+    add("Thông tin chung",`<dl class="kv"><dt>Mã nội bộ</dt><dd>${esc(txt(d.MaThuTucHanhChinh))}</dd>
+      <dt>Đơn vị</dt><dd>${esc(txt((d.CoQuanBanHanh||{}).TenCoQuanBanHanh))||"—"}</dd><dt>Lĩnh vực</dt><dd>${esc(txt((d.LinhVuc||{}).TenLinhVuc))||"—"}</dd>
+      <dt>Nguồn</dt><dd>Hướng dẫn do cán bộ biên soạn, không phải dữ liệu của Cổng Dịch vụ công Quốc gia.</dd></dl>`);
+    return wrap(secs);
+  }
+  const kv=[]; const row=(k,v)=>{if(v)kv.push(`<dt>${esc(k)}</dt><dd>${v}</dd>`);};
+  row("Mã thủ tục",esc(txt(d.MaThuTucHanhChinh)));
+  row("Cơ quan ban hành",esc(txt((arr(d.CoQuanBanHanh)[0]||{}).TenCoQuanBanHanh)));
+  row("Lĩnh vực",esc(txt((arr(d.LinhVuc)[0]||{}).TenLinhVuc)));
+  const dt=arr(d.DoiTuongThucHien).filter(isObj).map(x=>txt(x.TenDoiTuong)).filter(Boolean);
+  if(dt.length)row("Đối tượng thực hiện",esc(dt.join("; ")));
+  const kq=arr(d.DanhSachKetQua).filter(isObj).map(x=>txt(x.TenKetQua)).filter(Boolean);
+  if(kq.length)row("Kết quả thực hiện",esc(kq.join("; ")));
+  const cap=capApDung(d); if(cap.length)row("Cấp áp dụng",esc(cap.join(", ")));
+  if(isTrue(d.LaDichVuToanTrinh))row("Mức độ dịch vụ","Dịch vụ công trực tuyến toàn trình");
+  if(M_TT[txt(d.TrangThai)])row("Trạng thái",esc(M_TT[txt(d.TrangThai)]));
+  row("Số quyết định công bố",esc(txt(d.SoQuyetDinhCongBo)));
+  if(isObj(d.DiaChiTiepNhanHoSo))row("Địa chỉ tiếp nhận hồ sơ",rObj(d.DiaChiTiepNhanHoSo));
+  else if(Array.isArray(d.DiaChiTiepNhanHoSo)){if(d.DiaChiTiepNhanHoSo.length)row("Địa chỉ tiếp nhận hồ sơ",rList("DiaChiTiepNhanHoSo",d.DiaChiTiepNhanHoSo));}
+  else if(txt(d.DiaChiTiepNhanHoSo))row("Địa chỉ tiếp nhận hồ sơ",`<div class="pre">${esc(d.DiaChiTiepNhanHoSo)}</div>`);
+  if(txt(d.MoTa))row("Mô tả",`<div class="pre">${esc(txt(d.MoTa))}</div>`);
+  if(txt(d.ThoiGianCapNhat))row("Cập nhật lần cuối",esc(ngay(d.ThoiGianCapNhat)));
+  /* Thứ tự mục theo bộ phận tạo thành thủ tục hành chính (Điều 8 Nghị định 63/2010/NĐ-CP):
+     trình tự, cách thức, hồ sơ, thời hạn, rồi mẫu đơn, yêu cầu điều kiện, phí lệ phí. Cán bộ
+     quen thứ tự này; người dân đọc tóm tắt ở “Phiếu chuẩn bị hồ sơ” bên cạnh. */
+  add("Thông tin chung",kv.length?`<dl class="kv">${kv.join("")}</dl>`:"");
+  add("Trình tự thực hiện",secTrinhTu(d));
+  add("Cách thức thực hiện và thời hạn giải quyết",secCachThuc(d));
+  add("Thành phần hồ sơ",secHoSo(d,true));
+  const fs=arr(d.DanhSachFileDinhKem).filter(f=>isObj(f)&&(txt(f.FileName)||txt(f.FileId)));
+  if(fs.length)add("Mẫu đơn, mẫu tờ khai",`<ul class="plain">${fs.map(f=>`<li>${esc(txt(f.FileName)||txt(f.FileId))}</li>`).join("")}</ul><p class="ghi-tep">Nguồn dữ liệu chỉ cung cấp tên hoặc mã tệp, chưa có liên kết tải. Bạn lấy mẫu tại nơi tiếp nhận hồ sơ hoặc trên Cổng Dịch vụ công Quốc gia.</p>`);
+  add("Yêu cầu, điều kiện thực hiện",secDieuKien(d));
+  add("Phí, lệ phí",secPhi(d));
+  add("Căn cứ pháp lý",secCanCu(d));
+  add("Dịch vụ công liên quan",listOf(d.CacDichVuCong,"TenDVC","MaDVC"));
+  const tech=[["MaThuTucHanhChinh","Mã thủ tục"],["LoaiThuTuc","Loại thủ tục"],["TrangThai","Trạng thái"],["ThoiGianTao","Thời gian tạo"],
+    ["ThoiGianCapNhat","Thời gian cập nhật"],["MaDonViQuanLy","Mã đơn vị quản lý"],["MaCoQuanGiaiQuyetThuTucHanhChinh","Mã cơ quan giải quyết"]]
+    .filter(([k])=>txt(d[k])).map(([k,t])=>`<tr><th>${esc(t)}<span class="k">${esc(k)}</span></th><td>${esc(txt(d[k]))}</td></tr>`).join("");
+  if(tech)add("Thông tin kỹ thuật",`<details class="tech"><summary>Xem mã và thông tin quản trị</summary><table class="raw"><tbody>${tech}</tbody></table>
+    <p class="ghi" style="margin-top:8px">Giá trị giữ nguyên như API trả về. Bấm “Nguyên bản API” ở đầu trang để xem toàn bộ dữ liệu đã lưu.</p></details>`);
+  if(!secs.length)add("Thông tin chung",`<p class="soft">Bản ghi này chưa có dữ liệu chi tiết trong kho.</p>`);
+  return wrap(secs);
+}
+const wrap=secs=>({secs,html:secs.map((s,i)=>`<section class="blk" id="${s.id}"><h2><span class="so">${i+1}.</span> ${esc(s.t)}</h2><div class="bd">${s.html}</div></section>`).join("")});
+
+/* ---------- Chế độ NGUYÊN BẢN: đúng cấu trúc và giá trị API ---------- */
+const NHAN={MaThuTucHanhChinh:"Mã thủ tục",TenThuTuc:"Tên thủ tục",TrangThai:"Trạng thái",
+ LoaiThuTuc:"Loại thủ tục",SoQuyetDinhCongBo:"Số quyết định công bố",ThoiGianTao:"Thời gian tạo",
+ ThoiGianCapNhat:"Thời gian cập nhật",CoQuanBanHanh:"Cơ quan ban hành",MaCoQuanBanHanh:"Mã cơ quan",
+ TenCoQuanBanHanh:"Tên cơ quan",LinhVuc:"Lĩnh vực",MaLinhVuc:"Mã lĩnh vực",TenLinhVuc:"Tên lĩnh vực",
+ ApDungCapXa:"Áp dụng cấp xã",ApDungCapTinh:"Áp dụng cấp tỉnh",ApDungCapBo:"Áp dụng cấp bộ",
+ ApDungCoQuanKhac:"Áp dụng cơ quan khác",ApDungCoQuanNganhDoc:"Áp dụng cơ quan ngành dọc",
+ LaDichVuToanTrinh:"Là dịch vụ toàn trình",MaDonViQuanLy:"Mã đơn vị quản lý",
+ MaCoQuanGiaiQuyetThuTucHanhChinh:"Mã cơ quan giải quyết",CachThucThucHien:"Cách thức thực hiện",
+ HinhThucNop:"Hình thức nộp",ThoiGianXuLy:"Thời gian xử lý",DonViThoiGian:"Đơn vị thời gian",MoTa:"Mô tả",
+ CacBuocThucHien:"Các bước thực hiện",TenBuoc:"Tên bước",ThanhPhanHoSo:"Thành phần hồ sơ",
+ TenTruongHop:"Tên trường hợp",DanhSachGiayTo:"Danh sách giấy tờ",TenGiayTo:"Tên giấy tờ",
+ SoBanChinh:"Số bản chính",SoBanSao:"Số bản sao",BatBuoc:"Bắt buộc",CoBanDienTu:"Có bản điện tử",
+ MaTPHS:"Mã thành phần hồ sơ",IDGiayTo:"ID giấy tờ",LaKetQuaXuLy:"Là kết quả xử lý",LoaiTaiLieu:"Loại tài liệu",
+ DanhSachFileDinhKem:"Danh sách file đính kèm",FileId:"Mã file",FileName:"Tên file",
+ DanhSachPhi:"Danh sách phí",TenPhi:"Tên phí",SoTien:"Số tiền",MaPhi:"Mã phí",CachTinhPhi:"Cách tính phí",
+ ThoiDiemThu:"Thời điểm thu",LoaiPhi:"Loại phí",MaTienTe:"Mã tiền tệ",PhanLoai:"Phân loại",
+ LaPhiBoSung:"Là phí bổ sung",DoiTuongThucHien:"Đối tượng thực hiện",MaDoiTuong:"Mã đối tượng",
+ TenDoiTuong:"Tên đối tượng",DanhSachKetQua:"Danh sách kết quả",MaKetQua:"Mã kết quả",TenKetQua:"Tên kết quả",
+ DanhSachCanCuPhapLy:"Danh sách căn cứ pháp lý",MaCanCu:"Mã căn cứ",TenCanCu:"Tên căn cứ",
+ CacDichVuCong:"Các dịch vụ công",MaDVC:"Mã dịch vụ công",TenDVC:"Tên dịch vụ công",
+ YeuCauDieuKien:"Yêu cầu, điều kiện",DiaChiTiepNhanHoSo:"Địa chỉ tiếp nhận hồ sơ",
+ NguonDuLieu:"Nguồn dữ liệu",NoiDungHuongDan:"Nội dung hướng dẫn",NguoiBienTap:"Người biên tập"};
+const nhan=k=>NHAN[k]||k;
+const rcell=v=>isObj(v)?`<div class="nest">${rObj(v)}</div>`:Array.isArray(v)?rList("",v):
+  txt(v)===""?`<span class="soft">(trống)</span>`:`<div class="pre">${esc(v)}</div>`;
+function rObj(o){
+  return `<table class="raw"><tbody>${Object.entries(o).map(([k,v])=>{
+    const b=Array.isArray(v)?rList(k,v):isObj(v)?`<div class="nest">${rObj(v)}</div>`:rcell(v);
+    return `<tr><th>${esc(nhan(k))}<span class="k">${esc(k)}</span></th><td>${b}</td></tr>`;}).join("")}</tbody></table>`;
+}
+function rList(key,a){
+  if(!a.length)return `<span class="soft">(danh sách rỗng)</span>`;
+  if(a.every(isObj)){
+    const cols=[];a.forEach(o=>Object.keys(o).forEach(k=>{if(!cols.includes(k))cols.push(k);}));
+    const simple=cols.every(c=>a.every(o=>!isObj(o[c])&&!Array.isArray(o[c])));
+    if(simple&&cols.length<=5)
+      return `<div class="tw"><table><thead><tr><th class="idx"></th>${cols.map(c=>`<th>${esc(nhan(c))}</th>`).join("")}</tr></thead>
+        <tbody>${a.map((o,i)=>`<tr><td class="idx">${i+1}</td>${cols.map(c=>`<td>${txt(o[c])===""?`<span class="soft">—</span>`:esc(o[c])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    return a.map((o,i)=>`<div class="subt">${esc(nhan(key))} [${i+1}/${a.length}]</div><div class="nest">${rObj(o)}</div>`).join("");
+  }
+  return `<table><tbody>${a.map((v,i)=>`<tr><td class="idx">${i+1}</td><td>${rcell(v)}</td></tr>`).join("")}</tbody></table>`;
+}
+function rawView(d){
+  const secs=[];
+  for(const [k,v] of Object.entries(d)){
+    if(k==="TenThuTuc")continue;
+    const html=Array.isArray(v)?rList(k,v):isObj(v)?rObj(v):
+      `<table class="raw"><tbody><tr><th>${esc(nhan(k))}<span class="k">${esc(k)}</span></th><td>${rcell(v)}</td></tr></tbody></table>`;
+    secs.push({id:"s"+(secs.length+1),t:nhan(k),html});
+  }
+  const json=`<section class="blk"><h2><span class="so">${secs.length+1}.</span> Dữ liệu gốc (JSON)</h2>
+    <div class="bd"><details class="tech"><summary>Xem toàn bộ dữ liệu API trả về</summary><pre>${esc(JSON.stringify(d,null,2))}</pre></details></div></section>`;
+  return {secs,html:`<div class="note">Chế độ nguyên bản: xem tên trường và giá trị đã lưu từ API, không dịch mã, không sắp xếp lại. Đây không phải bản XML gốc; thứ tự khóa có thể khác nguồn.</div>`+
+    secs.map((s,i)=>`<section class="blk" id="${s.id}"><h2><span class="so">${i+1}.</span> ${esc(s.t)}</h2><div class="bd">${s.html}</div></section>`).join("")+json};
+}
+
+/* ===================== TRỢ LÝ ===================== */
+const SEC_BUILD={ho_so:d=>secHoSo(d,false),trinh_tu:secTrinhTu,thoi_han:secCachThuc,le_phi:secPhi,dieu_kien:secDieuKien,can_cu:secCanCu,ket_qua:secKetQua,doi_tuong:secDoiTuong,
+  noi_nop:(d,m)=>`<ul class="plain">${(m.dong||[]).map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`+secCachThuc(d)};
+function renderMuc(m){
+  if(!m.co_du_lieu)return `<div class="asec"><h4>${esc(m.ten)}</h4><div class="in"><span class="none">Dữ liệu của Cổng Dịch vụ công không ghi thông tin mục này cho thủ tục.</span></div></div>`;
+  let html=""; try{html=(SEC_BUILD[m.ma]||(()=>""))(m.du_lieu||{},m);}catch{html="";}
+  if(!html)html=`<ul class="plain">${(m.dong||[]).map(x=>`<li class="pre">${esc(x)}</li>`).join("")}</ul>`;   // dự phòng: bản chữ do máy chủ dựng
+  const dai=m.so_dong>8;
+  return `<div class="asec"><h4>${esc(m.ten)}<span title="Trường dữ liệu nguồn: ${esc((m.truong_goc||[]).join(", "))}">Dữ liệu gốc</span></h4><div class="in">${html}</div>${dai?`<button class="more" type="button">Mở rộng toàn bộ mục này</button>`:""}</div>`;
+}
+/* 21/10 bản 2: lựa chọn kèm cấp thực hiện và trạng thái ngừng áp dụng, để phân biệt các thủ tục tên gần giống nhau. */
+const choiceBtn=c=>{const phu=[c.co_quan||"",c.ma_thu_tuc?`mã ${c.ma_thu_tuc}`:"",(c.cap_ap_dung||[]).length?`thực hiện ở ${c.cap_ap_dung.join(", ").toLowerCase()}`:"",c.ngung_ap_dung?"ngừng áp dụng":""].filter(Boolean);
+  return `<button class="choice" type="button" data-id="${c.id}" data-t="${esc(nfc(c.ten))}"><span>${esc(nfc(c.ten))}<small>${esc(phu.join("; "))}</small></span><em>Chọn</em></button>`;};
+function renderAnswer(d){
+  const h=d.hieu||{}, und=[];
+  if((h.y_dinh||[]).length)und.push(`hỏi về <b>${esc(h.y_dinh.map(y=>y.ten.toLowerCase()).join(", "))}</b>`);
+  (h.dong_nghia||[]).forEach(x=>und.push(`“${esc(x.tu)}” là “${esc((x.thanh||[]).join("” hoặc “"))}”`));
+  if(d.theo_ngu_canh)und.push("hỏi tiếp về thủ tục ở câu trước");
+  const undHtml=und.length?`<div class="und">Hệ thống hiểu: ${und.join("; ")}.</div>`:"";
+  const chao=d.chao?`<p class="chao-lai">Chào bạn!</p>`:"";
+  if(d.trang_thai==="giao_tiep")
+    return `<div class="a talk"><div class="st"><b>Trợ lý tra cứu</b></div><div class="txt">${esc(d.tra_loi)}</div>
+      ${(d.goi_y||[]).length?`<div class="foll"><span>Bạn có thể hỏi:</span>${d.goi_y.map(q=>`<button class="pill" type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div>`:""}</div>`;
+  if(d.trang_thai==="ngoai_pham_vi")
+    return `<div class="a refuse"><div class="st">Ngoài phạm vi dữ liệu</div>${chao}<div class="txt">${esc(d.tra_loi)}</div></div>`;
+  if(d.trang_thai==="can_lam_ro")
+    return `<div class="a unsure"><div class="st">Cần chọn đúng thủ tục</div>${chao}${undHtml}<div class="txt">${esc(d.tra_loi)}</div>
+      <div class="choices">${(d.lua_chon||[]).map(choiceBtn).join("")}</div></div>`;
+  const t=d.thu_tuc||{}, n=(d.nguon||[])[0]||{};
+  const procedureHtml=`<div class="answer-procedure"><small>${t.do_khop==null?"Thủ tục đã chọn":"Thủ tục được dùng để trả lời"}</small><strong>${esc(t.ten||n.ten||"")}</strong><p>${esc(t.co_quan||"")}${t.ma_thu_tuc?`${t.co_quan?", ":""}mã ${esc(t.ma_thu_tuc)}`:""}. Hãy kiểm tra đúng đối tượng và cấp thực hiện${(d.lua_chon||[]).length&&!d.luu_y?"; nếu chưa đúng, chọn thủ tục có tên gần giống ở cuối câu trả lời":""}.</p></div>`;
+  const mode=d.nguon_tra_loi==="mo_hinh_ngon_ngu"
+    ?`, <span title="Mô hình ngôn ngữ chỉ viết câu dẫn đầu, không được nêu dữ kiện. Mọi dữ kiện bên dưới do hệ thống trích nguyên từ dữ liệu nguồn.">câu dẫn do ${esc(d.mo_hinh||"mô hình ngôn ngữ")} viết, dữ kiện trích từ nguồn</span>`
+    :`, <span title="Câu trả lời được dựng trực tiếp từ dữ liệu, không qua mô hình sinh văn bản.">trích xuất từ dữ liệu</span>`;
+  const rejected=d.kiem_chung&&d.kiem_chung.dat===false&&d.nguon_tra_loi!=="mo_hinh_ngon_ngu"
+    ?`<div class="und">Câu dẫn của mô hình ngôn ngữ bị loại (${esc((d.kiem_chung.ly_do||[]).join("; ")||"không rõ lý do")}); đang dùng câu dẫn khuôn mẫu.</div>`:"";
+  const explain=`<details class="answer-explain"><summary>Thông tin về câu trả lời</summary><div class="st"><b>Trả lời</b>${mode}</div>${undHtml}<div class="txt">${esc(d.tra_loi)}</div></details>`;
+  const tt=d.tom_tat, coTomTat=tt&&(tt.khoi||[]).length;
+  const tomTatHtml=coTomTat?`<div class="tom-tat"><p class="mo-dau">${esc(tt.mo_dau)}</p>${tt.khoi.map(k=>k.loai==="ds"
+      ?`<ul class="tt-ds${k.items.length>8?" gon":""}">${k.items.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>${k.items.length>8?`<button class="lnk tt-them" type="button">Xem đủ ${k.items.length} mục</button>`:""}`
+      :`<p>${esc(k.text)}</p>`).join("")}</div>`:"";
+  const bangHtml=(d.muc||[]).length?(coTomTat
+      ?`<details class="bang-goc"><summary>Bảng chi tiết trích nguyên từ dữ liệu gốc</summary>${d.muc.map(renderMuc).join("")}</details>`
+      :d.muc.map(renderMuc).join("")):"";
+  return `<div class="a"><div class="st"><b>Trợ lý tra cứu</b><span>Tổng hợp từ dữ liệu thủ tục, có nguồn</span></div>${chao}
+    ${coTomTat?tomTatHtml:((d.muc||[]).length?"":`<div class="txt">${esc(d.tra_loi)}</div>`)}
+    ${procedureHtml}
+    ${d.luu_y?`<div class="canh">${esc(d.luu_y)}</div>`:""}
+    ${bangHtml}
+    <div class="src"><b>Nguồn:</b> ${esc(n.noi_cung_cap||"Dữ liệu thủ tục")}${n.ma_thu_tuc?`, thủ tục mã <b>${esc(n.ma_thu_tuc)}</b>`:""}${(n.muc||[]).length?`, mục ${esc(n.muc.join(", "))}`:""}.
+      <a href="#/thu-tuc/${t.id}" title="${esc(nfc(n.ten||t.ten||""))}">Xem toàn bộ thủ tục</a></div>${explain}
+    <div class="foll"><span>Hỏi thêm:</span>${QUICK.map(([l,q])=>`<button class="pill" type="button" data-id="${t.id}" data-q="${esc(q)}">${esc(l)}</button>`).join("")}</div>
+    ${(d.lua_chon||[]).length?`<div class="tuongtu">Thủ tục có tên gần giống, bấm để hỏi về thủ tục đó:
+      <div class="choices">${d.lua_chon.map(choiceBtn).join("")}</div></div>`:""}
+  </div>`;
+}
+let CHAT_BUSY=false, CHAT_CTRL=null, CHAT_EPOCH=0;
+function chatBusy(v){
+  CHAT_BUSY=v;
+  $("composer").setAttribute("aria-busy",String(v));
+  $("composer").querySelector("button").disabled=v;
+}
+async function ask({cau_hoi,id_thu_tuc,hien}){
+  cau_hoi=txt(cau_hoi); if(cau_hoi.length<2)return;
+  if(CHAT_BUSY){toast("Hãy chờ phản hồi hoặc bắt đầu cuộc hỏi đáp mới.");return;}
+  const seq=++CHAT_SEQ, epoch=CHAT_EPOCH, ctrl=new AbortController(); CHAT_CTRL=ctrl;chatBusy(true);
+  $("chatIntro").classList.add("hidden"); $("chatNew").classList.remove("hidden");
+  const u=document.createElement("div");u.className="u";u.textContent=hien||cau_hoi;$("msgs").appendChild(u);
+  const w=document.createElement("div");w.innerHTML='<div class="a cho"><span class="dang">Đang tra cứu thông tin</span></div>';$("msgs").appendChild(w);
+  $("msgs").scrollTop=$("msgs").scrollHeight;
+  const body={cau_hoi};if(id_thu_tuc)body.id_thu_tuc=id_thu_tuc;else if(CHAT_CTX)body.id_ngu_canh=CHAT_CTX;
+  try{
+    const d=await getJSON("/api/hoi",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body),signal:ctrl.signal});
+    if(epoch!==CHAT_EPOCH||!w.isConnected)return;
+    w.innerHTML=renderAnswer(d);
+    if(seq===CHAT_SEQ&&d.trang_thai==="tra_loi"&&d.thu_tuc)CHAT_CTX=d.thu_tuc.id;
+    w.querySelectorAll(".choice").forEach(b=>b.onclick=()=>ask({cau_hoi,id_thu_tuc:+b.dataset.id,hien:`${cau_hoi} (${b.dataset.t})`}));
+    w.querySelectorAll(".foll .pill").forEach(b=>b.onclick=()=>ask({cau_hoi:b.dataset.q,id_thu_tuc:b.dataset.id?+b.dataset.id:undefined}));
+    w.querySelectorAll(".asec .more").forEach(b=>b.onclick=()=>{b.parentElement.classList.add("open");b.remove();});
+    w.querySelectorAll(".tt-them").forEach(b=>b.onclick=()=>{b.previousElementSibling.classList.remove("gon");b.remove();});
+  }catch(e){
+    if(e.name==="AbortError"||epoch!==CHAT_EPOCH||!w.isConnected)return;
+    w.innerHTML=`<div class="a refuse"><div class="st">Chưa nhận được phản hồi</div><div class="txt">${e.status===422?"Câu hỏi cần từ 2 đến 500 ký tự.":e.status===429?"Bạn gửi quá nhiều câu hỏi trong một phút. Vui lòng chờ một lát rồi hỏi tiếp.":loiMang(e)+" Bạn cũng có thể tìm thủ tục trong danh mục."}</div></div>`;
+  }finally{if(CHAT_CTRL===ctrl){CHAT_CTRL=null;chatBusy(false);}}
+  if(epoch===CHAT_EPOCH&&!$("vChat").classList.contains("hidden"))$("msgs").scrollTo({top:Math.max(0,u.offsetTop-8),behavior:"auto"});
+}
+$("composer").onsubmit=e=>{
+  e.preventDefault();const v=txt($("cq").value);if(CHAT_BUSY||v.length<2)return;
+  $("cq").value="";ask({cau_hoi:v});
+};
+$("chatNew").onclick=()=>{
+  CHAT_EPOCH++;CHAT_SEQ++;if(CHAT_CTRL)CHAT_CTRL.abort();CHAT_CTRL=null;chatBusy(false);CHAT_CTX=null;
+  $("msgs").innerHTML="";$("chatIntro").classList.remove("hidden");$("chatNew").classList.add("hidden");$("cq").focus();
+};
+$("skipLink").onclick=e=>{e.preventDefault();$("noiDung").focus();$("noiDung").scrollIntoView();};
+function initTabs(parent){
+  const tabs=[...parent.querySelectorAll('[role="tab"]')];
+  tabs.forEach((t,i)=>{
+    t.tabIndex=t.getAttribute("aria-selected")==="true"?0:-1;
+    t.onkeydown=e=>{
+      let n=i;if(e.key==="ArrowRight")n=(i+1)%tabs.length;else if(e.key==="ArrowLeft")n=(i+tabs.length-1)%tabs.length;
+      else if(e.key==="Home")n=0;else if(e.key==="End")n=tabs.length-1;else return;
+      e.preventDefault();const id=tabs[n].id;tabs[n].click();$(id).focus();
+    };
+  });
+}
+initTabs(document.querySelector('.seg'));
+
+if(location.protocol==="file:")$("apiDocs").href=API+"/docs";
+</script>
+</body>
+</html>

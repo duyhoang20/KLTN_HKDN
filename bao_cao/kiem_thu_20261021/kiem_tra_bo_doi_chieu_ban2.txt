@@ -1,0 +1,30 @@
+============================================================================
+KIỂM TRA BỘ ĐỐI CHIẾU NGUỒN BẰNG LỖI CỐ Ý
+============================================================================
+Bộ đối chiếu : DC-20261021-1
+Dữ liệu      : mau_21_thu_tuc_du_lieu_chi_tiet.json (21 thủ tục, câu trả lời gốc của trợ lý)
+Mỗi lần chỉ làm sai MỘT dòng của MỘT mục. “Phát hiện” = bộ đối chiếu báo thiếu
+dữ kiện, dòng không căn cứ, hoặc dòng sai lệch (cặp số–đơn vị không có trong nguồn hoặc của chủ thể khác).
+
+Kiểu lỗi cố ý                                        Phát hiện     Tỉ lệ
+bỏ hẳn một dòng                                        532/532    100.0%
+đổi đơn vị thời gian (ngày làm việc → tháng)           248/248    100.0%
+đổi đơn vị tiền (đồng → USD)                           254/254    100.0%
+đổi số tiền                                            240/240    100.0%
+đổi số bản chính/bản sao                                 99/99    100.0%
+cắt mất nửa sau của dòng                               442/442    100.0%
+thêm câu “Miễn lệ phí.” (không có chữ số)                0/470      0.0%
+gắn số bản của giấy tờ khác (sửa dòng)                   25/25    100.0%
+gắn thời hạn của hình thức nộp khác                      14/14    100.0%
+gắn số tiền của khoản phí khác                         240/240    100.0%
+thêm dòng: giấy tờ với số bản của giấy tờ khác           25/25    100.0%
+thêm dòng hai vế: số bản của B gắn vào A, B ở vế sau       25/25    100.0%
+như trên, hai vế nối bằng dấu phẩy                       25/25    100.0%
+như trên, hai vế nối bằng chữ “và”                       25/25    100.0%
+
+Ví dụ lỗi KHÔNG bị phát hiện (mỗi kiểu một ví dụ):
+  [thêm câu “Miễn lệ phí.” (không có chữ số)] 1.116484 [ho_so] - Bản sao văn bản chứng minh tư cách pháp nhân của tổ chức (1 bản sao) Miễn lệ phí.
+
+Cách đọc: kiểu lỗi có tỉ lệ thấp là việc bộ đối chiếu chưa làm được.
+Ví dụ câu “Miễn lệ phí.” không có chữ số nên chỉ được bắt khi nó làm mất dữ kiện;
+đây là lý do trợ lý không cho mô hình ngôn ngữ viết dữ kiện.

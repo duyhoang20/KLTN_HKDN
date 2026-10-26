@@ -1,0 +1,66 @@
+﻿stt,cau_hoi,loai,ma_thu_tuc_dung,ghi_chu
+1,làm hộ chiếu cần những gì,tu_nhien,,
+2,hộ chiếu hết hạn thì làm lại thế nào,tu_nhien,,
+3,tôi muốn đăng ký khai sinh cho con,tu_nhien,,
+4,con tôi sinh ra ở nước ngoài thì đăng ký khai sinh ở đâu,tu_nhien,,
+5,thủ tục đăng ký kết hôn với người nước ngoài như thế nào,tu_nhien,,
+6,xin giấy xác nhận tình trạng hôn nhân để lấy chồng,tu_nhien,,
+7,đăng ký khai tử cho người thân mới mất,tu_nhien,,
+8,xin phiếu lý lịch tư pháp ở đâu,tu_nhien,,
+9,chuyển hộ khẩu về quê,dong_nghia,,
+10,nhập hộ khẩu cho vợ về nhà chồng,dong_nghia,,
+11,tôi muốn đăng ký tạm trú cho người thuê trọ,tu_nhien,,
+12,khai báo tạm vắng khi đi làm xa,tu_nhien,,
+13,bị mất căn cước công dân phải làm gì,tu_nhien,,
+14,làm lại chứng minh nhân dân bị hỏng,dong_nghia,,
+15,đổi giấy phép lái xe bị hết hạn,tu_nhien,,
+16,đổi bằng lái xe quốc tế,dong_nghia,,
+17,đăng ký biển số cho xe máy mới mua,tu_nhien,,
+18,sang tên xe ô tô cũ mua lại,tu_nhien,,
+19,cho tôi hỏi cách đăng ký kinh doanh hộ cá thể,dong_nghia,,
+20,tạm ngừng kinh doanh hộ gia đình,tu_nhien,,
+21,thành lập công ty trách nhiệm hữu hạn một thành viên,tu_nhien,,
+22,giải thể doanh nghiệp thì cần làm gì,tu_nhien,,
+23,đăng ký mã số thuế cá nhân lần đầu,tu_nhien,,
+24,quyết toán thuế thu nhập cá nhân,tu_nhien,,
+25,hoàn thuế giá trị gia tăng cho doanh nghiệp,tu_nhien,,
+26,muốn xin giấy phép xây dựng nhà ở thì làm sao,tu_nhien,,
+27,xin cấp sổ đỏ lần đầu,dong_nghia,,
+28,sang tên sổ đỏ khi mua bán đất,dong_nghia,,
+29,xin giấy phép kinh doanh karaoke,tu_nhien,,
+30,mở phòng khám tư nhân cần giấy phép gì,tu_nhien,,
+31,xin chứng chỉ hành nghề dược,tu_nhien,,
+32,giấy chứng nhận an toàn thực phẩm cho quán ăn,tu_nhien,,
+33,hưởng trợ cấp thất nghiệp,tu_nhien,,
+34,rút bảo hiểm xã hội một lần,tu_nhien,,
+35,xin trợ cấp cho người có công với cách mạng,tu_nhien,,
+36,xác nhận liệt sĩ cho người thân,tu_nhien,,
+37,cấp lại bằng tốt nghiệp bị mất,dong_nghia,,
+38,xin học bổng đi du học,tu_nhien,,
+39,chuyển trường cho học sinh trung học,tu_nhien,,
+40,thành lập trường mầm non tư thục,tu_nhien,,
+41,xin visa cho người nước ngoài vào việt nam,dong_nghia,,
+42,gia hạn tạm trú cho người nước ngoài,tu_nhien,,
+43,cấp giấy phép lao động cho người nước ngoài,tu_nhien,,
+44,đăng ký nhãn hiệu cho sản phẩm,tu_nhien,,
+45,xin giấy phép nhập khẩu thuốc bảo vệ thực vật,tu_nhien,,
+46,chứng thực bản sao giấy tờ,tu_nhien,,
+47,khieu nai quyet dinh hanh chinh,khong_dau,,
+48,cap lai giay khai sinh bi mat,khong_dau,,
+49,dang ky thuong tru,khong_dau,,
+50,xin giay phep ban le ruou,khong_dau,,
+51,cách nấu phở bò,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+52,hôm nay trời có mưa không,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+53,mua điện thoại iPhone ở đâu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+54,giá vàng hôm nay bao nhiêu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+55,kết quả xổ số miền nam hôm qua,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+56,cách giảm cân nhanh trong một tuần,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+57,phim hay chiếu rạp tuần này,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+58,tỉ số trận bóng đá tối qua,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+59,công thức làm bánh flan,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+60,sửa máy giặt tại nhà giá rẻ,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+61,học tiếng anh online miễn phí ở đâu,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+62,quán cà phê yên tĩnh gần đây,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+63,cách trồng cây hoa hồng,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+64,bài hát đang thịnh hành nhất hiện nay,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn
+65,cách buộc dây giày nhanh,ngoai_pham_vi,KHONG_CO,Ngoài phạm vi thủ tục hành chính; nhãn đặt sẵn

@@ -1,0 +1,1106 @@
+ỨNG VIÊN GỢI Ý ĐỂ GÁN NHÃN BỘ ĐỀ CÂU HỎI TỰ NHIÊN
+Kho: bản xuất 24/09/2026, 9.451 thủ tục published.
+Ứng viên lọc bằng KHỚP CHỮ THUẦN TÚY trên tên thủ tục theo khái niệm ghi ở từng câu,
+KHÔNG dùng thuật toán tra cứu của hệ thống — để bộ đề không thiên vị thuật toán nó chấm.
+Ứng viên chỉ để tiết kiệm thời gian; đáp án đúng có thể KHÔNG nằm trong danh sách này.
+Định dạng: mã thủ tục | tên | cơ quan | lĩnh vực
+
+====================================================================================================
+CÂU 1: làm hộ chiếu cần những gì   [loại: tu_nhien]
+Khái niệm dùng lọc: hộ chiếu phổ thông / cấp hộ chiếu — 20 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.010381 | Cấp hộ chiếu phổ thông có gắn chíp điện tử ở trong nước (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010383 | Cấp hộ chiếu phổ thông có gắn chíp điện tử ở trong nước (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001471 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001456 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001198 | Cấp lại hộ chiếu phổ thông (thực hiện ở cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.004182 | Cấp lại hộ chiếu phổ thông (thực hiện ở cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010382 | Khôi phục giá trị sử dụng hộ chiếu phổ thông (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010384 | Khôi phục giá trị sử dụng hộ chiếu phổ thông (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001143 | Sửa đổi, bổ sung hộ chiếu phổ thông (thực hiện ở cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000245 | Sửa đổi, bổ sung hộ chiếu phổ thông (thực hiện ở cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010385 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp huyện) | Bộ Công an | Quản lý xuất nhập cảnh
+  2.000539 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001445 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010386 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp xã) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000897 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại các Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  2.002352 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+  2.002355 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Quản lý xuất nhập cảnh
+  1.010094 | Thủ tục cấp hộ chiếu phổ thông (không gắn chip điện tử) tại Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  1.010103 | Thủ tục cấp hộ chiếu phổ thông theo thủ tục rút gọn tại Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  2.000772 | Thủ tục xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam | Bộ Ngoại giao | Quốc tịch
+
+====================================================================================================
+CÂU 2: hộ chiếu hết hạn thì làm lại thế nào   [loại: tu_nhien]
+Khái niệm dùng lọc: hộ chiếu — 27 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.010381 | Cấp hộ chiếu phổ thông có gắn chíp điện tử ở trong nước (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010383 | Cấp hộ chiếu phổ thông có gắn chíp điện tử ở trong nước (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001471 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001456 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001198 | Cấp lại hộ chiếu phổ thông (thực hiện ở cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.004182 | Cấp lại hộ chiếu phổ thông (thực hiện ở cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.014901 | Cấp lại tem “AB” trong trường hợp hộ chiếu bị mất, hư hỏng ở trong nước | Bộ Công an | Quản lý xuất nhập cảnh
+  1.014905 | Cấp lại tem “AB” trong trường hợp hộ chiếu bị mất, hư hỏng ở trong nước (thực hiện ở cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010382 | Khôi phục giá trị sử dụng hộ chiếu phổ thông (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010384 | Khôi phục giá trị sử dụng hộ chiếu phổ thông (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001143 | Sửa đổi, bổ sung hộ chiếu phổ thông (thực hiện ở cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000245 | Sửa đổi, bổ sung hộ chiếu phổ thông (thực hiện ở cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010385 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp huyện) | Bộ Công an | Quản lý xuất nhập cảnh
+  2.000539 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001445 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010386 | Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp xã) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000897 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại các Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  2.002352 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+  2.002355 | Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Quản lý xuất nhập cảnh
+  1.010094 | Thủ tục cấp hộ chiếu phổ thông (không gắn chip điện tử) tại Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  1.010103 | Thủ tục cấp hộ chiếu phổ thông theo thủ tục rút gọn tại Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  2.002353 | Thủ tục gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao. | Bộ Ngoại giao | Công tác lãnh sự
+  2.002356 | Thủ tục gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  1.000912 | Thủ tục sửa đổi, bổ sung hộ chiếu ngoại giao, hộ chiếu công vụ tại các Cơ quan đại diện Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  2.000772 | Thủ tục xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam | Bộ Ngoại giao | Quốc tịch
+  3.000419 | Thủ tục cấp phép cho người Việt Nam định cư ở nước ngoài có hộ chiếu Việt Nam, người Việt Nam làm việc cho tổ chức nước ngoài ra, vào Cảng quốc tế Cam Ranh | Bộ Quốc phòng | Bảo vệ công trình quốc phòng và khu quân sự
+  3.000418 | Thủ tục cấp phép cho người nước ngoài, người Việt Nam định cư ở nước ngoài có hộ chiếu nước ngoài ra, vào Cảng quốc tế Cam Ranh | Bộ Quốc phòng | Bảo vệ công trình quốc phòng và khu quân sự
+
+====================================================================================================
+CÂU 3: tôi muốn đăng ký khai sinh cho con   [loại: tu_nhien]
+Khái niệm dùng lọc: đăng ký khai sinh — 13 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001020 | Thủ tục đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam | Bộ Ngoại giao | Hộ tịch
+  2.001023 | Liên thông các thủ tục hành chính về đăng ký khai sinh, cấp Thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  1.001193 | Thủ tục đăng ký khai sinh | Bộ Tư pháp | Hộ tịch
+  1.004772 | Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  2.000528 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.000893 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  1.000110 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới | Bộ Tư pháp | Hộ tịch
+  1.000689 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con | Bộ Tư pháp | Hộ tịch
+  1.001695 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.003583 | Thủ tục đăng ký khai sinh lưu động | Bộ Tư pháp | Hộ tịch
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+
+====================================================================================================
+CÂU 4: con tôi sinh ra ở nước ngoài thì đăng ký khai sinh ở đâu   [loại: tu_nhien]
+Khái niệm dùng lọc: khai sinh — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.000712 | Thủ tục ghi vào sổ hộ tịch việc khai sinh đã đăng ký tại cơ quan có thẩm quyền của nước ngoài | Bộ Ngoại giao | Hộ tịch
+  1.001020 | Thủ tục đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam | Bộ Ngoại giao | Hộ tịch
+  2.000635 | Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh | Bộ Tư pháp | Hộ tịch
+  2.001023 | Liên thông các thủ tục hành chính về đăng ký khai sinh, cấp Thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.000547 | Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch) | Bộ Tư pháp | Hộ tịch
+  1.001193 | Thủ tục đăng ký khai sinh | Bộ Tư pháp | Hộ tịch
+  1.004772 | Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  2.000528 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.000893 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  1.000110 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới | Bộ Tư pháp | Hộ tịch
+  1.000689 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con | Bộ Tư pháp | Hộ tịch
+  1.001695 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.003583 | Thủ tục đăng ký khai sinh lưu động | Bộ Tư pháp | Hộ tịch
+  1.004884 | Thủ tục đăng ký lại khai sinh | Bộ Tư pháp | Hộ tịch
+  2.000522 | Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+
+====================================================================================================
+CÂU 5: thủ tục đăng ký kết hôn với người nước ngoài như thế nào   [loại: tu_nhien]
+Khái niệm dùng lọc: kết hôn — 12 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.000736 | Thủ tục ghi vào sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài | Bộ Ngoại giao | Hộ tịch
+  2.000698 | Thủ tục ghi vào sổ hộ tịch việc ly hôn, huỷ việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài | Bộ Ngoại giao | Hộ tịch
+  2.000682 | Thủ tục đăng ký kết hôn giữa công dân Việt Nam tạm trú ở nước ngoài với nhau hoặc giữa công dân Việt Nam cư trú ở nước ngoài với người nước ngoài | Bộ Ngoại giao | Hộ tịch
+  2.000507 | Thủ tục đăng ký lại kết hôn | Bộ Ngoại giao | Hộ tịch
+  2.002189 | Thủ tục ghi vào Sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài | Bộ Tư pháp | Hộ tịch
+  2.000554 | Thủ tục ghi vào Sổ hộ tịch việc ly hôn, hủy việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.000894 | Thủ tục đăng ký kết hôn | Bộ Tư pháp | Hộ tịch
+  2.000806 | Thủ tục đăng ký kết hôn có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.000094 | Thủ tục đăng ký kết hôn có yếu tố nước ngoài tại khu vực biên giới | Bộ Tư pháp | Hộ tịch
+  1.000593 | Thủ tục đăng ký kết hôn lưu động | Bộ Tư pháp | Hộ tịch
+  1.004746 | Thủ tục đăng ký lại kết hôn | Bộ Tư pháp | Hộ tịch
+  2.000513 | Thủ tục đăng ký lại kết hôn có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 6: xin giấy xác nhận tình trạng hôn nhân để lấy chồng   [loại: tu_nhien]
+Khái niệm dùng lọc: tình trạng hôn nhân — 2 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.000689 | Thủ tục cấp Giấy xác nhận tình trạng hôn nhân cho công dân Việt Nam trong thời gian cư trú ở nước ngoài | Bộ Ngoại giao | Hộ tịch
+  1.004873 | Thủ tục cấp Giấy xác nhận tình trạng hôn nhân | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 7: đăng ký khai tử cho người thân mới mất   [loại: tu_nhien]
+Khái niệm dùng lọc: khai tử — 11 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.000702 | Thủ tục ghi vào sổ hộ tịch các việc hộ tịch đã đăng ký tại cơ quan có thẩm quyền của nước ngoài (giám hộ; nhận cha, mẹ, con; xác định cha, mẹ con; nuôi con nuôi; khai tử; và những thay đổi khác) | Bộ Ngoại giao | Hộ tịch
+  2.000527 | Thủ tục đăng ký khai tử cho công dân Việt Nam ở nước ngoài | Bộ Ngoại giao | Hộ tịch
+  2.002913 | Liên thông điện tử: Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.000547 | Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch) | Bộ Tư pháp | Hộ tịch
+  1.000656 | Thủ tục đăng ký khai tử | Bộ Tư pháp | Hộ tịch
+  1.001766 | Thủ tục đăng ký khai tử có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.004827 | Thủ tục đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới | Bộ Tư pháp | Hộ tịch
+  1.000419 | Thủ tục đăng ký khai tử lưu động | Bộ Tư pháp | Hộ tịch
+  2.000497 | Thủ tục đăng ký lại khai tử có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  2.002869 | Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | Hộ tịch
+  1.005461 | Đăng ký lại khai tử | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 8: xin phiếu lý lịch tư pháp ở đâu   [loại: tu_nhien]
+Khái niệm dùng lọc: lý lịch tư pháp — 6 ứng viên
+----------------------------------------------------------------------------------------------------
+  3.000333 | Cấp Phiếu Lý lịch tư pháp cho công dân Việt Nam, người nước ngoài đang cư trú tại Việt Nam, người Việt Nam đang cư trú ở nước ngoài | Bộ Công an | Lý lịch tư pháp
+  3.000331 | Cấp Phiếu Lý lịch tư pháp theo yêu cầu của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội (đối tượng là công dân Việt Nam không xác định được nơi thường trú hoặc nơi tạm trú, người nước ngoài đã cư trú tại Việt Nam) | Bộ Công an | Lý lịch tư pháp
+  3.000334 | Cấp Phiếu Lý lịch tư pháp theo yêu cầu của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội (đối tượng là công dân Việt Nam, người nước ngoài đang cư trú ở Việt Nam) | Bộ Công an | Lý lịch tư pháp
+  3.000330 | Cấp Phiếu lý lịch tư pháp cho công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú; người nước ngoài đã cư trú tại Việt Nam | Bộ Công an | Lý lịch tư pháp
+  3.000332 | Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành tố tụng (đối tượng là công dân Việt Nam không xác định được nơi thường trú hoặc nơi tạm trú, người nước ngoài đã cư trú tại Việt Nam) | Bộ Công an | Lý lịch tư pháp
+  3.000335 | Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành tố tụng (đối tượng là công dân Việt Nam, người nước ngoài đang cư trú tại Việt Nam) | Bộ Công an | Lý lịch tư pháp
+
+====================================================================================================
+CÂU 9: chuyển hộ khẩu về quê   [loại: dong_nghia]
+Khái niệm dùng lọc: đăng ký thường trú / chuyển hộ khẩu / xóa đăng ký thường trú — 20 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.003216 | Cấp giấy chuyển hộ khẩu (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003182 | Cấp giấy chuyển hộ khẩu (thực hiện tại cấp xã) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001126 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật | Bộ Công an | Đăng ký, quản lý cư trú
+  2.001416 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.010040 | Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001015 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004196 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp xã) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.013314 | Xác nhận về điều kiện diện tích bình quân nhà ở để đăng ký thường trú vào chỗ ở do thuê, mượn, ở nhờ; nhà ở, đất ở không có tranh chấp quyền sở hữu nhà ở, quyền sử dụng đất ở, không thuộc địa điểm không được đăng ký thường trú mới | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003197 | Xóa đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001057 | Xóa đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004222 | Đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004370 | Đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  2.002180 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003424 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.007886 | Thủ tục nhập khẩu xe ô tô, xe mô tô đã qua sử dụng theo chế độ tài sản di chuyển của người Việt Nam định cư ở nước ngoài đã hoàn tất thủ tục đăng ký thường trú tại Việt Nam | Bộ Tài chính | Hải quan
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.002913 | Liên thông điện tử: Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | thủ tục hành chính liên thông
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+  2.002869 | Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 10: nhập hộ khẩu cho vợ về nhà chồng   [loại: dong_nghia]
+Khái niệm dùng lọc: đăng ký thường trú / nhập hộ khẩu — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001126 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật | Bộ Công an | Đăng ký, quản lý cư trú
+  2.001416 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.010040 | Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001015 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004196 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp xã) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.013314 | Xác nhận về điều kiện diện tích bình quân nhà ở để đăng ký thường trú vào chỗ ở do thuê, mượn, ở nhờ; nhà ở, đất ở không có tranh chấp quyền sở hữu nhà ở, quyền sử dụng đất ở, không thuộc địa điểm không được đăng ký thường trú mới | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003197 | Xóa đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001057 | Xóa đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004222 | Đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004370 | Đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  2.002180 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003424 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.007886 | Thủ tục nhập khẩu xe ô tô, xe mô tô đã qua sử dụng theo chế độ tài sản di chuyển của người Việt Nam định cư ở nước ngoài đã hoàn tất thủ tục đăng ký thường trú tại Việt Nam | Bộ Tài chính | Hải quan
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.002913 | Liên thông điện tử: Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | thủ tục hành chính liên thông
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+  2.002869 | Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 11: tôi muốn đăng ký tạm trú cho người thuê trọ   [loại: tu_nhien]
+Khái niệm dùng lọc: tạm trú — 24 ứng viên
+----------------------------------------------------------------------------------------------------
+  3.000331 | Cấp Phiếu Lý lịch tư pháp theo yêu cầu của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội (đối tượng là công dân Việt Nam không xác định được nơi thường trú hoặc nơi tạm trú, người nước ngoài đã cư trú tại Việt Nam) | Bộ Công an | Lý lịch tư pháp
+  3.000330 | Cấp Phiếu lý lịch tư pháp cho công dân Việt Nam mà không xác định được nơi thường trú hoặc nơi tạm trú; người nước ngoài đã cư trú tại Việt Nam | Bộ Công an | Lý lịch tư pháp
+  3.000332 | Cấp Phiếu lý lịch tư pháp theo yêu cầu của cơ quan tiến hành tố tụng (đối tượng là công dân Việt Nam không xác định được nơi thường trú hoặc nơi tạm trú, người nước ngoài đã cư trú tại Việt Nam) | Bộ Công an | Lý lịch tư pháp
+  1.004188 | Cấp lại sổ tạm trú tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003358 | Cấp thẻ tạm trú cho người nước ngoài tại Cục Quản lý xuất nhập cảnh, Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003460 | Cấp thẻ tạm trú cho người nước ngoài tại Việt Nam tại Công an cấp tỉnh | Bộ Công an | Quản lý xuất nhập cảnh
+  1.004192 | Cấp đổi sổ tạm trú tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý cư trú
+  1.002755 | Gia hạn tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003326 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001146 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000771 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Cục Quản lý xuất nhập cảnh Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002411 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Phòng Quản lý xuất nhập cảnh Công an tỉnh, thành phố trực thuộc Trung ương | Bộ Công an | Quản lý xuất nhập cảnh
+  2.002086 | Hủy bỏ kết quả đăng ký tạm trú trú trái pháp luật tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý cư trú
+  1.010040 | Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.000253 | Khai báo tạm trú cho người nước ngoài tại Việt Nam bằng Phiếu khai báo tạm trú | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001437 | Khai báo tạm trú cho người nước ngoài tại Việt Nam qua Trang thông tin điện tử | Bộ Công an | Quản lý xuất nhập cảnh
+  1.010028 | Xóa đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003706 | Điều chỉnh những thay đổi trong sổ tạm trú tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004194 | Đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  3.000249 | Thủ tục cấp thẻ tạm trú cho người nước ngoài tại Việt Nam | Bộ Ngoại giao | Ưu đãi, miễn trừ
+  1.000039 | Thủ tục gia hạn tạm trú, cấp thị thực mới cho người nước ngoài đang tạm trú ở Việt Nam tại cơ quan có thẩm quyền ở trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+  2.000682 | Thủ tục đăng ký kết hôn giữa công dân Việt Nam tạm trú ở nước ngoài với nhau hoặc giữa công dân Việt Nam cư trú ở nước ngoài với người nước ngoài | Bộ Ngoại giao | Hộ tịch
+  1.001121 | Thủ tục đăng ký nhận cha, mẹ, con giữa các công dân Việt Nam tạm trú ở nước ngoài với nhau | Bộ Ngoại giao | Hộ tịch
+  1.000808 | Thủ tục đăng ký việc nhận nuôi con nuôi giữa người nhận nuôi là công dân Việt Nam tạm trú ở nước ngoài với trẻ em được nhận nuôi là công dân Việt Nam tạm trú ở nước ngoài | Bộ Ngoại giao | Hộ tịch
+
+====================================================================================================
+CÂU 12: khai báo tạm vắng khi đi làm xa   [loại: tu_nhien]
+Khái niệm dùng lọc: tạm vắng — 9 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.003677 | Khai báo tạm vắng | Bộ Công an | Đăng ký, quản lý cư trú
+  2.000017 | Thủ tục xóa đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của Quân đội (chủ phương tiện là cá nhân) | Bộ Quốc phòng | Động viên quân đội
+  1.008301 | Thủ tục xóa đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của Quân đội (chủ phương tiện là cơ quan, tổ chức). | Bộ Quốc phòng | Động viên quân đội
+  2.000773 | Thủ tục xóa đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của quân đội (chủ phương tiện là cơ quan, tổ chức) | Bộ Quốc phòng | Động viên quân đội
+  1.013138 | Thủ tục đăng ký nghĩa vụ quân sự tạm vắng | Bộ Quốc phòng | Nghĩa vụ quân sự
+  1.008358 | Thủ tục đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của Quân đội (chủ phương tiện là cá nhân). | Bộ Quốc phòng | Động viên quân đội
+  1.008300 | Thủ tục đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của Quân đội (chủ phương tiện là cơ quan, tổ chức). | Bộ Quốc phòng | Động viên quân đội
+  2.000010 | Thủ tục đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của quân đội (chủ phương tiện là cá nhân) | Bộ Quốc phòng | Động viên quân đội
+  2.000761 | Thủ tục đăng ký tạm vắng đối với phương tiện kỹ thuật đã sắp xếp trong kế hoạch bổ sung cho lực lượng thường trực của quân đội (chủ phương tiện là cơ quan, tổ chức) | Bộ Quốc phòng | Động viên quân đội
+
+====================================================================================================
+CÂU 13: bị mất căn cước công dân phải làm gì   [loại: tu_nhien]
+Khái niệm dùng lọc: cấp lại thẻ căn cước / cấp đổi thẻ căn cước / cấp lại căn cước / cấp đổi căn cước — 11 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.014064 | Cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  2.000377 | Cấp lại thẻ căn cước (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000757 | Cấp lại thẻ căn cước (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001194 | Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  1.014063 | Cấp đổi thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  2.000408 | Cấp đổi thẻ căn cước (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000889 | Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001195 | Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  1.116410 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  1.116407 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  1.116405 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+
+====================================================================================================
+CÂU 14: làm lại chứng minh nhân dân bị hỏng   [loại: dong_nghia]
+Khái niệm dùng lọc: cấp lại thẻ căn cước / cấp đổi thẻ căn cước / cấp lại căn cước / cấp đổi căn cước / chứng minh nhân dân — 27 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.001238 | Cấp Chứng minh nhân dân (9 số) thực hiện tại cấp huyện | Bộ Công an | Cấp, quản lý căn cước
+  1.003411 | Cấp Chứng minh nhân dân (9 số) thực hiện tại cấp tỉnh | Bộ Công an | Cấp, quản lý căn cước
+  1.004364 | Cấp lại Chứng minh nhân dân (9 số) thực hiện tại cấp huyện | Bộ Công an | Cấp, quản lý căn cước
+  1.003404 | Cấp lại Chứng minh nhân dân (9 số) thực hiện tại cấp tỉnh | Bộ Công an | Cấp, quản lý căn cước
+  1.014064 | Cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  2.000377 | Cấp lại thẻ căn cước (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000757 | Cấp lại thẻ căn cước (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001194 | Cấp lại thẻ căn cước (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  2.000677 | Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000466 | Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001178 | Cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  1.014063 | Cấp đổi thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  2.000408 | Cấp đổi thẻ căn cước (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000889 | Cấp đổi thẻ căn cước (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001195 | Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  1.116410 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  1.116407 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  1.116405 | Cấp, cấp đổi, cấp lại thẻ căn cước | Bộ Công an | Cấp, quản lý căn cước
+  2.000268 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  1.000499 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  2.001181 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân chưa có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  2.000336 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp huyện) | Bộ Công an | Cấp, quản lý căn cước
+  2.000235 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp trung ương) | Bộ Công an | Cấp, quản lý căn cước
+  1.002860 | Xác nhận số Chứng minh nhân dân khi cấp thẻ Căn cước công dân đã có thông tin trong Cơ sở dữ liệu quốc gia về dân cư (thực hiện tại cấp tỉnh) | Bộ Công an | Cấp, quản lý căn cước
+  1.012566 | Xác nhận số chứng minh nhân dân 09 số, số định danh cá nhân (thực hiện tại cấp xã) | Bộ Công an | Cấp, quản lý căn cước
+  1.003092 | Đổi Chứng minh nhân dân (9 số) thực hiện tại cấp huyện | Bộ Công an | Cấp, quản lý căn cước
+  1.003410 | Đổi Chứng minh nhân dân (9 số) thực hiện tại cấp tỉnh | Bộ Công an | Cấp, quản lý căn cước
+
+====================================================================================================
+CÂU 15: đổi giấy phép lái xe bị hết hạn   [loại: tu_nhien]
+Khái niệm dùng lọc: giấy phép lái xe — 17 ứng viên
+----------------------------------------------------------------------------------------------------
+  3.000346 | Cấp giấy phép lái xe | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000353 | Cấp giấy phép lái xe quốc tế | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000348 | Cấp lại giấy phép lái xe | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000352 | Thu hồi giấy phép lái xe | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000347 | Đổi giấy phép lái xe | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000350 | Đổi giấy phép lái xe Công an nhân dân | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000351 | Đổi giấy phép lái xe hoặc bằng lái xe của người nước ngoài | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  3.000349 | Đổi giấy phép lái xe quân sự do Bộ Quốc phòng cấp | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  1.115979 | Đổi giấy phép lái xe quân sự, Công an | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  1.115978 | Đổi, cấp lại Giấy phép lái xe | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+  1.008285 | Thủ tục Cấp đổi Giấy phép lái xe đến hạn đổi, giấy phép lái xe quá hạn sử dụng dưới 3 tháng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.008284 | Thủ tục Cấp đổi giấy phép lái xe tập lái | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002479 | Thủ tục cấp lại Giấy phép lái xe | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002514 | Thủ tục cấp mới Giấy phép lái xe | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002493 | Thủ tục cấp đổi Giấy phép lái xe bị hỏng hoặc sai thông tin | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002471 | Thủ tục cấp đổi Giấy phép lái xe dân sự sang giấy phép lái xe quân sự | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002500 | Thủ tục cấp đổi Giấy phép lái xe đến hạn đổi, giấy phép lái xe quá hạn sử dụng dưới 03 tháng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+
+====================================================================================================
+CÂU 16: đổi bằng lái xe quốc tế   [loại: dong_nghia]
+Khái niệm dùng lọc: giấy phép lái xe quốc tế — 1 ứng viên
+----------------------------------------------------------------------------------------------------
+  3.000353 | Cấp giấy phép lái xe quốc tế | Bộ Công an | Sát hạch, cấp giấy phép lái xe
+
+====================================================================================================
+CÂU 17: đăng ký biển số cho xe máy mới mua   [loại: tu_nhien]
+Khái niệm dùng lọc: đăng ký xe / biển số — 51 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.013076 | Cấp chứng nhận đăng ký xe, biển số xe trong trường hợp thay đổi chủ xe (đăng ký sang tên xe) bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013082 | Cấp lại chứng nhận đăng ký  xe, biển số xe thực hiện bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013080 | Cấp lại chứng nhận đăng ký xe, biển số xe thực hiện bằng dịch vụ công trực tuyến toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000244 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004170 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004023 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe tại Công an cấp tỉnh | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010917 | Cấp lại giấy chứng nhận đăng ký, biển số xe mô tô, xe gắn máy (kể cả xe máy điện) tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.002815 | Cấp phù hiệu kiểm soát cho xe ô tô mang biển số khu kinh tế - thương mại đặc biệt, khu kinh tế cửa khẩu quốc tế theo quy định của Chính phủ vào hoạt động trong nội địa | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013065 | Thu hồi chứng nhận đăng ký xe,  biển số xe thực hiện bằng dịch vụ công toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.115971 | Thu hồi chứng nhận đăng ký xe, biển số xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000311 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004084 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001485 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010919 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013123 | Thu hồi giấy chứng nhận đăng ký, biển số xe thực hiện bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010912 | Đăng ký sang tên, di chuyển xe mô tô, xe gắn máy tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010918 | Đăng ký tạm thời xe mô tô, xe gắn máy (kể cả xe máy điện) tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013066 | Đăng ký xe lần đầu trực tuyến toàn trình đối với xe nhập khẩu  thực hiện tại cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.012575 | Đăng ký xe lần đầu trực tuyến toàn trình đối với xe sản xuất lắp ráp trong nước thực hiện tại cấp tỉnh,  cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000412 | Đăng ký xe lần đầu tại Cục Cảnh sát giao thông | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010914 | Đăng ký xe mô tô, xe gắn máy (kể cả xe máy điện) từ điểm đăng ký xe khác chuyển đến tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.000726 | Đăng ký xe tạm thời (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001751 | Đăng ký xe tạm thời (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001237 | Đăng ký xe tạm thời (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013083 | Đăng ký xe tạm thời thực hiện bằng dịch vụ công  trực  tuyến toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013086 | Đăng ký xe tạm thời thực hiện bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000389 | Đăng ký xe từ Công an địa phương chuyển đến Cục Cảnh sát giao thông – Bộ Công an | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001715 | Đăng ký xe từ tỉnh khác chuyển đến tại Công an cấp tỉnh | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004176 | Đăng ký xe từ điểm đăng ký xe khác chuyển đến (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.000781 | Đăng ký, cấp biển số xe lần đầu (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.000377 | Đăng ký, cấp biển số xe lần đầu (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013067 | Đăng ký, cấp biển số xe lần đầu thực hiện bằng dịch vụ công một phần hoặc trực tiếp thực hiện tại cấp trung ương,  cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010910 | Đăng ký, cấp biển số xe mô tô, xe gắn máy (kể cả xe máy điện) lần đầu tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.115970 | Đăng ký, cấp chứng nhận đăng ký xe, biển số xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013079 | Đổi chứng nhận đăng ký xe, biển số xe bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004173 | Đổi chứng nhận đăng ký, biển số xe tại Công an cấp huyện | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000254 | Đổi chứng nhận đăng ký, biển số xe tại Cục Cảnh sát giao thông | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001721 | Đổi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010916 | Đổi giấy chứng nhận đăng ký, biển số xe tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.001433 | Thủ tục cấp lại, cấp đổi biển số, giấy chứng nhận | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001474 | Thủ tục đăng ký xe cho, tặng; xe viện trợ; xe nhập khẩu phi mậu dịch, xe là quà biếu hoặc xe nhập khẩu là tài sản di chuyển | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001482 | Thủ tục đăng ký xe có nguồn gốc viện trợ trước ngày 31 tháng 12 năm 1989 | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001472 | Thủ tục đăng ký xe cải tạo | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001478 | Thủ tục đăng ký xe của cơ quan, đơn vị mua bằng vốn tự có, bán lại cho cơ quan, đơn vị khác trong Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001481 | Thủ tục đăng ký xe do Bộ Quốc phòng trang bị | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001480 | Thủ tục đăng ký xe do đơn vị tự mua | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001468 | Thủ tục đăng ký xe sau sửa chữa thay thế động cơ cùng loại | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001479 | Thủ tục đăng ký xe điều động giữa các cơ quan, đơn vị đầu mối trực thuộc Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001476 | Thủ tục đăng ký xe điều động nội bộ của cơ quan, đơn vị trực thuộc Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.008538 | Khai thuế thu nhập cá nhân đối với cá nhân nhận thừa kế, quà tặng không phải là bất động sản; Tổ chức, cá nhân nhận chuyển nhượng biển số
+xe trúng đấu giá; Cá nhân chuyển nhượng biễn số xe trúng đấu giá trực tiếp
+khai thuế với cơ quan thuế | Bộ Tài chính | Thuế
+  1.005103 | Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy), xe máy chuyên dùng trong trường hợp kiểm định lần đầu, kiểm định định kỳ, kiểm định cho xe có chứng nhận đăng ký xe tạm thời. | Bộ Xây dựng | Đăng kiểm
+
+====================================================================================================
+CÂU 18: sang tên xe ô tô cũ mua lại   [loại: tu_nhien]
+Khái niệm dùng lọc: đăng ký xe / sang tên / chuyển quyền sở hữu xe — 48 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.013076 | Cấp chứng nhận đăng ký xe, biển số xe trong trường hợp thay đổi chủ xe (đăng ký sang tên xe) bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013082 | Cấp lại chứng nhận đăng ký  xe, biển số xe thực hiện bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013080 | Cấp lại chứng nhận đăng ký xe, biển số xe thực hiện bằng dịch vụ công trực tuyến toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000244 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004170 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004023 | Cấp lại giấy chứng nhận đăng ký xe, biển số xe tại Công an cấp tỉnh | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010917 | Cấp lại giấy chứng nhận đăng ký, biển số xe mô tô, xe gắn máy (kể cả xe máy điện) tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004180 | Sang tên, di chuyển mô tô, xe gắn máy đi tỉnh, thành phố trực thuộc Trung ương khác tại Công an cấp huyện nơi được phân cấp đăng ký mô tô, xe gắn máy | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000396 | Sang tên, di chuyển xe đi tỉnh, thành phố khác tại Cục Cảnh sát giao thông – Bộ Công an | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004000 | Sang tên, di chuyển xe đi tỉnh, thành phố trực thuộc trung ương khác tại Công an cấp tỉnh | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013065 | Thu hồi chứng nhận đăng ký xe,  biển số xe thực hiện bằng dịch vụ công toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.115971 | Thu hồi chứng nhận đăng ký xe, biển số xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000311 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004084 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001485 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010919 | Thu hồi giấy chứng nhận đăng ký xe, biển số xe tại Công an cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010912 | Đăng ký sang tên, di chuyển xe mô tô, xe gắn máy tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.000540 | Đăng ký sang tên, di chuyển xe tại Công an cấp huyện | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000404 | Đăng ký sang tên, di chuyển xe tại Cục Cảnh sát giao thông | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000076 | Đăng ký sang tên, di chuyển xe tại Phòng Cảnh sát giao thông (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010918 | Đăng ký tạm thời xe mô tô, xe gắn máy (kể cả xe máy điện) tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013066 | Đăng ký xe lần đầu trực tuyến toàn trình đối với xe nhập khẩu  thực hiện tại cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.012575 | Đăng ký xe lần đầu trực tuyến toàn trình đối với xe sản xuất lắp ráp trong nước thực hiện tại cấp tỉnh,  cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000412 | Đăng ký xe lần đầu tại Cục Cảnh sát giao thông | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010914 | Đăng ký xe mô tô, xe gắn máy (kể cả xe máy điện) từ điểm đăng ký xe khác chuyển đến tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.000726 | Đăng ký xe tạm thời (thực hiện tại cấp Trung ương) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001751 | Đăng ký xe tạm thời (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001237 | Đăng ký xe tạm thời (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013083 | Đăng ký xe tạm thời thực hiện bằng dịch vụ công  trực  tuyến toàn trình | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013086 | Đăng ký xe tạm thời thực hiện bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.000389 | Đăng ký xe từ Công an địa phương chuyển đến Cục Cảnh sát giao thông – Bộ Công an | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001715 | Đăng ký xe từ tỉnh khác chuyển đến tại Công an cấp tỉnh | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.004176 | Đăng ký xe từ điểm đăng ký xe khác chuyển đến (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010910 | Đăng ký, cấp biển số xe mô tô, xe gắn máy (kể cả xe máy điện) lần đầu tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.115970 | Đăng ký, cấp chứng nhận đăng ký xe, biển số xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.013079 | Đổi chứng nhận đăng ký xe, biển số xe bằng dịch vụ công trực tuyến một phần hoặc trực tiếp thực hiện tại cấp trung ương, cấp tỉnh, cấp xã | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  2.001721 | Đổi giấy chứng nhận đăng ký xe, biển số xe (thực hiện tại cấp tỉnh) | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.010916 | Đổi giấy chứng nhận đăng ký, biển số xe tại Công an cấp xã được phân cấp đăng ký xe | Bộ Công an | Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng
+  1.001474 | Thủ tục đăng ký xe cho, tặng; xe viện trợ; xe nhập khẩu phi mậu dịch, xe là quà biếu hoặc xe nhập khẩu là tài sản di chuyển | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001482 | Thủ tục đăng ký xe có nguồn gốc viện trợ trước ngày 31 tháng 12 năm 1989 | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001472 | Thủ tục đăng ký xe cải tạo | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001478 | Thủ tục đăng ký xe của cơ quan, đơn vị mua bằng vốn tự có, bán lại cho cơ quan, đơn vị khác trong Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001481 | Thủ tục đăng ký xe do Bộ Quốc phòng trang bị | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001480 | Thủ tục đăng ký xe do đơn vị tự mua | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001468 | Thủ tục đăng ký xe sau sửa chữa thay thế động cơ cùng loại | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001479 | Thủ tục đăng ký xe điều động giữa các cơ quan, đơn vị đầu mối trực thuộc Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.001476 | Thủ tục đăng ký xe điều động nội bộ của cơ quan, đơn vị trực thuộc Bộ Quốc phòng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.005103 | Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho xe cơ giới (trừ xe mô tô, xe gắn máy), xe máy chuyên dùng trong trường hợp kiểm định lần đầu, kiểm định định kỳ, kiểm định cho xe có chứng nhận đăng ký xe tạm thời. | Bộ Xây dựng | Đăng kiểm
+
+====================================================================================================
+CÂU 19: cho tôi hỏi cách đăng ký kinh doanh hộ cá thể   [loại: dong_nghia]
+Khái niệm dùng lọc: hộ kinh doanh — 23 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001266 | Chấm dứt hoạt động hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  2.000575 | Cấp lại Giấy chứng nhận đăng ký hộ kinh doanh, Cấp đổi sang Giấy chứng nhận đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.014035 | Dừng thực hiện thủ tục đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  3.000083 | Giảm thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh và cá nhân khác gặp khó khăn do thiên tai, dịch bệnh, hoả hoạn, tai nạn, bệnh hiểm nghèo | Bộ Tài chính | Thuế
+  1.014979 | Hoàn nộp thừa các loại thuế đối với hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  2.002259 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán. | Bộ Tài chính | Thuế
+  1.007673 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo từng lần phát sinh. | Bộ Tài chính | Thuế
+  1.011022 | Khai thuế/Thông báo doanh thu đối với hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  1.014976 | Quyết toán thuế/Hoàn thuế thu nhập cá nhân nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế trên thu nhập tính thuế | Bộ Tài chính | Thuế
+  1.009824 | Thông báo địa điểm kinh doanh của hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  2.001999 | Thủ tục hỗ trợ tư vấn, hướng dẫn hồ sơ, thủ tục chuyển đổi hộ kinh doanh thành doanh nghiệp | Bộ Tài chính | Hỗ trợ doanh nghiệp nhỏ và vừa
+  1.007236 | Thủ tục miễn thuế nhập khẩu và không thuộc đối tượng chịu thuế giá trị gia tăng đối với hàng nông sản chưa qua chế biến do phía Việt Nam hỗ trợ đầu tư, trồng tại Campuchia nhập khẩu về nước do hộ kinh doanh, cá nhân nhập khẩu | Bộ Tài chính | Thuế
+  1.001570 | Tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã đăng ký của hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  3.000087 | Điều chỉnh doanh thu và mức thuế khoán của hộ kinh doanh, cá nhân kinh doanh (Hộ khoán) | Bộ Tài chính | Thuế
+  1.014034 | Đăng ký cập nhật, bổ sung thông tin trong hồ sơ đăng ký hộ kinh doanh, hiệu đính thông tin đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  2.000720 | Đăng ký thay đổi nội dung đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.010242 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là doanh nghiệp, hợp tác xã, tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý - Cơ quan thuế nơi người nộp thuế chuyển đi (Cấp chi cục Thuế) | Bộ Tài chính | Thuế
+  1.007572 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi các thông tin đăng ký thuế không làm thay đổi cơ quan thuế quản lý (Cấp Cục Thuế /Chi cục Thuế) | Bộ Tài chính | Thuế
+  1.010243 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý - Cơ quan thuế nơi người nộp thuế chuyển đến | Bộ Tài chính | Thuế
+  1.008504 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức, hộ gia đình/cá nhân kinh doanh có thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý trực tiếp thực hiện tại cơ quan thuế nơi người nộp thuế chuyển đi; doanh nghiệp/hợp tác xã/tổ hợp tác/hộ kinh doanh thực hiện nộp hồ sơ tại CQT nơi chuyển đi trước khi thực hiện thủ tục thay đổi với cơ quan đăng ký kinh doanh | Bộ Tài chính | Thuế
+  1.007566 | Đăng ký thuế lần đầu đối với người nộp thuế là hộ kinh doanh, cá nhân kinh doanh đăng ký thông qua hồ sơ khai thuế, chưa có mã số thuế - Chi cục Thuế | Bộ Tài chính | Thuế
+  1.001612 | Đăng ký thành lập hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.010952 | Thủ tục hỗ trợ lãi suất từ ngân sách nhà nước đối với khoản vay của doanh nghiệp, hợp tác xã, hộ kinh doanh theo Nghị định 31/2022/NĐ-CP ngày 20/5/2022 của Chính phủ | Ngân hàng Nhà nước Việt Nam | Hoạt động tín dụng
+
+====================================================================================================
+CÂU 20: tạm ngừng kinh doanh hộ gia đình   [loại: tu_nhien]
+Khái niệm dùng lọc: tạm ngừng kinh doanh / hộ kinh doanh — 29 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001266 | Chấm dứt hoạt động hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  2.000575 | Cấp lại Giấy chứng nhận đăng ký hộ kinh doanh, Cấp đổi sang Giấy chứng nhận đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.014035 | Dừng thực hiện thủ tục đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  3.000083 | Giảm thuế thu nhập cá nhân đối với hộ kinh doanh, cá nhân kinh doanh và cá nhân khác gặp khó khăn do thiên tai, dịch bệnh, hoả hoạn, tai nạn, bệnh hiểm nghèo | Bộ Tài chính | Thuế
+  1.014979 | Hoàn nộp thừa các loại thuế đối với hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  2.002259 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán. | Bộ Tài chính | Thuế
+  1.007673 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo từng lần phát sinh. | Bộ Tài chính | Thuế
+  1.011022 | Khai thuế/Thông báo doanh thu đối với hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  1.014976 | Quyết toán thuế/Hoàn thuế thu nhập cá nhân nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế trên thu nhập tính thuế | Bộ Tài chính | Thuế
+  2.002029 | Thông báo tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã thông báo đối với doanh nghiệp, chi nhánh, địa điểm kinh doanh, thông báo tạm ngừng hoạt động, tiếp tục hoạt động trước thời hạn đã thông báo đối với văn phòng đại diện | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.005377 | Thông báo tạm ngừng kinh doanh/ tiếp tục kinh doanh trở lại đối với hợp tác xã, liên hiệp hợp tác xã, chi nhánh, văn phòng đại diện, địa điểm kinh doanh | Bộ Tài chính | Thành lập và hoạt động của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã
+  2.002641 | Thông báo tạm ngừng kinh doanh/ tiếp tục kinh doanh trở lại đối với tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã, chi nhánh, văn phòng đại diện, địa điểm kinh doanh | Bộ Tài chính | Thành lập và hoạt động của tổ hợp tác, hợp tác xã, liên hiệp hợp tác xã
+  1.009824 | Thông báo địa điểm kinh doanh của hộ kinh doanh, cá nhân kinh doanh | Bộ Tài chính | Thuế
+  2.001999 | Thủ tục hỗ trợ tư vấn, hướng dẫn hồ sơ, thủ tục chuyển đổi hộ kinh doanh thành doanh nghiệp | Bộ Tài chính | Hỗ trợ doanh nghiệp nhỏ và vừa
+  1.007236 | Thủ tục miễn thuế nhập khẩu và không thuộc đối tượng chịu thuế giá trị gia tăng đối với hàng nông sản chưa qua chế biến do phía Việt Nam hỗ trợ đầu tư, trồng tại Campuchia nhập khẩu về nước do hộ kinh doanh, cá nhân nhập khẩu | Bộ Tài chính | Thuế
+  1.001570 | Tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã đăng ký của hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  3.000087 | Điều chỉnh doanh thu và mức thuế khoán của hộ kinh doanh, cá nhân kinh doanh (Hộ khoán) | Bộ Tài chính | Thuế
+  1.014034 | Đăng ký cập nhật, bổ sung thông tin trong hồ sơ đăng ký hộ kinh doanh, hiệu đính thông tin đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  2.000720 | Đăng ký thay đổi nội dung đăng ký hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.010242 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là doanh nghiệp, hợp tác xã, tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý - Cơ quan thuế nơi người nộp thuế chuyển đi (Cấp chi cục Thuế) | Bộ Tài chính | Thuế
+  1.007572 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi các thông tin đăng ký thuế không làm thay đổi cơ quan thuế quản lý (Cấp Cục Thuế /Chi cục Thuế) | Bộ Tài chính | Thuế
+  1.010243 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức kinh tế, tổ chức khác (kể cả đơn vị phụ thuộc); hộ kinh doanh, cá nhân kinh doanh thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý - Cơ quan thuế nơi người nộp thuế chuyển đến | Bộ Tài chính | Thuế
+  1.008504 | Đăng ký thay đổi thông tin đăng ký thuế đối với người nộp thuế là tổ chức, hộ gia đình/cá nhân kinh doanh có thay đổi thông tin về địa chỉ trụ sở dẫn đến làm thay đổi cơ quan thuế quản lý trực tiếp thực hiện tại cơ quan thuế nơi người nộp thuế chuyển đi; doanh nghiệp/hợp tác xã/tổ hợp tác/hộ kinh doanh thực hiện nộp hồ sơ tại CQT nơi chuyển đi trước khi thực hiện thủ tục thay đổi với cơ quan đăng ký kinh doanh | Bộ Tài chính | Thuế
+  1.007566 | Đăng ký thuế lần đầu đối với người nộp thuế là hộ kinh doanh, cá nhân kinh doanh đăng ký thông qua hồ sơ khai thuế, chưa có mã số thuế - Chi cục Thuế | Bộ Tài chính | Thuế
+  2.002243 | Đăng ký thuế trong trường hợp tạm ngừng kinh doanh. | Bộ Tài chính | Thuế
+  1.001612 | Đăng ký thành lập hộ kinh doanh | Bộ Tài chính | Thành lập và hoạt động doanh nghiệp (hộ kinh doanh)
+  1.005176 | Đăng ký thành lập, đăng ký thay đổi nội dung đăng ký hoạt động, tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã thông báo, chấm dứt hoạt động đối với chi nhánh, văn phòng đại diện, địa điểm kinh doanh trên Giấy phép đầu tư, Giấy chứng nhận đầu tư (đồng thời là Giấy chứng nhận đăng ký kinh doanh) hoặc các giấy tờ có giá trị pháp lý tương đương, Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng đại diện do Cơ quan đăng ký đầu tư cấp đối với chi nhánh, văn phòng đại diện, địa điểm kinh doanh cùng tỉnh, thành phố trực thuộc trung ương nơi doanh nghiệp đặt trụ sở chính | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.014566 | Đăng ký tạm ngừng kinh doanh, tiếp tục kinh doanh trước thời hạn đã đăng ký, chấm dứt kinh doanh của tổ chức khoa học và công nghệ, chi nhánh của tổ chức khoa học và công nghệ | Bộ Tài chính | Khoa học công nghệ
+  1.010952 | Thủ tục hỗ trợ lãi suất từ ngân sách nhà nước đối với khoản vay của doanh nghiệp, hợp tác xã, hộ kinh doanh theo Nghị định 31/2022/NĐ-CP ngày 20/5/2022 của Chính phủ | Ngân hàng Nhà nước Việt Nam | Hoạt động tín dụng
+
+====================================================================================================
+CÂU 21: thành lập công ty trách nhiệm hữu hạn một thành viên   [loại: tu_nhien]
+Khái niệm dùng lọc: trách nhiệm hữu hạn một thành viên — 13 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.001951 | Phê duyệt quỹ tiền lương, thù lao thực hiện, quỹ tiền thưởng thực hiện năm trước và quỹ tiền lương, thù lao kế hoạch đối với người quản lý công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ | Bộ Nội vụ | Lao động
+  1.004949 | Phê duyệt quỹ tiền lương, thù lao thực hiện, quỹ tiền thưởng thực hiện năm trước và quỹ tiền lương, thù lao kế hoạch đối với người quản lý công ty trách nhiệm hữu hạn một thành viên do Ủy ban nhân dân tỉnh, thành phố làm chủ sở hữu | Bộ Nội vụ | Lao động
+  1.004951 | Xếp hạng Tổng công ty đặc biệt đối với công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ | Bộ Nội vụ | Lao động
+  2.001950 | Xếp hạng công ty trách nhiệm hữu hạn một thành viên do Bộ, ngành làm chủ sở hữu (hạng Tổng công ty và tương đương, hạng I, hạng II và hạng III) | Bộ Nội vụ | Lao động
+  2.001949 | Xếp hạng công ty trách nhiệm hữu hạn một thành viên do Ủy ban nhân dân tỉnh, thành phố làm chủ sở hữu (hạng Tổng công ty và tương đương, hạng I, hạng II và hạng III | Bộ Nội vụ | Tiền lương
+  3.000009 | Thủ tục thực hiện chính sách đối với người lao động dôi dư khi sắp xếp lại công ty trách nhiệm hữu hạn một thành viên do Nhà nước làm chủ sở hữu trong quân đội | Bộ Quốc phòng | Chính sách BQP
+  1.010027 | Chuyển đổi công ty trách nhiệm hữu hạn hai thành viên trở lên thành công ty trách nhiệm hữu hạn một thành viên | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  2.002033 | Chuyển đổi công ty trách nhiệm hữu hạn một thành viên thành công ty trách nhiệm hữu hạn hai thành viên trở lên và ngược lại | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.005114 | Đăng ký thay đổi chủ sở hữu công ty trách nhiệm hữu hạn một thành viên | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  2.002011 | Đăng ký thay đổi: thành viên hợp danh; thành viên công ty trách nhiệm hữu hạn hai thành viên trở lên; người đại diện theo pháp luật của công ty trách nhiệm hữu hạn, công ty cổ phần; chủ sở hữu công ty trách nhiệm hữu hạn một thành viên; chủ doanh nghiệp tư nhân trong trường hợp bán, tặng cho doanh nghiệp, chủ doanh nghiệp chết | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.002055 | Thay đổi người đại diện theo pháp luật của Văn phòng luật sư, công ty luật trách nhiệm hữu hạn một thành viên | Bộ Tư pháp | Luật sư
+  2.000701 | Thủ tục chấp thuận mua bán, chuyển nhượng toàn bộ vốn góp của chủ sở hữu tại ngân hàng thương mại trách nhiệm hữu hạn một thành viên | Ngân hàng Nhà nước Việt Nam | Thành lập và hoạt động ngân hàng
+  1.000752 | Thủ tục đề nghị chấp thuận mua bán, chuyển nhượng toàn bộ phần vốn góp của chủ sở hữu của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn một thành viên | Ngân hàng Nhà nước Việt Nam | Thành lập và hoạt động ngân hàng
+
+====================================================================================================
+CÂU 22: giải thể doanh nghiệp thì cần làm gì   [loại: tu_nhien]
+Khái niệm dùng lọc: giải thể doanh nghiệp — 8 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.008477 | Giải thể doanh nghiệp bảo hiểm, doanh nghiệp môi giới bảo hiểm, chấm dứt hoạt động của chi nhánh nước ngoài | Bộ Tài chính | Bảo hiểm
+  1.012365 | Giải thể doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm, doanh nghiệp môi giới bảo hiểm, chấm dứt hoạt động chi nhánh nước ngoài tại Việt Nam. | Bộ Tài chính | Bảo hiểm
+  2.000198 | Giải thể doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ | Bộ Tài chính | Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ
+  2.001021 | Giải thể doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ (do Ủy ban nhân dân cấp tỉnh quyết định thành lập hoặc giao quản lý) | Bộ Tài chính | Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ
+  2.002022 | Giải thể doanh nghiệp trong trường hợp bị thu hồi Giấy chứng nhận đăng ký doanh nghiệp hoặc theo quyết định của Tòa án | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  2.002023 | Giải thể doanh nghiệp, giải thể trong trường hợp bị thu hồi Giấy chứng nhận đăng ký doanh nghiệp hoặc theo quyết định của Tòa án | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.010023 | Thông báo hủy bỏ nghị quyết, quyết định giải thể doanh nghiệp | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+  1.010010 | Đề nghị dừng thực hiện thủ tục đăng ký doanh nghiệp; thông báo hủy bỏ nghị quyết, quyết định giải thể doanh nghiệp | Bộ Tài chính | Thành lập và hoạt động của doanh nghiệp
+
+====================================================================================================
+CÂU 23: đăng ký mã số thuế cá nhân lần đầu   [loại: tu_nhien]
+Khái niệm dùng lọc: đăng ký thuế lần đầu — 24 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.007570 | Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân | Bộ Tài chính | Thuế
+  1.007569 | Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân | Bộ Tài chính | Thuế
+  1.008499 | Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân - Trường hợp cá nhân đăng ký thuế trực tiếp với cơ quan thuế | Bộ Tài chính | Thuế
+  1.008500 | Đăng ký thuế lần đầu cho người phụ thuộc để giảm trừ gia cảnh của người nộp thuế thu nhập cá nhân - Trường hợp cá nhân ủy quyền đăng ký thuế cho cơ quan chi trả thu nhập | Bộ Tài chính | Thuế
+  1.008491 | Đăng ký thuế lần đầu đối với người nộp thuế là Người điều hành, công ty điều hành chung, doanh nghiệp liên doanh, tổ chức được Chính phủ Việt Nam giao nhiệm vụ tiếp nhận phần được chia của Việt Nam thuộc các mỏ dầu khí tại vùng chồng lấn | Bộ Tài chính | Thuế
+  1.008496 | Đăng ký thuế lần đầu đối với người nộp thuế là Tổ chức, cá nhân nước ngoài và tổ chức ở Việt Nam sử dụng tiền viện trợ nhân đạo, viện trợ không hoàn lại của nước ngoài mua hàng hóa, dịch vụ có thuế giá trị gia tăng ở Việt Nam để viện trợ không hoàn lại, viện trợ nhân đạo; Chủ dự án ODA thuộc diện được hoàn thuế giá trị gia tăng, Văn phòng đại diện nhà tài trợ dự án ODA, tổ chức do phía nhà tài trợ nước ngoài chỉ định quản lý chương trình, dự án ODA không hoàn lại. | Bộ Tài chính | Thuế
+  1.010241 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân có thu nhập thuộc diện chịu thuế thu nhập cá nhân hoặc có nghĩa vụ với NSNN (trừ cá nhân kinh doanh) - Trường hợp cá nhân đăng ký thuế trực tiếp với cơ quan thuế. | Bộ Tài chính | Thuế
+  1.010695 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân không kinh doanh thông qua hồ sơ khai thuế | Bộ Tài chính | Thuế
+  1.007568 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác | Bộ Tài chính | Thuế
+  1.007567 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác. | Bộ Tài chính | Thuế
+  1.010245 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác. - Đối với cá nhân nộp hồ sơ đăng ký thuế trực tiếp tại cơ quan thuế- Cấp Chi cục Thuế | Bộ Tài chính | Thuế
+  1.008497 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân thuộc diện nộp thuế thu nhập cá nhân và các loại thuế khác... | Bộ Tài chính | Thuế
+  1.008498 | Đăng ký thuế lần đầu đối với người nộp thuế là cá nhân, người phụ thuộc | Bộ Tài chính | Thuế
+  1.008495 | Đăng ký thuế lần đầu đối với người nộp thuế là cơ quan đại diện ngoại giao, cơ quan lãnh sự và cơ quan đại diện của tổ chức quốc tế tại Việt Nam thuộc đối tượng được hoàn thuế GTGT đối với đối tượng hưởng ưu đãi miễn trừ ngoại giao | Bộ Tài chính | Thuế
+  1.007565 | Đăng ký thuế lần đầu đối với người nộp thuế là hộ gia đình, cá nhân có hoạt động sản xuất, kinh doanh không thuộc đối tượng đăng ký kinh doanh qua cơ quan đăng ký kinh doanh | Bộ Tài chính | Thuế
+  1.007566 | Đăng ký thuế lần đầu đối với người nộp thuế là hộ kinh doanh, cá nhân kinh doanh đăng ký thông qua hồ sơ khai thuế, chưa có mã số thuế - Chi cục Thuế | Bộ Tài chính | Thuế
+  1.008493 | Đăng ký thuế lần đầu đối với người nộp thuế là nhà thầu, nhà thầu phụ nước ngoài trực tiếp kê khai, nộp thuế nhà thầu hoặc các nghĩa vụ thuế khác trừ thuế nhà thầu do bên Việt Nam khấu trừ nộp thay với cơ quan thuế | Bộ Tài chính | Thuế
+  1.008492 | Đăng ký thuế lần đầu đối với người nộp thuế là nhà thầu, nhà đầu tư tham gia hợp đồng dầu khí, công ty mẹ - Tập đoàn Dầu khí Quốc gia Việt Nam đại diện nước chủ nhà nhận phần lãi được chia từ các hợp đồng dầu khí | Bộ Tài chính | Thuế
+  2.002225 | Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức (trừ trường hợp đăng ký thuế theo cơ chế một cửa liên thông qua cơ quan đăng ký kinh doanh) | Bộ Tài chính | Thuế
+  1.007564 | Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức, cá nhân không phát sinh nghĩa vụ nộp thuế nhưng được hoàn thuế (trừ cơ quan đại diện ngoại giao, cơ quan lãnh sự và cơ quan đại diện của tổ chức quốc tế tại Việt Nam); Các tổ chức không hoạt động sản xuất, kinh doanh nhưng phát sinh nghĩa vụ thuế. | Bộ Tài chính | Thuế
+  1.007558 | Đăng ký thuế lần đầu đối với người nộp thuế là tổ chức, cá nhân khấu trừ nộp thay cho nhà thầu, nhà thầu phụ nước ngoài; tổ chức nộp thay cho cá nhân theo hợp đồng, hợp tác kinh doanh; tổ chức uỷ nhiệm thu | Bộ Tài chính | Thuế
+  1.008490 | Đăng ký thuế lần đầu đối với người nộp thuế là đơn vị phụ thuộc của tổ chức kinh tế (trừ tổ hợp tác), tổ chức khác - Cấp Cục Thuế | Bộ Tài chính | Thuế
+  3.000079 | Đăng ký thuế lần đầu đối với người nộp thuế là đơn vị phụ thuộc của tổ chức kinh tế, tổ chức khác - Cấp Chi cục Thuế | Bộ Tài chính | Thuế
+  1.006675 | Đăng ký thuế lần đầu đối với người nộp thuế là đơn vị độc lập, đơn vị chủ quản của tổ chức kinh tế, tổ chức khác - Cấp chi cục Thuế | Bộ Tài chính | Thuế
+
+====================================================================================================
+CÂU 24: quyết toán thuế thu nhập cá nhân   [loại: tu_nhien]
+Khái niệm dùng lọc: quyết toán thuế thu nhập cá nhân / khai quyết toán thuế thu nhập cá nhân / hoàn thuế thu nhập cá nhân — 3 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.008309 | Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lương, tiền công | Bộ Tài chính | Thuế
+  2.002258 | Khai quyết toán thuế thu nhập cá nhân đối với tổ chức, cá nhân trả thu nhập từ tiền lương, tiền công cấp huyện | Bộ Tài chính | Thuế
+  1.014976 | Quyết toán thuế/Hoàn thuế thu nhập cá nhân nộp thừa đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế trên thu nhập tính thuế | Bộ Tài chính | Thuế
+
+====================================================================================================
+CÂU 25: hoàn thuế giá trị gia tăng cho doanh nghiệp   [loại: tu_nhien]
+Khái niệm dùng lọc: hoàn thuế giá trị gia tăng / hoàn thuế gtgt — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.008561 | Hoàn thuế GTGT đối với chương trình, dự án sử dụng vốn hỗ trợ phát triển chính thức (ODA) không hoàn lại | Bộ Tài chính | Thuế
+  1.007716 | Hoàn thuế GTGT đối với thiết bị, máy móc, phương tiện vận tải chuyên dùng nằm trong dây chuyền công nghệ và vật tư xây dựng thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp | Bộ Tài chính | Thuế
+  1.008560 | Hoàn thuế GTGT đối với thiết bị, máy móc, phương tiện vận tải chuyên dùng nằm trong dây chuyền công nghệ và vật tư xây dựng thuộc loại trong nước chưa sản xuất được cần nhập khẩu để tạo tài sản cố định của doanh nghiệp... | Bộ Tài chính | Thuế
+  1.007037 | Hoàn thuế giá trị gia tăng của doanh nghiệp, tổ chức | Bộ Tài chính | Thuế
+  1.011015 | Hoàn thuế giá trị gia tăng theo quyết định của cơ quan có thẩm quyền theo quy định của pháp luật | Bộ Tài chính | Thuế
+  1.008558 | Hoàn thuế giá trị gia tăng đối với các chương trình, dự án sử dụng vốn hỗ trợ phát triển chính thức (ODA) không hoàn lại và nguồn vốn viện trợ không hoàn lại | Bộ Tài chính | Thuế
+  1.011016 | Hoàn thuế giá trị gia tăng đối với hàng hóa, dịch vụ mua trong nước bằng nguồn tiền viện trợ quốc tế khẩn cấp để cứu trợ và khắc phục hậu quả thiên tai tại Việt Nam | Bộ Tài chính | Thuế
+  1.007039 | Hoàn thuế giá trị gia tăng đối với hàng hóa, dịch vụ xuất khẩu | Bộ Tài chính | Thuế
+  1.011018 | Hoàn thuế giá trị gia tăng đối với ngân hàng thương mại là đại lý hoàn thuế giá trị gia tăng cho khách xuất cảnh | Bộ Tài chính | Thuế
+  1.008559 | Hoàn thuế giá trị gia tăng đối với trường hợp được hưởng ưu đãi miễn trừ ngoại giao, Điều ước quốc tế và quyết định của cơ quan có thẩm quyền | Bộ Tài chính | Thuế
+  1.008324 | Khai/hoàn thuế giá trị gia tăng đối với dự án đầu tư thuộc trường hợp hoàn thuế và có nhu cầu hoàn thuế của người nộp thuế áp dụng phương pháp khấu trừ | Bộ Tài chính | Thuế
+  1.007902 | Thủ tục kiểm tra hóa đơn kiêm tờ khai hoàn thuế giá trị gia tăng và hàng hóa | Bộ Tài chính | Hải quan
+  1.007900 | Thủ tục lựa chọn Ngân hàng thương mại là đại lý hoàn thuế giá trị gia tăng | Bộ Tài chính | Hải quan
+  1.008566 | Thủ tục lựa chọn doanh nghiệp bán hàng hoàn thuế giá trị gia tăng | Bộ Tài chính | Thuế
+  1.008567 | Thủ tục lựa chọn doanh nghiệp đăng ký, điều chỉnh, chấm dứt việc bán hàng hoàn thuế giá trị gia tăng | Bộ Tài chính | Thuế
+  1.008449 | Thủ tục thanh toán, hoàn trả số tiền thuế đã ứng trước, tiền phí dịch vụ hoàn thuế giá trị gia tăng | Bộ Tài chính | Hải quan
+  1.008496 | Đăng ký thuế lần đầu đối với người nộp thuế là Tổ chức, cá nhân nước ngoài và tổ chức ở Việt Nam sử dụng tiền viện trợ nhân đạo, viện trợ không hoàn lại của nước ngoài mua hàng hóa, dịch vụ có thuế giá trị gia tăng ở Việt Nam để viện trợ không hoàn lại, viện trợ nhân đạo; Chủ dự án ODA thuộc diện được hoàn thuế giá trị gia tăng, Văn phòng đại diện nhà tài trợ dự án ODA, tổ chức do phía nhà tài trợ nước ngoài chỉ định quản lý chương trình, dự án ODA không hoàn lại. | Bộ Tài chính | Thuế
+  1.008495 | Đăng ký thuế lần đầu đối với người nộp thuế là cơ quan đại diện ngoại giao, cơ quan lãnh sự và cơ quan đại diện của tổ chức quốc tế tại Việt Nam thuộc đối tượng được hoàn thuế GTGT đối với đối tượng hưởng ưu đãi miễn trừ ngoại giao | Bộ Tài chính | Thuế
+
+====================================================================================================
+CÂU 26: muốn xin giấy phép xây dựng nhà ở thì làm sao   [loại: tu_nhien]
+Khái niệm dùng lọc: giấy phép xây dựng — 21 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.115805 | Cấp Giấy phép xây dựng lò phản ứng hạt nhân nghiên cứu | Bộ Khoa học và Công nghệ | An toàn bức xạ và hạt nhân
+  1.115798 | Cấp giấy phép xây dựng nhà máy điện hạt nhân | Bộ Khoa học và Công nghệ | An toàn bức xạ và hạt nhân
+  1.001755 | Thủ tục cấp giấy phép xây dựng tượng đài, tranh hoành tráng | Bộ Văn hóa, Thể thao và Du lịch | Mỹ thuật, nhiếp ảnh, triển lãm
+  1.014217 | Thủ tục lấy ý kiến đối với việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ nằm trong khu vực bảo vệ di tích, di sản thế giới (trường hợp không cấp giấy phép xây dựng) | Bộ Văn hóa, Thể thao và Du lịch | Di sản văn hóa
+  1.014218 | Thủ tục lấy ý kiến đối với việc xây dựng nhà ở riêng lẻ nằm ngoài khu vực bảo vệ di tích, nằm ngoài vùng đệm của khu vực di sản thế giới có khả năng tác động tiêu cực đến yếu tố gốc cấu thành di tích, cảnh quan văn hóa của di tích, di sản thế giới (trường hợp không cấp giấy phép xây dựng) | Bộ Văn hóa, Thể thao và Du lịch | Di sản văn hóa
+  1.003303 | Thủ tục thỏa thuận cấp giấy phép xây dựng tượng đài, tranh hoành tráng | Bộ Văn hóa, Thể thao và Du lịch | Mỹ thuật, nhiếp ảnh, triển lãm
+  1.005126 | Cấp Giấy phép xây dựng, cải tạo, nâng cấp đường ngang | Bộ Xây dựng | Đường sắt
+  1.005134 | Cấp giấy phép xây dựng công trình thiết yếu, dùng chung với đường sắt | Bộ Xây dựng | Đường sắt
+  1.013236 | Cấp giấy phép xây dựng mới công trình cấp đặc biệt, cấp I, cấp II (Công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) | Bộ Xây dựng | Hoạt động xây dựng
+  1.003655 | Cấp giấy phép xây dựng mới đối với công trình cấp I, II; công trình tôn giáo; công trình di tích lịch sử - văn hóa, tượng đài, tranh hoành tráng được xếp hạng; công trình trên các tuyến, trục đường phố chính trong đô thị; công trình thuộc dự án có vốn đầu tư trực tiếp nước ngoài | Bộ Xây dựng | Quy hoạch đô thị và nông thôn
+  1.013225 | Cấp giấy phép xây dựng mới, có thời hạn đối với công trình cấp III, cấp IV và công trình nhà ở riêng lẻ của hộ gia đình, cá nhân   (công trình không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo /Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ. | Bộ Xây dựng | Hoạt động xây dựng
+  1.013229 | Cấp giấy phép xây dựng sửa chữa, cải tạo đối với công trình cấp III, cấp IV (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ: | Bộ Xây dựng | Hoạt động xây dựng
+  1.013238 | Cấp giấy phép xây dựng sửa chữa, cải tạo đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) | Bộ Xây dựng | Hoạt động xây dựng
+  1.013228 | Cấp lại giấy phép xây dựng đối với công trình cấp III, cấp IV (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Sửa chữa, cải tạo/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ | Bộ Xây dựng | Hoạt động xây dựng
+  1.013235 | Cấp lại giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình không theo tuyến/theo tuyến trong đô thị/tín ngưỡng, tôn giáo/tượng đài, tranh hoành tráng/sửa chữa, cải tạo/theo giai đoạn cho công trình không theo tuyến/theo giai đoạn cho công trình theo tuyến trong đô thị/dự án) | Bộ Xây dựng | Hoạt động xây dựng
+  1.013226 | Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp III, cấp IV (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ | Bộ Xây dựng | Hoạt động xây dựng
+  1.013231 | Cấp điều chỉnh giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) | Bộ Xây dựng | Hoạt động xây dựng
+  1.005058 | Gia hạn Giấy phép xây dựng, cải tạo, nâng cấp đường ngang | Bộ Xây dựng | Đường sắt
+  1.005123 | Gia hạn giấy phép xây dựng công trình thiết yếu, dùng chung với đường sắt | Bộ Xây dựng | Đường sắt
+  1.013227 | Gia hạn giấy phép xây dựng đối với công trình cấp III, cấp IV (công trình Không theo tuyến/Theo tuyến trong đô thị/Tín ngưỡng, tôn giáo/Tượng đài, tranh hoành tráng/Sửa chữa, cải tạo/Theo giai đoạn cho công trình không theo tuyến/Theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) và nhà ở riêng lẻ | Bộ Xây dựng | Hoạt động xây dựng
+  1.013233 | Gia hạn giấy phép xây dựng đối với công trình cấp đặc biệt, cấp I, cấp II (Công trình không theo tuyến/theo tuyến trong đô thị/tín ngưỡng, tôn giáo/tượng đài, tranh hoành tráng/sửa chữa, cải tạo/theo giai đoạn cho công trình không theo tuyến/theo giai đoạn cho công trình theo tuyến trong đô thị/Dự án) | Bộ Xây dựng | Hoạt động xây dựng
+
+====================================================================================================
+CÂU 27: xin cấp sổ đỏ lần đầu   [loại: dong_nghia]
+Khái niệm dùng lọc: giấy chứng nhận quyền sử dụng đất — 9 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.012783 | Cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất | Bộ Nông nghiệp và Môi trường | Đất đai
+  2.002749 | Điều chỉnh thời hạn sử dụng đất trên Giấy chứng nhận quyền sử dụng đất, Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất  đã cấp tại thành phố Đà Nẵng | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012814 | Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với cá nhân, cộng đồng dân cư, hộ gia đình đang sử dụng đất | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013978 | Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với hộ gia đình, cá nhân, cộng đồng dân cư, người gốc Việt Nam định cư ở nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012754 | Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với người gốc Việt Nam định cư ở nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012753 | Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với tổ chức đang sử dụng đất | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012787 | Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng trong dự án bất động sản | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012816 | Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.007684 | Khai thuế Thu nhập cá nhân đối với cá nhân có thu nhập từ chuyển nhượng, nhận thừa kế, quà tặng là bất động sản (bao gồm cả nhà ở, công trình xây dựng hình thành trong tương lai; công trình xây dựng, nhà ở đã được dự án bàn giao đưa vào sử dụng nhưng chưa cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản gắn liền trên đất theo quy định của pháp luật về nhà ở) tại Việt Nam | Bộ Tài chính | Thuế
+
+====================================================================================================
+CÂU 28: sang tên sổ đỏ khi mua bán đất   [loại: dong_nghia]
+Khái niệm dùng lọc: đăng ký biến động / chuyển nhượng quyền sử dụng đất — 14 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.013992 | Đăng ký biến động chuyển mục đích sử dụng đất không phải xin phép cơ quan nhà nước có thẩm quyền | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012765 | Đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong các trường hợp chuyển đổi quyền sử dụng đất nông nghiệp mà không theo phương án dồn điền, đổi thửa, chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất, góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; cho thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013831 | Đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong các trường hợp chuyển đổi quyền sử dụng đất nông nghiệp mà không theo phương án dồn điền, đổi thửa; chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất, góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; cho thuê, cho thuê lại quyền sử dụng đất trong dự án xây dựng kinh doanh kết cấu hạ tầng; bán hoặc tặng cho hoặc để thừa kế hoặc góp vốn bằng tài sản gắn liền với đất thuê của Nhà nước theo hình thức thuê đất trả tiền hàng năm | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012770 | Đăng ký biến động thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013977 | Đăng ký biến động thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do chia, tách, hợp nhất, sáp nhập tổ chức hoặc chuyển đổi mô hình tổ chức, chuyển đổi loại hình doanh nghiệp theo quy định của pháp luật về doanh nghiệp; điều chỉnh quy hoạch xây dựng chi tiết; cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013980 | Đăng ký biến động đối với trường hợp thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo thỏa thuận của các thành viên hộ gia đình hoặc của vợ và chồng; quyền sử dụng đất xây dựng công trình trên mặt đất phục vụ cho việc vận hành, khai thác sử dụng công trình ngầm, quyền sở hữu công trình ngầm; bán tài sản, điều chuyển, chuyển nhượng quyền sử dụng đất là tài sản công theo quy định của pháp luật về quản lý, sử dụng tài sản công; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo kết quả giải quyết tranh chấp, khiếu nại, tố cáo về đất đai hoặc bản án, quyết định của Tòa án, quyết định thi hành án của cơ quan thi hành án đã được thi hành; quyết định hoặc phán quyết của Trọng tài thương mại Việt Nam về giải quyết tranh chấp giữa các bên phát sinh từ hoạt động thương mại liên quan đến đất đai; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do xử lý tài sản thế chấp là quyền sử dụng đất, tài sản gắn liền với đất đã được đăng ký, bao gồm cả xử lý khoản nợ có nguồn gốc từ khoản nợ xấu của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012772 | Đăng ký biến động đối với trường hợp thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo thỏa thuận của các thành viên hộ gia đình hoặc của vợ và chồng; quyền sử dụng đất xây dựng công trình trên mặt đất phục vụ cho việc vận hành, khai thác sử dụng công trình ngầm, quyền sở hữu công trình ngầm; bán tài sản, điều chuyển, chuyển nhượng quyền sử dụng đất là tài sản công theo quy định của pháp luật về quản lý, sử dụng tài sản công; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo kết quả giải quyết tranh chấp, khiếu nại, tố cáo về đất đai; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do xử lý tài sản thế chấp là quyền sử dụng đất, tài sản gắn liền với đất đã được đăng ký, bao gồm cả xử lý khoản nợ có nguồn gốc từ khoản nợ xấu của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012793 | Đăng ký biến động đối với trường hợp thành viên của hộ gia đình hoặc cá nhân đang sử dụng đất thành lập doanh nghiệp tư nhân và sử dụng đất vào hoạt động sản xuất kinh doanh của doanh nghiệp | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012794 | Đăng ký biến động đối với trường hợp điều chỉnh quy hoạch xây dựng chi tiết; cấp Giấy chứng nhận cho từng thửa đất theo quy hoạch xây dựng chi tiết cho chủ đầu tư dự án có nhu cầu | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013833 | Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất hoặc thay đổi số hiệu hoặc địa chỉ của thửa đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012768 | Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất, chủ sở hữu tài sản gắn liền với đất; thay đổi hạn chế quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc có thay đổi quyền đối với thửa đất liền kề; giảm diện tích thửa đất do sạt lở tự nhiên | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012787 | Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người nhận chuyển nhượng quyền sử dụng đất, quyền sở hữu nhà ở, công trình xây dựng trong dự án bất động sản | Bộ Nông nghiệp và Môi trường | Đất đai
+  2.002173 | Hoàn trả hoặc khấu trừ tiền sử dụng đất đã nộp hoặc tiền nhận chuyển nhượng quyền sử dụng đất đã trả vào nghĩa vụ tài chính của chủ đầu tư dự án nhà ở xã hội | Bộ Tài chính | Quản lý công sản
+  1.006216 | Thanh toán chi phí liên quan đến bán tài sản trên đất, chuyển nhượng quyền sử dụng đất | Bộ Tài chính | Quản lý công sản
+
+====================================================================================================
+CÂU 29: xin giấy phép kinh doanh karaoke   [loại: tu_nhien]
+Khái niệm dùng lọc: karaoke — 5 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.000963 | Thủ tục cấp giấy phép điều chỉnh Giấy phép đủ điều kiện kinh doanh dịch vụ karaoke | Bộ Văn hóa, Thể thao và Du lịch | Văn hóa
+  1.000831 | Thủ tục cấp giấy phép điều chỉnh Giấy phép đủ điều kiện kinh doanh dịch vụ karaoke cấp huyện | Bộ Văn hóa, Thể thao và Du lịch | Văn hóa
+  1.001029 | Thủ tục cấp giấy phép đủ điều kiện kinh doanh dịch vụ karaoke | Bộ Văn hóa, Thể thao và Du lịch | Văn hóa
+  1.000903 | Thủ tục cấp giấy phép đủ điều kiện kinh doanh dịch vụ karaoke cấp huyện | Bộ Văn hóa, Thể thao và Du lịch | Văn hóa
+  1.014475 | Thủ tục hành chính liên thông điện tử về cấp Giấy phép đủ điều kiện kinh doanh dịch vụ karaoke | Bộ Văn hóa, Thể thao và Du lịch | Văn hóa
+
+====================================================================================================
+CÂU 30: mở phòng khám tư nhân cần giấy phép gì   [loại: tu_nhien]
+Khái niệm dùng lọc: phòng khám — 20 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.004530 | Thủ tục cấp giấy phép hoạt động đối với phòng khám chuyên khoa thuộc Bộ Quốc phòng | Bộ Quốc phòng | Khám bệnh, chữa bệnh BQP
+  2.001122 | Thủ tục cấp giấy phép hoạt động đối với phòng khám đa khoa thuộc Bộ Quốc phòng | Bộ Quốc phòng | Khám bệnh, chữa bệnh BQP
+  2.000741 | Bổ sung, điều chỉnh phạm vi hoạt động bác sỹ gia đình đối với Phòng khám đa khoa hoặc bệnh viện đa khoa thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001691 | Cấp bổ sung lồng ghép nhiệm vụ của phòng khám bác sỹ đối với trạm y tế cấp xã | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001672 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với Phòng khám chuyên khoa thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.002215 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với Phòng khám chuyên khoa thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001728 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với Phòng khám chẩn đoán hình ảnh thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  2.000447 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với Phòng khám đa khoa thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.002230 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với Phòng khám đa khoa thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.002182 | Cấp giấy phép hoạt động khám bệnh, chữa bệnh nhân đạo đối với phòng khám chẩn đoán hình ảnh thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.003535 | Cấp giấy phép hoạt động đối với Phòng khám chuyên khoa thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.003803 | Cấp giấy phép hoạt động đối với Phòng khám chuyên khoa thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.003515 | Cấp giấy phép hoạt động đối với Phòng khám đa khoa thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.003876 | Cấp giấy phép hoạt động đối với Phòng khám đa khoa thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.008068 | Cấp giấy phép hoạt động đối với Phòng khám, điều trị bệnh nghề nghiệp thuộc thẩm quyền của Bộ Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.008069 | Cấp giấy phép hoạt động đối với Phòng khám, điều trị bệnh nghề nghiệp thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001769 | Cấp giấy phép hoạt động đối với phòng khám bác sỹ gia đình thuộc phòng khám đa khoa tư nhân hoặc khoa khám bệnh của bệnh viện đa khoa | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001793 | Cấp giấy phép hoạt động đối với phòng khám bác sỹ gia đình độc lập thuộc thẩm quyền của Sở Y tế | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001638 | Cấp lại giấy phép hoạt động đối với phòng khám bác sỹ gia đình thuộc thẩm quyền của Sở Y tế do bị mất hoặc hư hỏng hoặc giấy phép bị thu hồi do cấp không đúng thẩm quyền | Bộ Y tế | Khám bệnh, chữa bệnh
+  1.001663 | Cấp lại giấy phép hoạt động đối với phòng khám bác sỹ gia đình thuộc thẩm quyền của Sở Y tế khi thay đổi địa điểm | Bộ Y tế | Khám bệnh, chữa bệnh
+
+====================================================================================================
+CÂU 31: xin chứng chỉ hành nghề dược   [loại: tu_nhien]
+Khái niệm dùng lọc: chứng chỉ hành nghề dược — 19 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.008075 | Công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược (CCHND) | Bộ Y tế | Dược phẩm
+  1.004616 | Cấp Chứng chỉ hành nghề dược (bao gồm cả trường hợp cấp Chứng chỉ hành nghề dược bị thu hồi theo quy định tại các khoản 1, 2, 4, 5, 6, 7, 8, 9, 10, 11 Điều 28 của Luật dược)theo hình thức xét hồ sơ | Bộ Y tế | Dược phẩm
+  1.014084 | Cấp Chứng chỉ hành nghề dược (bao gồm cả trường hợp cấp Chứng chỉ hành nghề dược cho người bị thu hồi Chứng chỉ hành nghề dược theo quy định tại các khoản 1, 2, 4, 5, 6, 7, 8, 9, 10, 11 Điều 28 của Luật Dược) theo hình thức thi | Bộ Y tế | Dược phẩm
+  1.014092 | Cấp Chứng chỉ hành nghề dược (bao gồm cả trường hợp cấp Chứng chỉ hành nghề dược cho người bị thu hồi Chứng chỉ hành nghề dược theo quy định tại các khoản 1, 2, 4, 5, 6, 7, 8, 9, 10, 11 Điều 28 của Luật Dược) theo hình thức xét hồ sơ | Bộ Y tế | Dược phẩm
+  1.004534 | Cấp Chứng chỉ hành nghề dược (bao gồm cả trường hợp cấp Chứng chỉ hành nghề dược nhưng Chứng chỉ hành nghề dược bị thu hồi theo quy định tại các khoản 1, 2, 4, 5, 6, 7, 8, 9, 10, 11 Điều 28 của Luật dược) theo hình thức thi | Bộ Y tế | Dược phẩm
+  1.004523 | Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi cơ quan cấp Chứng chỉ hành nghề dược | Bộ Y tế | Dược phẩm
+  1.014085 | Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược | Bộ Y tế | Dược phẩm
+  1.014099 | Cấp Chứng chỉ hành nghề dược theo hình thức xét hồ sơ trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược | Bộ Y tế | Dược phẩm
+  1.004604 | Cấp Chứng chỉ hành nghề dược theo hình thức xét hồ sơ trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược | Bộ Y tế | Dược phẩm
+  1.014100 | Cấp lại Chứng chỉ hành  nghề dược theo hình thức xét hồ sơ (trường hợp bị hư hỏng hoặc bị mất) | Bộ Y tế | Dược phẩm
+  1.004513 | Cấp lại Chứng chỉ hành nghề dược theo hình thức thi | Bộ Y tế | Dược phẩm
+  1.004599 | Cấp lại Chứng chỉ hành nghề dược theo hình thức xét hồ sơ (trường hợp bị hư hỏng hoặc bị mất) | Bộ Y tế | Dược phẩm
+  2.001443 | Trả lại Chứng chỉ hành nghề dược cho cá nhân đăng ký hành nghề dược trường hợp cá nhân đơn phương đề nghị | Bộ Y tế | Dược phẩm
+  2.001438 | Trả lại Chứng chỉ hành nghề dược cho cá nhân đăng ký hành nghề dược trường hợp cơ sở kinh doanh đề nghị | Bộ Y tế | Dược phẩm
+  1.008077 | Điều chỉnh công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược trong trường hợp thay đổi phạm vi tổ chức thi | Bộ Y tế | Dược phẩm
+  1.008076 | Điều chỉnh công bố cơ sở tổ chức thi xét cấp Chứng chỉ hành nghề dược trong trường hợp thay đổi thông tin về tên, địa chỉ của cơ sở tổ chức thi | Bộ Y tế | Dược phẩm
+  1.004495 | Điều chỉnh nội dung Chứng chỉ hành nghề dược theo hình thức thi | Bộ Y tế | Dược phẩm
+  1.014101 | Điều chỉnh nội dung Chứng chỉ hành nghề dược theo hình thức xét hồ sơ | Bộ Y tế | Dược phẩm
+  1.004596 | Điều chỉnh nội dung Chứng chỉ hành nghề dược theo hình thức xét hồ sơ | Bộ Y tế | Dược phẩm
+
+====================================================================================================
+CÂU 32: giấy chứng nhận an toàn thực phẩm cho quán ăn   [loại: tu_nhien]
+Khái niệm dùng lọc: an toàn thực phẩm — 28 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.000117 | Cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm | Bộ Công thương | An toàn thực phẩm
+  2.001293 | Cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, cơ sở vừa sản xuất vừa kinh doanh thực phẩm | Bộ Công thương | An toàn thực phẩm
+  2.000591 | Cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm | Bộ Công thương | An toàn thực phẩm
+  1.000171 | Cấp Giấy xác nhận kiến thức về an toàn thực phẩm cho tổ chức và cá nhân thuộc thẩm quyền cấp của Bộ Công Thương | Bộ Công thương | An toàn thực phẩm
+  2.000607 | Cấp Giấy xác nhận kiến thức về an toàn thực phẩm cho tổ chức và cá nhân thuộc thẩm quyền cấp của Sở Công Thương | Bộ Công thương | An toàn thực phẩm
+  2.000115 | Cấp lại Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm | Bộ Công thương | An toàn thực phẩm
+  2.001278 | Cấp lại Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, cơ sở vừa sản xuất vừa kinh doanh sản phẩm thực phẩm | Bộ Công thương | An toàn thực phẩm
+  2.000535 | Cấp lại Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm | Bộ Công thương | An toàn thực phẩm
+  1.003860 | Đăng ký chỉ định cơ sở kiểm nghiệm kiểm chứng về an toàn thực phẩm | Bộ Công thương | An toàn thực phẩm
+  2.001595 | Đăng ký gia hạn chỉ định cơ sở kiểm nghiệm kiểm chứng về an toàn thực phẩm | Bộ Công thương | An toàn thực phẩm
+  1.003929 | Đăng ký thay đổi, bổ sung phạm vi chỉ định cơ sở kiểm nghiệm kiểm chứng về an toàn thực phẩm | Bộ Công thương | An toàn thực phẩm
+  1.003178 | Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh nông, lâm, thủy sản | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  2.001827 | Cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm nông, lâm, thủy sản | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  2.001309 | Cấp giấy chứng nhận an toàn thực phẩm (Chứng thư) cho lô hàng thuỷ sản và sản phẩm thuỷ sản dùng làm thực phẩm xuất khẩu sản xuất tại các cơ sở trong danh sách ưu tiên | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  2.001281 | Cấp giấy chứng nhận an toàn thực phẩm (Chứng thư) cho lô hàng thủy sản và sản phẩm thủy sản dùng làm thực phẩm xuất khẩu | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  1.005320 | Cấp lại Giấy chứng nhận an toàn thực phẩm (Chứng thư) cho lô hàng thủy sản và sản phẩm thủy sản dùng làm thực phẩm xuất khẩu | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  1.003486 | Kiểm tra nhà nước về an toàn thực phẩm muối nhập khẩu | Bộ Nông nghiệp và Môi trường | Kinh tế hợp tác và Phát triển nông thôn
+  2.001604 | Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra chặt thuộc thẩm quyền quản lý của Bộ Nông nghiệp và Môi trường | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  1.003814 | Kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra thông thường thuộc thẩm quyền quản lý của Bộ Nông nghiệp và Môi trường | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  1.003395 | Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm có nguồn gốc thực vật xuất khẩu | Bộ Nông nghiệp và Môi trường | Trồng trọt và Bảo vệ thực vật
+  1.003540 | Thẩm định, cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm cơ sở sản xuất kinh doanh thực phẩm thuỷ sản để bổ sung Danh sách xuất khẩu | Bộ Nông nghiệp và Môi trường | Quản lý chất lượng nông lâm sản và thủy sản
+  1.005438 | Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với các cơ sở sản xuất thực phẩm thuộc thẩm quyền Bộ Y tế | Bộ Y tế | An toàn thực phẩm
+  1.013855 | Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh dịch vụ ăn uống, cơ sở sản xuất thực phẩm thuộc phạm vi quản lý của Bộ Y tế | Bộ Y tế | An toàn thực phẩm
+  1.002425 | Cấp giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đối với cơ sở sản xuất thực phẩm, kinh doanh dịch vụ ăn uống thuộc thẩm quyền của Ủy ban nhân dân cấp tỉnh | Bộ Y tế | An toàn thực phẩm
+  1.008435 | Cấp, Cấp lại Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm đạt yêu cầu Thực hành sản xuất tốt (GMP) thực phẩm bảo vệ sức khỏe | Bộ Y tế | An toàn thực phẩm
+  2.001191 | Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu theo phương thức kiểm tra chặt | Bộ Y tế | An toàn thực phẩm
+  1.003094 | Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu theo phương thức kiểm tra giảm | Bộ Y tế | An toàn thực phẩm
+  1.002867 | Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu theo phương thức kiểm tra thông thường | Bộ Y tế | An toàn thực phẩm
+
+====================================================================================================
+CÂU 33: hưởng trợ cấp thất nghiệp   [loại: tu_nhien]
+Khái niệm dùng lọc: thất nghiệp — 23 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.014753 | Chuyển nơi hưởng trợ cấp thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  2.000178 | Chuyển nơi hưởng trợ cấp thất nghiệp (chuyển đi) | Bộ Nội vụ | Việc làm
+  1.000401 | Chuyển nơi hưởng trợ cấp thất nghiệp (chuyển đến) | Bộ Nội vụ | Việc làm
+  2.001953 | Chấm dứt hưởng trợ cấp thất nghiệp | Bộ Nội vụ | Việc làm
+  1.014752 | Chấm dứt hưởng trợ cấp thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014327 | Chấm dứt hưởng trợ cấp thất nghiệp (Trung tâm Dữ liệu QG) | Bộ Nội vụ | Việc làm
+  1.001978 | Giải quyết hưởng trợ cấp thất nghiệp | Bộ Nội vụ | Việc làm
+  1.014320 | Giải quyết hưởng trợ cấp thất nghiệp (Trung tâm Dữ liệu QG) | Bộ Nội vụ | Việc làm
+  1.014748 | Hưởng trợ cấp thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014326 | Liên thông chuyển nơi hưởng trợ cấp thất nghiệp (Chuyển đi - Chuyển đến) (Trung tâm Dữ liệu QG) | Bộ Nội vụ | Việc làm
+  2.000888 | Tham gia bảo hiểm thất nghiệp | Bộ Nội vụ | Việc làm
+  1.014745 | Tham gia bảo hiểm thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.001966 | Tiếp tục hưởng trợ cấp thất nghiệp | Bộ Nội vụ | Việc làm
+  1.014751 | Tiếp tục hưởng trợ cấp thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014323 | Tiếp tục hưởng trợ cấp thất nghiệp (Trung tâm Dữ liệu QG) | Bộ Nội vụ | Việc làm
+  1.001973 | Tạm dừng hưởng trợ cấp thất nghiệp | Bộ Nội vụ | Việc làm
+  1.014750 | Tạm dừng hưởng trợ cấp thất nghiệp (Cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014322 | Tạm dừng hưởng trợ cấp thất nghiệp (Trung tâm Dữ liệu QG) | Bộ Nội vụ | Việc làm
+  1.115307 | Điều chỉnh thông tin đăng ký lao động trong trường hợp thay đổi tình trạng từ người có việc làm sang người thất nghiệp | Bộ Nội vụ | Việc làm
+  1.115308 | Điều chỉnh thông tin đăng ký lao động trường hợp thay đổi tình trạng từ người có việc làm hoặc người thất nghiệp sang không tham gia hoạt động kinh tế | Bộ Nội vụ | Việc làm
+  1.115305 | Đăng ký lao động đối với người lao động đang có việc làm không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc, người thất nghiệp. | Bộ Nội vụ | Việc làm
+  1.116465 | Chi trả trợ cấp thất nghiệp | Bộ Tài chính | Thực hiện chính sách BHXH
+  1.001601 | Ủy quyền lĩnh thay các chế độ bảo hiểm xã hội, trợ cấp thất nghiệp | Bộ Tài chính | Chi trả các chế độ BHXH
+
+====================================================================================================
+CÂU 34: rút bảo hiểm xã hội một lần   [loại: tu_nhien]
+Khái niệm dùng lọc: bảo hiểm xã hội một lần — 5 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.014173 | HƯỞNG BẢO HIỂM XÃ HỘI MỘT LẦN. | Bộ Nội vụ | Bảo hiểm xã hội
+  1.000840 | Hưởng bảo hiểm xã hội một lần | Bộ Nội vụ | Bảo hiểm xã hội
+  1.003874 | Thủ tục giải quyết hưởng bảo hiểm xã hội một lần đối với công nhân viên chức quốc phòng, lao động hợp đồng | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  2.001647 | Thủ tục giải quyết hưởng bảo hiểm xã hội một lần đối với quân nhân | Bộ Quốc phòng | QUÂN SỰ, QUỐC PHÒNG
+  1.002168 | Khám giám định để hưởng bảo hiểm xã hội một lần | Bộ Y tế | Giám định
+
+====================================================================================================
+CÂU 35: xin trợ cấp cho người có công với cách mạng   [loại: tu_nhien]
+Khái niệm dùng lọc: người có công — 28 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.010814 | Cấp bổ sung hoặc cấp lại giấy chứng nhận người có công do ngành Lao động - Thương binh và Xã hội quản lý và giấy chứng nhận thân nhân liệt sĩ | Bộ Nội vụ | Người có công
+  1.010833 | Cấp giấy xác nhận thân nhân của người có công | Bộ Nội vụ | Người có công
+  1.010793 | Cấp trích lục hoặc sao hồ sơ người có công | Bộ Nội vụ | Người có công
+  1.010828 | Cấp trích lục hoặc sao hồ sơ người có công với cách mạng | Bộ Nội vụ | Người có công
+  1.010820 | Giải quyết chế độ người có công giúp đỡ cách mạng. | Bộ Nội vụ | Người có công
+  1.010824 | Hưởng trợ cấp khi người có công đang hưởng trợ cấp ưu đãi từ trần | Bộ Nội vụ | Người có công
+  2.002105 | Hỗ trợ cho người lao động thuộc đối tượng là người dân tộc thiểu số, người thuộc hộ nghèo, hộ cận nghèo, thân nhân người có công với cách mạng đi làm việc ở nước ngoài theo hợp đồng | Bộ Nội vụ | Quản lý lao động ngoài nước
+  1.010826 | Sửa đổi, bổ sung thông tin cá nhân trong hồ sơ người có công | Bộ Nội vụ | Người có công
+  1.010783 | Tiếp nhận người có công vào cơ sở nuôi dưỡng, điều dưỡng người có công do Bộ Nội vụ quản lý | Bộ Nội vụ | Người có công
+  1.010812 | Tiếp nhận người có công vào cơ sở nuôi dưỡng, điều dưỡng người có công do tỉnh quản lý | Bộ Nội vụ | Người có công
+  1.013745 | Xác nhận và giải quyết chế độ ưu đãi người có công với cách mạng và thân nhân | Bộ Nội vụ | Người có công
+  1.010785 | Đưa người có công đang được nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công do Bộ Lao động - Thương binh và Xã hội (nay là Bộ Nội vụ)quản lý về nuôi dưỡng tại gia đình | Bộ Nội vụ | Người có công
+  1.010813 | Đưa người có công đối với trường hợp đang được nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công do tỉnh quản lý về nuôi dưỡng tại gia đình | Bộ Nội vụ | Người có công
+  1.013194 | Thủ tục di chuyển hồ sơ người có công do Quân đội quản lý | Bộ Quốc phòng | Chính sách BQP
+  1.013192 | Thủ tục giải quyết chế độ trợ cấp một lần khi người có công đang tại ngũ, công tác từ trần | Bộ Quốc phòng | Chính sách BQP
+  1.013191 | Thủ tục hưởng lại chế độ ưu đãi đối với người có công là thương binh chưa được hưởng chế độ ưu đãi do gửi sổ đi B | Bộ Quốc phòng | Chính sách BQP
+  1.013190 | Thủ tục hưởng lại chế độ ưu đãi đối với người có công đang tại ngũ, công tác | Bộ Quốc phòng | Chính sách BQP
+  1.013185 | Thủ tục lập sổ theo dõi, cấp phương tiện trợ giúp, dụng cụ chỉnh hình, phương tiện, thiết bị chỉnh hình phục hồi chức năng đối với người có công đang tại ngũ, công tác | Bộ Quốc phòng | Chính sách BQP
+  1.013193 | Thủ tục sửa đổi, bổ sung thông tin cá nhân trong hồ sơ người có công đang tại ngũ, công tác | Bộ Quốc phòng | Chính sách BQP
+  1.013195 | Thủ tục sửa đổi, bổ sung thông tin cá nhân trong hồ sơ người có công đã chuyển ra | Bộ Quốc phòng | Chính sách BQP
+  1.013184 | Thủ tục thực hiện chế độ điều dưỡng, phục hồi sức khỏe tại nhà đối với người có công đang tại ngũ, công tác | Bộ Quốc phòng | Chính sách BQP
+  1.013187 | Thủ tục tạm đình chỉ, chấm dứt hưởng chế độ ưu đãi đối với người có công theo quy định tại khoản 1 Điều 118 Nghị định số 131/2021/NĐ-CP | Bộ Quốc phòng | Chính sách BQP
+  1.013188 | Thủ tục tạm đình chỉ, chấm dứt hưởng chế độ ưu đãi đối với người có công đang tại ngũ, công tác quy định tại khoản 2 Điều 118 Nghị định số 131/2021/NĐ-CP | Bộ Quốc phòng | Chính sách BQP
+  1.013189 | Thủ tục tạm đình chỉ, chấm dứt hưởng chế độ ưu đãi đối với người có công đã chuyển ra quy định tại khoản 2 Điều 118 Nghị định số 131/2021/NĐ-CP | Bộ Quốc phòng | Chính sách BQP
+  1.003662 | Khám GĐYK lần đầu đối với con đẻ của người hoạt động kháng chiến bị phơi nhiễm với chất độc hóa học quy định tại Điều 38 Nghị định số 31/2013/NĐ-CP ngày 09 tháng 4 năm 2013 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Pháp lệnh ưu đãi người có công với cách mạng | Bộ Y tế | Giám định
+  1.003691 | Khám GĐYK lần đầu đối với người hoạt động kháng chiến bị phơi nhiễm với chất độc hóa học quy định tại Điều 38 Nghị định số 31/2013/NĐ-CP ngày 09 tháng 4 năm 2013 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Pháp lệnh ưu đãi người có công với cách mạng | Bộ Y tế | Giám định
+  1.003721 | Khám giám định phúc quyết lần cuối theo đề nghị của Cục Quản lý Khám, chữa bệnh, Bộ Y tế hoặc Cục Người có công, Bộ LĐTBXH | Bộ Y tế | Giám định
+  1.003764 | Khám giám định phúc quyết theo đề nghị của Cục Quản lý Khám, chữa bệnh, Bộ Y tế hoặc Cục Người có công, Bộ LĐTBXH | Bộ Y tế | Giám định
+
+====================================================================================================
+CÂU 36: xác nhận liệt sĩ cho người thân   [loại: tu_nhien]
+Khái niệm dùng lọc: liệt sĩ — 22 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.010825 | Bổ sung tình hình thân nhân trong hồ sơ liệt sĩ. | Bộ Nội vụ | Người có công
+  1.010814 | Cấp bổ sung hoặc cấp lại giấy chứng nhận người có công do ngành Lao động - Thương binh và Xã hội quản lý và giấy chứng nhận thân nhân liệt sĩ | Bộ Nội vụ | Người có công
+  1.010794 | Cấp giấy xác nhận thông tin về nơi liệt sĩ hy sinh | Bộ Nội vụ | Người có công
+  1.010831 | Cấp giấy xác nhận thông tin về nơi liệt sĩ hy sinh. | Bộ Nội vụ | Người có công
+  1.010830 | Di chuyển hài cốt liệt sĩ đang an táng ngoài nghĩa trang liệt sĩ về an táng tại nghĩa trang liệt sĩ theo nguyện vọng của đại diện thân nhân hoặc người hưởng trợ cấp thờ cúng liệt sĩ | Bộ Nội vụ | Người có công
+  1.010829 | Di chuyển hài cốt liệt sĩ đang an táng tại nghĩa trang liệt sĩ đi nơi khác theo nguyện vọng của đại diện thân nhân hoặc người hưởng trợ cấp thờ cúng liệt sĩ | Bộ Nội vụ | Người có công
+  1.010803 | Giải quyết chế độ trợ cấp thờ cúng liệt sĩ. | Bộ Nội vụ | Người có công
+  1.010801 | Giải quyết chế độ trợ cấp ưu đãi đối với thân nhân liệt sĩ | Bộ Nội vụ | Người có công
+  1.010802 | Giải quyết chế độ ưu đãi đối với vợ hoặc chồng liệt sĩ lấy chồng hoặc vợ khác | Bộ Nội vụ | Người có công
+  1.010796 | Lấy mẫu để giám định ADN xác định danh tính hài cốt liệt sĩ còn thiếu thông tin | Bộ Nội vụ | Người có công
+  1.013747 | Lấy mẫu để giám định ADN xác định danh tính hài cốt liệt sĩ còn thiếu thông tin. | Bộ Nội vụ | Người có công
+  1.010832 | Thăm viếng mộ liệt sĩ | Bộ Nội vụ | Người có công
+  1.013750 | Thăm viếng mộ liệt sĩ. | Bộ Nội vụ | Người có công
+  1.010795 | Xác định danh tính hài cốt liệt sĩ còn thiếu thông tin bằng phương pháp thực chứng | Bộ Nội vụ | Người có công
+  1.013746 | Xác định danh tính hài cốt liệt sĩ còn thiếu thông tin bằng phương pháp thực chứng. | Bộ Nội vụ | Người có công
+  3.000010 | Thủ tục giải quyết chế độ hỗ trợ thân nhân hoặc người thờ cúng liệt sĩ đi tìm mộ liệt sĩ | Bộ Quốc phòng | Chính sách BQP
+  1.013181 | Thủ tục tiếp nhận, hoàn thiện hồ sơ, thẩm quyền cấp giấy chứng nhận hy sinh đề nghị công nhận liệt sĩ đối với quân nhân, công nhân viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ hy sinh hoặc mất tích trong chiến tranh | Bộ Quốc phòng | Chính sách BQP
+  2.001273 | Thủ tục xác nhận liệt sĩ đối với những trường hợp hy sinh từ 31/12/1994 trở về trước | Bộ Quốc phòng | Chính sách BQP
+  2.001943 | Thủ tục xác nhận liệt sĩ đối với những trường hợp mất tin, mất tích quy định tại Điểm K Khoản 1 Điều 17 của Nghị định số 31/2013/NĐ-CP sau khi cơ quan có thẩm quyền kết luận chưa có chứng cứ phản bội, đầu hàng, chiêu hồi, đào ngũ | Bộ Quốc phòng | Chính sách BQP
+  1.008241 | Thủ tục xác nhận liệt sĩ đối với những trường hợp mất tin, mất tích quy định tại Điểm l Khoản 1 Điều 11 của Pháp lệnh sau khi cơ quan có thẩm quyền kết luận chưa có chứng cứ phản bội, đầu hàng, chiêu hồi, đào ngũ | Bộ Quốc phòng | Chính sách BQP
+  2.001176 | Thủ tục xác nhận liệt sĩ đối với quân nhân, công nhân viên chức quốc phòng, người làm công tác cơ yếu hy sinh | Bộ Quốc phòng | Chính sách BQP
+  1.013174 | Thủ tục đề nghị công nhận liệt sĩ đối với quân nhân, công nhân và viên chức quốc phòng, người làm việc trong tổ chức cơ yếu thuộc Ban Cơ yếu Chính phủ đang tại ngũ, công tác hy sinh | Bộ Quốc phòng | Chính sách BQP
+
+====================================================================================================
+CÂU 37: cấp lại bằng tốt nghiệp bị mất   [loại: dong_nghia]
+Khái niệm dùng lọc: văn bằng — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  3.000466 | Chỉnh sửa nội dung văn bằng, chứng chỉ | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  2.001914 | Chỉnh sửa nội dung văn bằng, chứng chỉ | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  3.000468 | Chỉnh sửa nội dung văn bằng, chứng chỉ (tại cấp xã) | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  1.005138 | Chỉnh sửa nội dung văn bằng, chứng chỉ tại cấp Bộ | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  1.000915 | Công nhận bằng cử nhân, bằng thạc sĩ, bằng tiến sĩ và văn bằng trình độ tương đương do cơ sở giáo dục nước ngoài cấp để sử dụng tại Việt Nam | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  3.000465 | Cấp bản sao văn bằng, chứng chỉ từ sổ gốc | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  1.005092 | Cấp bản sao văn bằng, chứng chỉ từ sổ gốc | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  1.010025 | Cấp bản sao văn bằng, chứng chỉ từ sổ gốc (cấp trung ương) | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  3.000467 | Cấp bản sao văn bằng, chứng chỉ từ sổ gốc (tại cấp xã) | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  2.002850 | Cấp lại văn bằng, chứng chỉ | Bộ Giáo dục và Đào tạo | Văn bằng, chứng chỉ
+  1.015012 | Thủ tục chấm dứt hiệu lực văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.011912 | Thủ tục cấp phó bản văn bằng bảo hộ và  cấp lại văn bằng bảo hộ/phó bản văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.013966 | Thủ tục cấp phó bản văn bằng bảo hộ và cấp lại văn bằng bảo hộ/phó bản văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.015008 | Thủ tục duy trì, gia hạn hiệu lực văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.015013 | Thủ tục hủy bỏ hiệu lực văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.011911 | Thủ tục sửa đổi thông tin trên Văn bằng bảo hộ, thay đổi thông tin trong Sổ đăng ký quốc gia về sở hữu công nghiệp | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.015010 | Thủ tục sửa đổi văn bằng bảo hộ | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.004835 | Thủ tục cấp thay đổi thông tin cá nhân, văn bằng chuyên môn trong chứng chỉ hành nghề khám bệnh, chữa bệnh | Bộ Quốc phòng | Khám bệnh, chữa bệnh BQP
+
+====================================================================================================
+CÂU 38: xin học bổng đi du học   [loại: tu_nhien]
+Khái niệm dùng lọc: học bổng — 6 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001714 | Cấp học bổng và hỗ trợ kinh phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  1.002499 | Tiếp nhận du học sinh học bổng ngân sách nhà nước tốt nghiệp về nước | Bộ Giáo dục và Đào tạo | Giáo dục, đào tạo với nước ngoài
+  1.005086 | Tuyển sinh công dân Việt Nam ra nước ngoài học tập bằng học bổng ngân sách nhà nước | Bộ Giáo dục và Đào tạo | Thi, tuyển sinh
+  1.002407 | Xét, cấp học bổng chính sách | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  1.014997 | Xét, cấp học bổng chính sách đối với học viên cơ sở giáo dục nghề nghiệp tư thục dành cho thương binh, người khuyết tật | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  2.002851 | Xét, cấp học bổng chính sách đối với sinh viên học theo chế độ cử tuyển | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+
+====================================================================================================
+CÂU 39: chuyển trường cho học sinh trung học   [loại: tu_nhien]
+Khái niệm dùng lọc: chuyển trường — 7 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.010627 | Chuyển ngành, nghề học, chuyển trường, chuyển nước đến học | Bộ Giáo dục và Đào tạo | Giáo dục, đào tạo với nước ngoài
+  2.002854 | Chuyển trường và tiếp nhận học sinh | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  1.005099 | Chuyển trường đối với học sinh tiểu học | Bộ Giáo dục và Đào tạo | Giáo dục tiểu học
+  1.004831 | Chuyển trường đối với học sinh trung học cơ sở | Bộ Giáo dục và Đào tạo | Giáo dục trung học
+  2.002481 | Chuyển trường đối với học sinh trung học cơ sở. | Bộ Giáo dục và Đào tạo | Giáo dục trung học
+  1.000270 | Chuyển trường đối với học sinh trung học phổ thông | Bộ Giáo dục và Đào tạo | Giáo dục trung học
+  2.002478 | Chuyển trường đối với học sinh trung học phổ thông. | Bộ Giáo dục và Đào tạo | Giáo dục trung học
+
+====================================================================================================
+CÂU 40: thành lập trường mầm non tư thục   [loại: tu_nhien]
+Khái niệm dùng lọc: thành lập trường mầm non / thành lập nhà trường, nhà trẻ / trường mầm non — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.002894 | Cho phép nhà trẻ, trường mẫu giáo, trường mầm non, nhà trẻ hoạt động giáo dục | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.006390 | Cho phép trường mẫu giáo, trường mầm non, nhà trẻ hoạt động giáo dục | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.006444 | Cho phép trường mẫu giáo, trường mầm non, nhà trẻ hoạt động giáo dục trở lại | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.008720 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ đề nghị sang nhà trẻ, trường mẫu giáo, trường mầm non tư thục hoạt động không vì lợi nhuận | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.008722 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do nhà đầu tư nước ngoài đầu tư sang nhà trẻ, trường mẫu giáo, trường mầm non tư thục hoạt động không vì lợi nhuận | Bộ Giáo dục và Đào tạo | Giáo dục, đào tạo với nước ngoài
+  1.014996 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do nhà đầu tư trong nước và nhà đầu tư nước ngoài đề nghị thành lập sang nhà trẻ, trường mẫu giáo, trường mầm non tư thục hoạt động không vì lợi nhuận | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.008724 | Chuyển đổi nhà trẻ, trường mẫu giáo, trường mầm non tư thục do nhà đầu tư trong nước đầu tư sang nhà trẻ, trường mẫu giáo, trường mầm non tư thục hoạt động không vì lợi nhuận | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  1.000288 | Công nhận trường mầm non đạt chuẩn Quốc gia | Bộ Giáo dục và Đào tạo | Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân
+  1.000715 | Cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục | Bộ Giáo dục và Đào tạo | Kiểm định chất lượng giáo dục
+  2.002893 | Giải thể nhà trẻ, trường mẫu giáo, trường mầm non | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.012962 | Giải thể trường mẫu giáo, trường mầm non, nhà trẻ | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.004515 | Giải thể trường mẫu giáo, trường mầm non, nhà trẻ (theo yêu cầu của tổ chức, cá nhân đề nghị thành lập) | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  2.002892 | Sáp nhập, chia, tách nhà trẻ, trường mẫu giáo, trường mầm non | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.006445 | Sáp nhập, chia, tách trường mẫu giáo, trường mầm non, nhà trẻ | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  2.002891 | Thành lập hoặc cho phép thành lập nhà trẻ, trường mẫu giáo, trường mầm non | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  1.012961 | Thành lập hoặc cho phép thành lập trường mẫu giáo, trường mầm non, nhà trẻ | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+  3.000309 | Thành lập lớp dành cho người khuyết tật trong trường mầm non, trường tiểu học, trường trung học cơ sở và trung tâm giáo dục thường xuyên, trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên thực hiện các chương trình xóa mù chữ và chương trình giáo dục thường xuyên cấp trung học cơ sở | Bộ Giáo dục và Đào tạo | Các cơ sở giáo dục khác
+  1.004494 | Thành lập trường mẫu giáo, trường mầm non, nhà trẻ công lập hoặc cho phép thành lập trường mẫu giáo, trường mầm non, nhà trẻ dân lập, tư thục | Bộ Giáo dục và Đào tạo | Giáo dục mầm non
+
+====================================================================================================
+CÂU 41: xin visa cho người nước ngoài vào việt nam   [loại: dong_nghia]
+Khái niệm dùng lọc: thị thực — 16 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.003144 | Cấp giấy miễn thị thực cho người Việt Nam định cư ở nước ngoài và người nước ngoài là vợ, chồng, con của người Việt Nam định cư ở nước ngoài hoặc của công dân Việt Nam | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000807 | Cấp lại giấy miễn thị thực tại Cục Quản lý xuất nhập cảnh, Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  3.000517 | Cấp thẻ miễn thị thực đặc biệt cho người nước ngoài | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003342 | Cấp thị thực cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001194 | Cấp thị thực cho người nước ngoài tại Việt Nam (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002756 | Cấp thị thực điện tử theo đề nghị của cơ quan, tổ chức | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002757 | Cấp thị thực điện tử theo đề nghị của người nước ngoài | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000771 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Cục Quản lý xuất nhập cảnh Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002411 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Phòng Quản lý xuất nhập cảnh Công an tỉnh, thành phố trực thuộc Trung ương | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000841 | Thủ tục cấp Giấy miễn thị thực tại Cơ quan đại diện VIệt Nam ở nước ngoài | Bộ Ngoại giao | Miễn thị thực
+  2.002354 | Thủ tục cấp công hàm đề nghị phía nước ngoài cấp thị thực tại cơ quan trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+  1.000612 | Thủ tục cấp thị thực cho người nước ngoài tại các cơ quan có thẩm quyền cấp thị thực của Việt Nam ở nước ngoài | Bộ Ngoại giao | Công tác lãnh sự
+  1.000039 | Thủ tục gia hạn tạm trú, cấp thị thực mới cho người nước ngoài đang tạm trú ở Việt Nam tại cơ quan có thẩm quyền ở trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+  1.013550 | Thủ tục biên phòng trong cấp thị thực tại cửa khẩu và sửa đổi, bổ sung hồ sơ biên phòng đối với người nhận thị thực tại cửa khẩu | Bộ Quốc phòng | Quản lý biên giới
+  2.000329 | Thủ tục cấp thị thực cho người nước ngoài nhập cảnh tại cửa khẩu biên giới đất liền và cửa khẩu cảng biển (sau đây gọi chung là cửa khẩu) | Bộ Quốc phòng | Quản lý biên giới
+  1.013517 | Thủ tục sửa đổi, bổ sung hồ sơ biên phòng điện tử đối với người nhận thị thực tại cửa khẩu | Bộ Quốc phòng | Quản lý biên giới
+
+====================================================================================================
+CÂU 42: gia hạn tạm trú cho người nước ngoài   [loại: tu_nhien]
+Khái niệm dùng lọc: gia hạn tạm trú / thẻ tạm trú — 9 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.003358 | Cấp thẻ tạm trú cho người nước ngoài tại Cục Quản lý xuất nhập cảnh, Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003460 | Cấp thẻ tạm trú cho người nước ngoài tại Việt Nam tại Công an cấp tỉnh | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002755 | Gia hạn tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003326 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.001146 | Gia hạn tạm trú cho người nước ngoài tại Việt Nam (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.000771 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Cục Quản lý xuất nhập cảnh Bộ Công an | Bộ Công an | Quản lý xuất nhập cảnh
+  1.002411 | Gia hạn tạm trú cho người đã được cấp giấy miễn thị thực tại Phòng Quản lý xuất nhập cảnh Công an tỉnh, thành phố trực thuộc Trung ương | Bộ Công an | Quản lý xuất nhập cảnh
+  3.000249 | Thủ tục cấp thẻ tạm trú cho người nước ngoài tại Việt Nam | Bộ Ngoại giao | Ưu đãi, miễn trừ
+  1.000039 | Thủ tục gia hạn tạm trú, cấp thị thực mới cho người nước ngoài đang tạm trú ở Việt Nam tại cơ quan có thẩm quyền ở trong nước của Bộ Ngoại giao | Bộ Ngoại giao | Công tác lãnh sự
+
+====================================================================================================
+CÂU 43: cấp giấy phép lao động cho người nước ngoài   [loại: tu_nhien]
+Khái niệm dùng lọc: giấy phép lao động — 21 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.001940 | Báo cáo chuyên gia khoa học công nghệ không thuộc diện cấp giấy phép lao động làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000907 | Cấp giấy phép lao động cho chuyên gia khoa học công nghệ làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000205 | Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000233 | Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (cấp trung ương) | Bộ Nội vụ | Việc làm
+  1.013720 | Cấp giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (thuộc thẩm quyền của Chủ tịch Uỷ ban nhân dân cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014199 | Cấp giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.014196 | Cấp giấy xác nhận không thuộc diện cấp giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000902 | Cấp lại giấy phép lao động cho chuyên gia khoa học công nghệ làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000192 | Cấp lại giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  2.000227 | Cấp lại giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (cấp trung ương) | Bộ Nội vụ | Việc làm
+  1.013721 | Cấp lại giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (thuộc thẩm quyền của Chủ tịch Uỷ ban nhân dân cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014200 | Cấp lại giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.014197 | Cấp lại giấy xác nhận không thuộc diện cấp giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.009810 | Gia hạn giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.009811 | Gia hạn giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (cấp Tỉnh). | Bộ Nội vụ | Việc làm
+  1.013722 | Gia hạn giấy phép lao động cho người lao động nước ngoài làm việc tại Việt Nam (thuộc thẩm quyền của Chủ tịch Uỷ ban nhân dân cấp tỉnh) | Bộ Nội vụ | Việc làm
+  1.014201 | Gia hạn giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.014198 | Gia hạn giấy xác nhận không thuộc diện cấp giấy phép lao động đối với người lao động nước ngoài làm việc tại Việt Nam | Bộ Nội vụ | Việc làm
+  1.000459 | Xác nhận người lao động nước ngoài không thuộc diện cấp giấy phép lao động | Bộ Nội vụ | Việc làm
+  1.000121 | Xác nhận người lao động nước ngoài không thuộc diện cấp giấy phép lao động (cấp trung ương) | Bộ Nội vụ | Việc làm
+  1.013719 | Xác nhận người lao động nước ngoài không thuộc diện cấp giấy phép lao động (thuộc thẩm quyền của Chủ tịch Uỷ ban nhân dân cấp tỉnh) | Bộ Nội vụ | Việc làm
+
+====================================================================================================
+CÂU 44: đăng ký nhãn hiệu cho sản phẩm   [loại: tu_nhien]
+Khái niệm dùng lọc: nhãn hiệu — 11 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.013775 | Cho phép sản xuất sản phẩm thuốc lá mang nhãn hiệu nước ngoài tiêu thụ tại Việt Nam | Bộ Công thương | Công nghiệp tiêu dùng
+  1.010582 | Công nhận hiệu trưởng trường cao đẳng tư thục. | Bộ Giáo dục và Đào tạo | Giáo dục nghề nghiệp (G07-LĐ06)
+  1.010595 | Công nhận hiệu trưởng trường trung cấp tư thục. | Bộ Giáo dục và Đào tạo | Giáo dục nghề nghiệp (G07-LĐ06)
+  1.008654 | Công nhận hiệu trưởng trường đại học công lập | Bộ Giáo dục và Đào tạo | Giáo dục đại học
+  1.010583 | Thôi công nhận hiệu trưởng trường cao đẳng tư thục | Bộ Giáo dục và Đào tạo | Giáo dục nghề nghiệp (G07-LĐ06)
+  1.010596 | Thôi công nhận hiệu trưởng trường trung cấp tư thục | Bộ Giáo dục và Đào tạo | Giáo dục nghề nghiệp (G07-LĐ06)
+  5.003825 | Thủ tục công nhận Hiệu trưởng trường đại học công lập | Bộ Giáo dục và Đào tạo | Giáo dục đại học
+  1.015009 | Thủ tục gia hạn hiệu lực Bằng độc quyền kiểu dáng công nghiệp, Giấy chứng nhận đăng ký nhãn hiệu | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.015002 | Thủ tục đăng ký nhãn hiệu | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.013130 | Thủ tục thẩm định, công nhận hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước theo thiết kế và mang nhãn hiệu hàng hóa của nước ngoài | Bộ Quốc phòng | Xe - máy quân sự
+  1.116038 | Đăng ký thay đổi nội dung, cập nhật, bổ sung thông tin, cấp lại giấy chứng nhận, hiệu đính thông tin đăng ký hoạt động của Ngân hàng Chính sách xã hội, chi nhánh, phòng giao dịch Ngân hàng Chính sách xã hội. Đăng ký hoạt động lần đầu của chi nhánh, phòng giao dịch Ngân hàng Chính sách xã hội | Bộ Tài chính | Đăng ký hoạt động của Ngân hàng Chính sách xã hội
+
+====================================================================================================
+CÂU 45: xin giấy phép nhập khẩu thuốc bảo vệ thực vật   [loại: tu_nhien]
+Khái niệm dùng lọc: nhập khẩu thuốc bảo vệ thực vật — 1 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.003971 | Cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật | Bộ Nông nghiệp và Môi trường | Trồng trọt và Bảo vệ thực vật
+
+====================================================================================================
+CÂU 46: chứng thực bản sao giấy tờ   [loại: tu_nhien]
+Khái niệm dùng lọc: chứng thực — 30 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.115420 | Cấp phép kinh doanh dịch vụ chứng thực hợp đồng điện tử trong thương mại | Bộ Công thương | Thương mại điện tử
+  1.010836 | Hủy bỏ, chấm dứt đăng ký cung cấp dịch vụ chứng thực hợp đồng điện tử | Bộ Công thương | Thương mại điện tử
+  1.115421 | Sửa đổi, bổ sung giấy phép kinh doanh dịch vụ chứng thực hợp đồng điện tử trong thương mại | Bộ Công thương | Thương mại điện tử
+  1.010835 | Sửa đổi, bổ sung thông tin đã đăng ký cung cấp dịch vụ chứng thực hợp đồng điện tử | Bộ Công thương | Thương mại điện tử
+  1.115422 | Thu hồi giấy phép kinh doanh dịch vụ chứng thực hợp đồng điện tử trong thương mại | Bộ Công thương | Thương mại điện tử
+  1.010834 | Đăng ký hoạt động cung cấp dịch vụ chứng thực hợp đồng điện tử | Bộ Công thương | Thương mại điện tử
+  1.012738 | Công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam | Bộ Khoa học và Công nghệ | Công nghiệp công nghệ số, công nghệ thông tin, điện tử
+  1.001606 | Thủ tục Chứng thực bản sao từ bản chính các giấy tờ, văn bản do cơ quan có thẩm quyền cấp hoặc chứng nhận | Bộ Ngoại giao | Công chứng, chứng thực
+  2.000757 | Thủ tục Chứng thực chữ ký người dịch trong các văn bản dịch từ tiếng nước ngoài sang tiếng Việt hoặc từ tiếng Việt sang tiếng nước ngoài | Bộ Ngoại giao | Công chứng, chứng thực
+  1.001590 | Thủ tục Chứng thực chữ ký trong các giấy tờ, văn bản | Bộ Ngoại giao | Công chứng, chứng thực
+  1.010192 | Thủ tục cấp bản sao và  chứng thực tài liệu lưu trữ (Cấp Trung ương) | Bộ Nội vụ | Văn thư và Lưu trữ nhà nước
+  1.003649 | Thủ tục cấp bản sao và chứng thực lưu trữ | Bộ Nội vụ | Văn thư và Lưu trữ nhà nước
+  1.001560 | Thủ tục cấp bản sao và chứng thực lưu trữ | Bộ Nội vụ | Văn thư và Lưu trữ nhà nước
+  1.010195 | Thủ tục cấp bản sao và chứng thực tài liệu lưu trữ (Cấp tỉnh) | Bộ Nội vụ | Văn thư và Lưu trữ nhà nước
+  2.000815 | Chứng thực bản sao từ bản chính giấy tờ, văn bản do cơ quan, tổ chức có thẩm quyền của Việt Nam; cơ quan, tổ chức có thẩm quyền của nước ngoài; cơ quan, tổ chức có thẩm quyền của Việt Nam liên kết với cơ quan, tổ chức có thẩm quyền của nước ngoài cấp hoặc chứng nhận | Bộ Tư pháp | Chứng thực
+  2.001008 | Chứng thực chữ ký người dịch mà người dịch không phải là cộng tác viên dịch thuật của Ủy ban nhân dân cấp xã, tổ chức hành nghề công chứng | Bộ Tư pháp | Chứng thực
+  2.000992 | Chứng thực chữ ký người dịch mà người dịch là cộng tác viên dịch thuật của Ủy ban nhân dân cấp xã, tổ chức hành nghề công chứng | Bộ Tư pháp | Chứng thực
+  2.000988 | Chứng thực chữ ký người dịch mà người dịch là viên chức ngoại giao, viên chức lãnh sự | Bộ Tư pháp | Chứng thực
+  2.000884 | Chứng thực chữ ký trong các giấy tờ, văn bản (áp dụng cho cả trường hợp chứng thực điểm chỉ và trường hợp người yêu cầu chứng thực không thể ký, không thể điểm chỉ được) | Bộ Tư pháp | Chứng thực
+  2.001019 | Chứng thực di chúc | Bộ Tư pháp | Chứng thực
+  2.001035 | Chứng thực giao dịch liên quan đến tài sản là động sản, quyền sử dụng đất, nhà ở | Bộ Tư pháp | Chứng thực
+  2.000913 | Chứng thực việc sửa đổi, bổ sung, hủy bỏ giao dịch | Bộ Tư pháp | Chứng thực
+  2.001406 | Chứng thực văn bản phân chia di sản mà di sản là động sản, quyền sử dụng đất, nhà ở | Bộ Tư pháp | Chứng thực
+  2.001016 | Chứng thực văn bản từ chối nhận di sản | Bộ Tư pháp | Chứng thực
+  2.000942 | Cấp bản sao có chứng thực từ bản chính giao dịch đã được chứng thực | Bộ Tư pháp | Chứng thực
+  2.000975 | Thủ tục chứng thực chữ ký người dịch không phải viên chức ngoại giao, viên chức lãnh sự | Bộ Tư pháp | Chứng thực
+  2.001044 | Thủ tục chứng thực hợp đồng, giao dịch liên quan đến tài sản là động sản | Bộ Tư pháp | Chứng thực
+  2.001052 | Thủ tục chứng thực văn bản khai nhận di sản mà di sản là động sản | Bộ Tư pháp | Chứng thực
+  2.001009 | Thủ tục chứng thực văn bản khai nhận di sản mà di sản là động sản, quyền sửa dụng đất, nhà ở | Bộ Tư pháp | Chứng thực
+  2.001050 | Thủ tục chứng thực văn bản thỏa thuận phân chia di sản mà di sản là động sản | Bộ Tư pháp | Chứng thực
+
+====================================================================================================
+CÂU 47: khieu nai quyet dinh hanh chinh   [loại: khong_dau]
+Khái niệm dùng lọc: khiếu nại — 20 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.000178 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với lực lượng Công an nhân dân (thực hiện tại cấp Trung ương) | Bộ Công an | Khiếu nại, tố cáo
+  1.003387 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với lực lượng Công an nhân dân (thực hiện tại cấp huyện) | Bộ Công an | Khiếu nại, tố cáo
+  1.003504 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với lực lượng Công an nhân dân (thực hiện tại cấp tỉnh) | Bộ Công an | Khiếu nại, tố cáo
+  1.004335 | Giải quyết khiếu nại về quyết định hành chính, hành vi hành chính của công dân đối với lực lượng Công an nhân dân thực hiện tại cấp xã (phải là cán bộ thuộc biên chế của lực lượng Công an) | Bộ Công an | Khiếu nại, tố cáo
+  1.015007 | Thủ tục giải quyết khiếu nại liên quan đến sở hữu công nghiệp | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.015016 | Thủ tục giải quyết khiếu nại liên quan đến sở hữu công nghiệp (cấp tỉnh) | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.012135 | Thủ tục giải quyết khiếu nại liên quan đến sở hữu công nghiệp - | Bộ Khoa học và Công nghệ | Sở hữu trí tuệ
+  1.013980 | Đăng ký biến động đối với trường hợp thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo thỏa thuận của các thành viên hộ gia đình hoặc của vợ và chồng; quyền sử dụng đất xây dựng công trình trên mặt đất phục vụ cho việc vận hành, khai thác sử dụng công trình ngầm, quyền sở hữu công trình ngầm; bán tài sản, điều chuyển, chuyển nhượng quyền sử dụng đất là tài sản công theo quy định của pháp luật về quản lý, sử dụng tài sản công; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo kết quả giải quyết tranh chấp, khiếu nại, tố cáo về đất đai hoặc bản án, quyết định của Tòa án, quyết định thi hành án của cơ quan thi hành án đã được thi hành; quyết định hoặc phán quyết của Trọng tài thương mại Việt Nam về giải quyết tranh chấp giữa các bên phát sinh từ hoạt động thương mại liên quan đến đất đai; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do xử lý tài sản thế chấp là quyền sử dụng đất, tài sản gắn liền với đất đã được đăng ký, bao gồm cả xử lý khoản nợ có nguồn gốc từ khoản nợ xấu của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.012772 | Đăng ký biến động đối với trường hợp thay đổi quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo thỏa thuận của các thành viên hộ gia đình hoặc của vợ và chồng; quyền sử dụng đất xây dựng công trình trên mặt đất phục vụ cho việc vận hành, khai thác sử dụng công trình ngầm, quyền sở hữu công trình ngầm; bán tài sản, điều chuyển, chuyển nhượng quyền sử dụng đất là tài sản công theo quy định của pháp luật về quản lý, sử dụng tài sản công; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo kết quả giải quyết tranh chấp, khiếu nại, tố cáo về đất đai; nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất do xử lý tài sản thế chấp là quyền sử dụng đất, tài sản gắn liền với đất đã được đăng ký, bao gồm cả xử lý khoản nợ có nguồn gốc từ khoản nợ xấu của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài | Bộ Nông nghiệp và Môi trường | Đất đai
+  1.013534 | Thủ tục giải quyết khiếu nại lần hai cấp Bộ Quốc phòng | Bộ Quốc phòng | Khiếu nại BQP
+  1.013536 | Thủ tục giải quyết khiếu nại lần hai cấp Bộ Tổng Tham mưu, Tổng cục Chính trị, các Tổng cục, Quân khu, Quân chủng, Bộ Tư lệnh Bộ đội Biên phòng và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013526 | Thủ tục giải quyết khiếu nại lần hai cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013537 | Thủ tục giải quyết khiếu nại lần hai cấp Quân đoàn, Binh đoàn, Binh chủng, Cảnh sát biển Việt Nam, Bộ Tư lệnh Thủ đô Hà Nội, Bộ Tư lệnh Lăng Chủ tịch Hồ Chí Minh, Tập đoàn Công nghiệp viễn thông Quân đội và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013529 | Thủ tục giải quyết khiếu nại lần đầu cấp Bộ Tổng Tham mưu, Tổng cục Chính trị, các Tổng cục; Quân khu, Quân chủng, Bộ đội Biên phòng và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013524 | Thủ tục giải quyết khiếu nại lần đầu cấp Cục, Sư đoàn, Học viện Quân y, Bộ chỉ huy quân sự cấp tỉnh, Bộ Tư lệnh thành phố Hồ Chí Minh, và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013532 | Thủ tục giải quyết khiếu nại lần đầu cấp Học viện (trừ Học viện Quân y), Nhà trường, Viện nghiên cứu, Bệnh viện, Tổng công ty và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013531 | Thủ tục giải quyết khiếu nại lần đầu cấp Quân đoàn, Binh đoàn, Binh chủng, Cảnh sát biển, Bộ Tư lệnh Thủ đô Hà Nội, Bộ Tư lệnh Bảo vệ Lăng Chủ tịch Hồ Chí Minh, Tập đoàn viễn thông Quân đội và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013527 | Thủ tục giải quyết khiếu nại lần đầu cấp Trung đoàn, Lữ đoàn, Đồn biên phòng và cấp tương đương | Bộ Quốc phòng | Khiếu nại BQP
+  1.013554 | Thủ tục giải quyết đơn khiếu nại lần đầu cấp Bộ Quốc phòng | Bộ Quốc phòng | Khiếu nại BQP
+  2.000592 | Thủ tục giải quyết khiếu nại về trợ giúp pháp lý | Bộ Tư pháp | Trợ giúp pháp lý
+
+====================================================================================================
+CÂU 48: cap lai giay khai sinh bi mat   [loại: khong_dau]
+Khái niệm dùng lọc: khai sinh / trích lục — 22 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.000797 | Thủ tục cấp bản sao trích lục giấy tờ hộ tịch | Bộ Ngoại giao | Hộ tịch
+  1.000578 | Thủ tục cấp bản sao trích lục giấy tờ hộ tịch tại Bộ Ngoại giao | Bộ Ngoại giao | Hộ tịch
+  2.000712 | Thủ tục ghi vào sổ hộ tịch việc khai sinh đã đăng ký tại cơ quan có thẩm quyền của nước ngoài | Bộ Ngoại giao | Hộ tịch
+  1.001020 | Thủ tục đăng ký khai sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam | Bộ Ngoại giao | Hộ tịch
+  1.010793 | Cấp trích lục hoặc sao hồ sơ người có công | Bộ Nội vụ | Người có công
+  1.010828 | Cấp trích lục hoặc sao hồ sơ người có công với cách mạng | Bộ Nội vụ | Người có công
+  2.000635 | Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh | Bộ Tư pháp | Hộ tịch
+  2.001023 | Liên thông các thủ tục hành chính về đăng ký khai sinh, cấp Thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.000547 | Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch) | Bộ Tư pháp | Hộ tịch
+  1.001193 | Thủ tục đăng ký khai sinh | Bộ Tư pháp | Hộ tịch
+  1.004772 | Thủ tục đăng ký khai sinh cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  2.000528 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.000893 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài cho người đã có hồ sơ, giấy tờ cá nhân | Bộ Tư pháp | Hộ tịch
+  1.000110 | Thủ tục đăng ký khai sinh có yếu tố nước ngoài tại khu vực biên giới | Bộ Tư pháp | Hộ tịch
+  1.000689 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con | Bộ Tư pháp | Hộ tịch
+  1.001695 | Thủ tục đăng ký khai sinh kết hợp đăng ký nhận cha, mẹ, con có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  1.003583 | Thủ tục đăng ký khai sinh lưu động | Bộ Tư pháp | Hộ tịch
+  1.004884 | Thủ tục đăng ký lại khai sinh | Bộ Tư pháp | Hộ tịch
+  2.000522 | Thủ tục đăng ký lại khai sinh có yếu tố nước ngoài | Bộ Tư pháp | Hộ tịch
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+
+====================================================================================================
+CÂU 49: dang ky thuong tru   [loại: khong_dau]
+Khái niệm dùng lọc: đăng ký thường trú — 18 ứng viên
+----------------------------------------------------------------------------------------------------
+  1.001126 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật | Bộ Công an | Đăng ký, quản lý cư trú
+  2.001416 | Hủy bỏ kết quả đăng ký thường trú trái pháp luật (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.010040 | Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký tạm trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001015 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004196 | Xác nhận việc trước đây đã đăng ký thường trú (thực hiện tại cấp xã) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.013314 | Xác nhận về điều kiện diện tích bình quân nhà ở để đăng ký thường trú vào chỗ ở do thuê, mượn, ở nhờ; nhà ở, đất ở không có tranh chấp quyền sở hữu nhà ở, quyền sử dụng đất ở, không thuộc địa điểm không được đăng ký thường trú mới | Bộ Công an | Đăng ký, quản lý cư trú
+  1.003197 | Xóa đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.001057 | Xóa đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004222 | Đăng ký thường trú | Bộ Công an | Đăng ký, quản lý cư trú
+  1.004370 | Đăng ký thường trú (thực hiện tại cấp huyện) | Bộ Công an | Đăng ký, quản lý cư trú
+  2.002180 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp Trung ương) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.003424 | Đăng ký thường trú tại Việt Nam đối với công dân Việt Nam định cư ở nước ngoài (thực hiện tại cấp tỉnh) | Bộ Công an | Quản lý xuất nhập cảnh
+  1.007886 | Thủ tục nhập khẩu xe ô tô, xe mô tô đã qua sử dụng theo chế độ tài sản di chuyển của người Việt Nam định cư ở nước ngoài đã hoàn tất thủ tục đăng ký thường trú tại Việt Nam | Bộ Tài chính | Hải quan
+  2.000986 | Liên thông thủ tục hành chính về đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch
+  2.002913 | Liên thông điện tử: Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | thủ tục hành chính liên thông
+  3.000722 | Liên thông điện tử: đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế, cấp thẻ căn cước cho trẻ em dưới 6 tuổi | Bộ Tư pháp | thủ tục hành chính liên thông
+  2.002868 | Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi | Bộ Tư pháp | Hộ tịch - Đăng ký thường trú - Quản lý thu, Sổ - thẻ
+  2.002869 | Đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất | Bộ Tư pháp | Hộ tịch
+
+====================================================================================================
+CÂU 50: xin giay phep ban le ruou   [loại: khong_dau]
+Khái niệm dùng lọc: bán lẻ rượu — 3 ứng viên
+----------------------------------------------------------------------------------------------------
+  2.000620 | Cấp Giấy phép bán lẻ rượu | Bộ Công thương | Lưu thông hàng hóa trong nước
+  2.001240 | Cấp lại Cấp Giấy phép bán lẻ rượu | Bộ Công thương | Lưu thông hàng hóa trong nước
+  2.000615 | Cấp sửa đổi, bổ sung Giấy phép bán lẻ rượu | Bộ Công thương | Lưu thông hàng hóa trong nước
+

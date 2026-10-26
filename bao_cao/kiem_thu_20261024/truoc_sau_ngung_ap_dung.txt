@@ -1,0 +1,16 @@
+Kho thử: 8.000001 Cấp lại thẻ căn cước (NGỪNG ÁP DỤNG); 8.000002 Cấp, cấp đổi, cấp lại thẻ căn cước (đang áp dụng); 8.000003 Đăng ký khai sinh
+Câu hỏi: cấp lại thẻ căn cước lệ phí bao nhiêu 
+
+BẢN TRƯỚC (kit 22/10)
+  trạng thái: tra_loi | lý do hỏi lại: None
+  trả lời theo: 8.000001 Cấp lại thẻ căn cước | ngừng áp dụng: True
+  lựa chọn: [('8.000002', 100, 'đang áp dụng')]
+  câu trả lời: Theo dữ liệu của Cổng Dịch vụ công Quốc gia, thủ tục “Cấp lại thẻ căn cước” (mã 8.000001) có thông tin về phí, lệ phí như sau.
+  lưu ý: Có nhiều thủ tục có tên gần giống nhau (khác cấp thực hiện hoặc đối tượng). Tôi trả lời theo thủ tục khớp nhất; bạn kiểm tra danh sách “Thủ tục tương tự” bên dưới. Theo dữ liệu nguồn, thủ tục này đang ở trạng thái NGỪNG ÁP DỤNG. 
+
+BẢN SAU (kit 24/10)
+  trạng thái: can_lam_ro | lý do hỏi lại: ngung_ap_dung
+  lựa chọn: [('8.000002', 100, 'đang áp dụng'), ('8.000001', 100, 'ngừng')]
+  câu trả lời: Thủ tục khớp nhất với câu hỏi, “Cấp lại thẻ căn cước”, đang ở trạng thái NGỪNG ÁP DỤNG theo dữ liệu nguồn, trong khi có thủ tục đang áp dụng với tên gần giống. Bạn chọn thủ tục phù hợp để tôi trả lời;
+  lưu ý: None 
+

@@ -1,0 +1,54 @@
+A. Bộ đo câu hỏi tự nhiên — file hợp lệ
+  ĐẠT   A1 file chuẩn
+  ĐẠT   A2 dấu chấm phẩy (Excel vùng Việt Nam)
+  ĐẠT   A3 có BOM, xuống dòng Windows
+  ĐẠT   A4 ô ghi chú có xuống dòng trong nháy kép
+  ĐẠT   A5 dấu phẩy trong câu hỏi được đặt trong nháy
+  ĐẠT   A6 nhiều mã, cách nhau dấu chấm phẩy
+  ĐẠT   A7 câu trong phạm vi chưa gán nhãn (được phép)
+  ĐẠT   A8 dòng trống ở cuối file
+  ĐẠT   A9 cột trống ở cuối do Excel thêm, mọi ô trống
+
+B. Bộ đo câu hỏi tự nhiên — lỗi cấu trúc bảng
+  ĐẠT   B1 tiêu đề cột trùng
+  ĐẠT   B2 tiêu đề trùng chỉ khác khoảng trắng
+  ĐẠT   B3 tiêu đề trùng chỉ khác hoa/thường
+  ĐẠT   B4b cột trống ở cuối nhưng có dữ liệu
+  ĐẠT   B4 tiêu đề cột rỗng ở giữa
+  ĐẠT   B5 thiếu cột bắt buộc
+  ĐẠT   B6 dòng thiếu ô
+  ĐẠT   B7 dòng thừa ô có dữ liệu (phẩy trong câu không có nháy)
+  ĐẠT   B8 nháy kép không đóng
+  ĐẠT   B9 nháy kép đặt giữa ô
+  ĐẠT   B10 số dòng báo lỗi là dòng THẬT khi có ô nhiều dòng
+  ĐẠT   B11 file không phải UTF-8
+  ĐẠT   B12 file rỗng
+  ĐẠT   B13 chỉ có dòng tiêu đề
+
+C. Bộ đo câu hỏi tự nhiên — lỗi nhãn
+  ĐẠT   C1 câu ngoài phạm vi để trống nhãn
+  ĐẠT   C2 câu ngoài phạm vi lại có mã
+  ĐẠT   C3 KHONG_CO đi cùng mã
+  ĐẠT   C4 loại câu lạ
+  ĐẠT   C5 STT trùng
+  ĐẠT   C6 câu trùng (khác hoa/thường)
+  ĐẠT   C7 câu trùng (khác dạng Unicode NFC/NFD)
+  ĐẠT   C8 mã bị Excel cắt số 0 cuối, có gợi ý
+  ĐẠT   C9 mã không có trong kho
+  ĐẠT   C10 mã sai dạng
+  ĐẠT   C11 thiếu câu hỏi
+  ĐẠT   C12 thiếu STT
+
+D. Bộ đo trợ lý (dùng chung bộ đọc cấu trúc)
+  ĐẠT   D1 file chuẩn
+  ĐẠT   D2 câu chưa gán nhãn bị chặn
+  ĐẠT   D3 ý định lạ
+  ĐẠT   D4 câu ngoài phạm vi có ý định
+  ĐẠT   D5 tiêu đề trùng
+  ĐẠT   D6 dòng thừa ô có dữ liệu
+  ĐẠT   D7 mã sai dạng
+  ĐẠT   D8 mã không có trong kho
+  ĐẠT   D9 STT trùng
+
+============================================================
+KẾT QUẢ: 44/44 ca đạt

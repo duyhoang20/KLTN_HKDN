@@ -1,0 +1,298 @@
+============================================================================
+ĐÁNH GIÁ TRA CỨU — CÂU HỎI TỰ NHIÊN CÓ GÁN NHÃN
+============================================================================
+Phiên bản bộ đo : TN-20261009-1
+Kho dữ liệu     : 9.451 thủ tục
+SHA256 bộ đo    : a80f56837a40640fe19c150c1156257bd4661a01380add64d4db7b36b388ac7b
+SHA256 search.py: fd78194b544438f242174f8b8321233f29b87c6b75327b52a99de0c15e3cf5e5
+SHA256 bộ đề    : e611a7c1be656216f98bf0899a948cd8992779b35c69fa2ab85bc3774cf8264a  (nội dung, bỏ BOM, chuẩn hóa xuống dòng)
+SHA256 kho tra cứu: 2319b44b115bce195082764a04cdfa64ab6765bd6d559537b2583b951f8de685
+Chỉ so sánh trước/sau khi bộ đề và kho giống nhau (cùng SHA256).
+
+----------------------------------------------------------------------------
+TỔNG QUAN: 47 câu; có mã đúng 32; KHONG_CO 15; chưa gán 0
+Trả về rỗng trên toàn bộ (không cần nhãn):  25.5% (12/47)
+
+----------------------------------------------------------------------------
+A. TRONG PHẠM VI — câu có mã đúng (32 câu)
+  Top-1        :  71.9% (23/32)
+  Top-5        :  84.4% (27/32)
+  MRR          : 0.786806
+  Trả về rỗng  :   0.0% (0/32)
+  Lạc đề       :   9.4% (3/32)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 15.22
+
+   Theo loại: Dùng từ đồng nghĩa/thuật ngữ cũ (10 câu)
+  Top-1        :  40.0% (4/10)
+  Top-5        :  50.0% (5/10)
+  MRR          : 0.467778
+  Trả về rỗng  :   0.0% (0/10)
+  Lạc đề       :  30.0% (3/10)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 17.80
+
+   Theo loại: Gõ không dấu (3 câu)
+  Top-1        : 100.0% (3/3)
+  Top-5        : 100.0% (3/3)
+  MRR          : 1.000000
+  Trả về rỗng  :   0.0% (0/3)
+  Lạc đề       :   0.0% (0/3)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 9.67
+
+   Theo loại: Câu hỏi đời thường (19 câu)
+  Top-1        :  84.2% (16/19)
+  Top-5        : 100.0% (19/19)
+  MRR          : 0.921053
+  Trả về rỗng  :   0.0% (0/19)
+  Lạc đề       :   0.0% (0/19)  — có kết quả nhưng không có mã đúng
+  Số kết quả TB: 14.74
+
+----------------------------------------------------------------------------
+B. NGOÀI PHẠM VI — câu KHONG_CO, kết quả mong muốn là rỗng (15 câu)
+  Từ chối đúng :  80.0% (12/15)
+  Trả lời sai  :  20.0% (3/15)
+  Phần trăm cao nhất hiển thị trên câu trả lời sai: 75%; trung vị 45%
+
+----------------------------------------------------------------------------
+CHI TIẾT TỪNG CÂU
+----------------------------------------------------------------------------
+Câu 1 [tu_nhien] xin cấp lại thẻ bảo hiểm y tế bị mất
+  8 kết quả; hạng đúng: 1
+    100%  1.002522 | Cấp lại thẻ bảo hiểm y tế ✓
+    100%  1.001294 | Cấp lại thẻ bảo hiểm y tế (thực hiện tại cấp tỉnh) ✓
+    100%  1.001327 | Cấp lại thẻ bảo hiểm y tế (thực hiện tại cấp trung ương) ✓
+
+Câu 2 [tu_nhien] nhận con nuôi thì đăng ký ở đâu
+  17 kết quả; hạng đúng: 1
+     70%  2.001263 | Đăng ký việc nuôi con nuôi trong nước ✓
+     69%  2.001255 | Đăng ký lại việc nuôi con nuôi trong nước
+     67%  1.002312 | Thủ tục Đăng ký việc nuôi con nuôi thực tế ✓
+
+Câu 3 [tu_nhien] đăng ký giám hộ cho cháu
+  2 kết quả; hạng đúng: 2
+     44%  3.000323 | Đăng ký giám sát việc giám hộ
+     43%  1.004837 | Thủ tục đăng ký giám hộ ✓
+
+Câu 4 [tu_nhien] muốn sửa tên trong giấy khai sinh thì làm thủ tục gì
+  3 kết quả; hạng đúng: 1
+    100%  1.004859 | Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc ✓
+    100%  2.000748 | Thủ tục thay đổi, cải chính, bổ sung thông tin hộ tịch, xác định lại dân tộc có yếu tố n ✓
+    100%  1.000881 | Thủ tục đăng ký việc thay đổi, cải chính, bổ sung hộ tịch, xác định lại dân tộc, xác địn ✓
+
+Câu 5 [dong_nghia] thi bằng lái xe máy lần đầu cần giấy tờ gì
+  8 kết quả; hạng đúng: 2
+     38%  3.000347 | Đổi giấy phép lái xe
+     38%  3.000346 | Cấp giấy phép lái xe ✓
+     37%  3.000348 | Cấp lại giấy phép lái xe
+
+Câu 6 [dong_nghia] đăng kiểm xe ô tô
+  45 kết quả; hạng đúng: 15
+    100%  1.013205 | Cấp Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường cho x
+    100%  1.013327 | Chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới, xe máy chuyên dù
+    100%  1.013092 | Cấp lại Giấy chứng nhận kiểm định, Tem kiểm định an toàn kỹ thuật và bảo vệ môi trường c
+
+Câu 7 [tu_nhien] xin giấy xác nhận cư trú
+  60 kết quả; hạng đúng: 1
+    100%  1.010041 | Xác nhận thông tin về cư trú ✓
+     93%  1.008544 | Xác nhận đối tượng cư trú thuế của Việt Nam
+     91%  2.000689 | Thủ tục cấp Giấy xác nhận tình trạng hôn nhân cho công dân Việt Nam trong thời gian cư t
+
+Câu 8 [dong_nghia] mở nhà thuốc cần giấy phép gì
+  29 kết quả; hạng đúng: 9
+     72%  2.000662 | Cấp Giấy phép lập cơ sở bán lẻ cho phép cơ sở bán lẻ được tiếp tục hoạt động
+     70%  2.000339 | Điều chỉnh tên, mã số doanh nghiệp, địa chỉ trụ sở chính, tên, địa chỉ của cơ sở bán lẻ,
+     66%  2.000361 | Cấp giấy phép lập cơ sở bán lẻ thứ nhất, cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất thuộc 
+
+Câu 9 [dong_nghia] đăng ký bản quyền tác giả cho bài hát
+  4 kết quả; hạng đúng: 1
+     46%  1.005160 | Thủ tục cấp giấy chứng nhận đăng ký quyền tác giả ✓
+     45%  1.001661 | Thủ tục cấp đổi giấy chứng nhận đăng ký quyền tác giả
+     45%  1.001682 | Thủ tục cấp lại giấy chứng nhận đăng ký quyền tác giả
+
+Câu 10 [tu_nhien] xin phép tổ chức biểu diễn ca nhạc
+  1 kết quả; hạng đúng: 1
+     50%  1.009397 | Thủ tục tổ chức biểu diễn nghệ thuật ✓
+
+Câu 11 [tu_nhien] hưởng chế độ thai sản khi sinh con
+  16 kết quả; hạng đúng: 2
+    100%  1.000941 | Hưởng chế độ thai sản đối với lao động nữ mang thai hộ khi sinh con
+    100%  1.000975 | Hưởng chế độ thai sản đối với lao động nữ sinh con ✓
+    100%  1.003149 | Thủ tục giải quyết hưởng chế độ thai sản đối với lao động nữ mang thai hộ khi sinh con
+
+Câu 12 [tu_nhien] làm thủ tục nhận lương hưu như thế nào
+  18 kết quả; hạng đúng: 1
+    100%  2.001674 | Thủ tục giải quyết hưởng lương hưu hằng tháng ✓
+     91%  1.014175 | TIẾP TỤC HƯỞNG LƯƠNG HƯU, TRỢ CẤP BẢO HIỂM XÃ HỘI HẰNG THÁNG TRONG TRƯỜNG HỢP ĐÃ BỊ TẠM 
+     90%  1.008233 | Thủ tục giải quyết hưởng lương hưu hằng tháng (trường hợp sau khi ra tù được đơn vị tiếp
+
+Câu 13 [tu_nhien] đăng ký tàu cá
+  4 kết quả; hạng đúng: 2
+    100%  1.003681 | Xóa đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+    100%  1.003650 | Cấp giấy chứng nhận đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản ✓
+    100%  1.003634 | Cấp lại giấy chứng nhận đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+
+Câu 14 [tu_nhien] xin giấy phép khai thác khoáng sản
+  35 kết quả; hạng đúng: 1
+    100%  1.014285 | Cấp giấy phép khai thác khoáng sản nhóm IV ✓
+    100%  1.014257 | Cấp giấy phép khai thác khoáng sản (cấp Tỉnh) ✓
+    100%  1.014236 | Cấp giấy phép khai thác khoáng sản (cấp Bộ) ✓
+
+Câu 15 [tu_nhien] thành lập hợp tác xã cần làm gì
+  26 kết quả; hạng đúng: 1
+    100%  1.005280 | Đăng ký thành lập hợp tác xã, liên hiệp hợp tác xã; đăng ký chuyển đổi tổ hợp tác thành  ✓
+    100%  2.001958 | Thông báo về việc thành lập doanh nghiệp của hợp tác xã, liên hiệp hợp tác xã
+    100%  1.004982 | Đăng ký giải thể hợp tác xã, liên hiệp hợp tác xã
+
+Câu 16 [tu_nhien] muốn đăng ký kết hôn thì đến đâu
+  8 kết quả; hạng đúng: 1
+    100%  1.000894 | Thủ tục đăng ký kết hôn ✓
+    100%  1.000593 | Thủ tục đăng ký kết hôn lưu động ✓
+    100%  2.000806 | Thủ tục đăng ký kết hôn có yếu tố nước ngoài
+
+Câu 17 [tu_nhien] bị mất sổ bảo hiểm xã hội thì làm lại ở đâu
+  28 kết quả; hạng đúng: 1
+    100%  1.001187 | Cấp lại sổ bảo hiểm xã hội ✓
+     85%  1.014160 | ĐĂNG KÝ THAM GIA BẢO HIỂM XÃ HỘI VÀ CẤP SỔ BẢO HIỂM XÃ HỘI
+     74%  1.014173 | HƯỞNG BẢO HIỂM XÃ HỘI MỘT LẦN.
+
+Câu 18 [tu_nhien] xin cấp thẻ nhà báo
+  3 kết quả; hạng đúng: 1
+    100%  1.010691 | Thủ tục cấp thẻ nhà báo ✓
+    100%  1.010692 | Thủ tục đổi thẻ nhà báo
+    100%  1.010693 | Thủ tục cấp lại thẻ nhà báo
+
+Câu 19 [tu_nhien] bổ nhiệm công chứng viên
+  6 kết quả; hạng đúng: 1
+    100%  1.013803 | Bổ nhiệm công chứng viên ✓
+    100%  1.000112 | Bổ nhiệm công chứng viên ✓
+    100%  1.013804 | Bổ nhiệm lại công chứng viên
+
+Câu 20 [tu_nhien] xin giấy phép kinh doanh vận tải bằng xe ô tô
+  3 kết quả; hạng đúng: 1
+    100%  1.000703 | Cấp Giấy phép kinh doanh vận tải bằng xe ô tô, bằng xe bốn bánh có gắn động cơ ✓
+    100%  2.002287 | Cấp lại Giấy phép kinh doanh vận tải bằng xe ô tô, bằng xe bốn bánh có gắn động cơ trườn
+    100%  2.002286 | Cấp lại Giấy phép kinh doanh vận tải bằng xe ô tô, bằng xe bốn bánh có gắn động cơ khi c
+
+Câu 21 [dong_nghia] làm passport cho trẻ em
+  17 kết quả; KHÔNG có mã đúng trong kết quả
+     80%  1.004944 | Chấm dứt việc chăm sóc thay thế cho trẻ em
+     71%  1.004946 | Áp dụng các biện pháp can thiệp khẩn cấp hoặc tạm thời cách ly trẻ em khỏi môi trường ho
+     69%  2.001944 | Thông báo nhận chăm sóc thay thế cho trẻ em đối với cá nhân, người đại diện gia đình nhậ
+
+Câu 22 [dong_nghia] tách hộ khẩu ra ở riêng
+  6 kết quả; hạng đúng: 1
+     39%  1.010038 | Tách hộ ✓
+     37%  1.004358 | Tách sổ hộ khẩu (thực hiện tại cấp huyện)
+     37%  1.004214 | Tách sổ hộ khẩu (thực hiện tại cấp xã)
+
+Câu 23 [dong_nghia] làm giấy khai sinh cho con mới sinh
+  1 kết quả; KHÔNG có mã đúng trong kết quả
+     26%  2.000635 | Cấp bản sao Trích lục hộ tịch, bản sao Giấy khai sinh
+
+Câu 24 [dong_nghia] đổi chứng minh thư sang căn cước
+  28 kết quả; hạng đúng: 1
+     93%  1.014063 | Cấp đổi thẻ căn cước ✓
+     85%  2.001195 | Cấp đổi thẻ căn cước (thực hiện tại cấp tỉnh) ✓
+     85%  2.000408 | Cấp đổi thẻ căn cước (thực hiện tại cấp huyện) ✓
+
+Câu 25 [khong_dau] dang ky ket hon
+  8 kết quả; hạng đúng: 1
+    100%  1.000894 | Thủ tục đăng ký kết hôn ✓
+    100%  1.000593 | Thủ tục đăng ký kết hôn lưu động ✓
+    100%  2.000806 | Thủ tục đăng ký kết hôn có yếu tố nước ngoài ✓
+
+Câu 26 [khong_dau] cap ho chieu pho thong
+  16 kết quả; hạng đúng: 1
+    100%  1.001456 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp tỉnh) ✓
+    100%  1.001471 | Cấp hộ chiếu phổ thông ở trong nước (thực hiện tại cấp trung ương) ✓
+    100%  1.010383 | Cấp hộ chiếu phổ thông có gắn chíp điện tử ở trong nước (thực hiện tại cấp tỉnh) ✓
+
+Câu 27 [khong_dau] dang ky tam tru
+  5 kết quả; hạng đúng: 1
+    100%  1.004194 | Đăng ký tạm trú ✓
+    100%  1.010028 | Xóa đăng ký tạm trú
+    100%  1.010040 | Khai báo thông tin về cư trú đối với người chưa đủ điều kiện đăng ký thường trú, đăng ký
+
+Câu 28 [tu_nhien] xin nhập quốc tịch việt nam
+  12 kết quả; hạng đúng: 1
+    100%  2.002039 | Nhập quốc tịch Việt Nam ở trong nước ✓
+    100%  2.002797 | Nhập quốc tịch Việt Nam ở nước ngoài ✓
+    100%  2.002036 | Thôi quốc tịch Việt Nam ở trong nước
+
+Câu 29 [tu_nhien] xin phép nhập khẩu trang thiết bị y tế
+  9 kết quả; hạng đúng: 1
+    100%  1.003844 | Cấp giấy phép nhập khẩu trang thiết bị y tế ✓
+    100%  1.002651 | Cấp giấy phép nhập khẩu trang thiết bị y tế ✓
+    100%  1.002631 | Gia hạn giấy phép nhập khẩu trang thiết bị y tế
+
+Câu 30 [dong_nghia] đăng ký thế chấp sổ đỏ ở ngân hàng
+  10 kết quả; KHÔNG có mã đúng trong kết quả
+     52%  2.002749 | Điều chỉnh thời hạn sử dụng đất trên Giấy chứng nhận quyền sử dụng đất, Giấy chứng nhận 
+     48%  1.012753 | Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền 
+     46%  1.012816 | Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đố
+
+Câu 31 [dong_nghia] xin phép bay flycam
+  30 kết quả; hạng đúng: 1
+    100%  1.003386 | Cấp phép bay đối với tàu bay không người lái và các phương tiện bay siêu nhẹ ✓
+    100%  1.013272 | Thủ tục cấp phép bay đối với tàu bay không người lái và các phương tiện bay siêu nhẹ ✓
+    100%  1.013273 | Thủ tục sửa đổi phép bay đối với tàu bay không người lái và các phương tiện bay siêu nh
+
+Câu 32 [tu_nhien] khai thuế cho hộ kinh doanh
+  21 kết quả; hạng đúng: 1
+    100%  1.011022 | Khai thuế/Thông báo doanh thu đối với hộ kinh doanh, cá nhân kinh doanh ✓
+    100%  2.002259 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán. ✓
+    100%  1.007673 | Khai thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo từng lần phát sinh. ✓
+
+Câu 33 [ngoai_pham_vi] thời tiết đà lạt cuối tuần
+  0 kết quả; từ chối đúng
+
+Câu 34 [ngoai_pham_vi] cách làm trà sữa trân châu
+  0 kết quả; từ chối đúng
+
+Câu 35 [ngoai_pham_vi] đặt vé xem phim online
+  0 kết quả; từ chối đúng
+
+Câu 36 [ngoai_pham_vi] lịch thi đấu ngoại hạng anh
+  0 kết quả; từ chối đúng
+
+Câu 37 [ngoai_pham_vi] mẹo chụp ảnh đẹp bằng điện thoại
+  0 kết quả; từ chối đúng
+
+Câu 38 [ngoai_pham_vi] giá xăng hôm nay
+  0 kết quả; từ chối đúng
+
+Câu 39 [ngoai_pham_vi] review laptop cho sinh viên
+  0 kết quả; từ chối đúng
+
+Câu 40 [ngoai_pham_vi] cách chữa đau lưng tại nhà
+  0 kết quả; từ chối đúng
+
+Câu 41 [ngoai_pham_vi] tải nhạc mp3 miễn phí
+  0 kết quả; từ chối đúng
+
+Câu 42 [ngoai_pham_vi] nên nuôi chó hay mèo
+  0 kết quả; từ chối đúng
+
+Câu 43 [ngoai_pham_vi] đăng ký tài khoản facebook
+  38 kết quả; SAI — lẽ ra phải rỗng
+     75%  1.000236 | Đăng ký tài khoản điện tử
+     65%  3.000110 | Thủ tục đăng ký tài khoản người sử dụng Cổng thông tin một cửa quốc gia
+     65%  1.006478 | Thủ tục đăng ký tài khoản người sử dụng Cổng thông tin một cửa quốc gia.
+
+Câu 44 [ngoai_pham_vi] lấy lại mật khẩu gmail
+  0 kết quả; từ chối đúng
+
+Câu 45 [ngoai_pham_vi] đăng ký gói cước 4g viettel
+  0 kết quả; từ chối đúng
+
+Câu 46 [ngoai_pham_vi] xin việc làm thêm cho sinh viên
+  11 kết quả; SAI — lẽ ra phải rỗng
+     42%  1.000362 | Thông báo về việc tìm kiếm việc làm hằng tháng
+     41%  1.013724 | Vay vốn hỗ trợ tạo việc làm, duy trì và mở rộng việc làm từ Quỹ quốc gia về việc làm đối
+     41%  1.011546 | Vay vốn hỗ trợ tạo việc làm, duy trì và mở rộng việc làm từ Quỹ quốc gia về việc làm đối
+
+Câu 47 [ngoai_pham_vi] đăng ký tàu vũ trụ
+  9 kết quả; SAI — lẽ ra phải rỗng
+     45%  1.003681 | Xóa đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+     43%  1.003650 | Cấp giấy chứng nhận đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+     42%  1.003634 | Cấp lại giấy chứng nhận đăng ký tàu cá, tàu phục vụ nuôi trồng thủy sản
+

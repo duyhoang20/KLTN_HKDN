@@ -1,0 +1,138 @@
+
+A. Nền tảng
+  ĐẠT   A1 /health trả 200 và báo kết nối DB
+  ĐẠT   A2 /api/stats đếm đúng số thủ tục mẫu, 2 cơ quan, tách nguồn Cổng/cán bộ
+  ĐẠT   A3 /api/filters có lĩnh vực theo từng cơ quan
+  ĐẠT   A4 /api/tong-quan xếp cơ quan theo số thủ tục
+  ĐẠT   A5 máy chủ phục vụ giao diện tại /
+  ĐẠT   A6 máy chủ phục vụ trang cán bộ
+
+B. Danh sách và chi tiết
+  ĐẠT   B1 phân trang: limit=3 trả 3 dòng, total đúng
+  ĐẠT   B2 lọc theo cơ quan
+  ĐẠT   B3 limit=0 bị từ chối (422)
+  ĐẠT   B4 offset âm bị từ chối (422)
+  ĐẠT   B5 chi tiết giữ nguyên giá trị gốc (125000, WORKING_DAY)
+  ĐẠT   B6 id không tồn tại trả 404
+
+C. Tra cứu
+  ĐẠT   C1 tìm đúng thủ tục, đứng đầu
+  ĐẠT   C2 kết quả kèm kiểu khớp và số từ khóa
+  ĐẠT   C3 không phụ thuộc thứ tự từ
+  ĐẠT   C4 gõ không dấu vẫn tìm được
+  ĐẠT   C5 chuẩn hóa chữ hoa, khoảng trắng, dấu câu
+  ĐẠT   C6 Unicode dựng sẵn (NFC) và tổ hợp (NFD) cho cùng kết quả
+  ĐẠT   C7 từ đồng nghĩa: “sổ đỏ” ra thủ tục giấy chứng nhận quyền sử dụng đất
+  ĐẠT   C8 trả về cách hệ thống hiểu câu hỏi (từ đệm, đồng nghĩa, ý định)
+  ĐẠT   C9 câu ngoài phạm vi trả rỗng
+  ĐẠT   C10 ngoặc kép = khớp nguyên cụm
+  ĐẠT   C11 lọc theo cơ quan sau khi xếp hạng
+  ĐẠT   C12 phân biệt dấu thanh hỗ/hộ: thủ tục đúng đứng đầu
+  ĐẠT   C13 “vi phạm” khớp đúng cụm, không lẫn với “phạm vi”
+  ĐẠT   C14 thiếu q bị từ chối (422)
+  ĐẠT   C15 q quá 500 ký tự bị từ chối (422)
+  ĐẠT   C16 chuỗi có thẻ HTML không gây lỗi máy chủ
+  ĐẠT   C17 chuỗi kiểu tấn công SQL vô hại, dữ liệu còn nguyên
+  ĐẠT   C18 /api/search cũ vẫn trả danh sách (tương thích)
+  ĐẠT   C19 gợi ý trong lúc gõ, tối đa 6 dòng
+
+D. Trợ lý hỏi–đáp
+  ĐẠT   D1 trả lời đúng thủ tục
+  ĐẠT   D2 nhận đúng ý định hỏi hồ sơ và trích đúng mục
+  ĐẠT   D3 nội dung trích trùng dữ liệu gốc
+  ĐẠT   D4 luôn kèm nguồn: mã thủ tục và mục dữ liệu
+  ĐẠT   D5 không bật mô hình thì ghi rõ là câu trả lời trích xuất
+  ĐẠT   D6 hội thoại nhiều lượt: câu hỏi tiếp dùng thủ tục ở lượt trước
+  ĐẠT   D7 mức phí giữ nguyên con số nguồn (125.000)
+  ĐẠT   D8 mục nguồn để trống thì nói rõ là nguồn không ghi, không bịa
+  ĐẠT   D9 câu ngoài phạm vi: từ chối, không có nguồn
+  ĐẠT   D10 câu chèn lệnh không làm lộ cấu hình
+  ĐẠT   D11 thủ tục ngừng áp dụng có cảnh báo
+  ĐẠT   D12 câu hỏi 1 ký tự bị từ chối (422)
+  ĐẠT   D13 id thủ tục không tồn tại trả 404
+  ĐẠT   D14 địa chỉ dạng cấu trúc: trợ lý KHÔNG báo “nguồn không ghi”, trích đủ hai giá trị
+  ĐẠT   D15 điều kiện dạng danh sách cấu trúc: trích đủ hai điều kiện
+  ĐẠT   D16 đủ 16 khoản thu (14 cấp thủ tục + 2 theo hình thức nộp), không gộp, không cắt
+  ĐẠT   D17 hai khoản cùng mức phí nhưng khác thời hạn là HAI dòng, mỗi dòng ghi đúng thời hạn
+  ĐẠT   D18 dòng phí giữ thời điểm thu
+  ĐẠT   D19 đối chiếu độc lập: mọi dòng trả lời đều có căn cứ trong nguồn
+  ĐẠT   D20 bộ đối chiếu bắt được đổi đơn vị thời gian (3 tháng thay 3 ngày làm việc)
+  ĐẠT   D21 bộ đối chiếu bắt được đổi đơn vị tiền (USD thay đồng)
+  ĐẠT   D22 bộ đối chiếu bắt được sai số bản chính/bản sao
+  ĐẠT   D23 câu trả lời đúng không bị báo nhầm ở bản chặt
+  TRƯỢT D24 bộ đối chiếu bắt được số bản của giấy tờ khác gắn sang (bổ sung 15/10)   <- {'phien_ban': 'DC-20261014-2', 'so_du_kien': 2, 'co_trong_tra_loi': 2, 'thieu': [], 'so_dong': 3, 'dong_khong_can_cu': [], 'dong_sai_lech': []}
+  TRƯỢT D25 bộ đối chiếu bắt được thời hạn của hình thức nộp khác gắn sang   <- {'phien_ban': 'DC-20261014-2', 'so_du_kien': 2, 'co_trong_tra_loi': 1, 'thieu': ['thời hạn: Trực tiếp 3'], 'so_dong': 2, 'dong_khong_can_cu': [], 'dong_sai_lech': []}
+  ĐẠT   D26 câu trả lời đúng không bị báo nhầm khi kiểm theo chủ thể
+
+E. Lớp mô hình ngôn ngữ: chỉ viết lời dẫn, không được nêu dữ kiện (máy chủ mô hình giả)
+  ĐẠT   E1 lời dẫn không chứa dữ kiện được dùng, có ghi tên mô hình
+  ĐẠT   E2 dữ kiện vẫn do hệ thống trích từ nguồn, không do mô hình viết
+  ĐẠT   E3 mô hình KHÔNG được gửi dữ kiện (tên giấy tờ, số tiền); lời hệ thống cấm nêu dữ kiện
+  ĐẠT   E4 đổi đơn vị thời gian (“3 tháng” khi nguồn là 3 ngày): lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E5 tráo số giữa phí và thời hạn: lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E6 khẳng định miễn phí, không cần tờ khai (không có chữ số): lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E7 lặp lại con số do người dùng nêu (999.000): lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E8 đổi số thập phân (125 USD): lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E9 số viết bằng chữ: lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E10 thời hạn viết bằng chữ: lời dẫn bị LOẠI, quay về lời dẫn khuôn mẫu
+  ĐẠT   E13 nêu địa điểm nộp không có trong dữ liệu: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E14 nêu tên giấy tờ khác: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E15 viết không dấu để lách bảng từ cấm: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E16 viết bằng tiếng Anh: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E17 khẳng định hình thức nộp: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E18 khẳng định tốc độ giải quyết: lời dẫn bị LOẠI vì có từ ngoài ngữ cảnh
+  ĐẠT   E19 lời dẫn chỉ dùng tên thủ tục, tên mục và từ nối vẫn được dùng
+  TRƯỢT E20 câu ghép từ âm tiết của tên thủ tục và tên mục (không nguyên cụm) bị LOẠI (bổ sung 15/10)   <- {'dat': True, 'ly_do': []}
+  ĐẠT   E11 thời gian ghi nhận gồm cả thời gian chờ mô hình (≥ 300 ms)
+  ĐẠT   E12 mô hình không gọi được: trợ lý vẫn trả lời bằng trích xuất
+
+F. Khu vực cán bộ: phân quyền và quy trình nháp → công khai
+  ĐẠT   F1 chưa đăng nhập bị chặn (401)
+  ĐẠT   F2 mã phiên giả bị chặn (401)
+  ĐẠT   F3 sai mật khẩu bị từ chối (401)
+  ĐẠT   F4 đăng nhập đúng nhận mã phiên
+  ĐẠT   F5 có mã phiên thì xem được danh sách
+  ĐẠT   F6 tạo hướng dẫn mới ở trạng thái NHÁP, có mã nội bộ NB.
+  ĐẠT   F7 công dân KHÔNG xem được bản nháp (404)
+  ĐẠT   F8 bản nháp không lọt vào kết quả tra cứu
+  ĐẠT   F9 cán bộ công khai hướng dẫn
+  ĐẠT   F10 sau khi công khai, tra cứu thấy ngay và ghi rõ nguồn cán bộ
+  ĐẠT   F11 trợ lý trả lời từ hướng dẫn của cán bộ và ghi đúng nguồn
+  ĐẠT   F12 sửa hướng dẫn ĐANG CÔNG KHAI: bản sửa trở về NHÁP, chưa hiện cho người dân
+  ĐẠT   F12b công khai lại thì người dân thấy đúng nội dung đã sửa
+  ĐẠT   F12c tên toàn khoảng trắng bị từ chối (422)
+  ĐẠT   F12d nội dung toàn khoảng trắng bị từ chối (422)
+  ĐẠT   F12e thống kê tách riêng hướng dẫn cán bộ với thủ tục của Cổng
+  ĐẠT   F13 KHÔNG cho sửa nội dung thủ tục lấy từ Cổng DVC (409)
+  ĐẠT   F14 trạng thái lạ bị từ chối (422)
+  ĐẠT   F15 tên quá ngắn bị từ chối (422)
+  ĐẠT   F16 lưu trữ: công dân không còn thấy, bản ghi không bị xóa
+  ĐẠT   F17 ngừng công khai một thủ tục của Cổng: biến mất khỏi tra cứu
+
+G. Nhật ký và thống kê
+  ĐẠT   G1 nhật ký ghi nhận cả tra cứu và hỏi trợ lý
+  ĐẠT   G2 thống kê được câu không có kết quả
+  ĐẠT   G3 có thời gian phản hồi trung vị
+  ĐẠT   G4 gợi ý lúc gõ không làm bẩn nhật ký
+  ĐẠT   G5 nhật ký không mở cho người chưa đăng nhập
+  ĐẠT   G6 tổng quan kho có phép kiểm tra chất lượng dữ liệu
+  ĐẠT   G7 nhật ký ghi đúng thời gian toàn yêu cầu khi có mô hình ngôn ngữ (không ghi 0 ms)
+  ĐẠT   G8 nhật ký báo giới hạn số lượt đọc và cờ bị cắt (bổ sung 14/10)
+  ĐẠT   G9 nhật ký che số căn cước, số điện thoại, email người dân tự gõ (bổ sung 14/10, bản 2)
+  ĐẠT   G10 mã thủ tục 7 chữ số vẫn tra cứu và ghi nhật ký bình thường
+  TRƯỢT G11 nhật ký che số điện thoại có ngoặc, mã quốc gia +84, nhiều dấu cách, dấu chấm (bổ sung 15/10)   <- hộ chiếu, gọi (0912) 345 678 hoặc +84 912  345  678 hoặc [đã ẩn số]
+  TRƯỢT G12 nhật ký giữ nguyên số tiền nhiều chữ số và mã thủ tục (không che nhầm)   <- lệ phí [đã ẩn số] đồng thủ tục 1.000894
+
+H. Crawler: cập nhật nội dung nhưng giữ quyết định công khai của cán bộ
+  ĐẠT   H1 crawl lại KHÔNG công khai lại thủ tục cán bộ đã lưu trữ
+  ĐẠT   H2 nội dung vẫn được cập nhật theo nguồn
+  ĐẠT   H3 công dân không thấy thủ tục đã lưu trữ sau khi crawl
+
+============================================================
+KẾT QUẢ: 108/113 phép thử đạt
+Các phép thử trượt:
+  D24 bộ đối chiếu bắt được số bản của giấy tờ khác gắn sang (bổ sung 15/10)
+  D25 bộ đối chiếu bắt được thời hạn của hình thức nộp khác gắn sang
+  E20 câu ghép từ âm tiết của tên thủ tục và tên mục (không nguyên cụm) bị LOẠI (bổ sung 15/10)
+  G11 nhật ký che số điện thoại có ngoặc, mã quốc gia +84, nhiều dấu cách, dấu chấm (bổ sung 15/10)
+  G12 nhật ký giữ nguyên số tiền nhiều chữ số và mã thủ tục (không che nhầm)

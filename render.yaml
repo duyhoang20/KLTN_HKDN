@@ -1,0 +1,42 @@
+# Cấu hình triển khai lên Render (Blueprint) — bổ sung 20/10/2026.
+# Tạo 1 dịch vụ web chạy Dockerfile + 1 database PostgreSQL, vùng Singapore (gần Việt Nam).
+# Gói free: dịch vụ web ngủ sau 15 phút không có ai truy cập (lượt vào đầu chờ khoảng 1 phút);
+# database free hết hạn sau 30 ngày. Muốn chạy liên tục thì đổi plan sang gói trả phí trên trang Render.
+services:
+  - type: web
+    name: tra-cuu-thu-tuc
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        fromDatabase:
+          name: tra-cuu-thu-tuc-db
+          property: connectionString
+      - key: QUAN_TRI_TAI_KHOAN
+        sync: false
+      - key: QUAN_TRI_MAT_KHAU
+        sync: false
+      - key: BI_MAT_PHIEN
+        generateValue: true
+      - key: GIOI_HAN_MOI_PHUT
+        value: 30
+      # IP người dùng là mục thứ N tính từ cuối X-Forwarded-For (xem backend/app/mang.py).
+      # Số 2 là giả định CHƯA kiểm chứng. BẮT BUỘC kiểm sau khi chạy: đăng nhập cán bộ, mở
+      # /api/quan-tri/kiem-tra-ip bằng trình duyệt bình thường, đặt lại theo trường "goi_y".
+      - key: SO_PROXY_TIN_CAY
+        value: 2
+      # Nhật ký tra cứu giữ 180 ngày
+      - key: NHAT_KY_GIU_NGAY
+        value: 180
+
+databases:
+  - name: tra-cuu-thu-tuc-db
+    plan: free
+    region: singapore
+    databaseName: guidance_db
+    user: guidance

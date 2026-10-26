@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Khu vực cán bộ | Tra cứu thủ tục hành chính</title>
+<meta name="robots" content="noindex" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 34'%3E%3Crect width='30' height='34' rx='3' fill='%2314253D'/%3E%3Cpath d='M7 5h11l5 5v19H7z' fill='none' stroke='%23fff' stroke-width='1.8'/%3E%3Cpath d='M11 15h8M11 19h8M11 23h5' stroke='%23fff' stroke-width='1.8'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="fonts/fonts.css" />
+<link rel="stylesheet" href="giao_dien.css" />
+<link rel="stylesheet" href="can_bo.css" />
+</head>
+<body class="page-admin">
+<a href="#noiDung" class="skip-link">Chuyển đến nội dung chính</a>
+<div class="tien-ich"><div class="wrap"><b>Sản phẩm đồ án tốt nghiệp</b>, khu vực dành cho cán bộ biên tập<span class="dai">; tài khoản đặt trong tệp cấu hình máy chủ</span>.</div></div>
+<header class="top"><div class="wrap top-in">
+  <a class="brand" href="index.html" aria-label="Về trang tra cứu">
+    <svg width="30" height="34" viewBox="0 0 30 34" aria-hidden="true"><path d="M5 2.5h14l6.5 6.5v22.5H5z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M19 2.5V9h6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M9.5 15h11M9.5 19.5h11M9.5 24h7" stroke="currentColor" stroke-width="1.6"/></svg>
+    <span><span class="brand-ten">Khu vực cán bộ</span><span class="brand-phu">Biên tập, công khai hướng dẫn và theo dõi tra cứu</span></span>
+  </a>
+  <div class="r"><a href="index.html">Về trang tra cứu</a><span id="who"></span><button id="out" class="hidden" type="button">Đăng xuất</button></div>
+</div></header>
+
+<main id="noiDung" tabindex="-1">
+<div class="wrap">
+  <!-- ĐĂNG NHẬP -->
+  <form class="card login" id="login">
+    <h1>Đăng nhập</h1>
+    <p>Sử dụng tài khoản được cấp để biên tập và quản lý hướng dẫn thủ tục.</p>
+    <label class="f" for="lu">Tài khoản</label><input type="text" id="lu" autocomplete="username" required />
+    <label class="f" for="lp">Mật khẩu</label><input type="password" id="lp" autocomplete="current-password" required />
+    <div class="err" id="lerr"></div>
+    <button class="btn" type="submit" style="width:100%">Đăng nhập</button>
+  </form>
+
+  <div id="app" class="hidden">
+    <h1 class="admin-help">Quản lý hướng dẫn và theo dõi hoạt động tra cứu</h1>
+    <div class="tabs" role="tablist" aria-label="Chức năng">
+      <button data-tab="docs" class="on" role="tab" aria-selected="true">Hướng dẫn và thủ tục</button>
+      <button data-tab="logs" role="tab" aria-selected="false">Nhật ký tra cứu</button>
+      <button data-tab="kho" role="tab" aria-selected="false">Kho dữ liệu</button>
+      <button data-tab="thaotac" role="tab" aria-selected="false">Lịch sử thao tác</button>
+    </div>
+
+    <!-- HƯỚNG DẪN -->
+    <div id="t-docs">
+      <div class="bar">
+        <input type="text" id="dq" maxlength="200" aria-label="Tìm hướng dẫn theo tên hoặc mã" placeholder="Tìm theo tên hoặc mã thủ tục" />
+        <select id="dst" aria-label="Trạng thái công khai"><option value="">Mọi trạng thái</option><option value="published">Đang công khai</option><option value="draft">Bản nháp</option><option value="archived">Đã lưu trữ</option></select>
+        <select id="dsrc" aria-label="Nguồn nội dung"><option value="">Mọi nguồn</option><option value="can_bo">Cán bộ biên soạn</option></select>
+        <span class="muted" id="dmeta"></span>
+        <button class="btn sp" id="dnew">Soạn hướng dẫn mới</button>
+      </div>
+      <div class="card tw"><table class="ds"><thead><tr><th>Tên</th><th>Nguồn</th><th>Trạng thái</th><th style="text-align:right">Thao tác</th></tr></thead><tbody id="drows"></tbody></table>
+        <div class="pager" id="dpager"></div></div>
+    </div>
+
+    <!-- NHẬT KÝ -->
+    <div id="t-logs" class="hidden">
+      <div class="bar"><label>Khoảng thời gian <select id="lday"><option value="7">7 ngày</option><option value="30" selected>30 ngày</option><option value="90">90 ngày</option></select></label>
+        <span class="muted">Nhật ký ghi nội dung câu hỏi và kết quả, không ghi địa chỉ IP. Trước khi lưu, các dãy từ 9 chữ số trở lên (số căn cước, số điện thoại) và địa chỉ email trong câu hỏi được che. Họ tên, địa chỉ nhà và các thông tin khác người dân tự gõ vào thì không được che. Nhật ký cũ hơn hạn lưu (mặc định 180 ngày, biến NHAT_KY_GIU_NGAY) được tự động xóa.</span></div>
+      <p class="note warn hidden" id="lcat"></p>
+      <div class="kpis" id="lk"></div>
+      <div class="card box" style="margin-bottom:16px"><h3>Lượt tra cứu theo ngày</h3><div class="days" id="ldays"></div></div>
+      <div class="three">
+        <div class="card box"><h3>Được hỏi nhiều nhất</h3><p class="d">Các câu hỏi xuất hiện nhiều trong nhật ký; cần phân biệt lượt dùng thử và lượt sử dụng thực tế.</p><div class="rows" id="l1"></div></div>
+        <div class="card box"><h3>Không có kết quả</h3><p class="d">Thiếu thủ tục trong kho, hoặc cần bổ sung từ đồng nghĩa.</p><div class="rows" id="l2"></div></div>
+        <div class="card box"><h3>Độ khớp thấp</h3><p class="d">Hệ thống chỉ đưa được gợi ý gần đúng.</p><div class="rows" id="l3"></div></div>
+      </div>
+      <div class="card tw" style="margin-top:16px"><table><thead><tr><th>Lúc</th><th>Loại</th><th>Câu hỏi</th><th class="num">Số KQ</th><th>Kết cục</th><th class="num">ms</th></tr></thead><tbody id="lrecent"></tbody></table></div>
+    </div>
+
+    <!-- LỊCH SỬ THAO TÁC (bổ sung 21/10/2026) -->
+    <div id="t-thaotac" class="hidden">
+      <p class="muted" style="margin-bottom:12px">Ai đã đăng nhập, tạo, sửa, công khai, ngừng công khai hoặc lưu trữ bản ghi nào, vào lúc nào. 100 thao tác gần nhất.</p>
+      <div class="card tw"><table><thead><tr><th>Lúc</th><th>Cán bộ</th><th>Thao tác</th><th>Bản ghi</th><th>Chi tiết</th></tr></thead><tbody id="trows"></tbody></table></div>
+    </div>
+
+    <!-- KHO -->
+    <div id="t-kho" class="hidden">
+      <div class="kpis" id="kk"></div>
+      <div class="two">
+        <div class="card box"><h3>Thủ tục đang công khai theo cơ quan</h3><div id="kag" style="margin-top:10px"></div></div>
+        <div class="card box"><h3>Kiểm tra chất lượng dữ liệu</h3><p class="d">Các phép kiểm tra chạy trực tiếp trên cơ sở dữ liệu.</p><div class="rows" id="kq"></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<!-- SOẠN / SỬA -->
+<div class="modal hidden" id="modal" role="dialog" aria-modal="true" aria-labelledby="ftitle"><form class="card" id="form">
+  <h2 id="ftitle">Soạn hướng dẫn mới</h2>
+  <div class="note warn hidden" id="fwarn">Hướng dẫn này <b>đang công khai</b>. Khi lưu thay đổi, nó sẽ chuyển về <b>bản nháp</b> và tạm ẩn với người dân cho tới khi bạn công khai lại.</div>
+  <div class="note">Hướng dẫn mới được lưu ở trạng thái <b>bản nháp</b>. Người dân chỉ thấy sau khi bạn bấm <b>Công khai</b>. Hướng dẫn do cán bộ soạn luôn được gắn nhãn riêng, không lẫn với dữ liệu của Cổng Dịch vụ công.</div>
+  <label class="f" for="f1">Tên hướng dẫn</label><input type="text" id="f1" maxlength="500" required minlength="5" />
+  <div class="grid2">
+    <div><label class="f" for="f2">Đơn vị ban hành</label><input type="text" id="f2" maxlength="300" placeholder="Ví dụ: UBND phường …" /></div>
+    <div><label class="f" for="f3">Lĩnh vực</label><input type="text" id="f3" maxlength="300" placeholder="Ví dụ: Hộ tịch" /></div>
+  </div>
+  <label class="f" for="f4">Nội dung hướng dẫn</label><textarea id="f4" maxlength="20000" required minlength="10" placeholder="Trình tự thực hiện, hồ sơ cần chuẩn bị, nơi nộp, thời hạn, lệ phí…"></textarea>
+  <div class="xem-truoc hidden" id="fpre" aria-live="polite"></div>
+  <div class="err" id="ferr"></div>
+  <div style="display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap"><button type="button" class="btn ghost" id="fprev" aria-expanded="false" aria-controls="fpre">Xem trước như người dân</button><span style="flex:1"></span><button type="button" class="btn ghost" id="fcancel">Hủy</button><button class="btn" type="submit" id="fsave">Lưu bản nháp</button></div>
+</form></div>
+
+<script>
+const API = location.protocol==="file:" ? "http://127.0.0.1:8000" : "";
+const $=i=>document.getElementById(i);
+const esc=s=>(s==null?"":String(s)).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nfm=n=>Number(n||0).toLocaleString("vi-VN");
+let TOKEN=sessionStorage.getItem("qt_token")||"", USER=sessionStorage.getItem("qt_user")||"";
+let D={q:"",st:"",src:"",page:1}, EDIT=null, EDIT_ST=null, SEQ=0, FSEQ=0, DANG_LUU=false;
+const SIZE=15;
+
+async function api(path,opt={}){
+  /* Sửa 20/10 bản 3 (F22): hết 30 giây không có phản hồi thì báo lỗi, không chờ mãi. */
+  const ac=new AbortController(), hen=setTimeout(()=>ac.abort(),30000);
+  /* Sửa 21/10 bản 2: hạn chờ bao cả lúc đọc nội dung phản hồi, không chỉ lúc nhận header. */
+  let r,j;
+  try{r=await fetch(API+"/api/quan-tri"+path,{...opt,signal:ac.signal,headers:{"Content-Type":"application/json",...(TOKEN?{Authorization:"Bearer "+TOKEN}:{})}});
+    j=await r.json().catch(e=>{if(e.name==="AbortError")throw e;return {};});}
+  catch(e){throw new Error(e.name==="AbortError"?"Máy chủ phản hồi quá lâu. Kiểm tra mạng rồi thử lại; dữ liệu đang soạn vẫn còn.":"Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại; dữ liệu đang soạn vẫn còn.");}
+  finally{clearTimeout(hen);}
+  if(r.status===401&&path!=="/dang-nhap"&&path!=="/dang-xuat"){logout(false);throw new Error("Phiên đăng nhập đã hết hạn");}
+  if(!r.ok)throw new Error(typeof j.detail==="string"?j.detail:"Dữ liệu nhập chưa hợp lệ");
+  return j;
+}
+function logout(goiMayChu=true){
+  /* Sửa 20/10 bản 3 (F13): báo máy chủ thu hồi mã phiên, không chỉ xóa ở trình duyệt. */
+  if(goiMayChu&&TOKEN)api("/dang-xuat",{method:"POST"}).catch(()=>{});
+  FSEQ++;TOKEN="";sessionStorage.removeItem("qt_token");sessionStorage.removeItem("qt_user");$("modal").classList.add("hidden");$("app").classList.add("hidden");$("login").classList.remove("hidden");$("out").classList.add("hidden");$("who").textContent="";}
+function enter(){$("login").classList.add("hidden");$("app").classList.remove("hidden");$("out").classList.remove("hidden");$("who").textContent=USER;loadDocs();}
+$("out").onclick=()=>logout();
+$("login").onsubmit=async e=>{e.preventDefault();$("lerr").textContent="";
+  try{const j=await api("/dang-nhap",{method:"POST",body:JSON.stringify({tai_khoan:$("lu").value,mat_khau:$("lp").value})});
+    TOKEN=j.token;USER=j.tai_khoan;sessionStorage.setItem("qt_token",TOKEN);sessionStorage.setItem("qt_user",USER);$("lp").value="";enter();
+  }catch(err){$("lerr").textContent=err.message;}};
+
+/* Sửa 20/10 bản 3 (F22): thẻ dùng phím mũi tên, Home, End như trang công dân; chỉ thẻ đang chọn nằm trong thứ tự Tab. */
+const THE=[...document.querySelectorAll(".tabs button")];
+THE.forEach((b,i)=>{b.id="the-"+b.dataset.tab;b.setAttribute("aria-controls","t-"+b.dataset.tab);b.tabIndex=b.classList.contains("on")?0:-1;
+  $("t-"+b.dataset.tab).setAttribute("role","tabpanel");$("t-"+b.dataset.tab).setAttribute("aria-labelledby",b.id);
+  b.addEventListener("keydown",e=>{const k={ArrowRight:i+1,ArrowLeft:i-1,Home:0,End:THE.length-1}[e.key];
+    if(k===undefined)return;e.preventDefault();const t=THE[(k+THE.length)%THE.length];t.focus();t.click();});});
+THE.forEach(b=>b.onclick=()=>{
+  THE.forEach(x=>{x.classList.toggle("on",x===b);x.setAttribute("aria-selected",String(x===b));x.tabIndex=x===b?0:-1;});
+  for(const t of ["docs","logs","kho","thaotac"])$("t-"+t).classList.toggle("hidden",t!==b.dataset.tab);
+  if(b.dataset.tab==="logs")loadLogs(); if(b.dataset.tab==="kho")loadKho(); if(b.dataset.tab==="docs")loadDocs(); if(b.dataset.tab==="thaotac")loadThaoTac();});
+
+/* ---------- Hướng dẫn ---------- */
+const ST={published:"Đang công khai",draft:"Bản nháp",archived:"Đã lưu trữ"};
+let dTimer=null;
+$("dq").oninput=()=>{clearTimeout(dTimer);dTimer=setTimeout(()=>{D.q=$("dq").value.trim();D.page=1;loadDocs();},250);};
+$("dst").onchange=e=>{D.st=e.target.value;D.page=1;loadDocs();};
+$("dsrc").onchange=e=>{D.src=e.target.value;D.page=1;loadDocs();};
+async function loadDocs(){
+  const seq=++SEQ, p=new URLSearchParams({limit:SIZE,offset:(D.page-1)*SIZE}); if(D.q)p.set("q",D.q); if(D.st)p.set("trang_thai",D.st); if(D.src)p.set("nguon",D.src);
+  try{const r=await api("/thu-tuc?"+p); if(seq!==SEQ)return;
+    $("dmeta").textContent=`${nfm(r.total)} bản ghi`;
+    $("drows").innerHTML=r.items.map(x=>{
+      const acts=[];
+      if(x.status!=="published")acts.push(`<button class="btn sm" data-a="published" data-id="${x.id}">Công khai</button>`);
+      if(x.status==="published")acts.push(`<button class="btn sm ghost" data-a="draft" data-id="${x.id}">Ngừng công khai</button>`);
+      if(x.nguon==="can_bo")acts.push(`<button class="btn sm ghost" data-e="${x.id}">Sửa</button>`);
+      if(x.status!=="archived")acts.push(`<button class="btn sm red" data-a="archived" data-id="${x.id}">Lưu trữ</button>`);
+      return `<tr><td><b style="font-weight:600">${esc(x.title)}</b><div class="muted">${[x.procedure_code,x.agency,x.category].filter(Boolean).map(esc).join(", ")}</div></td>
+        <td>${x.nguon==="can_bo"?'<span class="tag cb">Cán bộ soạn</span>':'<span class="muted">Cổng DVC</span>'}</td>
+        <td><span class="tag ${esc(x.status)}">${esc(ST[x.status]||x.status)}</span></td><td><div class="acts">${acts.join("")}</div></td></tr>`;}).join("")
+      ||`<tr><td colspan="4" class="muted" style="text-align:center;padding:30px">Không có bản ghi nào.</td></tr>`;
+    const n=Math.ceil(r.total/SIZE);
+    if(D.page>Math.max(1,n)){D.page=Math.max(1,n);loadDocs();return;}
+    $("dpager").innerHTML=n>1?`<button class="btn sm ghost" id="pv" ${D.page<=1?"disabled":""}>Trang trước</button><span>Trang ${D.page} trên ${nfm(n)}</span><button class="btn sm ghost" id="nx" ${D.page>=n?"disabled":""}>Trang sau</button>`:"";
+    if(n>1){$("pv").onclick=()=>{D.page--;loadDocs();};$("nx").onclick=()=>{D.page++;loadDocs();};}
+    $("drows").querySelectorAll("[data-a]").forEach(b=>b.onclick=async()=>{
+      if(b.dataset.a==="archived"&&!confirm("Lưu trữ bản ghi này? Người dân sẽ không còn thấy nó. Có thể công khai lại sau."))return;
+      if(b.dataset.a==="published"&&!confirm("Công khai bản ghi này? Người dân sẽ thấy nó ngay trên trang tra cứu và trợ lý có thể dùng nó để trả lời."))return;
+      try{await api(`/thu-tuc/${b.dataset.id}/trang-thai`,{method:"POST",body:JSON.stringify({status:b.dataset.a})});loadDocs();}catch(e){alert(e.message);}});
+    $("drows").querySelectorAll("[data-e]").forEach(b=>b.onclick=()=>openForm(+b.dataset.e));
+  }catch(e){if(seq===SEQ)$("drows").innerHTML=`<tr><td colspan="4" style="color:var(--red);padding:24px">${esc(e.message)}</td></tr>`;}
+}
+$("dnew").onclick=()=>openForm(null);
+/* Sửa 20/10 bản 3 (F02): mỗi lần mở form có số thứ tự riêng. Phản hồi của lần mở cũ đến muộn
+   bị bỏ qua, và id cần sửa chỉ được gán CÙNG LÚC với nội dung của chính bản đó, nên nội dung
+   bản A không thể bị lưu vào bản B. Đóng form trong lúc đang tải thì form không tự mở lại. */
+async function openForm(id){
+  const lan=++FSEQ;
+  let x=null;
+  if(id){try{x=await api("/thu-tuc/"+id);}catch(e){if(lan===FSEQ)alert(e.message);return;}}
+  if(lan!==FSEQ)return;
+  EDIT=id; EDIT_ST=x?x.status:null;
+  $("ferr").textContent=""; $("ftitle").textContent=id?"Sửa hướng dẫn":"Soạn hướng dẫn mới";
+  $("f1").value=x?x.title||"":""; $("f2").value=x?x.agency||"":""; $("f3").value=x?x.category||"":""; $("f4").value=x?(x.data||{}).NoiDungHuongDan||"":"";
+  $("fwarn").classList.toggle("hidden",EDIT_ST!=="published");
+  GOC_FORM=giaTriForm(); anXemTruoc();
+  $("modal").classList.remove("hidden"); $("f1").focus();
+}
+/* Bổ sung 21/10: cảnh báo khi đóng form còn thay đổi chưa lưu; xem trước như người dân. */
+let GOC_FORM="";
+const giaTriForm=()=>JSON.stringify(["f1","f2","f3","f4"].map(f=>$(f).value));
+function closeForm(){ FSEQ++; $("modal").classList.add("hidden");$("dnew").focus(); }
+function dongCoHoi(){ if(!$("modal").classList.contains("hidden")&&giaTriForm()!==GOC_FORM&&!confirm("Bạn có thay đổi chưa lưu. Đóng form và bỏ các thay đổi này?"))return; closeForm(); }
+function anXemTruoc(){ $("fpre").classList.add("hidden"); $("fpre").innerHTML=""; $("fprev").setAttribute("aria-expanded","false"); $("fprev").textContent="Xem trước như người dân"; }
+/* Sửa 21/10 bản 2: bản xem trước cập nhật ngay khi nội dung trong form thay đổi. */
+function veXemTruoc(){
+  const ten=$("f1").value.trim()||"(chưa có tên)", dv=$("f2").value.trim(), lv=$("f3").value.trim();
+  $("fpre").innerHTML=`<div class="xt-nhan">Người dân sẽ thấy như sau khi bạn công khai</div>
+    <div class="xt-the"><span class="tag cb">Hướng dẫn do cán bộ biên soạn</span><h3>${esc(ten)}</h3>
+    <p class="muted">${[dv,lv].filter(Boolean).map(esc).join(", ")||"Chưa ghi đơn vị ban hành và lĩnh vực"}</p>
+    <h4>Nội dung hướng dẫn</h4><div class="xt-nd">${esc($("f4").value.trim())||"<i>Chưa có nội dung</i>"}</div></div>`;
+}
+$("fprev").onclick=()=>{
+  if(!$("fpre").classList.contains("hidden")){anXemTruoc();return;}
+  veXemTruoc(); $("fpre").classList.remove("hidden"); $("fprev").setAttribute("aria-expanded","true"); $("fprev").textContent="Ẩn bản xem trước";
+};
+for(const f of ["f1","f2","f3","f4"])$(f).addEventListener("input",()=>{if(!$("fpre").classList.contains("hidden"))veXemTruoc();});
+$("fcancel").onclick=dongCoHoi;
+$("modal").addEventListener("keydown",e=>{
+  if(e.key==="Escape"){e.preventDefault();dongCoHoi();return;}
+  if(e.key!=="Tab")return;
+  const ds=[...$("form").querySelectorAll('input,textarea,button')].filter(el=>!el.disabled);
+  if(e.shiftKey&&document.activeElement===ds[0]){e.preventDefault();ds.at(-1).focus();}
+  else if(!e.shiftKey&&document.activeElement===ds.at(-1)){e.preventDefault();ds[0].focus();}
+});
+/* Sửa 20/10 bản 3 (F15): khóa nút Lưu trong lúc đang gửi, nhấn đúp hay Enter hai lần chỉ gửi một yêu cầu. */
+/* Sửa 21/10 bản 2: phản hồi của lần lưu chỉ được đóng hoặc báo lỗi lên ĐÚNG form đã gửi. Nếu người
+   dùng đã bấm Hủy hoặc mở form khác trong lúc chờ, phản hồi cũ không được đóng form mới. */
+$("form").onsubmit=async e=>{e.preventDefault();if(DANG_LUU)return;$("ferr").textContent="";
+  const id=EDIT, lan=FSEQ;
+  if(id&&EDIT_ST==="published"&&!confirm("Hướng dẫn này đang công khai. Lưu thay đổi sẽ chuyển nó về BẢN NHÁP và tạm ẩn với người dân cho tới khi bạn bấm Công khai lại. Tiếp tục?"))return;
+  const body=JSON.stringify({title:$("f1").value,agency:$("f2").value,category:$("f3").value,noi_dung:$("f4").value});
+  const nut=$("fsave"); DANG_LUU=true; nut.disabled=true; nut.textContent="Đang lưu…";
+  try{const kq=await api(id?"/thu-tuc/"+id:"/thu-tuc",{method:id?"PUT":"POST",body});
+    if(lan!==FSEQ){loadDocs();return;}            // form đã đổi: chỉ làm mới danh sách
+    closeForm();
+    if(kq.da_chuyen_ve_nhap)alert("Đã lưu. Hướng dẫn đã chuyển về bản nháp; bấm “Công khai” sau khi kiểm tra lại.");
+    if(!id){D={q:"",st:"draft",src:"",page:1};$("dq").value="";$("dst").value="draft";$("dsrc").value="";} loadDocs();
+  }catch(err){if(lan===FSEQ)$("ferr").textContent=err.message;}
+  finally{DANG_LUU=false; nut.disabled=false; nut.textContent="Lưu bản nháp";}};
+
+/* ---------- Lịch sử thao tác (bổ sung 21/10/2026) ---------- */
+const HD_TEN={tao:"Tạo bản nháp",sua:"Sửa nội dung",doi_trang_thai:"Đổi trạng thái",dang_nhap:"Đăng nhập"};
+const chiTietTT=s=>esc((s||"").replace(/draft/g,"Bản nháp").replace(/published/g,"Đang công khai").replace(/archived/g,"Đã lưu trữ"));
+async function loadThaoTac(){
+  try{const r=await api("/thao-tac?gioi_han=100");
+    $("trows").innerHTML=r.map(x=>`<tr><td class="muted">${x.luc?esc(new Date(x.luc).toLocaleString("vi-VN")):""}</td><td>${esc(x.tai_khoan)}</td><td>${esc(HD_TEN[x.hanh_dong]||x.hanh_dong)}</td>
+      <td>${x.tieu_de?`${esc(x.tieu_de)}<div class="muted">${esc(x.ma_thu_tuc||"")}</div>`:'<span class="muted">—</span>'}</td><td>${chiTietTT(x.chi_tiet)}</td></tr>`).join("")
+      ||`<tr><td colspan="5" class="muted" style="text-align:center;padding:24px">Chưa có thao tác nào.</td></tr>`;
+  }catch(e){$("trows").innerHTML=`<tr><td colspan="5" style="color:var(--red);padding:24px">${esc(e.message)}</td></tr>`;}
+}
+
+/* ---------- Nhật ký ---------- */
+$("lday").onchange=loadLogs;
+const KC={cao:"Khớp rõ",thap:"Gợi ý gần đúng",khong:"Không có",tra_loi:"Đã trả lời",can_lam_ro:"Hỏi lại",ngoai_pham_vi:"Từ chối",giao_tiep:"Chào hỏi"};
+async function loadLogs(){
+  try{const d=await api("/nhat-ky?ngay="+$("lday").value);
+    const kpi=(t,v,s)=>`<div class="kpi"><span>${t}</span><b>${v}</b><small>${s||""}</small></div>`;
+    $("lcat").classList.toggle("hidden",!d.da_cat);
+    if(d.da_cat)$("lcat").textContent=`Thống kê chỉ tính trên ${nfm(d.gioi_han)} lượt gần nhất; khoảng ${d.so_ngay} ngày đã chọn có nhiều lượt hơn thế.`;
+    $("lk").innerHTML=kpi("Tổng lượt",nfm(d.tong_luot),`${nfm(d.luot_tra_cuu)} tra cứu, ${nfm(d.luot_hoi_tro_ly)} hỏi trợ lý`)
+      +kpi("Không có kết quả",d.ti_le_khong_ket_qua+"%","trên tổng số lượt")+kpi("Độ khớp thấp",d.ti_le_do_khop_thap+"%","chỉ có gợi ý gần đúng")
+      +kpi("Thời gian phản hồi",(d.thoi_gian_trung_vi_ms??"—")+" ms",`trung vị; 95% số lượt dưới ${d.thoi_gian_p95_ms??"—"} ms`);
+    const mx=Math.max(1,...d.theo_ngay.map(x=>x.so_luot));
+    $("ldays").innerHTML=d.theo_ngay.map(x=>`<div style="height:${Math.round(100*x.so_luot/mx)}%" data-t="${esc(x.ngay)}: ${x.so_luot} lượt"></div>`).join("")||`<span class="muted">Chưa có dữ liệu.</span>`;
+    const rows=a=>a.map(x=>`<div><span>${esc(x.cau)}</span><b>${x.so_lan}</b></div>`).join("")||`<span class="muted">Chưa có.</span>`;
+    $("l1").innerHTML=rows(d.hoi_nhieu_nhat);$("l3").innerHTML=rows(d.do_khop_thap);
+    /* Bổ sung 21/10: từ câu không có kết quả soạn ngay hướng dẫn cho nhu cầu đó (tên điền sẵn, vẫn là bản nháp). */
+    $("l2").innerHTML=d.khong_co_ket_qua.map((x,i)=>`<div><span>${esc(x.cau)}</span><b>${x.so_lan}</b><button class="btn sm ghost soan-tu-cau" type="button" data-i="${i}" aria-label="Soạn hướng dẫn cho nhu cầu: ${esc(x.cau)}">Soạn hướng dẫn</button></div>`).join("")||`<span class="muted">Chưa có.</span>`;
+    $("l2").querySelectorAll(".soan-tu-cau").forEach(b=>b.onclick=async()=>{const cau=d.khong_co_ket_qua[+b.dataset.i].cau;
+      await openForm(null); $("f1").value=cau.charAt(0).toUpperCase()+cau.slice(1); $("f4").focus();});
+    $("lrecent").innerHTML=d.gan_day.map(x=>`<tr><td class="muted">${x.luc?esc(new Date(x.luc).toLocaleString("vi-VN")):""}</td><td>${x.loai==="tro_ly"?"Trợ lý":"Tra cứu"}</td>
+      <td>${esc(x.cau)}</td><td class="num">${x.so_ket_qua??""}</td><td>${esc(KC[x.ket_cuc]||x.ket_cuc||"")}</td><td class="num">${x.ms??""}</td></tr>`).join("");
+  }catch(e){$("lk").innerHTML=`<div style="color:var(--red)">${esc(e.message)}</div>`;}
+}
+/* ---------- Kho ---------- */
+async function loadKho(){
+  try{const d=await api("/tong-quan"), t=d.theo_trang_thai;
+    const kpi=(a,b)=>`<div class="kpi"><span>${a}</span><b>${nfm(b)}</b></div>`;
+    $("kk").innerHTML=kpi("Đang công khai",t.published||0)+kpi("Bản nháp",t.draft||0)+kpi("Đã lưu trữ",t.archived||0)+kpi("Số cơ quan",d.theo_co_quan.length);
+    const mx=Math.max(1,...d.theo_co_quan.map(x=>x.so_luong));
+    $("kag").innerHTML=d.theo_co_quan.map(x=>`<div class="hb"><span>${esc(x.co_quan)}</span><i><u style="width:${Math.round(100*x.so_luong/mx)}%"></u></i><span>${nfm(x.so_luong)}</span></div>`).join("");
+    const c=d.chat_luong, r=(a,b,g)=>`<div><span>${a}<br><span class="muted">${g}</span></span><b>${nfm(b)}</b></div>`;
+    $("kq").innerHTML=r("Mã thủ tục xuất hiện ở nhiều bản ghi",c.ma_thu_tuc_trung,"Cần xem lại khi nạp dữ liệu; bảng chưa có ràng buộc duy nhất.")
+      +r("Tên thủ tục trùng nhau (đang công khai)",c.ten_thu_tuc_trung,"Thường là cùng thủ tục ở các cấp thực hiện khác nhau.")
+      +r("Bản ghi thiếu mã thủ tục",c.thieu_ma,"")+r("Bản ghi thiếu lĩnh vực",c.thieu_linh_vuc,"")+r("Bản ghi thiếu cơ quan",c.thieu_co_quan,"");
+  }catch(e){$("kk").innerHTML=`<div style="color:var(--red)">${esc(e.message)}</div>`;}
+}
+if(TOKEN)enter();
+</script>
+</body>
+</html>

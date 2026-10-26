@@ -1,0 +1,44 @@
+# ================================================================
+# BẢO MẬT: tuyệt đối không đưa các tệp này lên GitHub
+# (mật khẩu database, tài khoản API, tài khoản cán bộ, khóa ký phiên)
+# ================================================================
+.env
+.env.*
+*.env
+!.env.example
+!**/.env.example
+
+# Môi trường Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Cơ sở dữ liệu cục bộ (kể cả backend/du_lieu_demo.db do chay_demo.py tạo)
+*.db
+*.sqlite
+*.sqlite3
+
+# Bản sao lưu database, nhật ký, kết quả chạy trên máy
+*.dump
+*.backup
+*.sql.gz
+*.log
+ket_qua_*_Windows.txt
+bao_cao_*_Windows.txt
+ket_qua_*.txt
+!bao_cao/**/ket_qua_*.txt
+
+# Gói đưa lên Azure (tạo bằng dong_goi_azure.py)
+azure_deploy.zip
+
+# Trình soạn thảo, hệ điều hành
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

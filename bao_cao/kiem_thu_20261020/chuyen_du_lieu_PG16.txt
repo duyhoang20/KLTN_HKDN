@@ -1,0 +1,17 @@
+Kiểm thử chuyen_du_lieu.py trên PostgreSQL 16.15 (Ubuntu 16.15-0ubuntu0.24.04.1) — 20/10/2026 bản 3
+Nguồn: database 'nguon' (9.461 bản ghi). Đích: database trống 'dich3'. Bí danh: cùng database 'nguon' viết bằng 127.0.0.1 + postgres:// + ?sslmode=disable.
+
+nguồn trước: (9461, 99010)
+1 dừng: Nguồn và đích là CÙNG một database PostgreSQL (chuỗi kết nối viết khác nhau nhưng trỏ cùng chỗ). Dừng, không xóa và không chép gì.
+   nguồn sau: (9461, 99010) giữ nguyên
+Nguồn: postgresql://postgres@localhost:5433/nguon
+Đích : postgresql://postgres@127.0.0.1:5433/dich3
+Chép bảng guidance_documents…
+
+  guidance_documents: nguồn 9461, đích 9461; nội dung SHA-256 TRÙNG (4991e98a4837…); thời điểm tạo/sửa TRÙNG
+KẾT QUẢ: CHÉP ĐỦ VÀ KHỚP
+2 mã thoát: 0
+   id tiếp theo: 99011 | max id: 99010
+3 dừng: Bảng guidance_documents ở đích đã giống hệt nguồn (9461 bản ghi). Không cần chép lại; không xóa gì.
+4 đích sau lỗi: (9456, 99010) giữ nguyên
+5 mã thoát: 0 | ['  guidance_documents: nguồn 9461, đích 9461; nội dung SHA-256 TRÙNG (4991e98a4837…); thời điểm tạo/sửa TRÙNG', 'KẾT QUẢ: CHÉP ĐỦ VÀ KHỚP']

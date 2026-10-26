@@ -1,0 +1,229 @@
+============================================================================
+ĐÁNH GIÁ CHẤT LƯỢNG TRA CỨU — A/B/C
+============================================================================
+Phiên bản bộ đo : ABC-20260924-1
+Kho dữ liệu     : 9.451 thủ tục
+Số mẫu yêu cầu  : 500 cho mỗi nhóm
+Seed gốc        : 20260915; thứ tự kho: ID tăng dần
+SHA256 bộ đo    : a96e9ef5fbba8e34e630e37e464112cb2532742335ea57851d1fe9cace7b904f
+SHA256 search.py: 1669d8642e3f39324b8d9448b95aa7703b1c578502a0d63760a5b51e071f59ce
+SHA256 kho tra cứu: 2319b44b115bce195082764a04cdfa64ab6765bd6d559537b2583b951f8de685
+Dấu kiểm tra kho chỉ xét trường dùng cho xếp hạng và xác định đáp án.
+Đánh giá bằng ID thủ tục gốc; các truy vấn đều KHÔNG DẤU.
+Tên hoặc đoạn tên trùng có thể có nhiều kết quả hợp lý.
+'Không thấy' = không thấy ID gốc trong kết quả search() trả về,
+không đồng nghĩa với hệ thống không trả kết quả nào.
+Chỉ so sánh trước/sau khi bộ đo, kho và bộ đề từng nhóm giống nhau.
+
+----------------------------------------------------------------------------
+A. GÕ NGUYÊN TÊN THỦ TỤC (500 truy vấn)
+Giới hạn 25 âm tiết đầu; không bảo đảm đáp án duy nhất.
+SHA256 bộ đề A: f76b0c223320f6d04ab49b62f72c0f7529bb460d9718f5d020d14e14196d484a
+Top-1                           : 88.6% (443/500)
+Top-5                           : 99.4% (497/500)
+MRR (trung bình nghịch đảo hạng): 0.934218
+Không tìm thấy đáp án           : 0.0% (0/500)
+Số kết quả trung bình           : 10.34
+Ví dụ chưa đứng đầu ở nhóm A (tối đa 15):
+  Truy vấn : thu tuc ghi vao so ho tich viec ho tich khac cua cong dan viet nam da duoc giai quyet tai co quan co tham
+  Đáp án   : ID=6623; mã=2.000547
+  Tên gốc  : Thủ tục ghi vào Sổ hộ tịch việc hộ tịch khác của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài (khai sinh; giám hộ; nhận cha, mẹ, con; xác định cha, mẹ, con; nuôi con nuôi; khai tử; thay đổi hộ tịch)
+  Thứ hạng : 5; 6 kết quả
+  Đứng đầu : ID=2880; Thủ tục ghi vào sổ hộ tịch việc kết hôn của công dân Việt Nam đã được giải quyết tại cơ quan có thẩm quyền của nước ngoài
+
+  Truy vấn : cap giay phep su dung tan so va thiet bi vo tuyen dien doi voi mang vien thong dung rieng su dung tan so thuoc
+  Đáp án   : ID=2518; mã=1.010293
+  Tên gốc  : Cấp giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với  mạng viễn thông dùng riêng sử dụng tần số thuộc nghiệp vụ di động mặt đất, mạng thông tin vô tuyến điện nội bộ của cơ quan đại diện nước ngoài, đoàn khách nước ngoài, Phóng viên nước ngoài đi theo phục vụ đoàn
+  Thứ hạng : 7; 60 kết quả
+  Đứng đầu : ID=2540; Cấp giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với mạng viễn thông dùng riêng sử dụng tần số thuộc nghiệp vụ di động mặt đất
+
+  Truy vấn : thu tuc cap giay chung nhan huan luyen ky thuat an toan tien chat thuoc no thuoc tham quyen giai quyet cua bo quoc phong
+  Đáp án   : ID=4571; mã=1.013533
+  Tên gốc  : Thủ tục cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ thuộc thẩm quyển giải quyết của Bộ Quốc phòng
+  Thứ hạng : 2; 20 kết quả
+  Đứng đầu : ID=4406; Thủ tục cấp Giấy chứng nhận huấn luyện kỹ thuật an toàn tiền chất thuốc nổ thuộc thẩm quyền giải quyết của Bộ Quốc phòng
+
+  Truy vấn : thu tuc cap lai chung chi hanh nghe dich vu dai dien so huu cong nghiep
+  Đáp án   : ID=2435; mã=1.011923
+  Tên gốc  : Thủ tục cấp lại Chứng chỉ hành nghề dịch vụ đại diện sở hữu công nghiệp
+  Thứ hạng : 2; 16 kết quả
+  Đứng đầu : ID=2362; Thủ tục cấp lại Chứng chỉ hành nghề dịch vụ đại diện sở hữu công nghiệp.
+
+  Truy vấn : thu tuc cap giay phep thanh lap va cong nhan dieu le quy cap tinh
+  Đáp án   : ID=3425; mã=1.003822
+  Tên gốc  : Thủ tục cấp giấy phép thành lập và công nhận điều lệ quỹ (Cấp tỉnh)
+  Thứ hạng : 2; 20 kết quả
+  Đứng đầu : ID=2937; THỦ TỤC CẤP GIẤY PHÉP THÀNH LẬP VÀ CÔNG NHẬN ĐIỀU LỆ QUỸ (Cấp tỉnh)
+
+  Truy vấn : thu tuc xu ly don madrid co nguon goc viet nam
+  Đáp án   : ID=2460; mã=1.011900
+  Tên gốc  : Thủ tục xử lý đơn Madrid có nguồn gốc Việt Nam
+  Thứ hạng : 2; 4 kết quả
+  Đứng đầu : ID=2024; Thủ tục xử lý đơn Madrid có nguồn gốc Việt Nam
+
+  Truy vấn : cong nhan dieu le sua doi bo sung quy doi ten quy
+  Đáp án   : ID=3178; mã=1.013012
+  Tên gốc  : Công nhận điều lệ (sửa đổi, bổ sung) quỹ; đổi tên quỹ.
+  Thứ hạng : 3; 10 kết quả
+  Đứng đầu : ID=3145; Công nhận điều lệ (sửa đổi, bổ sung) quỹ; đổi tên quỹ
+
+  Truy vấn : cap giay phep hoat dong dich vu viec lam cua doanh nghiep hoat dong dich vu viec lam
+  Đáp án   : ID=3465; mã=1.001865
+  Tên gốc  : Cấp giấy phép hoạt động dịch vụ việc làm của doanh nghiệp hoạt động dịch vụ việc làm
+  Thứ hạng : 2; 10 kết quả
+  Đứng đầu : ID=2945; Cấp giấy phép hoạt động dịch vụ việc làm của doanh nghiệp hoạt động dịch vụ việc làm
+
+  Truy vấn : ky hop dong kham benh chua benh bao hiem y te
+  Đáp án   : ID=6466; mã=1.001798
+  Tên gốc  : Ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế
+  Thứ hạng : 5; 14 kết quả
+  Đứng đầu : ID=8177; Ký hợp đồng khám bệnh, chữa bệnh bảo hiểm y tế
+
+  Truy vấn : sua doi giay dang ky hoat dong dich vu ho tro ung dung nang luong nguyen tu dich vu lap dat nguon phong xa lap
+  Đáp án   : ID=1998; mã=1.115141
+  Tên gốc  : Sửa đổi Giấy đăng ký hoạt động dịch vụ hỗ trợ ứng dụng năng lượng nguyên tử - dịch vụ Lắp đặt nguồn phóng xạ; Lắp đặt, bảo dưỡng, sửa chữa thiết bị bức xạ; Thử nghiệm thiết bị bức xạ; Tẩy xạ; Đánh giá hoạt độ phóng xạ; Hiệu chuẩn thiết bị ghi đo bức xạ
+  Thứ hạng : 5; 28 kết quả
+  Đứng đầu : ID=2202; Sửa đổi Giấy đăng ký hoạt động dịch vụ hỗ trợ ứng dụng năng lượng nguyên tử (trừ Giấy đăng ký hoạt động dịch vụ hỗ trợ ứng dụng năng lượng nguyên tử - dịch vụ Lắp đặt nguồn phóng xạ; Lắp đặt, bảo dưỡng, sửa chữa thiết bị bức xạ; Thử nghiệm thiết bị bức xạ; Tẩy xạ; Đánh giá hoạt độ phóng xạ; Hiệu chuẩn thiết bị ghi đo bức xạ)
+
+  Truy vấn : giai the co so giao duc mam non co so giao duc pho thong do co quan dai dien ngoai giao nuoc ngoai to chuc
+  Đáp án   : ID=1646; mã=2.000462
+  Tên gốc  : Giải thể cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ thành lập, phân hiệu của cơ sở giáo dục đại học có vốn đầu tư nước ngoài tại Việt Nam
+  Thứ hạng : 2; 23 kết quả
+  Đứng đầu : ID=1656; Giải thể, chấm dứt hoạt động cơ sở giáo dục mầm non, cơ sở giáo dục phổ thông do cơ quan đại diện ngoại giao nước ngoài, tổ chức quốc tế liên chính phủ thành lập
+
+  Truy vấn : dieu chinh quyet dinh giao dat cho thue dat cho phep chuyen muc dich su dung dat do thay doi can cu quyet dinh giao
+  Đáp án   : ID=3926; mã=1.012762
+  Tên gốc  : Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất mà người sử dụng đất là tổ chức trong nước, tổ chức tôn giáo, tổ chức tôn giáo trực thuộc, người gốc Việt Nam định cư ở nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài, tổ chức nước ngoài có chức năng ngoại giao
+  Thứ hạng : 4; 8 kết quả
+  Đứng đầu : ID=3830; Điều chỉnh quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất do thay đổi căn cứ quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất; điều chỉnh thời hạn sử dụng đất của dự án đầu tư.
+
+  Truy vấn : dieu chinh cap lai giay phep xuat khau nhap khau thuoc thu y va nguyen lieu lam thuoc thu y co chua chat ma tuy
+  Đáp án   : ID=5; mã=1.116482
+  Tên gốc  : Điều chỉnh, cấp lại giấy phép xuất khẩu, nhập khẩu thuốc thú y và nguyên liệu làm thuốc thú y có chứa chất ma túy, tiền chất; thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất và nguyên liệu làm thức ăn chăn nuôi, thức ăn thủy sản có chứa tiền chất
+  Thứ hạng : 2; 11 kết quả
+  Đứng đầu : ID=4014; Cấp, điều chỉnh, cấp lại Giấy phép  nhập khẩu, xuất khẩu thuốc thú y, nguyên liệu làm thuốc thú y có chứa chất ma túy, tiền chất
+
+  Truy vấn : cap giay chung nhan suc khoe doi voi thuyen vien lam viec tren tau bien viet nam du tieu chuan suc khoe theo quy dinh
+  Đáp án   : ID=8662; mã=1.002795
+  Tên gốc  : Cấp Giấy chứng nhận sức khỏe đối với thuyền viên làm việc trên tàu biển Việt Nam đủ tiêu chuẩn sức khỏe theo quy định tại Phụ lục I nhưng mắc một hoặc một số bệnh, tật quy định tại Phụ lục II
+  Thứ hạng : 2; 3 kết quả
+  Đứng đầu : ID=8087; Cấp Giấy chứng nhận sức khỏe đối với thuyền viên làm việc trên tàu biển Việt Nam đủ tiêu chuẩn quy định tại Phụ lục I
+
+  Truy vấn : cong nhan va giai quyet che do uu dai nguoi hoat dong cach mang
+  Đáp án   : ID=3316; mã=1.010788
+  Tên gốc  : Công nhận và giải quyết chế độ ưu đãi người hoạt động cách mạng
+  Thứ hạng : 2; 5 kết quả
+  Đứng đầu : ID=3291; Công nhận và giải quyết chế độ ưu đãi người hoạt động cách mạng.
+
+
+----------------------------------------------------------------------------
+B. GÕ MỘT ĐOẠN TRONG TÊN (500 truy vấn)
+Đoạn liên tiếp khoảng 60% tên; nhóm chính để so sánh.
+SHA256 bộ đề B: ae47dfdf8f02e2183ef92e7364486b43b29fc65fe88368a730b62f1b9920fa61
+Top-1                           : 69.0% (345/500)
+Top-5                           : 96.4% (482/500)
+MRR (trung bình nghịch đảo hạng): 0.805129
+Không tìm thấy đáp án           : 0.0% (0/500)
+Số kết quả trung bình           : 15.64
+Ví dụ chưa đứng đầu ở nhóm B (tối đa 15):
+  Truy vấn : cong cu ho tro tai cong an tinh thanh pho truc thuoc
+  Đáp án   : ID=704; mã=1.000197
+  Tên gốc  : Cấp đổi Giấy phép sử dụng công cụ hỗ trợ tại Công an tỉnh, thành phố trực thuộc trung ương
+  Thứ hạng : 4; 34 kết quả
+  Đứng đầu : ID=683; Cấp Giấy phép trang bị công cụ hỗ trợ tại Công an tỉnh, thành phố trực thuộc trung ương
+
+  Truy vấn : thu tuc dang ky cap giay chung nhan du dieu kien kinh
+  Đáp án   : ID=6267; mã=1.007451
+  Tên gốc  : Thủ tục Đăng ký cấp Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kế toán (Cấp lần đầu)
+  Thứ hạng : 5; 60 kết quả
+  Đứng đầu : ID=1052; Thủ tục Cấp Giấy chứng nhận đủ điều kiện Cấp Giấy chứng nhận đủ điều kiện kinh doanh hóa chất có điều kiện
+
+  Truy vấn : voi thuc pham dinh duong y hoc thuc pham dung cho che do an dac biet san pham dinh d ong dung
+  Đáp án   : ID=8265; mã=1.013858
+  Tên gốc  : Đăng ký bản công bố sản phẩm nhập khẩu đối với thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt, sản phẩm dinh dƣỡng dùng cho trẻ đến 36 tháng tuổi
+  Thứ hạng : 2; 9 kết quả
+  Đứng đầu : ID=8268; Đăng ký nội dung quảng cáo đối với thực phẩm dinh dưỡng y học, thực phẩm dùng cho chế độ ăn đặc biệt, sản phẩm dinh dƣỡng dùng cho trẻ đến 36 tháng tuổi
+
+  Truy vấn : chung chi hanh nghe duoc theo hinh thuc thi trong truong hop chung chi hanh nghe duoc bi ghi
+  Đáp án   : ID=8208; mã=1.014085
+  Tên gốc  : Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược
+  Thứ hạng : 2; 12 kết quả
+  Đứng đầu : ID=8484; Cấp Chứng chỉ hành nghề dược theo hình thức thi trong trường hợp Chứng chỉ hành nghề dược bị ghi sai do lỗi cơ quan cấp Chứng chỉ hành nghề dược
+
+  Truy vấn : giao quyen dang ky doi voi giong cay trong la ket qua cua nhiem vu
+  Đáp án   : ID=3983; mã=1.012058
+  Tên gốc  : Giao quyền đăng ký đối với giống cây trồng là kết quả của nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước
+  Thứ hạng : 2; 3 kết quả
+  Đứng đầu : ID=3954; Giao quyền đăng ký đối với giống cây trồng là kết quả của nhiệm vụ khoa học và công nghệ sử dụng ngân sách nhà nước.
+
+  Truy vấn : su hanh nghe cong
+  Đáp án   : ID=6831; mã=1.001071
+  Tên gốc  : Đăng ký tập sự hành nghề công chứng
+  Thứ hạng : 6; 23 kết quả
+  Đứng đầu : ID=6656; Đăng ký tập sự lại hành nghề công chứng sau khi chấm dứt tập sự hành nghề công chứng
+
+  Truy vấn : thu tuc cong nhan quy du dieu kien hoat dong va cong nhan
+  Đáp án   : ID=2986; mã=2.001590
+  Tên gốc  : Thủ tục công nhận quỹ đủ điều kiện hoạt động và công nhận thành viên hội đồng quản lý quỹ (Cấp tỉnh)
+  Thứ hạng : 2; 28 kết quả
+  Đứng đầu : ID=2988; Thủ tục công nhận quỹ đủ điều kiện hoạt động và công nhận thành viên hội đồng quản lý quỹ.
+
+  Truy vấn : tai lieu luu tru co gia
+  Đáp án   : ID=3113; mã=1.013937
+  Tên gốc  : Công nhận tài liệu lưu trữ có giá trị đặc biệt.
+  Thứ hạng : 2; 8 kết quả
+  Đứng đầu : ID=3109; Công nhận tài liệu lưu trữ có giá trị đặc biệt
+
+  Truy vấn : san xuat hoa chat han che san xuat kinh doanh trong
+  Đáp án   : ID=1239; mã=1.003891
+  Tên gốc  : Cấp lại Giấy phép sản xuất hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp
+  Thứ hạng : 2; 16 kết quả
+  Đứng đầu : ID=1231; Cấp Giấy phép sản xuất hóa chất hạn chế sản xuất, kinh doanh trong lĩnh vực công nghiệp
+
+  Truy vấn : dinh danh ca nhan thuc hien tai cap
+  Đáp án   : ID=406; mã=1.012565
+  Tên gốc  : Hủy, xác lập lại số định danh cá nhân (thực hiện tại cấp xã)
+  Thứ hạng : 2; 28 kết quả
+  Đứng đầu : ID=455; Thông báo số định danh cá nhân (thực hiện tại cấp xã)
+
+  Truy vấn : dich dong vat san pham dong vat thuy san tam nhap tai xuat chuyen cua khau
+  Đáp án   : ID=4252; mã=1.003500
+  Tên gốc  : Đăng ký kiểm dịch động vật, sản phẩm động vật thủy sản tạm nhập tái xuất, chuyển cửa khẩu, kho ngoại quan, quá cảnh lãnh thổ Việt Nam
+  Thứ hạng : 2; 12 kết quả
+  Đứng đầu : ID=4250; Cấp giấy chứng nhận kiểm dịch động vật, sản phẩm động vật thủy sản tạm nhập tái xuất, chuyển cửa khẩu, quá cảnh lãnh thổ Việt Nam
+
+  Truy vấn : cap lai giay dang ky hoat dong cua chi
+  Đáp án   : ID=6671; mã=1.013635
+  Tên gốc  : Cấp lại Giấy đăng ký hoạt động của chi nhánh doanh nghiệp đấu giá tài sản
+  Thứ hạng : 2; 60 kết quả
+  Đứng đầu : ID=6779; Cấp lại Giấy đăng ký hoạt động của chi nhánh, công ty luật nước ngoài
+
+  Truy vấn : dieu chinh giay chung nhan du dieu kien san
+  Đáp án   : ID=814; mã=2.001562
+  Tên gốc  : Cấp điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp
+  Thứ hạng : 14; 60 kết quả
+  Đứng đầu : ID=8626; Điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất mỹ phẩm
+
+  Truy vấn : cap giay chung nhan du dieu kien kinh doanh hoat dong the thao doi
+  Đáp án   : ID=7324; mã=1.000594
+  Tên gốc  : Thủ tục cấp Giấy chứng nhận đủ điều kiện kinh doanh hoạt động thể thao đối với môn Vũ đạo thể thao giải trí
+  Thứ hạng : 26; 60 kết quả
+  Đứng đầu : ID=7098; Thủ tục cấp giấy chứng nhận đủ điều kiện kinh doanh hoạt động thể thao đối với môn Wushu
+
+  Truy vấn : hanh cong viec buc xa su dung thiet bi phat tia x trong chup anh phong xa cong nghiep thiet bi phat notron electron va hat mang dien khac thay doi quy mo va
+  Đáp án   : ID=2001; mã=1.115138
+  Tên gốc  : Sửa đổi Giấy phép tiến hành công việc bức xạ - sử dụng thiết bị phát tia X trong chụp ảnh phóng xạ công nghiệp, thiết bị phát nơtron, electron và hạt mang điện khác; thay đổi quy mô và phạm vi hoạt động của cơ sở bức xạ; chấm dứt hoạt động của cơ sở bức xạ.
+  Thứ hạng : 3; 7 kết quả
+  Đứng đầu : ID=2231; Cấp Giấy phép tiến hành công việc bức xạ - sử dụng thiết bị phát tia X trong chụp ảnh phóng xạ công nghiệp, thiết bị phát nơtron, electron và hạt mang điện khác-
+
+
+----------------------------------------------------------------------------
+C. GÕ CỤM MỞ ĐẦU CHUNG CHUNG (500 truy vấn)
+3–5 âm tiết mở đầu; chỉ tham khảo, thường không có đáp án duy nhất.
+SHA256 bộ đề C: 3136bad52e1c8bd0b40f774afb3601924bfd162c7716bcca4bf4c960f1cb1721
+Top-1                           : 19.6% (98/500)
+Top-5                           : 44.6% (223/500)
+MRR (trung bình nghịch đảo hạng): 0.314620
+Không tìm thấy đáp án           : 23.0% (115/500)
+Số kết quả trung bình           : 43.25
+

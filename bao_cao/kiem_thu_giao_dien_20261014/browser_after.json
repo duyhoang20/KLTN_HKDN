@@ -1,0 +1,563 @@
+{
+  "version": "after",
+  "browser": "153.0.8010.0",
+  "python": "3.12.14",
+  "scope": "Isolated SQLite; real metadata and 21 supplied details plus labelled KT functional fixtures; no LLM service",
+  "passed": 70,
+  "total": 70,
+  "rows": [
+    {
+      "name": "home_real_corpus_loaded",
+      "pass": true,
+      "actual": "Kho hiện có\n9.454\nthủ tục\n17\ncơ quan\n303\nlĩnh vực\nCùng 1 hướng dẫn do cán bộ biên soạn, được gắn nhãn riêng."
+    },
+    {
+      "name": "old_suggestions_do_not_reappear_in_ask",
+      "pass": true,
+      "actual": false
+    },
+    {
+      "name": "suggestions_aria_open",
+      "pass": true,
+      "actual": "true"
+    },
+    {
+      "name": "suggestions_keyboard_active",
+      "pass": true,
+      "actual": "sug-4-0"
+    },
+    {
+      "name": "no_page_errors_initial",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "fonts_available_offline",
+      "pass": true,
+      "actual": {
+        "systemFont": true,
+        "fontResponses": [
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          },
+          {
+            "url": "fonts.css",
+            "status": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "detail_tabs_keyboard",
+      "pass": true,
+      "actual": "true"
+    },
+    {
+      "name": "raw_tab_keyboard",
+      "pass": true,
+      "actual": "true"
+    },
+    {
+      "name": "raw_json_exact",
+      "pass": true,
+      "actual": "All stored keys and values compared"
+    },
+    {
+      "name": "real_source_all_fee_rows",
+      "pass": true,
+      "actual": {
+        "rendered": 240,
+        "source": 240
+      }
+    },
+    {
+      "name": "checklist_not_official_approval",
+      "pass": true,
+      "actual": "Trường hợp kiểm thử A\n2/2 đã có\nĐã đánh dấu các giấy tờ trong danh sách này\nĐã có\n\t\tGiấy tờ\tBản chính\tBản sao\n\n\t1\t\nGiấy tờ kiểm thử alpha\nbắt buộc\n\t1\t—\n\n\t2\t\nGiấy tờ kiểm thử beta\n\t—\t2"
+    },
+    {
+      "name": "checklist_persists",
+      "pass": true,
+      "actual": "2/2 đã có"
+    },
+    {
+      "name": "quantity_change_resets_checklist",
+      "pass": true,
+      "actual": "0/2 đã có"
+    },
+    {
+      "name": "cases_not_claimed_all_required",
+      "pass": true,
+      "actual": "Giấy tờ tự đánh dấu\nTrường hợp kiểm thử A\n0 trên 2 giấy tờ\nTrường hợp kiểm thử B\n0 trên 1 giấy tờ\n\nChọn trường hợp phù hợp với bạn rồi đánh dấu ở mục Thành phần hồ sơ. Dấu tích chỉ lưu trên trình duyệt này. Việc đánh dấu không xác nhận hồ sơ hợp lệ hoặc đã được tiếp nhận."
+    },
+    {
+      "name": "staff_print_correct_source",
+      "pass": true,
+      "actual": "In từ trang Tra cứu thủ tục hành chính ngày 13/10/2026. Nguồn: Hướng dẫn do cán bộ biên soạn. Các ô đánh dấu do người dùng tự kiểm tra, không phải xác nhận của cơ quan tiếp nhận."
+    },
+    {
+      "name": "print_hides_controls",
+      "pass": true,
+      "actual": "Header and action panel hidden"
+    },
+    {
+      "name": "unsafe_title_escaped",
+      "pass": true,
+      "actual": "<img src=x onerror=\"window.__audit_xss=1\"> mẫu thoát HTML"
+    },
+    {
+      "name": "no_injected_image",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "ask_detail_pinned",
+      "pass": true,
+      "actual": "Nguồn: Cổng Dịch vụ công Quốc gia · Mã KT.000001 · Thành phần hồ sơ. Xem toàn bộ thủ tục"
+    },
+    {
+      "name": "followup_returns_fee",
+      "pass": true,
+      "actual": "Nguồn: Cổng Dịch vụ công Quốc gia · Mã KT.000001 · Phí, lệ phí. Xem toàn bộ thủ tục"
+    },
+    {
+      "name": "answer_does_not_overlap_composer",
+      "pass": true,
+      "actual": {
+        "messagesBottom": 898.203125,
+        "inputTop": 912.203125,
+        "scrollHeight": 1376,
+        "clientHeight": 683,
+        "documentHeight": 1000,
+        "viewport": 1000
+      }
+    },
+    {
+      "name": "long_chat_has_own_scroll",
+      "pass": true,
+      "actual": {
+        "messagesBottom": 898.203125,
+        "inputTop": 912.203125,
+        "scrollHeight": 1376,
+        "clientHeight": 683,
+        "documentHeight": 1000,
+        "viewport": 1000
+      }
+    },
+    {
+      "name": "chat_fits_desktop_viewport",
+      "pass": true,
+      "actual": {
+        "messagesBottom": 898.203125,
+        "inputTop": 912.203125,
+        "scrollHeight": 1376,
+        "clientHeight": 683,
+        "documentHeight": 1000,
+        "viewport": 1000
+      }
+    },
+    {
+      "name": "reduced_motion_respected",
+      "pass": true,
+      "actual": "0s"
+    },
+    {
+      "name": "send_disabled_while_waiting",
+      "pass": true,
+      "actual": "true"
+    },
+    {
+      "name": "reset_ignores_old_response",
+      "pass": true,
+      "actual": ""
+    },
+    {
+      "name": "width_320_home",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_search",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_320_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "width_390_home",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_search",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_390_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "width_768_home",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_search",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_768_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "width_1440_home",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_search",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_detail",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_raw",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "width_1440_chat",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "mobile_320_long_answer_width",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320,
+        "messagesBottom": 814.796875,
+        "inputTop": 826.796875,
+        "inputBottom": 884.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "mobile_320_input_visible",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320,
+        "messagesBottom": 814.796875,
+        "inputTop": 826.796875,
+        "inputBottom": 884.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "mobile_320_answer_not_covered",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320,
+        "messagesBottom": 814.796875,
+        "inputTop": 826.796875,
+        "inputBottom": 884.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "mobile_390_long_answer_width",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390,
+        "messagesBottom": 798.796875,
+        "inputTop": 810.796875,
+        "inputBottom": 868.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "mobile_390_input_visible",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390,
+        "messagesBottom": 798.796875,
+        "inputTop": 810.796875,
+        "inputBottom": 868.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "mobile_390_answer_not_covered",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390,
+        "messagesBottom": 798.796875,
+        "inputTop": 810.796875,
+        "inputBottom": 868.390625,
+        "height": 900
+      }
+    },
+    {
+      "name": "admin_login",
+      "pass": true,
+      "actual": "canbo_thu"
+    },
+    {
+      "name": "edit_published_warning",
+      "pass": true,
+      "actual": "Hướng dẫn này đang công khai. Khi lưu thay đổi, nó sẽ chuyển về bản nháp và tạm ẩn với người dân cho tới khi bạn công khai lại."
+    },
+    {
+      "name": "modal_closes_on_escape",
+      "pass": true,
+      "actual": "Escape"
+    },
+    {
+      "name": "published_edit_returns_draft",
+      "pass": true,
+      "actual": "public detail HTTP status"
+    },
+    {
+      "name": "admin_320_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_320_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_320_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "admin_390_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_390_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_390_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "admin_768_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_768_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_768_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "admin_1440_docs",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "admin_1440_logs",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "admin_1440_kho",
+      "pass": true,
+      "actual": {
+        "viewport": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "no_javascript_errors",
+      "pass": true,
+      "actual": []
+    },
+    {
+      "name": "all_need_shortcuts_preserved",
+      "pass": true,
+      "actual": 12
+    }
+  ],
+  "javascript_errors": []
+}

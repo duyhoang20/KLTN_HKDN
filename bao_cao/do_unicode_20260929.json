@@ -1,0 +1,13 @@
+{
+ "B_co_dau_NFC_cu": 72.39999999999999,
+ "B_co_dau_NFD_cu": 68.60000000000001,
+ "B_co_dau_NFC_nfc": 73.0,
+ "B_co_dau_NFD_nfc": 73.0,
+ "so_de_tieu_de_khong_NFC": 134,
+ "TieuDeKhongNFC_cu": 44.02985074626866,
+ "TieuDeKhongNFC_nfc": 67.91044776119402,
+ "TN50_giong_NFC_NFD_cu": 12,
+ "B_co_dau_giong_NFC_NFD_cu": 86,
+ "TN50_giong_NFC_NFD_nfc": 50,
+ "B_co_dau_giong_NFC_NFD_nfc": 200
+}

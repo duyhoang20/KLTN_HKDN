@@ -1,0 +1,29 @@
+============================================================================
+ĐÁNH GIÁ TRỢ LÝ HỎI–ĐÁP — ĐỐI CHIẾU NGUỒN TOÀN KHO
+============================================================================
+Phiên bản bộ đo : TL-20261014-1
+Kho đang đo     : 9.460 bản ghi công khai
+Thủ tục có dữ liệu chi tiết: 21
+Mỗi thủ tục × 9 mục (hồ sơ, trình tự, nơi nộp, thời hạn, lệ phí, điều kiện, kết quả,
+căn cứ pháp lý, đối tượng). Nguồn đối chiếu đọc thẳng JSON gốc, không qua hàm trích của trợ lý.
+
+Bộ đối chiếu    : DC-20261021-1
+Mục               Dữ kiện có trong trả lời   Thủ tục thiếu dữ kiện     Dòng không căn cứ   Dòng sai lệch
+ho_so                     99 / 99                                0             0 / 107            0
+trinh_tu                  24 / 24                                0             0 / 24             0
+noi_nop                   82 / 82                                0             0 / 42             0
+thoi_han                  71 / 71                                0             0 / 71             0
+le_phi                   240 / 240                               0             0 / 240            0
+dieu_kien                  0 / 0                                 0             0 / 0              0
+ket_qua                   22 / 22                                0             0 / 22             0
+can_cu                    12 / 12                                0             0 / 12             0
+doi_tuong                 26 / 26                                0             0 / 26             0
+
+TỔNG: độ bao phủ 100.0% (576/576); dòng không có căn cứ 0/544; dòng sai lệch (cặp số–đơn vị không có trong nguồn hoặc của chủ thể khác) 0/544
+CÂU TRẢ LỜI TỔNG HỢP: dòng sai lệch (sai cặp số–đơn vị hoặc gắn nhầm chủ thể) 0/505
+  Độ đầy đủ: tên trường hợp 8/8; tên giấy tờ 99/99; cách tính phí 240/240; báo nhầm “nguồn không ghi phí” 0/1 thủ tục có dữ liệu phí
+  Chưa đo: đánh giá ngữ nghĩa bằng người (đúng ý, đủ điều kiện ngoài các trường trên).
+
+Giới hạn: so khớp theo chuỗi; bắt được bỏ sót, cắt bớt, tách phí khỏi thời hạn, sai đơn vị
+thời gian/tiền và sai số bản (kiểm chứng bằng kiem_tra_bo_doi_chieu.py). Không bắt được khẳng
+định không có chữ số (ví dụ “miễn lệ phí”) nếu nó không làm mất dữ kiện; không đánh giá văn phong.

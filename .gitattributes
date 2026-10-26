@@ -1,0 +1,21 @@
+# Mã nguồn và tài liệu: để Git tự chuẩn hóa xuống dòng giữa Windows và Linux
+*.py   text eol=lf
+*.md   text
+*.html text
+*.css  text
+*.yaml text
+
+# Dữ liệu, bộ đề và minh chứng: giữ NGUYÊN từng byte (không đổi CRLF/LF),
+# để mã băm và kết quả đo trong báo cáo khớp với tệp trên GitHub.
+*.csv  -text
+*.json -text
+*.txt  -text
+bao_cao/**      -text
+du_lieu_mau/**  -text
+bo_de_tu_nhien/** -text
+
+# Tệp nhị phân
+*.png   binary
+*.jpg   binary
+*.woff2 binary
+*.zip   binary
